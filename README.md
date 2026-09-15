@@ -1,32 +1,119 @@
-# ESP32 PoE HA Speaker
+# ESP32 PoE Home Assistant Speaker
 
-PoE network speaker main-board prototype using ESP32-S3, W5500 Ethernet, PCM5122 DAC and TPA3116D2 amplifier. The target is 30 W into 4 ohms. Home Assistant integration, firmware and measured performance are not yet validated. A modular eight-microphone ring family is planned as a separate future board; see [microphone-ring concept](hardware/microphone-rings/README.md).
+A PoE-powered network ceiling-speaker controller built around an **ESP32-S3**, **W5500 Ethernet**, **PCM5122 DAC**, and **TPA3116D2 amplifier**.
 
-**Engineering prototype — not ready to manufacture or power up.**
+The long-term goal is a retrofit-friendly Home Assistant / voice-assistant speaker platform: reuse ordinary ceiling speakers, add network audio and control at the speaker, and optionally add a modular microphone-array ring hidden behind the existing grille.
+
+> **Engineering prototype — not ready to manufacture, install, or power up as a finished product.**
+>
+> The current hardware has not yet been fabricated, assembled, or electrically validated.
 
 ![Rev E board preview](board-top.png)
 
-## Get the editable design
+## Project status
 
-- [Latest KiCad Rev E source and engineering reports](PoE-Speaker-RevE-Review.zip)
-- [Checkpoint package with earlier design revisions](PoE-Speaker-Checkpoint.zip)
+| Area | Status |
+| --- | --- |
+| Main-board schematic / PCB | Rev E engineering review |
+| KiCad source | Available directly in this repository |
+| Saved ERC / DRC | Clean under the current saved rule profile |
+| Ethernet layout | Review / rework still required |
+| Power / protection | Engineering review still required |
+| Audio / amplifier | Circuit and thermal validation still required |
+| Firmware | Bring-up firmware not yet complete |
+| Home Assistant integration | Planned, not yet validated |
+| Microphone array | Modular ring concept defined; PCB not yet designed |
+| Physical prototype | Not built yet |
+
+A clean ERC/DRC result is a regression check, not proof that the circuit is electrically correct or fabrication-ready.
+
+## Current hardware
+
+The main board is intended to provide:
+
+- ESP32-S3 controller
+- wired Ethernet using W5500
+- PoE-powered operation with bench-power support for development
+- PCM5122 playback DAC
+- TPA3116D2 speaker amplifier
+- target of approximately **30 W into 4 ohms**, subject to real prototype validation
+- programming / debug access
+- expansion interfaces, including the reserved J4 microphone-ring connector
+
+### Open the Rev E design
+
+The active source is tracked directly in Git:
+
+- [Rev E KiCad project](hardware/PoE-Speaker/RevE/KiCad-RevE/PoE-Speaker-RevE.kicad_pro)
+- [Rev E PCB](hardware/PoE-Speaker/RevE/KiCad-RevE/PoE-Speaker-RevE.kicad_pcb)
+- [Rev E schematic](hardware/PoE-Speaker/RevE/KiCad-RevE/PoE-Speaker-RevE.kicad_sch)
+- [Rev E engineering notes](hardware/PoE-Speaker/RevE/engineering/)
+- [Historical design checkpoints](hardware/checkpoints/)
+
+Open the project in **KiCad 10**. Keep the adjacent project-local footprint library, symbol library, tables, and design rules together.
+
+## Modular microphone rings
+
+A separate family of microphone-array rings is planned for retrofit installations. The idea is to select a ring diameter that fits behind an existing ceiling-speaker grille rather than designing a unique microphone system for every speaker model.
+
+The first reference target is a nominal **8-inch ceiling speaker with an approximately 9-inch / 229 mm grille**. Ring Rev A is intended to target eight microphones and reserve space for visible listening / privacy status lighting behind the grille.
+
+- [Microphone-ring concept](hardware/microphone-rings/README.md)
+- [Listening / status-light plan](hardware/microphone-rings/LED-STATUS-LIGHT-PLAN.md)
+- [Main-board J4 connector definition](hardware/PoE-Speaker/RevE/engineering/CONNECTOR-GUIDE.md)
+
+Optional ring features are intended to use the existing J4 expansion interface rather than forcing repeated main-board redesigns.
+
+## Engineering status and roadmap
+
+The current release state is **HOLD** while the design is reviewed for first-prototype fabrication.
+
+Highest-priority work includes:
+
+1. Ethernet MDI differential-pair routing, reference continuity, termination / ESD geometry, and stackup assumptions.
+2. PoE / bench input protection, startup, inrush, fault behavior, fuse coordination, and current-carrying paths.
+3. PCM5122 / TPA3116D2 implementation, regulator behavior, grounding, output filtering, and thermal assumptions.
+4. Footprint, courtyard, connector, heatsink, clearance, and assembly-process review.
+5. Reproducible manufacturing outputs and a controlled prototype bring-up plan.
+
+Project documents:
+
+- [Roadmap](ROADMAP.md)
 - [Engineering review guide](ENGINEERING-REVIEW.md)
-- [Current release blockers](ORDER-RELEASE-REVIEW.md)
+- [Order / release review](ORDER-RELEASE-REVIEW.md)
+- [Prototype validation plan](PROTOTYPE-VALIDATION.md)
+- [GitHub issues](https://github.com/74kumi/Esp32-Poe-HA-Speaker/issues)
 
-Extract the Rev E ZIP before opening `KiCad-RevE/PoE-Speaker-RevE.kicad_pro` in KiCad 10. Keep its adjacent libraries and design rules together. The repository currently distributes complete source packages; paths in engineering notes refer to files inside the extracted package. Review ZIPs are not fabrication packages.
+## Repository layout
 
-The review checkpoint contains 209 components and 616 connected pins. Saved DRC/ERC reports have zero findings under the saved rule profile, and model/schematic/PCB connected-pin mappings agree. Missing courtyard checks and some inherited metadata checks are disabled. These checks do not establish circuit performance or manufacturing readiness.
+```text
+.
+├── hardware/
+│   ├── PoE-Speaker/
+│   │   └── RevE/
+│   │       ├── KiCad-RevE/        # current editable board source
+│   │       └── engineering/       # design reviews, calculations and scripts
+│   ├── microphone-rings/          # future mic-array / status-light work
+│   └── checkpoints/               # historical board revisions
+├── ENGINEERING-REVIEW.md
+├── ORDER-RELEASE-REVIEW.md
+├── PROTOTYPE-VALIDATION.md
+├── ROADMAP.md
+└── board-top.png
+```
 
-Recent work moved both receive main routes to the front layer and added an 8.379 mm parallel trunk at calculator-derived geometry. Transmit coupling, ESD/termination branches, reference continuity, protection/current/thermal calculations and assembly checks remain open.
+## Contributing / reviewing
 
-## Engineering help welcome
+Engineering review is welcome, especially around Ethernet signal integrity, protection / fault behavior, power conversion, amplifier implementation, thermal design, footprints, and manufacturability.
 
-Please open an issue with the PCB hash from `KiCad-RevE/reports/revision-status.json`, component/pin/net references, coordinates, a clear finding and supporting datasheet or calculation. Review priorities are Ethernet integrity, input protection and fault behavior, regulator/audio circuits, footprint correctness and manufacturing/thermal constraints.
+When reporting a hardware finding, please include the affected revision, component / pin / net, location where practical, expected behavior, observed concern, and supporting datasheet section or calculation. Clearly distinguish confirmed defects from questions or suggested improvements.
 
-This design was developed with AI-assisted CAD scripting. Independent engineering review and prototype measurements are needed. No assembled-board test results are claimed.
+This project has used AI-assisted CAD scripting and review workflows. AI output is not treated as engineering validation; independent review and physical prototype measurements are still required.
 
 ## License
 
-Original hardware design materials in this repository are available for personal, educational, research, and other noncommercial use under the terms in [LICENSE](LICENSE). Commercial manufacture, sale, OEM use, paid integration, or other commercial exploitation requires a separate written commercial license from the copyright holder.
+Original hardware design materials are available for personal, educational, research, and other noncommercial use under the terms in [LICENSE](LICENSE).
 
-Software, firmware, scripts, and third-party material may be subject to separate terms. Included vendor references, library material, trademarks, and datasheets retain their respective owners' notices and are not relicensed by this project.
+Commercial manufacture, sale, OEM use, paid integration, or other commercial exploitation requires a separate written commercial license from the copyright holder.
+
+Software, firmware, scripts, and third-party material may be subject to separate terms. Vendor references, library content, trademarks, and datasheets retain their respective owners' rights and notices.
