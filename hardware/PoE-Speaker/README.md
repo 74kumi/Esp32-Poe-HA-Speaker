@@ -1,7 +1,22 @@
 # Active PoE Speaker hardware source
 
-Drop the extracted contents of the current `PoE-Speaker-RevE-Review.zip` here.
+This directory contains the **current active main-board design** for the ESP32 PoE Home Assistant Speaker project.
 
-This directory is the canonical active KiCad source location for the project. Keep the KiCad project, schematic, PCB, custom libraries, tables, design rules, reports, and supporting engineering files together so a clean clone can open the design without extracting a ZIP.
+## Current revision
 
-Do not place fabrication-release outputs here unless they are intentionally part of the active source tree. Historical snapshots belong under `hardware/checkpoints/`.
+The canonical editable source is:
+
+`RevE/KiCad-RevE/PoE-Speaker-RevE.kicad_pro`
+
+Open it in **KiCad 10** and keep the project-local libraries, tables, design rules, and supporting files together.
+
+The adjacent `RevE/engineering/` directory contains design-review notes, calculations, scripts, fabrication-process notes, connector documentation, and saved reports used during the Rev E engineering review.
+
+## Source policy
+
+- Active editable KiCad source belongs here.
+- Historical board snapshots belong under `../checkpoints/`.
+- Manufacturing-release outputs should be generated from a specific reviewed/tagged source revision and clearly identified as release artifacts rather than active design source.
+- KiCad session/local-state files and editor backups should not be committed.
+
+The current board remains an engineering prototype. A clean ERC/DRC result does not establish electrical performance, safety, signal integrity, thermal performance, or manufacturing readiness.
