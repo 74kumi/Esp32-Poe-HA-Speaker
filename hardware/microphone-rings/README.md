@@ -10,6 +10,29 @@ The microphone ring should be visually hidden once the grille is installed. The 
 
 This document describes the concept only. Ring PCB layouts, microphone selection, mounting methods, acoustic performance, firmware, and production dimensions are not yet validated.
 
+## First reference speaker / Ring Rev A target
+
+The first mechanical prototype will use a common **8-inch ceiling speaker with an approximately 9-inch (229 mm) overall grille diameter** as the reference test subject.
+
+This reference is intentionally described by geometry rather than vendor/model. It provides a concrete starting point for the first ring while keeping the long-term goal of compatibility with many speaker families.
+
+Initial Rev A assumptions:
+
+| Parameter | Initial target / note |
+| --- | --- |
+| Nominal speaker size | 8 in |
+| Measured overall grille diameter | ~9 in / 229 mm |
+| Ring location | Behind the perforated grille, near the outer perimeter |
+| Microphone orientation | Acoustic ports facing toward the room through the grille |
+| Center opening | Keep the woofer/tweeter acoustic path substantially unobstructed |
+| Microphone count | 8 target |
+| Main-board interface | J4 |
+| Cable routing | From ring toward rear electronics using an existing path where possible |
+
+The **9-inch grille diameter is not the PCB diameter**. Before laying out the Rev A PCB, the grille must be removed and the actual usable inside diameter, frame lip, woofer surround clearance, grille-retention features, and available component depth measured. The PCB outside diameter should include installation clearance rather than attempting to fill the entire grille.
+
+A practical first estimate is to target a microphone circle close to the largest clear diameter available behind the grille while keeping a narrow PCB annulus. Final OD/ID values should be based on direct measurements of the reference speaker, not the nominal 8-inch driver size.
+
 ## Design philosophy
 
 The main PoE speaker board should remain common across installations. Speaker compatibility is handled mechanically by selecting a ring of the appropriate diameter.
@@ -108,14 +131,15 @@ The microphone ring and main electronics also need an installation method that c
 
 ## Proposed development sequence
 
-1. Measure a small sample of common ceiling speakers and record grille ID, usable ring area, depth, frame obstructions, and cable-routing options.
-2. Select two or three prototype ring diameters that cover meaningfully different speaker sizes.
+1. Fully measure the 8-inch / ~9-inch-grille reference speaker: usable grille ID, frame lip, clear ring area, depth, grille-retention features, obstructions, and cable-routing options.
+2. Use those measurements to define Ring Rev A OD, ID, microphone-circle diameter, board width, component-height limit, mounting points, and cable exit.
 3. Select and electrically validate the PDM microphone topology against J4.
-4. Build one ring size first and prove microphone capture before producing every mechanical size.
-5. Evaluate mounting approaches behind real grilles.
+4. Build Ring Rev A and prove microphone capture before producing every mechanical size.
+5. Evaluate mounting approaches behind the reference grille.
 6. Test microphone response with the local speaker silent and playing.
 7. Evaluate beamforming / direction finding / voice capture and echo-cancellation requirements.
-8. Once the electrical design is stable, replicate the same circuit topology into additional ring diameters.
+8. Measure several other common ceiling speakers and choose additional ring diameters that cover meaningfully different geometries.
+9. Once the electrical design is stable, replicate the same circuit topology into those additional ring diameters.
 
 ## Relationship to the main board
 
