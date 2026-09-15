@@ -1,6 +1,6 @@
 # ESP32 PoE HA Speaker
 
-PoE network speaker main-board prototype using ESP32-S3, W5500 Ethernet, PCM5122 DAC and TPA3116D2 amplifier. The target is 30 W into 4 ohms. Home Assistant integration, firmware and measured performance are not yet validated. An eight-microphone ring is planned as a separate future board.
+PoE network speaker main-board prototype using ESP32-S3, W5500 Ethernet, PCM5122 DAC and TPA3116D2 amplifier. The target is 30 W into 4 ohms. Home Assistant integration, firmware and measured performance are not yet validated. A modular eight-microphone ring family is planned as a separate future board; see [microphone-ring concept](hardware/microphone-rings/README.md).
 
 **Engineering prototype — not ready to manufacture or power up.**
 
