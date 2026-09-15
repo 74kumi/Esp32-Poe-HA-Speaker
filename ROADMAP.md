@@ -81,6 +81,22 @@ Exit criteria:
 - Licensing and third-party notices reviewed.
 - Release package reproducible from the tagged commit.
 
+## Parallel future track — modular microphone rings
+
+The microphone-array ring is a separate accessory PCB family and should not block fabrication or validation of the main PoE speaker board.
+
+Concept: provide multiple ring diameters that share the same electrical interface. An installer removes a ceiling-speaker grille, selects a ring that fits the usable grille area without obstructing the driver, routes a small cable to the main board, and reinstalls the grille. The main electronics remain common across speaker sizes.
+
+Development goals:
+- measure representative ceiling speakers and define useful ring-size families;
+- validate an eight-microphone PDM topology against the reserved J4 interface;
+- prove one ring electrically and acoustically before cloning the design into additional diameters;
+- develop reversible mounting methods and safe cable-routing options;
+- characterize grille attenuation, speaker-induced vibration, microphone saturation, beamforming behavior and echo-cancellation requirements;
+- keep ring variants electrically interchangeable wherever practical.
+
+See [`hardware/microphone-rings/README.md`](hardware/microphone-rings/README.md) for the concept and proposed development sequence.
+
 ## Working rule
 
 Every engineering change should answer three questions:
