@@ -12,11 +12,15 @@ I would genuinely welcome review or collaboration from experienced hardware engi
 
 This hardware is currently untested. It has not yet been fabricated, assembled, or electrically validated, and I cannot claim that the current design will work as intended. Please treat it as an engineering prototype, not a finished or proven product.
 
+![Earlier development board render](docs/images/early-board-render.jpg)
+
+> **Earlier development render — the current Rev E hardware differs.**
+>
+> This image is included because it communicates the physical concept well; it is not the current placement, routing, or fabrication reference. See [project history](docs/HISTORY.md) and the active Rev E source below.
+
 > **Engineering prototype — not ready to manufacture, install, or power up as a finished product.**
 >
 > The current hardware has not yet been fabricated, assembled, or electrically validated.
-
-![Rev E board preview](board-top.png)
 
 ## Project status
 
@@ -47,6 +51,12 @@ The main board is intended to provide:
 - target of approximately **30 W into 4 ohms**, subject to real prototype validation
 - programming / debug access
 - expansion interfaces, including the reserved J4 microphone-ring connector
+
+### Current Rev E board preview
+
+![Current Rev E board preview](board-top.png)
+
+The image above reflects the current Rev E board source more closely than the historical 3D render at the top of this README. The KiCad files remain the authoritative design reference.
 
 ### Open the Rev E design
 
@@ -97,6 +107,10 @@ Project documents:
 
 ```text
 .
+├── docs/
+│   ├── HISTORY.md
+│   └── images/
+│       └── early-board-render.jpg
 ├── hardware/
 │   ├── PoE-Speaker/
 │   │   └── RevE/
