@@ -1,0 +1,16 @@
+{
+  "revision": "D shared eFuse development draft",
+  "components": 209,
+  "board_mm": [
+    210,
+    100
+  ],
+  "track_segments": 2101,
+  "vias": 264,
+  "ground_zones": 1,
+  "unconnected_items": 0,
+  "drc": {},
+  "erc_findings": 5,
+  "poe_isolation_findings": 0,
+  "fabrication_ready": false
+}

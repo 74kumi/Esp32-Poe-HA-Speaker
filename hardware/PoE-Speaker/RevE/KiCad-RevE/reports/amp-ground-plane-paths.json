@@ -1,0 +1,711 @@
+{
+  "method": "Shortest sum of whole track lengths through KiCad direct track/pad adjacency to a GND via or plated pad whose center lies in filled GND copper. Does not establish continuous return-current corridor, impedance or thermal performance. Includes pad bridges and excludes zone traversal.",
+  "pins": [
+    {
+      "pin": "1",
+      "plane_contact_found": true,
+      "whole_segment_length_mm": 9.154,
+      "path": [
+        {
+          "uuid": "eeee4b78-fee6-4868-b719-6d7f0b943c31",
+          "kind": "track",
+          "width_mm": 0.4,
+          "length_mm": 1.007,
+          "start_mm": [
+            204.196,
+            106.125
+          ],
+          "end_mm": [
+            205.203,
+            106.125
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "bb130c19-dee9-47d8-94e9-27d46ce3ce2a",
+          "kind": "track",
+          "width_mm": 0.2,
+          "length_mm": 0.318,
+          "start_mm": [
+            205.203,
+            106.125
+          ],
+          "end_mm": [
+            205.203,
+            106.443
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "878dee75-e5a9-4fa9-9b7d-e256906fc56d",
+          "kind": "track",
+          "width_mm": 0.2,
+          "length_mm": 3.7095,
+          "start_mm": [
+            205.203,
+            106.443
+          ],
+          "end_mm": [
+            207.826,
+            109.066
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "371e72d8-a7af-4a51-b73a-eb5b90ebc62e",
+          "kind": "track",
+          "width_mm": 0.2,
+          "length_mm": 2.63,
+          "start_mm": [
+            207.826,
+            109.066
+          ],
+          "end_mm": [
+            210.456,
+            109.066
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "5fb0ddda-fcf3-4ad7-bfac-c218deed832b",
+          "kind": "track",
+          "width_mm": 0.2,
+          "length_mm": 0.4822,
+          "start_mm": [
+            210.456,
+            109.066
+          ],
+          "end_mm": [
+            210.797,
+            108.725
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "b2117fb3-8b73-4730-857f-57adee7071de",
+          "kind": "track",
+          "width_mm": 0.35,
+          "length_mm": 1.007,
+          "start_mm": [
+            211.804,
+            108.725
+          ],
+          "end_mm": [
+            210.797,
+            108.725
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "9ae42918-cab6-441d-b39c-f205508c8393",
+          "kind": "pad",
+          "reference": "U5",
+          "pin": "28"
+        },
+        {
+          "uuid": "65668ee1-8b1d-4664-a5e7-5d81eaae796a",
+          "kind": "via",
+          "position_mm": [
+            212.785,
+            108.725
+          ],
+          "drill_mm": 0.3
+        }
+      ]
+    },
+    {
+      "pin": "9",
+      "plane_contact_found": true,
+      "whole_segment_length_mm": 4.859,
+      "path": [
+        {
+          "uuid": "8bf84c89-c5b6-493c-9b0b-70c88506c79b",
+          "kind": "track",
+          "width_mm": 0.35,
+          "length_mm": 1.006,
+          "start_mm": [
+            204.196,
+            111.325
+          ],
+          "end_mm": [
+            203.19,
+            111.325
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "73205f9a-5383-4b89-b1f9-b6d95fb45297",
+          "kind": "track",
+          "width_mm": 0.2,
+          "length_mm": 0.65,
+          "start_mm": [
+            203.19,
+            111.325
+          ],
+          "end_mm": [
+            203.19,
+            111.975
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "f9aad171-4788-4949-a5a0-8b8521c83f9b",
+          "kind": "track",
+          "width_mm": 0.2,
+          "length_mm": 0.65,
+          "start_mm": [
+            203.19,
+            111.975
+          ],
+          "end_mm": [
+            203.19,
+            112.625
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "6f76dad6-7b4d-40a5-a099-3efa9c217195",
+          "kind": "track",
+          "width_mm": 0.2,
+          "length_mm": 1.3,
+          "start_mm": [
+            203.19,
+            112.625
+          ],
+          "end_mm": [
+            203.19,
+            113.925
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "9910f2ea-7f22-4118-ae8d-fd3896f1029c",
+          "kind": "track",
+          "width_mm": 0.4,
+          "length_mm": 1.006,
+          "start_mm": [
+            204.196,
+            113.925
+          ],
+          "end_mm": [
+            203.19,
+            113.925
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "ab79fe8e-a7c2-4277-8325-503874b0b630",
+          "kind": "pad",
+          "reference": "U5",
+          "pin": "13"
+        },
+        {
+          "uuid": "1ffee272-6a0c-475a-9d96-8e256bdc58d0",
+          "kind": "track",
+          "width_mm": 0.35,
+          "length_mm": 0.2475,
+          "start_mm": [
+            205.025,
+            113.925
+          ],
+          "end_mm": [
+            205.2,
+            114.1
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "178a365b-55c7-47e6-a6e7-892216802d11",
+          "kind": "via",
+          "position_mm": [
+            205.2,
+            114.1
+          ],
+          "drill_mm": 0.3
+        }
+      ]
+    },
+    {
+      "pin": "10",
+      "plane_contact_found": true,
+      "whole_segment_length_mm": 4.209,
+      "path": [
+        {
+          "uuid": "63a72b64-9ad2-4a70-a784-d1f8581cc1fe",
+          "kind": "track",
+          "width_mm": 0.4,
+          "length_mm": 1.006,
+          "start_mm": [
+            204.196,
+            111.975
+          ],
+          "end_mm": [
+            203.19,
+            111.975
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "f9aad171-4788-4949-a5a0-8b8521c83f9b",
+          "kind": "track",
+          "width_mm": 0.2,
+          "length_mm": 0.65,
+          "start_mm": [
+            203.19,
+            111.975
+          ],
+          "end_mm": [
+            203.19,
+            112.625
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "6f76dad6-7b4d-40a5-a099-3efa9c217195",
+          "kind": "track",
+          "width_mm": 0.2,
+          "length_mm": 1.3,
+          "start_mm": [
+            203.19,
+            112.625
+          ],
+          "end_mm": [
+            203.19,
+            113.925
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "9910f2ea-7f22-4118-ae8d-fd3896f1029c",
+          "kind": "track",
+          "width_mm": 0.4,
+          "length_mm": 1.006,
+          "start_mm": [
+            204.196,
+            113.925
+          ],
+          "end_mm": [
+            203.19,
+            113.925
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "ab79fe8e-a7c2-4277-8325-503874b0b630",
+          "kind": "pad",
+          "reference": "U5",
+          "pin": "13"
+        },
+        {
+          "uuid": "1ffee272-6a0c-475a-9d96-8e256bdc58d0",
+          "kind": "track",
+          "width_mm": 0.35,
+          "length_mm": 0.2475,
+          "start_mm": [
+            205.025,
+            113.925
+          ],
+          "end_mm": [
+            205.2,
+            114.1
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "178a365b-55c7-47e6-a6e7-892216802d11",
+          "kind": "via",
+          "position_mm": [
+            205.2,
+            114.1
+          ],
+          "drill_mm": 0.3
+        }
+      ]
+    },
+    {
+      "pin": "11",
+      "plane_contact_found": true,
+      "whole_segment_length_mm": 3.559,
+      "path": [
+        {
+          "uuid": "fa20c80a-0752-4bb1-946f-ad6e4b077f9a",
+          "kind": "track",
+          "width_mm": 0.25,
+          "length_mm": 1.006,
+          "start_mm": [
+            204.196,
+            112.625
+          ],
+          "end_mm": [
+            203.19,
+            112.625
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "6f76dad6-7b4d-40a5-a099-3efa9c217195",
+          "kind": "track",
+          "width_mm": 0.2,
+          "length_mm": 1.3,
+          "start_mm": [
+            203.19,
+            112.625
+          ],
+          "end_mm": [
+            203.19,
+            113.925
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "9910f2ea-7f22-4118-ae8d-fd3896f1029c",
+          "kind": "track",
+          "width_mm": 0.4,
+          "length_mm": 1.006,
+          "start_mm": [
+            204.196,
+            113.925
+          ],
+          "end_mm": [
+            203.19,
+            113.925
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "ab79fe8e-a7c2-4277-8325-503874b0b630",
+          "kind": "pad",
+          "reference": "U5",
+          "pin": "13"
+        },
+        {
+          "uuid": "1ffee272-6a0c-475a-9d96-8e256bdc58d0",
+          "kind": "track",
+          "width_mm": 0.35,
+          "length_mm": 0.2475,
+          "start_mm": [
+            205.025,
+            113.925
+          ],
+          "end_mm": [
+            205.2,
+            114.1
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "178a365b-55c7-47e6-a6e7-892216802d11",
+          "kind": "via",
+          "position_mm": [
+            205.2,
+            114.1
+          ],
+          "drill_mm": 0.3
+        }
+      ]
+    },
+    {
+      "pin": "13",
+      "plane_contact_found": true,
+      "whole_segment_length_mm": 0.247,
+      "path": [
+        {
+          "uuid": "1ffee272-6a0c-475a-9d96-8e256bdc58d0",
+          "kind": "track",
+          "width_mm": 0.35,
+          "length_mm": 0.2475,
+          "start_mm": [
+            205.025,
+            113.925
+          ],
+          "end_mm": [
+            205.2,
+            114.1
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "178a365b-55c7-47e6-a6e7-892216802d11",
+          "kind": "via",
+          "position_mm": [
+            205.2,
+            114.1
+          ],
+          "drill_mm": 0.3
+        }
+      ]
+    },
+    {
+      "pin": "14",
+      "plane_contact_found": true,
+      "whole_segment_length_mm": 2.909,
+      "path": [
+        {
+          "uuid": "94e49f79-ff0d-41a2-87cb-903da2099560",
+          "kind": "track",
+          "width_mm": 0.4,
+          "length_mm": 1.006,
+          "start_mm": [
+            204.196,
+            114.575
+          ],
+          "end_mm": [
+            203.19,
+            114.575
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "6ed7069a-d53b-4c08-9810-4d4d5f72d2e5",
+          "kind": "track",
+          "width_mm": 0.2,
+          "length_mm": 0.65,
+          "start_mm": [
+            203.19,
+            113.925
+          ],
+          "end_mm": [
+            203.19,
+            114.575
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "9910f2ea-7f22-4118-ae8d-fd3896f1029c",
+          "kind": "track",
+          "width_mm": 0.4,
+          "length_mm": 1.006,
+          "start_mm": [
+            204.196,
+            113.925
+          ],
+          "end_mm": [
+            203.19,
+            113.925
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "ab79fe8e-a7c2-4277-8325-503874b0b630",
+          "kind": "pad",
+          "reference": "U5",
+          "pin": "13"
+        },
+        {
+          "uuid": "1ffee272-6a0c-475a-9d96-8e256bdc58d0",
+          "kind": "track",
+          "width_mm": 0.35,
+          "length_mm": 0.2475,
+          "start_mm": [
+            205.025,
+            113.925
+          ],
+          "end_mm": [
+            205.2,
+            114.1
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "178a365b-55c7-47e6-a6e7-892216802d11",
+          "kind": "via",
+          "position_mm": [
+            205.2,
+            114.1
+          ],
+          "drill_mm": 0.3
+        }
+      ]
+    },
+    {
+      "pin": "15",
+      "plane_contact_found": true,
+      "whole_segment_length_mm": 3.559,
+      "path": [
+        {
+          "uuid": "66f55434-babd-4555-98d6-1c3fe4528629",
+          "kind": "track",
+          "width_mm": 0.4,
+          "length_mm": 1.006,
+          "start_mm": [
+            204.196,
+            115.225
+          ],
+          "end_mm": [
+            203.19,
+            115.225
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "466c0b72-2729-42cc-8f46-be4f5d40924d",
+          "kind": "track",
+          "width_mm": 0.2,
+          "length_mm": 0.65,
+          "start_mm": [
+            203.19,
+            114.575
+          ],
+          "end_mm": [
+            203.19,
+            115.225
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "6ed7069a-d53b-4c08-9810-4d4d5f72d2e5",
+          "kind": "track",
+          "width_mm": 0.2,
+          "length_mm": 0.65,
+          "start_mm": [
+            203.19,
+            113.925
+          ],
+          "end_mm": [
+            203.19,
+            114.575
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "9910f2ea-7f22-4118-ae8d-fd3896f1029c",
+          "kind": "track",
+          "width_mm": 0.4,
+          "length_mm": 1.006,
+          "start_mm": [
+            204.196,
+            113.925
+          ],
+          "end_mm": [
+            203.19,
+            113.925
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "ab79fe8e-a7c2-4277-8325-503874b0b630",
+          "kind": "pad",
+          "reference": "U5",
+          "pin": "13"
+        },
+        {
+          "uuid": "1ffee272-6a0c-475a-9d96-8e256bdc58d0",
+          "kind": "track",
+          "width_mm": 0.35,
+          "length_mm": 0.2475,
+          "start_mm": [
+            205.025,
+            113.925
+          ],
+          "end_mm": [
+            205.2,
+            114.1
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "178a365b-55c7-47e6-a6e7-892216802d11",
+          "kind": "via",
+          "position_mm": [
+            205.2,
+            114.1
+          ],
+          "drill_mm": 0.3
+        }
+      ]
+    },
+    {
+      "pin": "22",
+      "plane_contact_found": true,
+      "whole_segment_length_mm": 1.752,
+      "path": [
+        {
+          "uuid": "f80c54b9-11a5-48bf-b733-72233609d91e",
+          "kind": "track",
+          "width_mm": 0.4,
+          "length_mm": 0.982,
+          "start_mm": [
+            211.804,
+            112.625
+          ],
+          "end_mm": [
+            210.822,
+            112.625
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "e29158c3-85ed-4800-864a-61560a5db705",
+          "kind": "track",
+          "width_mm": 0.2,
+          "length_mm": 0.77,
+          "start_mm": [
+            209.88,
+            112.453
+          ],
+          "end_mm": [
+            210.65,
+            112.453
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "4217a723-bb53-4a67-8c0d-aca5c49b6a8c",
+          "kind": "via",
+          "position_mm": [
+            209.88,
+            112.453
+          ],
+          "drill_mm": 0.3
+        }
+      ]
+    },
+    {
+      "pin": "25",
+      "plane_contact_found": true,
+      "whole_segment_length_mm": 1.006,
+      "path": [
+        {
+          "uuid": "e36572db-e122-406d-a707-66c034cb2c74",
+          "kind": "track",
+          "width_mm": 0.4,
+          "length_mm": 1.006,
+          "start_mm": [
+            211.804,
+            110.675
+          ],
+          "end_mm": [
+            212.81,
+            110.675
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "1164124e-ca4c-4740-8ca1-93aa9e66cfbc",
+          "kind": "via",
+          "position_mm": [
+            212.81,
+            110.675
+          ],
+          "drill_mm": 0.3
+        }
+      ]
+    },
+    {
+      "pin": "28",
+      "plane_contact_found": true,
+      "whole_segment_length_mm": 0,
+      "path": [
+        {
+          "uuid": "65668ee1-8b1d-4664-a5e7-5d81eaae796a",
+          "kind": "via",
+          "position_mm": [
+            212.785,
+            108.725
+          ],
+          "drill_mm": 0.3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+(fp_lib_table (lib (name "SpeakerRevB") (type "KiCad") (uri "${KIPRJMOD}/SpeakerRevB.pretty") (options "") (descr "Revision B local footprints")))

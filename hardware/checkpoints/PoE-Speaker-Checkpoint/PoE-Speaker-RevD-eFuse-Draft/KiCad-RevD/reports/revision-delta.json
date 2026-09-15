@@ -1,0 +1,52 @@
+{
+  "changed_existing_pins": [
+    [
+      "U11",
+      "4",
+      "AMP_SDZ",
+      "AMP_ENABLE_CMD"
+    ],
+    [
+      "U10",
+      "6",
+      "24V_AMP",
+      "24V_OR"
+    ],
+    [
+      "Q1",
+      "2",
+      "24V_AMP",
+      "24V_OR"
+    ],
+    [
+      "Q2",
+      "2",
+      "24V_AMP",
+      "24V_OR"
+    ],
+    [
+      "U9",
+      "6",
+      "24V_AMP",
+      "24V_OR"
+    ]
+  ],
+  "added_components": [
+    "C121",
+    "C122",
+    "C123",
+    "R130",
+    "R131",
+    "R132",
+    "R133",
+    "R134",
+    "R135",
+    "R136",
+    "R137",
+    "R138",
+    "TP26",
+    "TP27",
+    "U16"
+  ],
+  "unchanged_other_existing_connections": true
+}

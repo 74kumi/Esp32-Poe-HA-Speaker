@@ -1,0 +1,14 @@
+(version 1)
+# Preliminary 3 mm review target; not an insulation certification.
+(rule "PoE primary to secondary review target"
+ (condition "A.NetName != '' && B.NetName != '' && (((A.NetName == 'POE_RECT_POS' || A.NetName == 'POE_RECT_NEG' || A.NetName == 'POE_MODE_A_AC1' || A.NetName == 'POE_MODE_A_AC2' || A.NetName == 'POE_MODE_B_AC1' || A.NetName == 'POE_MODE_B_AC2' || A.NetName == 'AT_DET_PRIMARY' || A.NetName == 'BT3_DET_PRIMARY' || A.NetName == 'BT4_DET_PRIMARY' || A.NetName == 'AT_LED_A' || A.NetName == 'BT3_LED_A' || A.NetName == 'BT4_LED_A') && !(B.NetName == 'POE_RECT_POS' || B.NetName == 'POE_RECT_NEG' || B.NetName == 'POE_MODE_A_AC1' || B.NetName == 'POE_MODE_A_AC2' || B.NetName == 'POE_MODE_B_AC1' || B.NetName == 'POE_MODE_B_AC2' || B.NetName == 'AT_DET_PRIMARY' || B.NetName == 'BT3_DET_PRIMARY' || B.NetName == 'BT4_DET_PRIMARY' || B.NetName == 'AT_LED_A' || B.NetName == 'BT3_LED_A' || B.NetName == 'BT4_LED_A')) || ((B.NetName == 'POE_RECT_POS' || B.NetName == 'POE_RECT_NEG' || B.NetName == 'POE_MODE_A_AC1' || B.NetName == 'POE_MODE_A_AC2' || B.NetName == 'POE_MODE_B_AC1' || B.NetName == 'POE_MODE_B_AC2' || B.NetName == 'AT_DET_PRIMARY' || B.NetName == 'BT3_DET_PRIMARY' || B.NetName == 'BT4_DET_PRIMARY' || B.NetName == 'AT_LED_A' || B.NetName == 'BT3_LED_A' || B.NetName == 'BT4_LED_A') && !(A.NetName == 'POE_RECT_POS' || A.NetName == 'POE_RECT_NEG' || A.NetName == 'POE_MODE_A_AC1' || A.NetName == 'POE_MODE_A_AC2' || A.NetName == 'POE_MODE_B_AC1' || A.NetName == 'POE_MODE_B_AC2' || A.NetName == 'AT_DET_PRIMARY' || A.NetName == 'BT3_DET_PRIMARY' || A.NetName == 'BT4_DET_PRIMARY' || A.NetName == 'AT_LED_A' || A.NetName == 'BT3_LED_A' || A.NetName == 'BT4_LED_A')))")
+ (constraint clearance (min 3mm))
+)
+
+# Thermal via process: 0.20 mm drill with 0.50/0.60 mm copper lands.
+# Scope is the grounded thermal pads of U2 and U16 only.
+# See engineering/FABRICATION-PROCESS.md; this is not fabrication release.
+(rule "U2 U16 thermal via drill process"
+ (condition "A.Type == 'Pad' && (A.memberOfFootprint('U2') || A.memberOfFootprint('U16')) && A.NetName == 'GND' && A.Hole_Size_X == 0.2mm && A.Hole_Size_Y == 0.2mm")
+ (constraint hole_size (min 0.2mm))
+)

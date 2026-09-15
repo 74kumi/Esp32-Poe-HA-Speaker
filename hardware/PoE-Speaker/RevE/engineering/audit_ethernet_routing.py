@@ -1,0 +1,7 @@
+from pathlib import Path
+import pcbnew as p,json
+D=Path('KiCad-RevE');b=p.LoadBoard(str(D/'PoE-Speaker-RevE.kicad_pcb'));rows=[]
+for net in ['ETH_TX_P','ETH_TX_N','ETH_RX_P','ETH_RX_N']:
+ tracks=[t for t in b.GetTracks() if t.GetNetname()==net];segs=[t for t in tracks if not isinstance(t,p.PCB_VIA)];pads=[x for f in b.GetFootprints() for x in f.Pads() if x.GetNetname()==net]
+ rows.append({'net':net,'total_copper_length_mm':round(sum(p.ToMM(t.GetLength()) for t in segs),3),'layers':sorted({b.GetLayerName(t.GetLayer()) for t in segs}),'widths_mm':sorted({p.ToMM(t.GetWidth()) for t in segs}),'vias':[{'uuid':t.m_Uuid.AsString(),'position_mm':p.ToMM(t.GetPosition())} for t in tracks if isinstance(t,p.PCB_VIA)],'pads':[{'reference':x.GetParentFootprint().GetReference(),'pin':x.GetNumber(),'position_mm':p.ToMM(x.GetPosition())} for x in pads],'segments':[{'uuid':t.m_Uuid.AsString(),'start_mm':p.ToMM(t.GetStart()),'end_mm':p.ToMM(t.GetEnd()),'layer':b.GetLayerName(t.GetLayer()),'width_mm':p.ToMM(t.GetWidth())} for t in segs]})
+(D/'reports/ethernet-routing-review.json').write_text(json.dumps({'source':'https://docs.wiznet.io/Design-Guide/hardware_design_guide','method':'Total copper inventory, including branches and pad stubs; not end-to-end length or impedance qualification.','nets':rows},indent=2));print([(r['net'],r['total_copper_length_mm'],r['layers'],len(r['vias']),r['pads']) for r in rows])

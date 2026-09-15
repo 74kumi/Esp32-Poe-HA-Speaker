@@ -1,0 +1,19 @@
+{
+  "target_mm": 3,
+  "primary_nets": [
+    "POE_RECT_POS",
+    "POE_RECT_NEG",
+    "POE_MODE_A_AC1",
+    "POE_MODE_A_AC2",
+    "POE_MODE_B_AC1",
+    "POE_MODE_B_AC2",
+    "AT_DET_PRIMARY",
+    "BT3_DET_PRIMARY",
+    "BT4_DET_PRIMARY",
+    "AT_LED_A",
+    "BT3_LED_A",
+    "BT4_LED_A"
+  ],
+  "status": "Preliminary layout review target only",
+  "limitations": "Does not establish creepage, cross-layer dielectric isolation, module underside keepout, chassis clearance, surge survival or compliance."
+}

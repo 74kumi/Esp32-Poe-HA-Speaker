@@ -1,0 +1,3613 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-12T19:52:07",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "escape-trial.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1767 mm)",
+            "items": [
+                {
+                    "description": "Track [ETH_3V3A] on F.Cu, length 2.1100 mm",
+                    "pos": {
+                        "x": 118.725,
+                        "y": 71.2522
+                    },
+                    "uuid": "372e5bc3-d802-4d47-a841-80169820eb99"
+                },
+                {
+                    "description": "Via [ETH_EXRES] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 119.57,
+                        "y": 70.6755
+                    },
+                    "uuid": "501c974a-3c0e-4b8e-94f6-a34c5616e74b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1791 mm)",
+            "items": [
+                {
+                    "description": "Pad 7 [<no net>] of U3 on F.Cu",
+                    "pos": {
+                        "x": 120.8375,
+                        "y": 69.25
+                    },
+                    "uuid": "3c3091ba-3796-4185-a4db-b95ed9a03e18"
+                },
+                {
+                    "description": "Track [ETH_3V3A] on F.Cu, length 0.0820 mm",
+                    "pos": {
+                        "x": 121.593,
+                        "y": 69.6667
+                    },
+                    "uuid": "54e06821-0eb3-4dd9-beb8-75e304bfbfb1"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1905 mm)",
+            "items": [
+                {
+                    "description": "Pad 7 [<no net>] of U3 on F.Cu",
+                    "pos": {
+                        "x": 120.8375,
+                        "y": 69.25
+                    },
+                    "uuid": "3c3091ba-3796-4185-a4db-b95ed9a03e18"
+                },
+                {
+                    "description": "Track [ETH_3V3A] on F.Cu, length 0.3037 mm",
+                    "pos": {
+                        "x": 121.675,
+                        "y": 69.6667
+                    },
+                    "uuid": "aa9297ba-0f97-4d14-a788-3faa1d2087cb"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1791 mm)",
+            "items": [
+                {
+                    "description": "Pad 7 [<no net>] of U3 on F.Cu",
+                    "pos": {
+                        "x": 120.8375,
+                        "y": 69.25
+                    },
+                    "uuid": "3c3091ba-3796-4185-a4db-b95ed9a03e18"
+                },
+                {
+                    "description": "Track [ETH_3V3A] on F.Cu, length 0.1176 mm",
+                    "pos": {
+                        "x": 121.51,
+                        "y": 69.75
+                    },
+                    "uuid": "b4bff1ec-fd0d-4697-a9f9-ecd2c70c3e90"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1830 mm)",
+            "items": [
+                {
+                    "description": "Pad 7 [5V] of U7 on F.Cu",
+                    "pos": {
+                        "x": 198.25,
+                        "y": 99.5
+                    },
+                    "uuid": "0c61a461-b5cb-4b49-87f3-aed9ad5fee59"
+                },
+                {
+                    "description": "Track [GND] on F.Cu, length 0.3536 mm",
+                    "pos": {
+                        "x": 198.5,
+                        "y": 98.7998
+                    },
+                    "uuid": "2e3e4cbc-2564-4add-9ea1-fe30bd503d60"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1770 mm)",
+            "items": [
+                {
+                    "description": "Track [GND] on F.Cu, length 1.9206 mm",
+                    "pos": {
+                        "x": 117.652,
+                        "y": 59.5794
+                    },
+                    "uuid": "0b0708cc-b409-44d2-bcda-02a9d2d9ef71"
+                },
+                {
+                    "description": "Pad 1 [ETH_TX_P] of D1 on F.Cu",
+                    "pos": {
+                        "x": 116.75,
+                        "y": 60.55
+                    },
+                    "uuid": "9b3277ec-0de9-4644-807f-092536019b5c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [BENCH_FUSED] of U15 on F.Cu",
+                    "pos": {
+                        "x": 247.8625,
+                        "y": 99.025
+                    },
+                    "uuid": "e8736ee3-c9fd-4b70-9d3e-df1f500248e4"
+                },
+                {
+                    "description": "Pad 2 [BENCH_UV] of U15 on F.Cu",
+                    "pos": {
+                        "x": 247.8625,
+                        "y": 99.675
+                    },
+                    "uuid": "0a314cfb-799d-4645-a40d-b68cb5bee7f5"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 2 [BENCH_UV] of U15 on F.Cu",
+                    "pos": {
+                        "x": 247.8625,
+                        "y": 99.675
+                    },
+                    "uuid": "0a314cfb-799d-4645-a40d-b68cb5bee7f5"
+                },
+                {
+                    "description": "Pad 3 [BENCH_OV] of U15 on F.Cu",
+                    "pos": {
+                        "x": 247.8625,
+                        "y": 100.325
+                    },
+                    "uuid": "12e6aac3-189c-4dbc-95b1-22e8259891ca"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 4 [GND] of U15 on F.Cu",
+                    "pos": {
+                        "x": 247.8625,
+                        "y": 100.975
+                    },
+                    "uuid": "33e57c3e-7ece-496b-bcc7-7470ff80d5b7"
+                },
+                {
+                    "description": "Pad 3 [BENCH_OV] of U15 on F.Cu",
+                    "pos": {
+                        "x": 247.8625,
+                        "y": 100.325
+                    },
+                    "uuid": "12e6aac3-189c-4dbc-95b1-22e8259891ca"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 6 [BENCH_FAULT_N] of U15 on F.Cu",
+                    "pos": {
+                        "x": 250.1375,
+                        "y": 100.325
+                    },
+                    "uuid": "ecf0d941-9374-4003-8a36-2f9edd979f2f"
+                },
+                {
+                    "description": "Pad 5 [BENCH_SHDN] of U15 on F.Cu",
+                    "pos": {
+                        "x": 250.1375,
+                        "y": 100.975
+                    },
+                    "uuid": "8caa5eeb-77c0-4db8-8cf2-d04013273d5e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 7 [24V_BENCH_PROTECTED] of U15 on F.Cu",
+                    "pos": {
+                        "x": 250.1375,
+                        "y": 99.675
+                    },
+                    "uuid": "373ba7ca-3e29-45c4-87a3-e16dbd58d3cf"
+                },
+                {
+                    "description": "Pad 6 [BENCH_FAULT_N] of U15 on F.Cu",
+                    "pos": {
+                        "x": 250.1375,
+                        "y": 100.325
+                    },
+                    "uuid": "ecf0d941-9374-4003-8a36-2f9edd979f2f"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 7 [24V_BENCH_PROTECTED] of U15 on F.Cu",
+                    "pos": {
+                        "x": 250.1375,
+                        "y": 99.675
+                    },
+                    "uuid": "373ba7ca-3e29-45c4-87a3-e16dbd58d3cf"
+                },
+                {
+                    "description": "Pad 8 [BENCH_PASS_GATE] of U15 on F.Cu",
+                    "pos": {
+                        "x": 250.1375,
+                        "y": 99.025
+                    },
+                    "uuid": "6b44e31f-279e-4277-ba95-171e2692249a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 41 [GND] of U2",
+                    "pos": {
+                        "x": 147.1,
+                        "y": 68.61
+                    },
+                    "uuid": "663d4de0-0f3b-4b23-b405-d0a7d01f7fdd"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 41 [GND] of U2",
+                    "pos": {
+                        "x": 147.1,
+                        "y": 70.01
+                    },
+                    "uuid": "9adeb21a-8938-434b-973b-4be27b6325d5"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 41 [GND] of U2",
+                    "pos": {
+                        "x": 147.8,
+                        "y": 67.91
+                    },
+                    "uuid": "23028f12-afcf-4073-a404-009dd4e21490"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 41 [GND] of U2",
+                    "pos": {
+                        "x": 147.8,
+                        "y": 69.31
+                    },
+                    "uuid": "52308877-bc77-4f78-bc04-8613d0b767f1"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 41 [GND] of U2",
+                    "pos": {
+                        "x": 147.8,
+                        "y": 70.71
+                    },
+                    "uuid": "4497c14d-263f-46fd-8e13-31c5430adbb7"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 41 [GND] of U2",
+                    "pos": {
+                        "x": 148.5,
+                        "y": 68.61
+                    },
+                    "uuid": "c4a32bd6-f372-4009-931a-73b996d073c1"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 41 [GND] of U2",
+                    "pos": {
+                        "x": 148.5,
+                        "y": 70.01
+                    },
+                    "uuid": "0ea63fc3-449d-4276-ad17-560bc864fc51"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 41 [GND] of U2",
+                    "pos": {
+                        "x": 149.2,
+                        "y": 67.91
+                    },
+                    "uuid": "8949778a-8bbf-4bb9-9603-a86005263d58"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 41 [GND] of U2",
+                    "pos": {
+                        "x": 149.2,
+                        "y": 69.31
+                    },
+                    "uuid": "ce1cbc67-a9b7-4d23-a45b-4912753130be"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 41 [GND] of U2",
+                    "pos": {
+                        "x": 149.2,
+                        "y": 70.71
+                    },
+                    "uuid": "d236ffbe-70eb-422f-9f5e-2674e6a38a75"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 41 [GND] of U2",
+                    "pos": {
+                        "x": 149.9,
+                        "y": 68.61
+                    },
+                    "uuid": "3979c1b5-b0fc-4416-924c-77d53863319e"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 41 [GND] of U2",
+                    "pos": {
+                        "x": 149.9,
+                        "y": 70.01
+                    },
+                    "uuid": "1a74051e-4157-45c3-8d48-ca45c1e6568e"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 25 [GND] of U16",
+                    "pos": {
+                        "x": 250.9,
+                        "y": 75.9
+                    },
+                    "uuid": "70f7bda0-7e40-4612-9522-ec3de1e0ca4d"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 25 [GND] of U16",
+                    "pos": {
+                        "x": 250.9,
+                        "y": 77.0
+                    },
+                    "uuid": "2382e8ec-c971-424e-8769-bb3a5373d055"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 25 [GND] of U16",
+                    "pos": {
+                        "x": 250.9,
+                        "y": 78.1
+                    },
+                    "uuid": "0cd786cf-fa18-4499-a950-6902152f1956"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 25 [GND] of U16",
+                    "pos": {
+                        "x": 252.0,
+                        "y": 75.9
+                    },
+                    "uuid": "256c165d-a813-4b55-a69c-053490987615"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 25 [GND] of U16",
+                    "pos": {
+                        "x": 252.0,
+                        "y": 77.0
+                    },
+                    "uuid": "edb9f418-98c7-40a0-897e-272fd127d150"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 25 [GND] of U16",
+                    "pos": {
+                        "x": 252.0,
+                        "y": 78.1
+                    },
+                    "uuid": "f47cc4cc-45a0-4305-97a0-07f398fa6cf7"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 25 [GND] of U16",
+                    "pos": {
+                        "x": 253.1,
+                        "y": 75.9
+                    },
+                    "uuid": "ef90aa61-40d5-462e-96e2-0a5879ae0ef5"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 25 [GND] of U16",
+                    "pos": {
+                        "x": 253.1,
+                        "y": 77.0
+                    },
+                    "uuid": "584a93f5-fab8-41c4-adf5-9b06bb9bbab3"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 25 [GND] of U16",
+                    "pos": {
+                        "x": 253.1,
+                        "y": 78.1
+                    },
+                    "uuid": "ac51c544-9a9e-45a8-a9e6-ec436130fcd8"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C53",
+                    "pos": {
+                        "x": 197.0,
+                        "y": 94.0
+                    },
+                    "uuid": "0141c3e0-e33b-4b23-ba78-b4490846f776"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R100",
+                    "pos": {
+                        "x": 120.0,
+                        "y": 82.0
+                    },
+                    "uuid": "02135f36-339c-4154-aade-d92129ae7677"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C8",
+                    "pos": {
+                        "x": 198.5,
+                        "y": 104.5
+                    },
+                    "uuid": "02d91ab7-c592-4f15-b71f-41ba71bafa70"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint U10",
+                    "pos": {
+                        "x": 199.0,
+                        "y": 134.0
+                    },
+                    "uuid": "0365a5b4-a9be-4821-be8d-5abe2c969bdb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R32",
+                    "pos": {
+                        "x": 170.0,
+                        "y": 64.0
+                    },
+                    "uuid": "03956d92-79c6-4480-bab7-bf356043aedf"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R109",
+                    "pos": {
+                        "x": 139.0,
+                        "y": 84.5
+                    },
+                    "uuid": "041835bb-1851-4397-ba7d-e93493a68be4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C20",
+                    "pos": {
+                        "x": 163.5,
+                        "y": 86.0
+                    },
+                    "uuid": "05570ced-4251-4b0c-8eea-36da35209ecd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C4",
+                    "pos": {
+                        "x": 206.5,
+                        "y": 128.0
+                    },
+                    "uuid": "076bbd8b-130c-4ef9-b5fd-ef56e5137c61"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R104",
+                    "pos": {
+                        "x": 117.5,
+                        "y": 76.5
+                    },
+                    "uuid": "0b08a9c8-c882-481f-96ff-9c2f114781c0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C106",
+                    "pos": {
+                        "x": 120.0,
+                        "y": 79.0
+                    },
+                    "uuid": "0db05fcc-dec4-4b3f-9015-903c59b271c8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint J2",
+                    "pos": {
+                        "x": 218.0,
+                        "y": 135.0
+                    },
+                    "uuid": "0dc3855a-0077-4ca6-9000-8c63b5153651"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C15",
+                    "pos": {
+                        "x": 200.0,
+                        "y": 111.5
+                    },
+                    "uuid": "0dd27a34-fe76-4863-b8c3-4eaf5b75bdac"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C115",
+                    "pos": {
+                        "x": 138.0,
+                        "y": 88.0
+                    },
+                    "uuid": "0e204757-b284-4f6a-a24c-da1fe70f236d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint FB1",
+                    "pos": {
+                        "x": 177.0,
+                        "y": 75.0
+                    },
+                    "uuid": "0e486ab6-185b-4be4-a07e-7f5810337f8f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C103",
+                    "pos": {
+                        "x": 127.0,
+                        "y": 84.5
+                    },
+                    "uuid": "0f08e3f3-8ed9-4b24-8dbe-bfc6614b7f4c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint LED3",
+                    "pos": {
+                        "x": 227.0,
+                        "y": 69.0
+                    },
+                    "uuid": "0f5a747b-43c3-4205-aa70-6c5f0bf4993e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R105",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 81.0
+                    },
+                    "uuid": "115eceb0-8eaa-444d-af01-661b96d2f960"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C51",
+                    "pos": {
+                        "x": 170.0,
+                        "y": 81.0
+                    },
+                    "uuid": "14a631ff-886a-4d0b-87e2-3d7859dafe67"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R106",
+                    "pos": {
+                        "x": 134.0,
+                        "y": 75.5
+                    },
+                    "uuid": "15dac04c-1733-4532-96cf-32e1853c31f6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C113",
+                    "pos": {
+                        "x": 134.0,
+                        "y": 83.5
+                    },
+                    "uuid": "15ef9219-9d92-4990-a254-f67a0ad37b14"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C5",
+                    "pos": {
+                        "x": 203.5,
+                        "y": 100.0
+                    },
+                    "uuid": "16e26548-f592-424d-a4d1-14d5ea4f2cb9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C40",
+                    "pos": {
+                        "x": 164.0,
+                        "y": 102.0
+                    },
+                    "uuid": "1adf83e5-5658-4cb4-a9b9-739d8fd1a3d7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R107",
+                    "pos": {
+                        "x": 138.0,
+                        "y": 77.0
+                    },
+                    "uuid": "1bae2608-b010-4803-935e-4572c4686364"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R23",
+                    "pos": {
+                        "x": 168.5,
+                        "y": 102.5
+                    },
+                    "uuid": "1ca666aa-cbcb-4c7a-979e-79a70fca62c5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R101",
+                    "pos": {
+                        "x": 117.5,
+                        "y": 71.0
+                    },
+                    "uuid": "1e136d53-3e4b-41c7-9599-65aaad858c18"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R110",
+                    "pos": {
+                        "x": 135.0,
+                        "y": 55.0
+                    },
+                    "uuid": "1e1440b6-efad-4b65-a242-779be9491af8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint U2",
+                    "pos": {
+                        "x": 150.0,
+                        "y": 70.0
+                    },
+                    "uuid": "1eecc340-5013-4bb1-bd3e-f4609eff4ae5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C41",
+                    "pos": {
+                        "x": 164.0,
+                        "y": 98.0
+                    },
+                    "uuid": "1ef19e12-2aba-48eb-99eb-ba8a94ce5986"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C26",
+                    "pos": {
+                        "x": 159.5,
+                        "y": 83.0
+                    },
+                    "uuid": "201960c4-8991-4527-b487-da39dd5f2b15"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint TP17",
+                    "pos": {
+                        "x": 161.0,
+                        "y": 59.5
+                    },
+                    "uuid": "20655037-0005-4eca-9912-df94febb84c7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R103",
+                    "pos": {
+                        "x": 117.5,
+                        "y": 67.0
+                    },
+                    "uuid": "22c1f994-9504-4da6-8cca-d9ae4e60163e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C23",
+                    "pos": {
+                        "x": 170.0,
+                        "y": 84.0
+                    },
+                    "uuid": "22db78ad-ffaa-4dea-bc16-c0baac483a12"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint D5",
+                    "pos": {
+                        "x": 87.5,
+                        "y": 120.0
+                    },
+                    "uuid": "2412cc17-eef2-4610-b7bd-0f2c88b49a0b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C49",
+                    "pos": {
+                        "x": 198.5,
+                        "y": 102.0
+                    },
+                    "uuid": "25fe68f2-2f64-48cf-828a-a114afd4617a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint X2",
+                    "pos": {
+                        "x": 125.0,
+                        "y": 81.0
+                    },
+                    "uuid": "26117fbd-605c-472a-af6b-ab9d9fe0ea3c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C46",
+                    "pos": {
+                        "x": 183.5,
+                        "y": 102.0
+                    },
+                    "uuid": "2822a244-0908-4eca-bae7-0bd6d6097dc0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint D4",
+                    "pos": {
+                        "x": 98.0,
+                        "y": 116.0
+                    },
+                    "uuid": "2b5342ec-48f8-494b-a9ca-777338af8f8f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C31",
+                    "pos": {
+                        "x": 134.0,
+                        "y": 86.5
+                    },
+                    "uuid": "2c619dcb-eb28-4633-95b0-32da4ec43dc9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R16",
+                    "pos": {
+                        "x": 200.0,
+                        "y": 139.5
+                    },
+                    "uuid": "2ceef8ae-3746-41eb-9e14-7f1cd47a2775"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 114.5,
+                        "y": 120.89
+                    },
+                    "uuid": "2f317d6b-ef39-4b65-a6b3-b14e70d84bdb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R6",
+                    "pos": {
+                        "x": 163.5,
+                        "y": 95.0
+                    },
+                    "uuid": "30fae333-77bc-4873-bcaa-40cb993e0469"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R127",
+                    "pos": {
+                        "x": 256.0,
+                        "y": 103.0
+                    },
+                    "uuid": "310b7659-b4c3-452a-bf4d-4bfcc906f74f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C10",
+                    "pos": {
+                        "x": 214.0,
+                        "y": 120.0
+                    },
+                    "uuid": "33682f62-633b-4e4c-8137-b075d8dd07f6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R27",
+                    "pos": {
+                        "x": 222.0,
+                        "y": 69.0
+                    },
+                    "uuid": "33a4ea9d-fb37-4c1b-910a-b250b0256ab6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C2",
+                    "pos": {
+                        "x": 190.0,
+                        "y": 142.0
+                    },
+                    "uuid": "37847655-de92-4773-b71c-0067881bd8df"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R25",
+                    "pos": {
+                        "x": 121.5,
+                        "y": 54.0
+                    },
+                    "uuid": "381c3066-546b-4522-b0ff-691bf064b9c5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R125",
+                    "pos": {
+                        "x": 244.0,
+                        "y": 107.0
+                    },
+                    "uuid": "396f1218-e6aa-4ee0-9257-e7b367977b40"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint TP8",
+                    "pos": {
+                        "x": 173.0,
+                        "y": 67.0
+                    },
+                    "uuid": "39988060-1f91-4fb9-a6c3-b528bd567fe5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint U14",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 107.0
+                    },
+                    "uuid": "3ae5afc8-ea68-4971-aa30-99513d5ad70f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint L2",
+                    "pos": {
+                        "x": 220.5,
+                        "y": 99.5
+                    },
+                    "uuid": "3deba2b1-b441-4b7d-9dfa-6f35645262b5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C11",
+                    "pos": {
+                        "x": 210.0,
+                        "y": 120.0
+                    },
+                    "uuid": "3e9c28fd-baf4-4248-98c1-c266e2727355"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C25",
+                    "pos": {
+                        "x": 167.5,
+                        "y": 87.0
+                    },
+                    "uuid": "40f06c9f-1059-4011-a190-9ea04f5df83a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R108",
+                    "pos": {
+                        "x": 140.0,
+                        "y": 82.0
+                    },
+                    "uuid": "416dde98-bd9c-4b18-8fb7-02f613640ee3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint TP6",
+                    "pos": {
+                        "x": 207.5,
+                        "y": 89.5
+                    },
+                    "uuid": "42d8a2cf-2b59-4743-a9ee-bdc88cd8175b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint J6",
+                    "pos": {
+                        "x": 194.0,
+                        "y": 53.5
+                    },
+                    "uuid": "455d15ef-c8bd-46fa-a567-f3837f9b14d0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C105",
+                    "pos": {
+                        "x": 121.5,
+                        "y": 76.0
+                    },
+                    "uuid": "458745bd-f9e6-4b75-b8d7-81f79b4ca92f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint L4",
+                    "pos": {
+                        "x": 202.25,
+                        "y": 92.0
+                    },
+                    "uuid": "45b4bcdd-755c-445d-ab34-0ed22b8af909"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C102",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 84.0
+                    },
+                    "uuid": "4616d4b9-bede-4d2c-b9af-b322aa9cdd5a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint J4",
+                    "pos": {
+                        "x": 156.0,
+                        "y": 55.7501
+                    },
+                    "uuid": "46e533e3-a7bd-4e27-a3f5-d997fa6bd0d3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint U11",
+                    "pos": {
+                        "x": 186.0,
+                        "y": 72.0
+                    },
+                    "uuid": "4a9ae7a1-9df9-4b06-ae6c-f2d0eac5e005"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint FB2",
+                    "pos": {
+                        "x": 112.0,
+                        "y": 83.5
+                    },
+                    "uuid": "4b6f3401-9712-4395-b9df-69114c9eaa03"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint TP14",
+                    "pos": {
+                        "x": 211.0,
+                        "y": 104.0
+                    },
+                    "uuid": "4cabce43-92a5-4412-8d50-3297f158ee3d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint D8",
+                    "pos": {
+                        "x": 98.0,
+                        "y": 94.0
+                    },
+                    "uuid": "4d115359-8c02-4d4f-b6c2-adb63c8d7c08"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R126",
+                    "pos": {
+                        "x": 265.0,
+                        "y": 107.0
+                    },
+                    "uuid": "4de4a9a7-c12e-45c1-803e-9faa1a76e5bd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C29",
+                    "pos": {
+                        "x": 178.0,
+                        "y": 83.0
+                    },
+                    "uuid": "4f2fedba-0ba2-4c9d-a0a6-dd635b50d4cb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint D1",
+                    "pos": {
+                        "x": 118.0,
+                        "y": 61.5
+                    },
+                    "uuid": "4f41ddc8-92b2-4424-a1c0-498d8c64216b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C9",
+                    "pos": {
+                        "x": 200.0,
+                        "y": 137.0
+                    },
+                    "uuid": "511b5924-bf41-4420-aec0-ef0f4f3338de"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C111",
+                    "pos": {
+                        "x": 118.0,
+                        "y": 87.0
+                    },
+                    "uuid": "5324edd9-62e6-4407-9fcb-6a49ee7b8c88"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C55",
+                    "pos": {
+                        "x": 182.0,
+                        "y": 65.0
+                    },
+                    "uuid": "5374fb98-0817-4091-b314-f6c2d0ef4eb5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R130",
+                    "pos": {
+                        "x": 246.0,
+                        "y": 82.0
+                    },
+                    "uuid": "549d25d5-e84c-49f8-bb71-b0925a82be77"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint TP25",
+                    "pos": {
+                        "x": 266.0,
+                        "y": 95.0
+                    },
+                    "uuid": "566b7165-5ac3-4bc7-9b48-a3ae76b9a91b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint TP22",
+                    "pos": {
+                        "x": 201.0,
+                        "y": 141.5
+                    },
+                    "uuid": "56c165b1-50bc-472e-8609-12ad505e0068"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint LED2",
+                    "pos": {
+                        "x": 218.0,
+                        "y": 60.0
+                    },
+                    "uuid": "572957b0-4eb7-4c8b-9230-cde1f02b9416"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C1",
+                    "pos": {
+                        "x": 188.5,
+                        "y": 130.0
+                    },
+                    "uuid": "585e3da0-7c04-4bc4-a24d-7b4d5bf94166"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint L1",
+                    "pos": {
+                        "x": 216.0,
+                        "y": 88.0
+                    },
+                    "uuid": "58941d09-f014-4493-8d2f-c32fdcf18f9d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R24",
+                    "pos": {
+                        "x": 172.5,
+                        "y": 102.5
+                    },
+                    "uuid": "59ae4eba-d097-45ee-96a7-94c79957f022"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint TP2",
+                    "pos": {
+                        "x": 104.0,
+                        "y": 108.0
+                    },
+                    "uuid": "5cf2bf86-a796-4aa9-aa69-7821fd78b45f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C6",
+                    "pos": {
+                        "x": 219.0,
+                        "y": 123.0
+                    },
+                    "uuid": "5d9f5481-a35c-49e0-8cf7-2a7bfca73677"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint SW2",
+                    "pos": {
+                        "x": 183.0,
+                        "y": 58.0
+                    },
+                    "uuid": "5eacfcc6-a7e9-4085-8974-d5350d2f01c4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C17",
+                    "pos": {
+                        "x": 180.0,
+                        "y": 106.5
+                    },
+                    "uuid": "5fd875d2-6da0-49d3-ada4-b45474d1a009"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint TP16",
+                    "pos": {
+                        "x": 156.0,
+                        "y": 59.0
+                    },
+                    "uuid": "60e7a681-cf4a-42a0-9eb8-2d52545d92e1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint TP21",
+                    "pos": {
+                        "x": 218.0,
+                        "y": 145.5
+                    },
+                    "uuid": "61267ac7-b175-4440-bdc1-8e7c602ad48d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint U13",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 99.0
+                    },
+                    "uuid": "615a0b34-730c-4f21-a770-55a3795241a5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C123",
+                    "pos": {
+                        "x": 258.0,
+                        "y": 77.0
+                    },
+                    "uuid": "63ff9c6b-fc6d-4b16-876f-9fd11983388a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R14",
+                    "pos": {
+                        "x": 200.0,
+                        "y": 125.0
+                    },
+                    "uuid": "64b29673-2d63-4d98-ac0c-85a8098d58e9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C45",
+                    "pos": {
+                        "x": 184.5,
+                        "y": 95.0
+                    },
+                    "uuid": "6565bf2d-8ce7-47ba-960b-d9a69a2a48e5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint D6",
+                    "pos": {
+                        "x": 98.0,
+                        "y": 124.0
+                    },
+                    "uuid": "6595879e-1c43-44c9-bff2-dd353f133415"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R132",
+                    "pos": {
+                        "x": 241.0,
+                        "y": 77.0
+                    },
+                    "uuid": "65ae8de4-47fd-4739-bd32-99613f0ea496"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C56",
+                    "pos": {
+                        "x": 186.0,
+                        "y": 65.0
+                    },
+                    "uuid": "66d30695-985f-4c44-8be0-47fe770123a5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint J3",
+                    "pos": {
+                        "x": 218.0,
+                        "y": 111.0
+                    },
+                    "uuid": "676b1771-03a7-4e11-9599-ffd4a4a9f245"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R36",
+                    "pos": {
+                        "x": 195.0,
+                        "y": 88.0
+                    },
+                    "uuid": "67f486cc-f117-4d75-84de-276a38d711ba"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R102",
+                    "pos": {
+                        "x": 117.5,
+                        "y": 74.0
+                    },
+                    "uuid": "687c0e88-1819-4110-bcf1-6a2d8a363577"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint H4",
+                    "pos": {
+                        "x": 225.0,
+                        "y": 145.0
+                    },
+                    "uuid": "68ded95c-0111-4bec-a199-4d1dce5cc406"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint Q3",
+                    "pos": {
+                        "x": 244.0,
+                        "y": 117.0
+                    },
+                    "uuid": "695d58b7-ca83-4b40-a987-199ab1330170"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint TP12",
+                    "pos": {
+                        "x": 129.0,
+                        "y": 62.5
+                    },
+                    "uuid": "6cfba6f0-41f1-4aa8-9710-fa20825af8c4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint U12",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 91.0
+                    },
+                    "uuid": "6d9de4ae-4aae-4839-8e43-779c7ff6afed"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C13",
+                    "pos": {
+                        "x": 196.0,
+                        "y": 91.0
+                    },
+                    "uuid": "6de91801-ac60-405e-a1ba-d68a6a3da503"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint H1",
+                    "pos": {
+                        "x": 75.0,
+                        "y": 145.0
+                    },
+                    "uuid": "6e82a67f-45b3-45c8-9860-919f83a5b2c1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint D11",
+                    "pos": {
+                        "x": 173.0,
+                        "y": 109.5
+                    },
+                    "uuid": "6f928395-9ad1-4bd7-8e7c-2987b264936f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C114",
+                    "pos": {
+                        "x": 137.0,
+                        "y": 73.0
+                    },
+                    "uuid": "6f9b5cdc-3548-4925-97ce-56ddf324a71f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint TP13",
+                    "pos": {
+                        "x": 196.5,
+                        "y": 107.0
+                    },
+                    "uuid": "6fd5c5be-44f6-49ad-bf03-a4452342d80e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R137",
+                    "pos": {
+                        "x": 270.0,
+                        "y": 81.0
+                    },
+                    "uuid": "6ffa64a1-2656-4158-9539-338215de3e0d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R4",
+                    "pos": {
+                        "x": 106.0,
+                        "y": 116.0
+                    },
+                    "uuid": "7018f826-f6c0-4688-894a-fb626d61544f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R5",
+                    "pos": {
+                        "x": 106.0,
+                        "y": 120.0
+                    },
+                    "uuid": "72e32640-937e-4c6b-98e3-bbee2517748d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C112",
+                    "pos": {
+                        "x": 133.0,
+                        "y": 79.5
+                    },
+                    "uuid": "740396fe-0771-406b-9e64-39b3dd4cda17"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C44",
+                    "pos": {
+                        "x": 179.0,
+                        "y": 98.0
+                    },
+                    "uuid": "748d1a06-95e2-46c9-996d-c9179b81cf8c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 92.75,
+                        "y": 69.0
+                    },
+                    "uuid": "779111f4-6a2e-4430-8bbd-027a2371fc37"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint H3",
+                    "pos": {
+                        "x": 225.0,
+                        "y": 55.0
+                    },
+                    "uuid": "7ab01548-0f75-4a09-ad25-8192891efe1c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint TP3",
+                    "pos": {
+                        "x": 201.0,
+                        "y": 123.0
+                    },
+                    "uuid": "7cef8ca7-7fea-4b81-92f1-0a7251347fa0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C52",
+                    "pos": {
+                        "x": 174.0,
+                        "y": 83.0
+                    },
+                    "uuid": "7f322447-1052-45f4-84aa-7bf12b7414c0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint LED1",
+                    "pos": {
+                        "x": 115.0,
+                        "y": 54.0
+                    },
+                    "uuid": "802aaf03-e5a9-4fd5-8b2c-baeba56d565b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R121",
+                    "pos": {
+                        "x": 240.0,
+                        "y": 95.0
+                    },
+                    "uuid": "814bb235-d972-45db-b6e4-2a4a408e9efd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R13",
+                    "pos": {
+                        "x": 175.5,
+                        "y": 72.5
+                    },
+                    "uuid": "8191fad4-0c00-4247-9fda-ea3844e2e818"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R15",
+                    "pos": {
+                        "x": 206.0,
+                        "y": 120.0
+                    },
+                    "uuid": "83245c3a-3da2-40ba-a399-36a3a8e8bef6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint D2",
+                    "pos": {
+                        "x": 89.0,
+                        "y": 106.5
+                    },
+                    "uuid": "869962bd-d4d5-4dbe-9937-cf2c66de1de6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint D7",
+                    "pos": {
+                        "x": 98.0,
+                        "y": 131.0
+                    },
+                    "uuid": "86d576d7-445c-4c1d-8331-aec4c8126dc0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C3",
+                    "pos": {
+                        "x": 206.5,
+                        "y": 142.0
+                    },
+                    "uuid": "88be9157-45a5-425f-a5cd-3060a02f3d6d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint Q4",
+                    "pos": {
+                        "x": 265.0,
+                        "y": 117.0
+                    },
+                    "uuid": "88fb97db-3848-47f4-b53e-f6537e038485"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C58",
+                    "pos": {
+                        "x": 200.0,
+                        "y": 130.5
+                    },
+                    "uuid": "8bf405f0-d92f-47b9-9459-2c90f82f68c6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint U15",
+                    "pos": {
+                        "x": 249.0,
+                        "y": 100.0
+                    },
+                    "uuid": "8c461b79-9d9c-4df5-a71c-47631a2a8b3e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint TP5",
+                    "pos": {
+                        "x": 202.0,
+                        "y": 87.5
+                    },
+                    "uuid": "8fc909e7-efc4-48ce-b471-850d25aea3b3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint TP11",
+                    "pos": {
+                        "x": 127.0,
+                        "y": 60.0
+                    },
+                    "uuid": "902db460-7a0c-4953-9945-b4649cd813d5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint U4",
+                    "pos": {
+                        "x": 165.5,
+                        "y": 73.0
+                    },
+                    "uuid": "910e44a2-4f93-4372-911d-91e888df9fec"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint TP15",
+                    "pos": {
+                        "x": 149.0,
+                        "y": 59.0
+                    },
+                    "uuid": "924c0ef4-e624-4f87-a628-805e6b639155"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R124",
+                    "pos": {
+                        "x": 255.0,
+                        "y": 95.0
+                    },
+                    "uuid": "93193caa-ee2f-4f78-9320-e2294005a927"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint TP19",
+                    "pos": {
+                        "x": 168.0,
+                        "y": 61.0
+                    },
+                    "uuid": "93f0e01a-7c8b-44fc-8c89-ec31883389d0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C100",
+                    "pos": {
+                        "x": 114.0,
+                        "y": 57.5
+                    },
+                    "uuid": "940b5409-6b5f-45b0-ace1-1e3a1063eb74"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R29",
+                    "pos": {
+                        "x": 162.0,
+                        "y": 61.5
+                    },
+                    "uuid": "94f00213-f007-4078-bfc1-419f2acda0b6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C27",
+                    "pos": {
+                        "x": 168.0,
+                        "y": 89.5
+                    },
+                    "uuid": "9518a406-d039-4294-874b-2bcc44668766"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint U3",
+                    "pos": {
+                        "x": 125.0,
+                        "y": 69.0
+                    },
+                    "uuid": "95a0bcc4-bf2d-4954-9f9c-7b3d613ba206"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R128",
+                    "pos": {
+                        "x": 260.0,
+                        "y": 91.0
+                    },
+                    "uuid": "97357ea4-ceac-451c-9d80-90d78aa69dfc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R136",
+                    "pos": {
+                        "x": 270.0,
+                        "y": 77.0
+                    },
+                    "uuid": "97da698a-538c-499f-bab4-15a4b8948f3a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C101",
+                    "pos": {
+                        "x": 110.0,
+                        "y": 81.0
+                    },
+                    "uuid": "9a281b66-3545-46bd-9111-39a0b6d5a946"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C32",
+                    "pos": {
+                        "x": 143.0,
+                        "y": 86.5
+                    },
+                    "uuid": "9a81908c-16cc-4b01-9271-69810340ade9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R138",
+                    "pos": {
+                        "x": 252.0,
+                        "y": 65.0
+                    },
+                    "uuid": "9ab98035-4ce6-4eef-b8f9-036855a36700"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint TP27",
+                    "pos": {
+                        "x": 257.0,
+                        "y": 65.0
+                    },
+                    "uuid": "9e47eaf1-e149-4b05-8415-136733e5a362"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C33",
+                    "pos": {
+                        "x": 142.0,
+                        "y": 89.0
+                    },
+                    "uuid": "a1146476-2a6b-4563-bf65-f3b6fdc5d532"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C14",
+                    "pos": {
+                        "x": 200.0,
+                        "y": 115.5
+                    },
+                    "uuid": "a1a9bf6c-424e-4395-ad08-de121666dc8e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint J5",
+                    "pos": {
+                        "x": 176.0,
+                        "y": 53.5
+                    },
+                    "uuid": "a1c66f97-d094-44ea-bd8b-cebaec49f46f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C108",
+                    "pos": {
+                        "x": 126.0,
+                        "y": 62.5
+                    },
+                    "uuid": "a5b9a9dc-0308-430a-8184-fe709124f3f8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R31",
+                    "pos": {
+                        "x": 166.0,
+                        "y": 64.0
+                    },
+                    "uuid": "a62bdbd9-3411-43dd-a277-35c2a2e51279"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C19",
+                    "pos": {
+                        "x": 179.5,
+                        "y": 73.0
+                    },
+                    "uuid": "a68a957b-1046-4339-b1f8-31ca4505087e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R38",
+                    "pos": {
+                        "x": 179.0,
+                        "y": 77.0
+                    },
+                    "uuid": "ab975b12-7214-4c2f-bd22-e56a1984f855"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C28",
+                    "pos": {
+                        "x": 175.5,
+                        "y": 85.5
+                    },
+                    "uuid": "b069f32f-c00e-4572-88d8-67b0c03decd6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R33",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 73.0
+                    },
+                    "uuid": "b1982007-1622-488a-adb6-b818d525fc89"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R123",
+                    "pos": {
+                        "x": 246.0,
+                        "y": 95.0
+                    },
+                    "uuid": "b50f9f92-0a6a-4a77-98a5-b08035c45535"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R26",
+                    "pos": {
+                        "x": 216.0,
+                        "y": 64.0
+                    },
+                    "uuid": "b786e718-dff3-4b55-b175-27c6e6ba29f8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C121",
+                    "pos": {
+                        "x": 253.0,
+                        "y": 84.0
+                    },
+                    "uuid": "b8d16e43-b3e3-4a24-aaef-725ad63eecb7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint U8",
+                    "pos": {
+                        "x": 173.0,
+                        "y": 76.0
+                    },
+                    "uuid": "bba6e25c-48bf-4200-9363-9058cfcba189"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R28",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 58.5
+                    },
+                    "uuid": "bd2b4947-3854-495f-af5f-b9489313c895"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R134",
+                    "pos": {
+                        "x": 241.0,
+                        "y": 69.0
+                    },
+                    "uuid": "be1fca67-1555-44b3-8673-108cee00bc81"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint D9",
+                    "pos": {
+                        "x": 98.0,
+                        "y": 101.0
+                    },
+                    "uuid": "bfbef8f8-5b82-43c0-9c36-e9d913046589"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R34",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 70.0
+                    },
+                    "uuid": "c0f416d2-8740-43b7-85df-aa635fc1dc6b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C50",
+                    "pos": {
+                        "x": 206.0,
+                        "y": 86.5
+                    },
+                    "uuid": "c126b855-6c2d-4276-8f00-8f1ff250638a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C110",
+                    "pos": {
+                        "x": 133.0,
+                        "y": 73.0
+                    },
+                    "uuid": "c53f9c4b-6d0f-4012-a01a-d4c6f61d8058"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C21",
+                    "pos": {
+                        "x": 162.0,
+                        "y": 80.0
+                    },
+                    "uuid": "c59ec7da-9127-4f30-be9b-d6ff2bd47605"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C104",
+                    "pos": {
+                        "x": 130.0,
+                        "y": 82.0
+                    },
+                    "uuid": "c72cad48-3a4a-4049-94d8-7f5f1eda8f5b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint U9",
+                    "pos": {
+                        "x": 198.0,
+                        "y": 120.0
+                    },
+                    "uuid": "c7cb6ce9-b907-4007-b2c8-16304e700966"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint U7",
+                    "pos": {
+                        "x": 198.0,
+                        "y": 98.0
+                    },
+                    "uuid": "c959e8c1-109b-40a9-a896-2070443c5958"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R9",
+                    "pos": {
+                        "x": 130.0,
+                        "y": 87.0
+                    },
+                    "uuid": "ca3b8229-9c70-4ac1-895a-31bb020b97f6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R111",
+                    "pos": {
+                        "x": 152.0,
+                        "y": 82.0
+                    },
+                    "uuid": "cb47b736-7dfc-44b5-9a6a-a0318dcc3b8d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C43",
+                    "pos": {
+                        "x": 172.0,
+                        "y": 93.5
+                    },
+                    "uuid": "cf01666f-19bc-4717-8384-b613a629ed55"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C47",
+                    "pos": {
+                        "x": 192.0,
+                        "y": 95.0
+                    },
+                    "uuid": "d6077c2a-285c-4901-a914-d782bca28f1f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint Q1",
+                    "pos": {
+                        "x": 191.0,
+                        "y": 117.5
+                    },
+                    "uuid": "d73cc0fa-91fc-4f99-8794-773639170bac"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint TP26",
+                    "pos": {
+                        "x": 262.0,
+                        "y": 83.0
+                    },
+                    "uuid": "d7ad3dbb-dbac-4c08-a70d-ca5a52b3a9cb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C48",
+                    "pos": {
+                        "x": 191.0,
+                        "y": 91.5
+                    },
+                    "uuid": "d7ccdf69-e995-4f9c-ad93-e7ec2fd67e8a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C16",
+                    "pos": {
+                        "x": 218.5,
+                        "y": 142.5
+                    },
+                    "uuid": "d7f10ed9-a765-4b81-ba60-4ab8dbfb682a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R35",
+                    "pos": {
+                        "x": 177.0,
+                        "y": 92.0
+                    },
+                    "uuid": "d8218b18-d2e1-4cab-b0a2-7a4a253ef6fc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C24",
+                    "pos": {
+                        "x": 176.0,
+                        "y": 80.0
+                    },
+                    "uuid": "d8515694-567e-459c-b77d-156ef9b77ca7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint H2",
+                    "pos": {
+                        "x": 75.0,
+                        "y": 55.0
+                    },
+                    "uuid": "d8e261ae-aa4d-4102-9bc6-125dc0bfdf8c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint F1",
+                    "pos": {
+                        "x": 182.0,
+                        "y": 110.0
+                    },
+                    "uuid": "d9fda672-ad5a-4fc0-a2a7-bd2019d430dc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R131",
+                    "pos": {
+                        "x": 241.0,
+                        "y": 73.0
+                    },
+                    "uuid": "da9736df-e241-4b03-ab39-9fa2c97f3306"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R120",
+                    "pos": {
+                        "x": 240.0,
+                        "y": 91.0
+                    },
+                    "uuid": "daf532e4-bf23-4ac0-bb70-46c27fd3dca4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C107",
+                    "pos": {
+                        "x": 123.0,
+                        "y": 84.5
+                    },
+                    "uuid": "db2515c4-89cc-4bea-8b29-52c216f22427"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C57",
+                    "pos": {
+                        "x": 190.0,
+                        "y": 65.0
+                    },
+                    "uuid": "dc2af055-9d1f-4218-b8e9-f92e879b48ba"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint TP7",
+                    "pos": {
+                        "x": 170.0,
+                        "y": 67.0
+                    },
+                    "uuid": "dcd2b41d-1adb-4695-9242-802e6b38b48d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint TP9",
+                    "pos": {
+                        "x": 176.0,
+                        "y": 67.0
+                    },
+                    "uuid": "df23295e-15da-4674-8818-4cd62360537f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R135",
+                    "pos": {
+                        "x": 263.0,
+                        "y": 70.0
+                    },
+                    "uuid": "df25c7ba-dca5-44d1-9914-23705ade4437"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C18",
+                    "pos": {
+                        "x": 184.0,
+                        "y": 106.5
+                    },
+                    "uuid": "dfd5496a-2e37-4198-94d3-99a89ae2b2e3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint TP20",
+                    "pos": {
+                        "x": 156.5,
+                        "y": 81.5
+                    },
+                    "uuid": "e0318a7c-cdc0-4211-903e-5f75aa98033c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint U5",
+                    "pos": {
+                        "x": 208.0,
+                        "y": 111.0
+                    },
+                    "uuid": "e04076a7-0337-4f69-bc1e-13fda8cb5573"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C42",
+                    "pos": {
+                        "x": 167.5,
+                        "y": 94.0
+                    },
+                    "uuid": "e27356fa-db9b-4736-b2a7-0972fbc3d369"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C122",
+                    "pos": {
+                        "x": 251.0,
+                        "y": 71.0
+                    },
+                    "uuid": "e2d0f9a4-6995-4afb-9ec4-6d819e5d095e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C22",
+                    "pos": {
+                        "x": 166.0,
+                        "y": 80.0
+                    },
+                    "uuid": "e2fb4005-cfff-4777-9009-790080eea998"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint TP23",
+                    "pos": {
+                        "x": 185.5,
+                        "y": 123.5
+                    },
+                    "uuid": "e460969f-1a83-4cbd-b3e8-5c3dce703848"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint TP4",
+                    "pos": {
+                        "x": 174.0,
+                        "y": 91.5
+                    },
+                    "uuid": "e461e17b-73c6-4964-ae01-71aad5ccf1bf"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R17",
+                    "pos": {
+                        "x": 200.0,
+                        "y": 128.0
+                    },
+                    "uuid": "e4ada31b-49c3-4732-902c-fbd6a818437b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C120",
+                    "pos": {
+                        "x": 263.0,
+                        "y": 103.0
+                    },
+                    "uuid": "e63f3219-6780-4a60-a913-159b4c7ce1c3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint D3",
+                    "pos": {
+                        "x": 87.5,
+                        "y": 112.0
+                    },
+                    "uuid": "e66e890c-dec4-4894-b156-34604f81dd05"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint U6",
+                    "pos": {
+                        "x": 168.0,
+                        "y": 98.0
+                    },
+                    "uuid": "e6c1ec66-97f9-4196-acd5-bf7dea7657f6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint SW1",
+                    "pos": {
+                        "x": 173.0,
+                        "y": 60.0
+                    },
+                    "uuid": "e9bea82e-3d9e-4825-890f-a6303203d6a3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R7",
+                    "pos": {
+                        "x": 163.5,
+                        "y": 88.5
+                    },
+                    "uuid": "e9e83699-cc93-414e-9b29-3ef2c1fa7f21"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R133",
+                    "pos": {
+                        "x": 241.0,
+                        "y": 65.0
+                    },
+                    "uuid": "e9ea8bfa-21de-4168-904b-5b52369aa6ec"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint L3",
+                    "pos": {
+                        "x": 173.0,
+                        "y": 98.0
+                    },
+                    "uuid": "eb7e061e-5aea-4703-b1b5-fff20b891c8f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C12",
+                    "pos": {
+                        "x": 200.0,
+                        "y": 107.5
+                    },
+                    "uuid": "ebac15be-dc24-4945-98ea-9335cd8d62b9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint C109",
+                    "pos": {
+                        "x": 132.5,
+                        "y": 69.0
+                    },
+                    "uuid": "ebfb2258-145d-4bbb-8ffd-880a2be5249c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R30",
+                    "pos": {
+                        "x": 162.0,
+                        "y": 64.0
+                    },
+                    "uuid": "edc8989b-de5d-437f-8ebe-4baa18b643cc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint U16",
+                    "pos": {
+                        "x": 252.0,
+                        "y": 77.0
+                    },
+                    "uuid": "ef1f72e5-53f8-47e9-9599-675c7d7b0727"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SpeakerRevB'",
+            "items": [
+                {
+                    "description": "Footprint R122",
+                    "pos": {
+                        "x": 246.0,
+                        "y": 91.0
+                    },
+                    "uuid": "f011eebc-5951-4e6a-aaec-52c41f021878"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        }
+    ]
+}

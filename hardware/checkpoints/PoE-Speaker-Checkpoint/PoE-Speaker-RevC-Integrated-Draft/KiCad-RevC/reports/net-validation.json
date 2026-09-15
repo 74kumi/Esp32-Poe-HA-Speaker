@@ -1,0 +1,8 @@
+{
+  "pcb_pad_mapping": "PASS",
+  "logical_mapping": "PASS",
+  "components": 194,
+  "connected_pins": 575,
+  "new_protection_reference_checks": "PASS",
+  "limits": "Electrical serialization only; not fault protection or circuit performance approval"
+}

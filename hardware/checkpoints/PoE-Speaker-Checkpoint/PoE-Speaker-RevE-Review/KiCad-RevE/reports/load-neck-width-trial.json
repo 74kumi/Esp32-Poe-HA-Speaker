@@ -1,0 +1,25 @@
+{
+  "accepted_changes": [
+    {
+      "uuid": "4ad3da69-3549-4015-9bf9-16fc99f0d472",
+      "old_width_mm": 0.3,
+      "new_width_mm": 0.6
+    },
+    {
+      "uuid": "5075d3e5-700b-485e-8603-cdb3439f0d72",
+      "old_width_mm": 0.3,
+      "new_width_mm": 0.6
+    },
+    {
+      "uuid": "44438f23-f561-457f-b997-fb3abbad93c0",
+      "old_width_mm": 0.4,
+      "new_width_mm": 0.6
+    },
+    {
+      "uuid": "613a3492-9a19-4af0-a3a0-fbece343fb45",
+      "old_width_mm": 0.3,
+      "new_width_mm": 0.6
+    }
+  ],
+  "retained_neck": "U16 pin escape de68fccd remains 0.3 mm for 0.5 mm length; 0.6 mm conflicts with adjacent AMP_SDZ pad. Current qualification remains."
+}

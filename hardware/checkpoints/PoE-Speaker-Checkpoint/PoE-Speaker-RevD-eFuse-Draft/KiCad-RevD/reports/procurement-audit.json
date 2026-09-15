@@ -1,0 +1,1474 @@
+{
+  "counts": {
+    "Family/base code; exact suffix or variant requires review": 4,
+    "Missing exact order code": 127,
+    "Order code present; ratings/footprint/availability not fully approved": 48,
+    "PCB feature; no assembly purchase assigned": 30
+  },
+  "components": [
+    {
+      "reference": "C1",
+      "value": "1000uF",
+      "mpn": "EEUFR1E102",
+      "footprint": "C1_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "C10",
+      "value": "220nF",
+      "mpn": "",
+      "footprint": "C10_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C100",
+      "value": "22nF",
+      "mpn": "",
+      "footprint": "C100_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C101",
+      "value": "6.8nF",
+      "mpn": "",
+      "footprint": "C101_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C102",
+      "value": "10nF",
+      "mpn": "",
+      "footprint": "C102_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C103",
+      "value": "4.7uF",
+      "mpn": "",
+      "footprint": "C103_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C104",
+      "value": "10nF",
+      "mpn": "",
+      "footprint": "C104_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C105",
+      "value": "100nF",
+      "mpn": "",
+      "footprint": "C105_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C106",
+      "value": "100nF",
+      "mpn": "",
+      "footprint": "C106_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C107",
+      "value": "100nF",
+      "mpn": "",
+      "footprint": "C107_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C108",
+      "value": "100nF",
+      "mpn": "",
+      "footprint": "C108_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C109",
+      "value": "100nF",
+      "mpn": "",
+      "footprint": "C109_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C11",
+      "value": "1uF",
+      "mpn": "",
+      "footprint": "C11_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C110",
+      "value": "100nF",
+      "mpn": "",
+      "footprint": "C110_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C111",
+      "value": "10uF",
+      "mpn": "",
+      "footprint": "C111_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C112",
+      "value": "100nF",
+      "mpn": "",
+      "footprint": "C112_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C113",
+      "value": "10uF",
+      "mpn": "",
+      "footprint": "C113_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C114",
+      "value": "1uF",
+      "mpn": "",
+      "footprint": "C114_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C115",
+      "value": "100nF",
+      "mpn": "",
+      "footprint": "C115_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C12",
+      "value": "1uF",
+      "mpn": "",
+      "footprint": "C12_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C120",
+      "value": "100nF",
+      "mpn": "TBD",
+      "footprint": "C120_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C121",
+      "value": "100nF",
+      "mpn": "TBD",
+      "footprint": "C121_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C122",
+      "value": "1uF",
+      "mpn": "TBD",
+      "footprint": "C122_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C123",
+      "value": "1uF",
+      "mpn": "TBD",
+      "footprint": "C123_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C13",
+      "value": "1uF",
+      "mpn": "",
+      "footprint": "C13_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C14",
+      "value": "1uF",
+      "mpn": "",
+      "footprint": "C14_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C15",
+      "value": "1uF",
+      "mpn": "",
+      "footprint": "C15_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C16",
+      "value": "1uF",
+      "mpn": "",
+      "footprint": "C16_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C17",
+      "value": "1.5uF",
+      "mpn": "",
+      "footprint": "C17_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C18",
+      "value": "1.5uF",
+      "mpn": "",
+      "footprint": "C18_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C19",
+      "value": "2.2nF",
+      "mpn": "",
+      "footprint": "C19_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C2",
+      "value": "1000uF",
+      "mpn": "EEUFR1E102",
+      "footprint": "C2_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "C20",
+      "value": "2.2uF",
+      "mpn": "",
+      "footprint": "C20_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C21",
+      "value": "2.2uF",
+      "mpn": "",
+      "footprint": "C21_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C22",
+      "value": "10uF",
+      "mpn": "",
+      "footprint": "C22_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C23",
+      "value": "10uF",
+      "mpn": "",
+      "footprint": "C23_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C24",
+      "value": "10uF",
+      "mpn": "",
+      "footprint": "C24_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C25",
+      "value": "10uF",
+      "mpn": "",
+      "footprint": "C25_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C26",
+      "value": "100nF",
+      "mpn": "",
+      "footprint": "C26_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C27",
+      "value": "100nF",
+      "mpn": "",
+      "footprint": "C27_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C28",
+      "value": "100nF",
+      "mpn": "",
+      "footprint": "C28_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C29",
+      "value": "100nF",
+      "mpn": "",
+      "footprint": "C29_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C3",
+      "value": "1000uF",
+      "mpn": "EEUFR1V102",
+      "footprint": "C3_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "C30",
+      "value": "100nF",
+      "mpn": "",
+      "footprint": "C30_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C31",
+      "value": "22uF",
+      "mpn": "",
+      "footprint": "C31_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C32",
+      "value": "100nF",
+      "mpn": "",
+      "footprint": "C32_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C33",
+      "value": "100nF",
+      "mpn": "",
+      "footprint": "C33_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C4",
+      "value": "1000uF",
+      "mpn": "EEUFR1V102",
+      "footprint": "C4_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "C40",
+      "value": "10uF",
+      "mpn": "",
+      "footprint": "C40_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C41",
+      "value": "220nF",
+      "mpn": "",
+      "footprint": "C41_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C42",
+      "value": "100nF",
+      "mpn": "",
+      "footprint": "C42_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C43",
+      "value": "1uF",
+      "mpn": "",
+      "footprint": "C43_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C44",
+      "value": "22uF",
+      "mpn": "",
+      "footprint": "C44_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C45",
+      "value": "22uF",
+      "mpn": "",
+      "footprint": "C45_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C46",
+      "value": "22uF",
+      "mpn": "",
+      "footprint": "C46_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C47",
+      "value": "22uF",
+      "mpn": "",
+      "footprint": "C47_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C48",
+      "value": "10uF",
+      "mpn": "",
+      "footprint": "C48_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C49",
+      "value": "22uF",
+      "mpn": "",
+      "footprint": "C49_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C5",
+      "value": "100uF",
+      "mpn": "EEUFR1H101",
+      "footprint": "C5_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "C50",
+      "value": "47uF",
+      "mpn": "",
+      "footprint": "C50_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C51",
+      "value": "4.7uF",
+      "mpn": "",
+      "footprint": "C51_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C52",
+      "value": "4.7uF",
+      "mpn": "",
+      "footprint": "C52_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C53",
+      "value": "3.3nF",
+      "mpn": "",
+      "footprint": "C53_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C55",
+      "value": "100nF",
+      "mpn": "",
+      "footprint": "C55_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C56",
+      "value": "100nF",
+      "mpn": "",
+      "footprint": "C56_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C57",
+      "value": "100nF",
+      "mpn": "",
+      "footprint": "C57_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C58",
+      "value": "1uF",
+      "mpn": "",
+      "footprint": "C58_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C6",
+      "value": "100uF",
+      "mpn": "EEUFR1H101",
+      "footprint": "C6_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "C7",
+      "value": "220nF",
+      "mpn": "",
+      "footprint": "C7_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C8",
+      "value": "220nF",
+      "mpn": "",
+      "footprint": "C8_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "C9",
+      "value": "220nF",
+      "mpn": "",
+      "footprint": "C9_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "D1",
+      "value": "PRTR5V0U4D,125",
+      "mpn": "PRTR5V0U4D,125",
+      "footprint": "D1_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "D10",
+      "value": "B5100C",
+      "mpn": "B5100C",
+      "footprint": "D10_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "D11",
+      "value": "SMBJ26CA",
+      "mpn": "SMBJ26CA",
+      "footprint": "D11_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "D2",
+      "value": "SMAJ58A-TR",
+      "mpn": "SMAJ58A-TR",
+      "footprint": "D2_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "D3",
+      "value": "B5100C",
+      "mpn": "B5100C",
+      "footprint": "D3_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "D4",
+      "value": "B5100C",
+      "mpn": "B5100C",
+      "footprint": "D4_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "D5",
+      "value": "B5100C",
+      "mpn": "B5100C",
+      "footprint": "D5_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "D6",
+      "value": "B5100C",
+      "mpn": "B5100C",
+      "footprint": "D6_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "D7",
+      "value": "B5100C",
+      "mpn": "B5100C",
+      "footprint": "D7_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "D8",
+      "value": "B5100C",
+      "mpn": "B5100C",
+      "footprint": "D8_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "D9",
+      "value": "B5100C",
+      "mpn": "B5100C",
+      "footprint": "D9_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "F1",
+      "value": "24T 3.15A250V",
+      "mpn": "24T 3.15A250V",
+      "footprint": "F1_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "FB1",
+      "value": "600ohm@100MHz",
+      "mpn": "",
+      "footprint": "FB1_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "FB2",
+      "value": "120R@100MHz",
+      "mpn": "BLM18PG121SN1D",
+      "footprint": "FB2_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "H1",
+      "value": "MountingHole",
+      "mpn": "MountingHole",
+      "footprint": "H1_RevB",
+      "status": "PCB feature; no assembly purchase assigned"
+    },
+    {
+      "reference": "H2",
+      "value": "MountingHole",
+      "mpn": "MountingHole",
+      "footprint": "H2_RevB",
+      "status": "PCB feature; no assembly purchase assigned"
+    },
+    {
+      "reference": "H3",
+      "value": "MountingHole",
+      "mpn": "MountingHole",
+      "footprint": "H3_RevB",
+      "status": "PCB feature; no assembly purchase assigned"
+    },
+    {
+      "reference": "H4",
+      "value": "MountingHole",
+      "mpn": "MountingHole",
+      "footprint": "H4_RevB",
+      "status": "PCB feature; no assembly purchase assigned"
+    },
+    {
+      "reference": "J1",
+      "value": "2250506-1",
+      "mpn": "2250506-1",
+      "footprint": "J1_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "J2",
+      "value": "MX2EDGR-5.08-02P-GN01-Cu-A",
+      "mpn": "MX2EDGR-5.08-02P-GN01-Cu-A",
+      "footprint": "J2_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "J3",
+      "value": "MX2EDGR-5.08-02P-GN01-Cu-A",
+      "mpn": "MX2EDGR-5.08-02P-GN01-Cu-A",
+      "footprint": "J3_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "J4",
+      "value": "Pin Header 02x07 2.54mm Vertical",
+      "mpn": "",
+      "footprint": "J4_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "J5",
+      "value": "Pin Header 01x06 2.54mm Vertical",
+      "mpn": "",
+      "footprint": "J5_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "J6",
+      "value": "Pin Header 01x06 2.54mm Vertical",
+      "mpn": "",
+      "footprint": "J6_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "L1",
+      "value": "10uH",
+      "mpn": "SRP1038A-100M",
+      "footprint": "L1_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "L2",
+      "value": "10uH",
+      "mpn": "SRP1038A-100M",
+      "footprint": "L2_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "L3",
+      "value": "8.2uH",
+      "mpn": "XAL5050-822MEC",
+      "footprint": "L3_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "L4",
+      "value": "2.2uH",
+      "mpn": "XAL5030-222MEC",
+      "footprint": "L4_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "LED1",
+      "value": "SML-D13FWT86C",
+      "mpn": "SML-D13FWT86C",
+      "footprint": "LED1_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "LED2",
+      "value": "SML-D13FWT86C",
+      "mpn": "SML-D13FWT86C",
+      "footprint": "LED2_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "LED3",
+      "value": "SML-D13FWT86C",
+      "mpn": "SML-D13FWT86C",
+      "footprint": "LED3_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "Q1",
+      "value": "DMNH6012LK3-13",
+      "mpn": "DMNH6012LK3-13",
+      "footprint": "Q1_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "Q2",
+      "value": "DMNH6012LK3-13",
+      "mpn": "DMNH6012LK3-13",
+      "footprint": "Q2_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "Q3",
+      "value": "PSMN4R8-100BSE",
+      "mpn": "PSMN4R8-100BSE",
+      "footprint": "Q3_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "Q4",
+      "value": "PSMN4R8-100BSE",
+      "mpn": "PSMN4R8-100BSE",
+      "footprint": "Q4_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "R100",
+      "value": "12.4k",
+      "mpn": "",
+      "footprint": "R100_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R101",
+      "value": "49.9",
+      "mpn": "",
+      "footprint": "R101_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R102",
+      "value": "49.9",
+      "mpn": "",
+      "footprint": "R102_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R103",
+      "value": "10",
+      "mpn": "",
+      "footprint": "R103_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R104",
+      "value": "49.9",
+      "mpn": "",
+      "footprint": "R104_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R105",
+      "value": "49.9",
+      "mpn": "",
+      "footprint": "R105_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R106",
+      "value": "10k",
+      "mpn": "",
+      "footprint": "R106_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R107",
+      "value": "10k",
+      "mpn": "",
+      "footprint": "R107_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R108",
+      "value": "33",
+      "mpn": "",
+      "footprint": "R108_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R109",
+      "value": "33",
+      "mpn": "",
+      "footprint": "R109_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R110",
+      "value": "10k",
+      "mpn": "",
+      "footprint": "R110_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R111",
+      "value": "10k",
+      "mpn": "",
+      "footprint": "R111_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R120",
+      "value": "198k",
+      "mpn": "TBD",
+      "footprint": "R120_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R121",
+      "value": "4.02k",
+      "mpn": "TBD",
+      "footprint": "R121_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R122",
+      "value": "392k",
+      "mpn": "TBD",
+      "footprint": "R122_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R123",
+      "value": "10k",
+      "mpn": "TBD",
+      "footprint": "R123_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R124",
+      "value": "100k",
+      "mpn": "TBD",
+      "footprint": "R124_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R125",
+      "value": "10",
+      "mpn": "TBD",
+      "footprint": "R125_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R126",
+      "value": "10",
+      "mpn": "TBD",
+      "footprint": "R126_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R127",
+      "value": "5.1k",
+      "mpn": "TBD",
+      "footprint": "R127_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R128",
+      "value": "10k",
+      "mpn": "TBD",
+      "footprint": "R128_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R129",
+      "value": "10k",
+      "mpn": "TBD",
+      "footprint": "R129_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R13",
+      "value": "470\u03a9",
+      "mpn": "",
+      "footprint": "R13_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R130",
+      "value": "6.04k",
+      "mpn": "TBD",
+      "footprint": "R130_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R131",
+      "value": "200k",
+      "mpn": "TBD",
+      "footprint": "R131_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R132",
+      "value": "10k",
+      "mpn": "TBD",
+      "footprint": "R132_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R133",
+      "value": "158k",
+      "mpn": "TBD",
+      "footprint": "R133_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R134",
+      "value": "10k",
+      "mpn": "TBD",
+      "footprint": "R134_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R135",
+      "value": "1k",
+      "mpn": "TBD",
+      "footprint": "R135_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R136",
+      "value": "174k",
+      "mpn": "TBD",
+      "footprint": "R136_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R137",
+      "value": "10k",
+      "mpn": "TBD",
+      "footprint": "R137_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R138",
+      "value": "10k",
+      "mpn": "TBD",
+      "footprint": "R138_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R14",
+      "value": "5.6k\u03a9",
+      "mpn": "",
+      "footprint": "R14_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R15",
+      "value": "82k\u03a9",
+      "mpn": "",
+      "footprint": "R15_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R16",
+      "value": "51k\u03a9",
+      "mpn": "",
+      "footprint": "R16_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R17",
+      "value": "10k\u03a9",
+      "mpn": "",
+      "footprint": "R17_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R23",
+      "value": "100k\u03a9",
+      "mpn": "",
+      "footprint": "R23_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R24",
+      "value": "24.9k\u03a9",
+      "mpn": "",
+      "footprint": "R24_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R25",
+      "value": "1k\u03a9",
+      "mpn": "",
+      "footprint": "R25_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R26",
+      "value": "1k\u03a9",
+      "mpn": "",
+      "footprint": "R26_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R27",
+      "value": "1k\u03a9",
+      "mpn": "",
+      "footprint": "R27_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R28",
+      "value": "33\u03a9",
+      "mpn": "",
+      "footprint": "R28_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R29",
+      "value": "33\u03a9",
+      "mpn": "",
+      "footprint": "R29_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R3",
+      "value": "27k\u03a9",
+      "mpn": "",
+      "footprint": "R3_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R30",
+      "value": "33\u03a9",
+      "mpn": "",
+      "footprint": "R30_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R31",
+      "value": "33\u03a9",
+      "mpn": "",
+      "footprint": "R31_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R32",
+      "value": "33\u03a9",
+      "mpn": "",
+      "footprint": "R32_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R33",
+      "value": "4.7k\u03a9",
+      "mpn": "",
+      "footprint": "R33_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R34",
+      "value": "4.7k\u03a9",
+      "mpn": "",
+      "footprint": "R34_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R35",
+      "value": "100k\u03a9",
+      "mpn": "",
+      "footprint": "R35_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R36",
+      "value": "100k\u03a9",
+      "mpn": "",
+      "footprint": "R36_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R38",
+      "value": "10k\u03a9",
+      "mpn": "",
+      "footprint": "R38_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R4",
+      "value": "27k\u03a9",
+      "mpn": "",
+      "footprint": "R4_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R5",
+      "value": "27k\u03a9",
+      "mpn": "",
+      "footprint": "R5_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R6",
+      "value": "10k\u03a9",
+      "mpn": "",
+      "footprint": "R6_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R7",
+      "value": "10k\u03a9",
+      "mpn": "",
+      "footprint": "R7_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R8",
+      "value": "10k\u03a9",
+      "mpn": "",
+      "footprint": "R8_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "R9",
+      "value": "10k\u03a9",
+      "mpn": "",
+      "footprint": "R9_RevB",
+      "status": "Missing exact order code"
+    },
+    {
+      "reference": "SW1",
+      "value": "TS-1088-AR02016",
+      "mpn": "TS-1088-AR02016",
+      "footprint": "SW1_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "SW2",
+      "value": "TS-1088-AR02016",
+      "mpn": "TS-1088-AR02016",
+      "footprint": "SW2_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "TP1",
+      "value": "Generic Testpoint",
+      "mpn": "",
+      "footprint": "TP1_RevB",
+      "status": "PCB feature; no assembly purchase assigned"
+    },
+    {
+      "reference": "TP10",
+      "value": "Generic Testpoint",
+      "mpn": "",
+      "footprint": "TP10_RevB",
+      "status": "PCB feature; no assembly purchase assigned"
+    },
+    {
+      "reference": "TP11",
+      "value": "Generic Testpoint",
+      "mpn": "",
+      "footprint": "TP11_RevB",
+      "status": "PCB feature; no assembly purchase assigned"
+    },
+    {
+      "reference": "TP12",
+      "value": "Generic Testpoint",
+      "mpn": "",
+      "footprint": "TP12_RevB",
+      "status": "PCB feature; no assembly purchase assigned"
+    },
+    {
+      "reference": "TP13",
+      "value": "Generic Testpoint",
+      "mpn": "",
+      "footprint": "TP13_RevB",
+      "status": "PCB feature; no assembly purchase assigned"
+    },
+    {
+      "reference": "TP14",
+      "value": "Generic Testpoint",
+      "mpn": "",
+      "footprint": "TP14_RevB",
+      "status": "PCB feature; no assembly purchase assigned"
+    },
+    {
+      "reference": "TP15",
+      "value": "Generic Testpoint",
+      "mpn": "",
+      "footprint": "TP15_RevB",
+      "status": "PCB feature; no assembly purchase assigned"
+    },
+    {
+      "reference": "TP16",
+      "value": "Generic Testpoint",
+      "mpn": "",
+      "footprint": "TP16_RevB",
+      "status": "PCB feature; no assembly purchase assigned"
+    },
+    {
+      "reference": "TP17",
+      "value": "Generic Testpoint",
+      "mpn": "",
+      "footprint": "TP17_RevB",
+      "status": "PCB feature; no assembly purchase assigned"
+    },
+    {
+      "reference": "TP18",
+      "value": "Generic Testpoint",
+      "mpn": "",
+      "footprint": "TP18_RevB",
+      "status": "PCB feature; no assembly purchase assigned"
+    },
+    {
+      "reference": "TP19",
+      "value": "Generic Testpoint",
+      "mpn": "",
+      "footprint": "TP19_RevB",
+      "status": "PCB feature; no assembly purchase assigned"
+    },
+    {
+      "reference": "TP2",
+      "value": "Generic Testpoint",
+      "mpn": "",
+      "footprint": "TP2_RevB",
+      "status": "PCB feature; no assembly purchase assigned"
+    },
+    {
+      "reference": "TP20",
+      "value": "Generic Testpoint",
+      "mpn": "",
+      "footprint": "TP20_RevB",
+      "status": "PCB feature; no assembly purchase assigned"
+    },
+    {
+      "reference": "TP21",
+      "value": "Generic Testpoint",
+      "mpn": "",
+      "footprint": "TP21_RevB",
+      "status": "PCB feature; no assembly purchase assigned"
+    },
+    {
+      "reference": "TP22",
+      "value": "Generic Testpoint",
+      "mpn": "",
+      "footprint": "TP22_RevB",
+      "status": "PCB feature; no assembly purchase assigned"
+    },
+    {
+      "reference": "TP23",
+      "value": "Generic Testpoint",
+      "mpn": "",
+      "footprint": "TP23_RevB",
+      "status": "PCB feature; no assembly purchase assigned"
+    },
+    {
+      "reference": "TP25",
+      "value": "BENCH_FAULT_N",
+      "mpn": "BENCH_FAULT_N",
+      "footprint": "TP25_RevB",
+      "status": "PCB feature; no assembly purchase assigned"
+    },
+    {
+      "reference": "TP26",
+      "value": "EFUSE_SHDN",
+      "mpn": "TBD",
+      "footprint": "TP26_RevB",
+      "status": "PCB feature; no assembly purchase assigned"
+    },
+    {
+      "reference": "TP27",
+      "value": "EFUSE_FAULT_N",
+      "mpn": "TBD",
+      "footprint": "TP27_RevB",
+      "status": "PCB feature; no assembly purchase assigned"
+    },
+    {
+      "reference": "TP3",
+      "value": "Generic Testpoint",
+      "mpn": "",
+      "footprint": "TP3_RevB",
+      "status": "PCB feature; no assembly purchase assigned"
+    },
+    {
+      "reference": "TP4",
+      "value": "Generic Testpoint",
+      "mpn": "",
+      "footprint": "TP4_RevB",
+      "status": "PCB feature; no assembly purchase assigned"
+    },
+    {
+      "reference": "TP5",
+      "value": "Generic Testpoint",
+      "mpn": "",
+      "footprint": "TP5_RevB",
+      "status": "PCB feature; no assembly purchase assigned"
+    },
+    {
+      "reference": "TP6",
+      "value": "Generic Testpoint",
+      "mpn": "",
+      "footprint": "TP6_RevB",
+      "status": "PCB feature; no assembly purchase assigned"
+    },
+    {
+      "reference": "TP7",
+      "value": "Generic Testpoint",
+      "mpn": "",
+      "footprint": "TP7_RevB",
+      "status": "PCB feature; no assembly purchase assigned"
+    },
+    {
+      "reference": "TP8",
+      "value": "Generic Testpoint",
+      "mpn": "",
+      "footprint": "TP8_RevB",
+      "status": "PCB feature; no assembly purchase assigned"
+    },
+    {
+      "reference": "TP9",
+      "value": "Generic Testpoint",
+      "mpn": "",
+      "footprint": "TP9_RevB",
+      "status": "PCB feature; no assembly purchase assigned"
+    },
+    {
+      "reference": "U1",
+      "value": "Ag5800",
+      "mpn": "Ag5800",
+      "footprint": "U1_RevB",
+      "status": "Family/base code; exact suffix or variant requires review"
+    },
+    {
+      "reference": "U10",
+      "value": "LM5050-2",
+      "mpn": "LM5050-2",
+      "footprint": "U10_RevB",
+      "status": "Family/base code; exact suffix or variant requires review"
+    },
+    {
+      "reference": "U11",
+      "value": "PCAL6416APW",
+      "mpn": "PCAL6416APW",
+      "footprint": "U11_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "U12",
+      "value": "PC817X2NSZ9F",
+      "mpn": "PC817X2NSZ9F",
+      "footprint": "U12_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "U13",
+      "value": "PC817X2NSZ9F",
+      "mpn": "PC817X2NSZ9F",
+      "footprint": "U13_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "U14",
+      "value": "PC817X2NSZ9F",
+      "mpn": "PC817X2NSZ9F",
+      "footprint": "U14_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "U15",
+      "value": "LTC4365HTS8#TRPBF",
+      "mpn": "LTC4365HTS8#TRPBF",
+      "footprint": "U15_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "U16",
+      "value": "TPS26630RGER",
+      "mpn": "TPS26630RGER",
+      "footprint": "U16_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "U2",
+      "value": "ESP32-S3-WROOM-1U-N16R8",
+      "mpn": "ESP32-S3-WROOM-1U-N16R8",
+      "footprint": "U2_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "U3",
+      "value": "W5500",
+      "mpn": "W5500",
+      "footprint": "U3_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "U4",
+      "value": "PCM5122PWR",
+      "mpn": "PCM5122PWR",
+      "footprint": "U4_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "U5",
+      "value": "TPA3116D2",
+      "mpn": "TPA3116D2",
+      "footprint": "U5_RevB",
+      "status": "Family/base code; exact suffix or variant requires review"
+    },
+    {
+      "reference": "U6",
+      "value": "LMR33630AQRNXRQ1",
+      "mpn": "LMR33630AQRNXRQ1",
+      "footprint": "U6_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "U7",
+      "value": "TPS62132RGTR",
+      "mpn": "TPS62132RGTR",
+      "footprint": "U7_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "U8",
+      "value": " RT9013-33GB",
+      "mpn": "RT9013-33GB",
+      "footprint": "U8_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    },
+    {
+      "reference": "U9",
+      "value": "LM5050-2",
+      "mpn": "LM5050-2",
+      "footprint": "U9_RevB",
+      "status": "Family/base code; exact suffix or variant requires review"
+    },
+    {
+      "reference": "X2",
+      "value": "25MHz",
+      "mpn": "ASE-25.000MHZ-LC-T",
+      "footprint": "X2_RevB",
+      "status": "Order code present; ratings/footprint/availability not fully approved"
+    }
+  ],
+  "scope": "Presence and known family-code screening only; not a validated purchasing BOM."
+}

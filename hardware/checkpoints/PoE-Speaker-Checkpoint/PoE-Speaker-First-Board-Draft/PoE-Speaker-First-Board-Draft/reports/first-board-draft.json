@@ -1,0 +1,49 @@
+{
+  "status": "First routed board draft; not for fabrication",
+  "footprints": 179,
+  "track_segments": 1814,
+  "vias": 222,
+  "routing_session": "isolation-complete.ses",
+  "signal_layers_used": [
+    "B.Cu",
+    "F.Cu",
+    "In2.Cu"
+  ],
+  "layers": "Four-layer board; inner ground plane not yet implemented",
+  "limitations": [
+    "Routing uses net-specific power-width targets, but narrow pin escapes, vias and complete return paths remain unqualified. See isolation-layout-review.json for actual widths.",
+    "Ethernet pairs are not impedance or length qualified.",
+    "No isolation-clearance qualification, planes, or thermal design approval.",
+    "Power-protection review remains open; see engineering/POWER-REVIEW.md.",
+    "Read board-drc.json for remaining physical errors and incomplete connections."
+  ],
+  "manual_escape": "U5 pin 27: 0.2 mm escape with 0.5/0.3 mm via in pad; assembly process and current capacity remain to be qualified.",
+  "isolation_target_mm": 3,
+  "isolation_clearance_findings": 0,
+  "optocoupler_orientation": {
+    "U13": {
+      "primary_pins": "left",
+      "secondary_pins": "right",
+      "angle_deg": -90.0
+    },
+    "U14": {
+      "primary_pins": "left",
+      "secondary_pins": "right",
+      "angle_deg": -90.0
+    },
+    "U12": {
+      "primary_pins": "left",
+      "secondary_pins": "right",
+      "angle_deg": -90.0
+    }
+  },
+  "kicad_drc": {
+    "drill_out_of_range": 12,
+    "track_width": 57,
+    "silk_edge_clearance": 1,
+    "silk_overlap": 81,
+    "silk_over_copper": 84
+  },
+  "unconnected_items": 0,
+  "logical_mapping": "PASS"
+}

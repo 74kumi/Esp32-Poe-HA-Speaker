@@ -1,0 +1,24 @@
+{
+  "references": [
+    "D3",
+    "D4",
+    "D5",
+    "D6",
+    "D7",
+    "D8",
+    "D9",
+    "D10"
+  ],
+  "selected_part": "B5100C",
+  "reverse_rating_v": 100,
+  "previous_reverse_rating_v": 60,
+  "pin_map": "1=A, 2=K (custom recovered numbering)",
+  "package": "SMC",
+  "pad_size_mm": [
+    2.16,
+    3.24
+  ],
+  "pad_pitch_mm": 7.38,
+  "status": "Draft selection; thermal and transient qualification pending",
+  "datasheet": "https://www.diodes.com/datasheet/download/B5100C.pdf"
+}

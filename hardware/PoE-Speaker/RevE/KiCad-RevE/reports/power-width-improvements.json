@@ -1,0 +1,261 @@
+{
+  "accepted": {
+    "13acc755-74e3-4ca8-800a-d3b76110626b": {
+      "old_width": 600000,
+      "net": "3V3",
+      "length_mm": 9.265
+    },
+    "1cbfb926-995e-4d32-8bd0-ba8484415723": {
+      "old_width": 600000,
+      "net": "3V3",
+      "length_mm": 2.5959
+    },
+    "2f945b0c-b3f0-4368-99c3-2967e72609d9": {
+      "old_width": 600000,
+      "net": "3V3",
+      "length_mm": 3.9041
+    },
+    "32cbce71-de2b-4ccd-a83b-eaee256d0ec5": {
+      "old_width": 600000,
+      "net": "3V3",
+      "length_mm": 4.829
+    },
+    "36f5927d-7238-40a5-b2e7-1363bcaeaad4": {
+      "old_width": 600000,
+      "net": "3V3",
+      "length_mm": 3.510219486015084
+    },
+    "42c9814d-8b61-45fe-8ff9-fe31b86cba77": {
+      "old_width": 600000,
+      "net": "3V3",
+      "length_mm": 2.81965901484559
+    },
+    "49c29eda-6ded-4992-a1e6-5a1b9ee0c06c": {
+      "old_width": 600000,
+      "net": "3V3",
+      "length_mm": 2.3050973970745794
+    },
+    "54315af3-3847-4d05-9b3b-e46c0fb359ee": {
+      "old_width": 600000,
+      "net": "3V3",
+      "length_mm": 2.8517
+    },
+    "601e0f4c-45d0-4c5b-beee-e4aa6bb35253": {
+      "old_width": 600000,
+      "net": "3V3",
+      "length_mm": 3.687
+    },
+    "61878d4c-b84a-49e9-bd1d-5e2c147e1e69": {
+      "old_width": 600000,
+      "net": "3V3",
+      "length_mm": 2.15
+    },
+    "62acf4d8-dea5-4600-9ace-11e4a57d0a5d": {
+      "old_width": 600000,
+      "net": "3V3",
+      "length_mm": 2.393
+    },
+    "7dc7c7eb-ca9b-4dbd-99b8-df570fa64d05": {
+      "old_width": 600000,
+      "net": "3V3",
+      "length_mm": 2.24
+    },
+    "89bc6580-1413-43f2-8f92-633560b8c482": {
+      "old_width": 600000,
+      "net": "3V3",
+      "length_mm": 2.3458
+    },
+    "967a66ab-0d89-4085-a0d5-0407864a2b23": {
+      "old_width": 600000,
+      "net": "3V3",
+      "length_mm": 2.4726
+    },
+    "a127aea7-347e-46ab-a7b6-1a23b219a726": {
+      "old_width": 600000,
+      "net": "3V3",
+      "length_mm": 7.9119
+    },
+    "b3d89294-827a-415f-85d0-129e49a91ddb": {
+      "old_width": 600000,
+      "net": "3V3",
+      "length_mm": 7.447460754512238
+    },
+    "b73476eb-144f-408b-bea8-1a7ba3cb87c7": {
+      "old_width": 600000,
+      "net": "3V3",
+      "length_mm": 3.282
+    },
+    "c777ed4e-80b0-4866-ae89-e46a2569006a": {
+      "old_width": 600000,
+      "net": "3V3",
+      "length_mm": 3.175
+    },
+    "dc779642-ac85-40d7-9b07-2c35e3be6820": {
+      "old_width": 600000,
+      "net": "3V3",
+      "length_mm": 3.535533905932738
+    },
+    "deaddfdf-9f11-4afc-b23f-ec31845e92c5": {
+      "old_width": 600000,
+      "net": "3V3",
+      "length_mm": 12.66
+    },
+    "df9cdc3f-0e2c-4afb-add2-e4709919eb0a": {
+      "old_width": 200000,
+      "net": "3V3",
+      "length_mm": 2.6517
+    },
+    "e8a0c838-85fb-40e3-a426-1e7ae0d7c4b2": {
+      "old_width": 600000,
+      "net": "3V3",
+      "length_mm": 11.5031
+    },
+    "edbf5f7b-c9a0-4717-8af8-eeb1f5e57410": {
+      "old_width": 600000,
+      "net": "3V3",
+      "length_mm": 2.8469533259258046
+    },
+    "f2eeb42a-ecdb-4d26-8faa-195d125bb1b5": {
+      "old_width": 600000,
+      "net": "3V3",
+      "length_mm": 5.0699
+    },
+    "f9abbe58-d8cc-4624-b6de-7984184d4d55": {
+      "old_width": 600000,
+      "net": "3V3",
+      "length_mm": 8.605489527040284
+    },
+    "fcf2df23-3270-4236-b1a3-7f61a52b7223": {
+      "old_width": 600000,
+      "net": "3V3",
+      "length_mm": 10.85
+    },
+    "ff0ee021-0e95-4e1a-ab95-4e30b58b7640": {
+      "old_width": 600000,
+      "net": "3V3",
+      "length_mm": 2.675
+    },
+    "70d89b56-c270-4468-b4d1-62587f88ddb8": {
+      "old_width": 600000,
+      "net": "3V3",
+      "length_mm": 8.84413807275757
+    },
+    "81debc12-5c5b-44eb-9117-71a1841fc45c": {
+      "old_width": 600000,
+      "net": "3V3",
+      "length_mm": 4.9234
+    },
+    "e5e5f0ee-9924-4c5b-80d1-9a8ac5316391": {
+      "old_width": 600000,
+      "net": "3V3",
+      "length_mm": 6.5229
+    },
+    "ec49077f-195c-4432-8ad8-cd227f88a53b": {
+      "old_width": 600000,
+      "net": "3V3",
+      "length_mm": 6.139878924702018
+    },
+    "2c3d4f42-c971-4ac5-a2d3-c067f6513eb2": {
+      "old_width": 600000,
+      "net": "3V3",
+      "length_mm": 2.6982487672562736
+    },
+    "4b1c3f9d-c6e6-4530-980a-abc8451b7f17": {
+      "old_width": 200000,
+      "net": "3V3",
+      "length_mm": 2.1614840827542543
+    },
+    "6e0d7595-4d01-4cee-98fd-c8a01a564499": {
+      "old_width": 200000,
+      "net": "3V3",
+      "length_mm": 3.6651466123471788
+    },
+    "51c19266-944d-4e8c-8348-85bfd1bb3937": {
+      "old_width": 600000,
+      "net": "5V",
+      "length_mm": 2.9933
+    },
+    "523d1105-57bc-4a36-9eb2-ce6396a1864c": {
+      "old_width": 600000,
+      "net": "5V",
+      "length_mm": 2.684106631637424
+    },
+    "74181213-be54-45c2-8558-db62f6d0a6dd": {
+      "old_width": 600000,
+      "net": "5V",
+      "length_mm": 2.8517
+    },
+    "7c8acca2-bdb8-4aa8-a1ad-fcf6932ce79d": {
+      "old_width": 600000,
+      "net": "5V",
+      "length_mm": 3.525
+    },
+    "b047c513-cf49-4563-a32a-3103af4c8727": {
+      "old_width": 600000,
+      "net": "5V",
+      "length_mm": 4.949747468305833
+    },
+    "b83eaa51-f1a9-4294-88a4-0314ee35a725": {
+      "old_width": 600000,
+      "net": "5V",
+      "length_mm": 2.969565651741008
+    },
+    "bbfef707-7d47-468e-b332-3b0c301ea3c6": {
+      "old_width": 600000,
+      "net": "5V",
+      "length_mm": 3.108370700222224
+    },
+    "ca2105f0-f6b6-44cf-8e2d-7f1fcca60609": {
+      "old_width": 600000,
+      "net": "5V",
+      "length_mm": 3.025
+    },
+    "d7b965a8-0901-4aae-8cf9-4c48b1e12561": {
+      "old_width": 600000,
+      "net": "5V",
+      "length_mm": 2.898854973950922
+    },
+    "d7ddd3e8-72ba-49d6-9a76-be5c03e352d5": {
+      "old_width": 600000,
+      "net": "5V",
+      "length_mm": 2.1778888860545664
+    },
+    "dcae565c-9003-41dd-887c-edd7b8eab305": {
+      "old_width": 600000,
+      "net": "5V",
+      "length_mm": 3.302
+    },
+    "1df1535a-1ecf-48a8-a36d-88de3d4e0df8": {
+      "old_width": 600000,
+      "net": "5V",
+      "length_mm": 2.265499417347089
+    },
+    "cb34530b-f528-4ad5-a8df-59e016d0795d": {
+      "old_width": 600000,
+      "net": "5V",
+      "length_mm": 11.3065
+    },
+    "5545bab6-f06e-46a0-9623-2d5490021f59": {
+      "old_width": 200000,
+      "net": "BUCK3V3_SW",
+      "length_mm": 2.6517
+    },
+    "4b021674-5de9-46ff-8c4d-73c4c025a730": {
+      "old_width": 200000,
+      "net": "BUCK3V3_SW",
+      "length_mm": 2.1678479743745873
+    },
+    "0b0f5dd9-82d0-4b76-85c5-10fec907684b": {
+      "old_width": 200000,
+      "net": "BUCK5_SW",
+      "length_mm": 2.695
+    },
+    "47328109-560a-4313-9470-f9de1e4e58f6": {
+      "old_width": 200000,
+      "net": "BUCK5_SW",
+      "length_mm": 2.6517
+    }
+  },
+  "rejected_count": 69,
+  "status": "Clearance-checked geometric improvement; vias, remaining necks and current/thermal capacity still need review"
+}

@@ -1,0 +1,26 @@
+{
+  "main_before_sha256": "f784240d1f06e962cda35304752e5120a9843e2b84ce71a9fbbbb23068690501",
+  "removed": [
+    "55de4897-b7a9-407f-81b9-a8123207f53a",
+    "5966a231-d30e-4e07-bed8-96c0f2291235",
+    "e14890bb-ccbf-4afb-9246-4f0fae845a06"
+  ],
+  "position": [
+    116.3,
+    64.7
+  ],
+  "angle": 270,
+  "side": "Bottom",
+  "new_vias": {
+    "ETH_TX_N": [
+      117.1,
+      64.1563
+    ]
+  },
+  "status": "accepted",
+  "drc_findings": 0,
+  "unconnected_items": 0,
+  "signal_branch_before_mm": 6.92,
+  "signal_branch_after_mm": 0.917,
+  "limits": "Branch lengths approximate. New signal tap via is a remaining discontinuity, not impedance qualification. Required R103 analog-supply branch retained."
+}

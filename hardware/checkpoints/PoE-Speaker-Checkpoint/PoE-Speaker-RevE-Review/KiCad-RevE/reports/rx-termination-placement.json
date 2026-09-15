@@ -1,0 +1,45 @@
+{
+  "status": "accepted",
+  "placements": [
+    {
+      "reference": "R104",
+      "position_mm": [
+        119.5,
+        71.6622
+      ],
+      "angle": 0,
+      "side": "Bottom"
+    },
+    {
+      "reference": "R105",
+      "position_mm": [
+        120.5,
+        69.2
+      ],
+      "angle": 270,
+      "side": "Bottom"
+    },
+    {
+      "reference": "C102",
+      "position_mm": [
+        120.5,
+        74.1
+      ],
+      "angle": 270,
+      "side": "Bottom"
+    }
+  ],
+  "ground_via_position_mm": [
+    121.5,
+    74.875
+  ],
+  "ground_via_copper_drill_mm": [
+    0.6,
+    0.3
+  ],
+  "ground_center_contacts_filled_plane": true,
+  "obsolete_spur_items_removed": 12,
+  "drc_findings": 0,
+  "unconnected_items": 0,
+  "limits": "Reduces termination branches; does not qualify pair coupling, impedance or length matching. Underside assembly required."
+}

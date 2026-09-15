@@ -1,0 +1,56 @@
+{
+  "main_before_sha256": "1628e9125c5d191b73989093312d6e8873f6739935690b7c5b3caa131883797a",
+  "removed": [
+    "afbcb83b-8a30-447e-8eae-370f07a999e8",
+    "fb6f1fd4-4ae2-4fc5-8139-989e9359d856"
+  ],
+  "old_length_mm": 10.107172201266344,
+  "new_length_mm": 8.550557636506225,
+  "points_mm": [
+    [
+      110.53,
+      66.968
+    ],
+    [
+      114.288,
+      66.968
+    ],
+    [
+      117.1,
+      64.1563
+    ],
+    [
+      117.677,
+      63.5793
+    ]
+  ],
+  "power_removed": [
+    "3da52bb8-048a-42ef-84bb-566052a83846",
+    "7915e1da-6865-4e73-a2a9-14347f35443c",
+    "a323a49a-b88c-4462-9bed-027f870c2c96",
+    "cd21218f-84bd-4ee8-8250-cc95de904e0a"
+  ],
+  "power_points_mm": [
+    [
+      116.3,
+      65.525
+    ],
+    [
+      116.3,
+      74.6
+    ],
+    [
+      118.725,
+      74.6
+    ]
+  ],
+  "status": "accepted; differential-pair qualification still open",
+  "receive_segments_moved_to_front": 5,
+  "drc_findings": 0,
+  "unconnected_items": 0,
+  "new_supply_via_mm": [
+    118.725,
+    74.6
+  ],
+  "supply_route_width_mm": 0.3
+}

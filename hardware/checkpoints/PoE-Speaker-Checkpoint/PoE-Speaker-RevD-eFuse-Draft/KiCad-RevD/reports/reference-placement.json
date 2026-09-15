@@ -1,0 +1,26 @@
+{
+  "processed": 209,
+  "references_with_remaining_bbox_conflicts": [
+    "R100",
+    "R104",
+    "TP13",
+    "TP22",
+    "C16",
+    "C43",
+    "C49",
+    "C52",
+    "R14",
+    "R17",
+    "R31",
+    "TP3",
+    "TP4",
+    "U10",
+    "C3",
+    "C4",
+    "C9",
+    "J2",
+    "L3",
+    "U7"
+  ],
+  "scope": "Reference positions only; actual silk DRC remains authoritative"
+}

@@ -1,0 +1,31 @@
+{
+  "source": "https://jlcpcb.com/pcb-impedance-calculator",
+  "observed_utc_date": "2026-09-15",
+  "inputs": {
+    "board_type": "Rigid",
+    "layers": 4,
+    "nominal_thickness_mm": 1.6,
+    "outer_copper_oz": 1,
+    "inner_copper_oz": 0.5,
+    "unit": "mil",
+    "target_ohms": 100,
+    "type": "Differential Pair (Non coplanar)",
+    "signal_layer": "L1",
+    "top_reference": null,
+    "bottom_reference": "L2",
+    "trace_gap_mil": 8,
+    "width_spacing_complement": false
+  },
+  "result": {
+    "stackup": "JLC04161H-7628",
+    "label": "Standard/Finished thickness1.59mm\u00b110%",
+    "width_mil": 8.89,
+    "gap_mil": 8,
+    "width_mm": 0.225806,
+    "gap_mm": 0.2032,
+    "calculator_tolerance_percent": 0.5
+  },
+  "interpretation": "The displayed 0.5% tolerance is a calculator setting, not a fabricator production guarantee. Masked noncoplanar model selected. Nearby same-layer copper must be kept sufficiently remote or evaluated with a coplanar model. Existing tracks are unchanged and are not impedance-qualified. These are routing defaults, not enforcing DRC width/gap constraints.",
+  "project_before_sha256": "5296dd0f864b89cf54f407ab42481ce7525a9c3900f5d58b533897fd2cf374c8",
+  "pcb_sha256": "7504b97c61820982018ab964373b277a3f4120a607bc504549dc32896da5b1bf"
+}

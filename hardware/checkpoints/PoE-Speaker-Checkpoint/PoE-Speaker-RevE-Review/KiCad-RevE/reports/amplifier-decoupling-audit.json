@@ -1,0 +1,742 @@
+{
+  "method": "Direct copper adjacency, maximize minimum track width then minimize whole-segment length. This is not exact loop length, return-plane analysis, inductance or circuit qualification. GVDD also feeds R15, the PLIMIT divider resistor; preserve that branch when relocating C11.",
+  "paths": [
+    {
+      "source": "U5.32",
+      "load": "C12.1",
+      "net": "24V_AMP",
+      "widest_path_min_track_mm": 0.8,
+      "narrow_track_length_mm": 0,
+      "narrow_tracks": [],
+      "path": [
+        {
+          "uuid": "b4c1a5d8-4666-4244-a55d-c00ee9a66a3f",
+          "net": "24V_AMP",
+          "kind": "pad",
+          "reference": "U5",
+          "pin": "32",
+          "position_mm": [
+            211.80365,
+            106.125001
+          ]
+        },
+        {
+          "uuid": "a858f2b0-a324-4e91-86d8-2db20ad48114",
+          "net": "24V_AMP",
+          "kind": "track",
+          "width_mm": 0.8,
+          "length_mm": 1.1722,
+          "start_mm": [
+            210.7972,
+            106.125
+          ],
+          "end_mm": [
+            209.625,
+            106.125
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "219b6047-d64c-434d-a1a0-e4477550addd",
+          "net": "24V_AMP",
+          "kind": "track",
+          "width_mm": 0.8,
+          "length_mm": 8.6621,
+          "start_mm": [
+            209.625,
+            106.125
+          ],
+          "end_mm": [
+            203.5,
+            100.0
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "9761d6a3-b57b-4d8f-84a5-1978548a4620",
+          "net": "24V_AMP",
+          "kind": "track",
+          "width_mm": 1.0,
+          "length_mm": 4.5,
+          "start_mm": [
+            207.0,
+            102.5
+          ],
+          "end_mm": [
+            207.0,
+            107.0
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "1d6327cc-4ecc-41b9-b9bf-cdb45d8c04c8",
+          "net": "24V_AMP",
+          "kind": "via",
+          "position_mm": [
+            207.0,
+            107.0
+          ],
+          "drill_mm": 0.5
+        },
+        {
+          "uuid": "93c053cc-4a84-4b44-b896-159d964e6de1",
+          "net": "24V_AMP",
+          "kind": "track",
+          "width_mm": 0.8,
+          "length_mm": 1.125,
+          "start_mm": [
+            207.0,
+            105.875
+          ],
+          "end_mm": [
+            207.0,
+            107.0
+          ],
+          "layer": "B.Cu"
+        },
+        {
+          "uuid": "ea7d8554-9137-41af-8894-20b1deac54c5",
+          "net": "24V_AMP",
+          "kind": "pad",
+          "reference": "C12",
+          "pin": "1",
+          "position_mm": [
+            207.4,
+            105.475
+          ]
+        }
+      ],
+      "whole_segment_length_mm": 15.459,
+      "via_count": 1
+    },
+    {
+      "source": "U5.17",
+      "load": "C13.1",
+      "net": "24V_AMP",
+      "widest_path_min_track_mm": 0.8,
+      "narrow_track_length_mm": 0,
+      "narrow_tracks": [],
+      "path": [
+        {
+          "uuid": "a7496169-1e06-4df4-a5aa-62f339f8adcc",
+          "net": "24V_AMP",
+          "kind": "pad",
+          "reference": "U5",
+          "pin": "17",
+          "position_mm": [
+            211.80365,
+            115.874999
+          ]
+        },
+        {
+          "uuid": "a12f528c-e8ca-4f75-9727-99af38883d4d",
+          "net": "24V_AMP",
+          "kind": "track",
+          "width_mm": 0.8,
+          "length_mm": 1.65,
+          "start_mm": [
+            211.80365,
+            115.874999
+          ],
+          "end_mm": [
+            211.80365,
+            117.525
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "48c54172-e784-48c4-8b23-59e6d576f6f9",
+          "net": "24V_AMP",
+          "kind": "pad",
+          "reference": "C13",
+          "pin": "1",
+          "position_mm": [
+            213.5,
+            117.525
+          ]
+        }
+      ],
+      "whole_segment_length_mm": 1.65,
+      "via_count": 0
+    },
+    {
+      "source": "U5.17",
+      "load": "C14.1",
+      "net": "24V_AMP",
+      "widest_path_min_track_mm": 0.8,
+      "narrow_track_length_mm": 0,
+      "narrow_tracks": [],
+      "path": [
+        {
+          "uuid": "a7496169-1e06-4df4-a5aa-62f339f8adcc",
+          "net": "24V_AMP",
+          "kind": "pad",
+          "reference": "U5",
+          "pin": "17",
+          "position_mm": [
+            211.80365,
+            115.874999
+          ]
+        },
+        {
+          "uuid": "a7552990-f27c-4d45-807f-a1e4426dea3a",
+          "net": "24V_AMP",
+          "kind": "track",
+          "width_mm": 0.8,
+          "length_mm": 0.7508,
+          "start_mm": [
+            210.7972,
+            115.875
+          ],
+          "end_mm": [
+            210.2663,
+            116.4059
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "3f9dda7f-0901-4fa1-827e-7f817249d879",
+          "net": "24V_AMP",
+          "kind": "track",
+          "width_mm": 1.0,
+          "length_mm": 0.9816,
+          "start_mm": [
+            210.2663,
+            116.4059
+          ],
+          "end_mm": [
+            209.5722,
+            117.1
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "e87be46c-cafc-4810-9d96-577b9f58be9c",
+          "net": "24V_AMP",
+          "kind": "track",
+          "width_mm": 1.0,
+          "length_mm": 6.4972,
+          "start_mm": [
+            209.5722,
+            117.1
+          ],
+          "end_mm": [
+            203.075,
+            117.1
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "a0f6d9f5-7e53-4452-8729-aa051e435da2",
+          "net": "24V_AMP",
+          "kind": "track",
+          "width_mm": 1.0,
+          "length_mm": 0.9816,
+          "start_mm": [
+            203.075,
+            117.1
+          ],
+          "end_mm": [
+            202.3809,
+            116.4059
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "374cb792-be30-41ea-8edf-2fddaa90d15f",
+          "net": "24V_AMP",
+          "kind": "pad",
+          "reference": "C14",
+          "pin": "1",
+          "position_mm": [
+            201.475,
+            115.5
+          ]
+        }
+      ],
+      "whole_segment_length_mm": 9.211,
+      "via_count": 0
+    },
+    {
+      "source": "U5.17",
+      "load": "C15.1",
+      "net": "24V_AMP",
+      "widest_path_min_track_mm": 0.8,
+      "narrow_track_length_mm": 0,
+      "narrow_tracks": [],
+      "path": [
+        {
+          "uuid": "a7496169-1e06-4df4-a5aa-62f339f8adcc",
+          "net": "24V_AMP",
+          "kind": "pad",
+          "reference": "U5",
+          "pin": "17",
+          "position_mm": [
+            211.80365,
+            115.874999
+          ]
+        },
+        {
+          "uuid": "a7552990-f27c-4d45-807f-a1e4426dea3a",
+          "net": "24V_AMP",
+          "kind": "track",
+          "width_mm": 0.8,
+          "length_mm": 0.7508,
+          "start_mm": [
+            210.7972,
+            115.875
+          ],
+          "end_mm": [
+            210.2663,
+            116.4059
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "3f9dda7f-0901-4fa1-827e-7f817249d879",
+          "net": "24V_AMP",
+          "kind": "track",
+          "width_mm": 1.0,
+          "length_mm": 0.9816,
+          "start_mm": [
+            210.2663,
+            116.4059
+          ],
+          "end_mm": [
+            209.5722,
+            117.1
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "e87be46c-cafc-4810-9d96-577b9f58be9c",
+          "net": "24V_AMP",
+          "kind": "track",
+          "width_mm": 1.0,
+          "length_mm": 6.4972,
+          "start_mm": [
+            209.5722,
+            117.1
+          ],
+          "end_mm": [
+            203.075,
+            117.1
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "a0f6d9f5-7e53-4452-8729-aa051e435da2",
+          "net": "24V_AMP",
+          "kind": "track",
+          "width_mm": 1.0,
+          "length_mm": 0.9816,
+          "start_mm": [
+            203.075,
+            117.1
+          ],
+          "end_mm": [
+            202.3809,
+            116.4059
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "374cb792-be30-41ea-8edf-2fddaa90d15f",
+          "net": "24V_AMP",
+          "kind": "pad",
+          "reference": "C14",
+          "pin": "1",
+          "position_mm": [
+            201.475,
+            115.5
+          ]
+        },
+        {
+          "uuid": "7cb87c57-5c22-4bf1-a574-dd21ee0a6178",
+          "net": "24V_AMP",
+          "kind": "track",
+          "width_mm": 0.8,
+          "length_mm": 4.0,
+          "start_mm": [
+            201.475,
+            115.5
+          ],
+          "end_mm": [
+            201.475,
+            111.5
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "5073f1e2-41cd-4262-8929-42e30b13c75d",
+          "net": "24V_AMP",
+          "kind": "pad",
+          "reference": "C15",
+          "pin": "1",
+          "position_mm": [
+            201.475,
+            111.5
+          ]
+        }
+      ],
+      "whole_segment_length_mm": 13.211,
+      "via_count": 0
+    },
+    {
+      "source": "U5.7",
+      "load": "C11.1",
+      "net": "AMP_GVDD",
+      "widest_path_min_track_mm": 0.2,
+      "narrow_track_length_mm": 1.496,
+      "narrow_tracks": [
+        {
+          "uuid": "c18e2e87-af91-4176-91f7-4bbada41c76b",
+          "net": "AMP_GVDD",
+          "kind": "track",
+          "width_mm": 0.2,
+          "length_mm": 1.007,
+          "start_mm": [
+            204.196,
+            110.025
+          ],
+          "end_mm": [
+            205.203,
+            110.025
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "0d63efd3-fd59-44a9-8ce1-74d3890844d7",
+          "net": "AMP_GVDD",
+          "kind": "track",
+          "width_mm": 0.2,
+          "length_mm": 0.4886,
+          "start_mm": [
+            205.237,
+            110.025
+          ],
+          "end_mm": [
+            205.583,
+            110.37
+          ],
+          "layer": "F.Cu"
+        }
+      ],
+      "path": [
+        {
+          "uuid": "88b357f4-4ae4-4ad9-939f-65c50109963b",
+          "net": "AMP_GVDD",
+          "kind": "pad",
+          "reference": "U5",
+          "pin": "7",
+          "position_mm": [
+            204.19635,
+            110.025001
+          ]
+        },
+        {
+          "uuid": "c18e2e87-af91-4176-91f7-4bbada41c76b",
+          "net": "AMP_GVDD",
+          "kind": "track",
+          "width_mm": 0.2,
+          "length_mm": 1.007,
+          "start_mm": [
+            204.196,
+            110.025
+          ],
+          "end_mm": [
+            205.203,
+            110.025
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "0d63efd3-fd59-44a9-8ce1-74d3890844d7",
+          "net": "AMP_GVDD",
+          "kind": "track",
+          "width_mm": 0.2,
+          "length_mm": 0.4886,
+          "start_mm": [
+            205.237,
+            110.025
+          ],
+          "end_mm": [
+            205.583,
+            110.37
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "eb41fe4d-5608-4879-bb70-a89530ebd926",
+          "net": "AMP_GVDD",
+          "kind": "via",
+          "position_mm": [
+            205.583,
+            110.37
+          ],
+          "drill_mm": 0.3
+        },
+        {
+          "uuid": "08179850-f9d7-4a95-a05f-120410c2149a",
+          "net": "AMP_GVDD",
+          "kind": "pad",
+          "reference": "C11",
+          "pin": "1",
+          "position_mm": [
+            204.9,
+            110.725
+          ]
+        }
+      ],
+      "whole_segment_length_mm": 1.496,
+      "via_count": 1
+    },
+    {
+      "source": "U5.7",
+      "load": "R15.1",
+      "net": "AMP_GVDD",
+      "widest_path_min_track_mm": 0.2,
+      "narrow_track_length_mm": 13.743,
+      "narrow_tracks": [
+        {
+          "uuid": "c18e2e87-af91-4176-91f7-4bbada41c76b",
+          "net": "AMP_GVDD",
+          "kind": "track",
+          "width_mm": 0.2,
+          "length_mm": 1.007,
+          "start_mm": [
+            204.196,
+            110.025
+          ],
+          "end_mm": [
+            205.203,
+            110.025
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "0d63efd3-fd59-44a9-8ce1-74d3890844d7",
+          "net": "AMP_GVDD",
+          "kind": "track",
+          "width_mm": 0.2,
+          "length_mm": 0.4886,
+          "start_mm": [
+            205.237,
+            110.025
+          ],
+          "end_mm": [
+            205.583,
+            110.37
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "e5302fef-bdca-442f-92a3-3876cc24980f",
+          "net": "AMP_GVDD",
+          "kind": "track",
+          "width_mm": 0.2,
+          "length_mm": 2.1758,
+          "start_mm": [
+            204.045,
+            111.909
+          ],
+          "end_mm": [
+            205.583,
+            110.37
+          ],
+          "layer": "B.Cu"
+        },
+        {
+          "uuid": "ef386e6a-8bc6-4b16-b78f-271998994bef",
+          "net": "AMP_GVDD",
+          "kind": "track",
+          "width_mm": 0.2,
+          "length_mm": 6.727,
+          "start_mm": [
+            204.045,
+            118.636
+          ],
+          "end_mm": [
+            204.045,
+            111.909
+          ],
+          "layer": "B.Cu"
+        },
+        {
+          "uuid": "1bd0ac90-98de-4b81-8198-1c0eb186f254",
+          "net": "AMP_GVDD",
+          "kind": "track",
+          "width_mm": 0.2,
+          "length_mm": 1.416,
+          "start_mm": [
+            204.045,
+            118.636
+          ],
+          "end_mm": [
+            205.461,
+            118.636
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "021f72aa-71cd-41cf-b7ab-50178ebc1997",
+          "net": "AMP_GVDD",
+          "kind": "track",
+          "width_mm": 0.2,
+          "length_mm": 1.929,
+          "start_mm": [
+            205.461,
+            118.636
+          ],
+          "end_mm": [
+            206.825,
+            120.0
+          ],
+          "layer": "F.Cu"
+        }
+      ],
+      "path": [
+        {
+          "uuid": "88b357f4-4ae4-4ad9-939f-65c50109963b",
+          "net": "AMP_GVDD",
+          "kind": "pad",
+          "reference": "U5",
+          "pin": "7",
+          "position_mm": [
+            204.19635,
+            110.025001
+          ]
+        },
+        {
+          "uuid": "c18e2e87-af91-4176-91f7-4bbada41c76b",
+          "net": "AMP_GVDD",
+          "kind": "track",
+          "width_mm": 0.2,
+          "length_mm": 1.007,
+          "start_mm": [
+            204.196,
+            110.025
+          ],
+          "end_mm": [
+            205.203,
+            110.025
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "0d63efd3-fd59-44a9-8ce1-74d3890844d7",
+          "net": "AMP_GVDD",
+          "kind": "track",
+          "width_mm": 0.2,
+          "length_mm": 0.4886,
+          "start_mm": [
+            205.237,
+            110.025
+          ],
+          "end_mm": [
+            205.583,
+            110.37
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "eb41fe4d-5608-4879-bb70-a89530ebd926",
+          "net": "AMP_GVDD",
+          "kind": "via",
+          "position_mm": [
+            205.583,
+            110.37
+          ],
+          "drill_mm": 0.3
+        },
+        {
+          "uuid": "e5302fef-bdca-442f-92a3-3876cc24980f",
+          "net": "AMP_GVDD",
+          "kind": "track",
+          "width_mm": 0.2,
+          "length_mm": 2.1758,
+          "start_mm": [
+            204.045,
+            111.909
+          ],
+          "end_mm": [
+            205.583,
+            110.37
+          ],
+          "layer": "B.Cu"
+        },
+        {
+          "uuid": "ef386e6a-8bc6-4b16-b78f-271998994bef",
+          "net": "AMP_GVDD",
+          "kind": "track",
+          "width_mm": 0.2,
+          "length_mm": 6.727,
+          "start_mm": [
+            204.045,
+            118.636
+          ],
+          "end_mm": [
+            204.045,
+            111.909
+          ],
+          "layer": "B.Cu"
+        },
+        {
+          "uuid": "4160a71e-3def-4844-be93-0597e3aeac26",
+          "net": "AMP_GVDD",
+          "kind": "via",
+          "position_mm": [
+            204.045,
+            118.636
+          ],
+          "drill_mm": 0.3
+        },
+        {
+          "uuid": "1bd0ac90-98de-4b81-8198-1c0eb186f254",
+          "net": "AMP_GVDD",
+          "kind": "track",
+          "width_mm": 0.2,
+          "length_mm": 1.416,
+          "start_mm": [
+            204.045,
+            118.636
+          ],
+          "end_mm": [
+            205.461,
+            118.636
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "021f72aa-71cd-41cf-b7ab-50178ebc1997",
+          "net": "AMP_GVDD",
+          "kind": "track",
+          "width_mm": 0.2,
+          "length_mm": 1.929,
+          "start_mm": [
+            205.461,
+            118.636
+          ],
+          "end_mm": [
+            206.825,
+            120.0
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "0d7d5f2c-fbeb-407c-af7e-7402cd177336",
+          "net": "AMP_GVDD",
+          "kind": "pad",
+          "reference": "R15",
+          "pin": "1",
+          "position_mm": [
+            206.825,
+            120.0
+          ]
+        }
+      ],
+      "whole_segment_length_mm": 13.743,
+      "via_count": 2
+    }
+  ]
+}

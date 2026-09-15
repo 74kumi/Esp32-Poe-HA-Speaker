@@ -1,0 +1,19 @@
+{
+  "U15": {
+    "source": "LTC4365 TS8 drawing 05-08-1637 Rev A; datasheet Rev B page 18",
+    "pad_mm": [
+      1.22,
+      0.4
+    ],
+    "row_centers_mm": 2.62,
+    "pitch_mm": 0.65,
+    "pad_gap_mm": 0.25,
+    "note": "Matches recommended solder-pad layout; previous generic pads were wider and shorter."
+  },
+  "thermal_drills": {
+    "U2": 12,
+    "U16": 9,
+    "diameter_mm": 0.2,
+    "status": "Accepted for geometry checking under a scoped 0.20 mm thermal-via process rule. Supplier/assembly acceptance and via treatment remain release requirements; see engineering/FABRICATION-PROCESS.md."
+  }
+}
