@@ -1,30 +1,59 @@
 # Engineering review request
 
-This project is approaching a first prototype and has not been fabricated, assembled or electrically validated. Please start with the latest Rev E sources, not an earlier revision or a trial file. Current release status is **HOLD**.
+This project is approaching a first prototype and has **not** been fabricated, assembled, or electrically validated. Please review the current Rev E source rather than an earlier checkpoint or trial file. Current release status is **HOLD**.
 
 ## Open the design
 
-Open `KiCad-RevE/PoE-Speaker-RevE.kicad_pro` in KiCad 10. Keep the adjacent `SpeakerRevB.pretty` library, tables and custom design rules together. The library name is historical and intentional. The saved board has 209 components and 616 connected pins. The latest checked source hash is in `KiCad-RevE/reports/revision-status.json`.
+Open [`hardware/PoE-Speaker/RevE/KiCad-RevE/PoE-Speaker-RevE.kicad_pro`](hardware/PoE-Speaker/RevE/KiCad-RevE/PoE-Speaker-RevE.kicad_pro) in **KiCad 10**.
 
-Review the current board (`KiCad-RevE/PoE-Speaker-RevE.kicad_pcb` in the extracted source package), schematic (`KiCad-RevE/PoE-Speaker-RevE.kicad_sch` in the extracted source package), release review (`engineering/ORDER-RELEASE-REVIEW.md` in the extracted source package) and connector guide (`engineering/CONNECTOR-GUIDE.md` in the extracted source package). Candidate component data is in `KiCad-RevE/reports/procurement-audit.json`; availability and suitability are not procurement-approved.
+Keep the adjacent `SpeakerRevB.pretty` footprint library, `SpeakerRevB.kicad_sym` symbol library, library tables, and custom design rules together. The `SpeakerRevB` library name is historical and intentional.
 
-## Highest-value questions
+The saved Rev E board contains 209 components and 616 connected pins. The latest checked source hash is recorded in `hardware/PoE-Speaker/RevE/KiCad-RevE/reports/revision-status.json`.
 
-1. **Ethernet:** Verify W5500/2250506-1 jack wiring and polarity, magnetics center taps, ESD topology, termination taps, reference continuity and differential impedance. RX has a coupled front-layer trunk, but branch discontinuities remain. TX routing still needs work. See stackup and routing notes (`engineering/ETHERNET-STACKUP.md` in the extracted source package).
-2. **Power and faults:** Review PoE/bench input arbitration, protection thresholds and tolerances, startup/inrush, fuse coordination, transient limits, conductor/via current capability and fault behavior. See eFuse review (`engineering/EFUSE-REVIEW.md` in the extracted source package) and fuse review (`engineering/FUSE-RATING-REVIEW.md` in the extracted source package).
-3. **Audio and regulators:** Check PCM5122/TPA3116D2 configuration, output-filter values, bootstrap/GVDD paths, power/ground loops, regulator compensation and effective capacitor values. The 30 W / 4 ohm target needs measured validation.
-4. **Assembly and thermal:** Check footprint pin maps, polarity/orientation, top heatsink, PoE module support, connector access, underside component clearance and the 13 assembly footprints still lacking verified courtyards. Resolve thermal via-in-pad treatment before fabrication.
+Useful starting points:
 
-## What the reports prove
+- [Current PCB](hardware/PoE-Speaker/RevE/KiCad-RevE/PoE-Speaker-RevE.kicad_pcb)
+- [Current schematic](hardware/PoE-Speaker/RevE/KiCad-RevE/PoE-Speaker-RevE.kicad_sch)
+- [Rev E engineering notes](hardware/PoE-Speaker/RevE/engineering/)
+- [Order / release review](ORDER-RELEASE-REVIEW.md)
+- [Connector guide](hardware/PoE-Speaker/RevE/engineering/CONNECTOR-GUIDE.md)
+- [Ethernet stackup / routing notes](hardware/PoE-Speaker/RevE/engineering/ETHERNET-STACKUP.md)
 
-Saved DRC and ERC reports are clean under the saved profile. Model/schematic/PCB connected-pin mappings agree. Missing courtyard checks and some inherited metadata checks are disabled; clean reports do not certify the circuit. Path-length, ground-contact and width scripts are geometry screens, not signal-integrity, ampacity or thermal solvers.
+Candidate component data is recorded in `hardware/PoE-Speaker/RevE/KiCad-RevE/reports/procurement-audit.json`; availability and suitability are not procurement-approved.
 
-No manufacturing package is approved. Review ZIPs are source checkpoints, not order files. Firmware, the future microphone board, enclosure design and bench validation are incomplete.
+## Highest-value review questions
+
+1. **Ethernet** — Verify W5500 / 2250506-1 jack wiring and polarity, magnetics center taps, ESD topology, termination taps, reference continuity, and differential impedance. RX has a coupled front-layer trunk, but branch discontinuities remain. TX routing still needs work. See [ETHERNET-STACKUP.md](hardware/PoE-Speaker/RevE/engineering/ETHERNET-STACKUP.md).
+2. **Power and faults** — Review PoE / bench-input arbitration, protection thresholds and tolerances, startup / inrush, fuse coordination, transient limits, conductor / via current capability, and fault behavior. See [EFUSE-REVIEW.md](hardware/PoE-Speaker/RevE/engineering/EFUSE-REVIEW.md) and [FUSE-RATING-REVIEW.md](hardware/PoE-Speaker/RevE/engineering/FUSE-RATING-REVIEW.md).
+3. **Audio and regulators** — Check PCM5122 / TPA3116D2 configuration, output-filter values, bootstrap / GVDD paths, power / ground loops, regulator compensation, and effective capacitor values. The 30 W / 4 ohm target requires physical measurement.
+4. **Assembly and thermal** — Check footprint pin maps, polarity / orientation, top heatsink, PoE-module support, connector access, underside clearance, remaining courtyard gaps, and thermal via-in-pad treatment.
+
+## What the saved reports prove
+
+Saved DRC and ERC reports are clean under the saved profile, and model / schematic / PCB connected-pin mappings agree.
+
+They do **not** certify the circuit. Missing-courtyard checks and some inherited metadata checks are disabled, and the project-specific path-length, ground-contact, and width scripts are geometry screens rather than signal-integrity, ampacity, or thermal solvers.
+
+No manufacturing package is currently approved. Firmware, the microphone-ring hardware, enclosure work, and bench validation remain incomplete.
 
 ## Useful review submissions
 
-Use an issue with the checked PCB hash, KiCad version, reference/pin/net, coordinate or screenshot, expected behavior, observed problem and source evidence. Distinguish a definite defect from a question or suggested improvement. A proposed patch should retain DRC/connectivity checks and explain any rule exclusions. Do not submit supplier orders or claim a build has been tested unless it has.
+Please open a GitHub issue and include, where applicable:
+
+- checked PCB hash / source revision;
+- KiCad version;
+- component, pin, and net;
+- coordinate or screenshot;
+- expected behavior;
+- observed concern; and
+- datasheet section, calculation, or other supporting evidence.
+
+Distinguish a confirmed defect from a question or suggested improvement. Proposed patches should retain DRC / connectivity checks and explain any rule exclusions.
 
 ## Reproducing local checks
 
-The current scripts target a Windows KiCad 10 installation and contain local runtime paths. Adapt those paths before running elsewhere. `engineering/checkpoint_reve.py` runs board DRC, serialization checks, geometry audits and source packaging; the saved ERC report must also be regenerated after schematic edits. Historical acceptance/trial scripts are not a clean project generator and may require a particular previous board hash.
+The current engineering scripts target a Windows KiCad 10 installation and some still contain local runtime paths. Adapt those paths before running them elsewhere.
+
+`hardware/PoE-Speaker/RevE/engineering/checkpoint_reve.py` runs board DRC, serialization checks, geometry audits, and source packaging. The saved ERC report must also be regenerated after schematic edits.
+
+Historical acceptance / trial scripts are preserved for traceability and may depend on a particular previous board hash; they are not a clean project generator.
