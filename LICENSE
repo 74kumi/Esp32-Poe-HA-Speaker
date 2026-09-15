@@ -1,21 +1,37 @@
-MIT License
+ESP32 PoE HA Speaker — Noncommercial Hardware Design License Notice
 
-Copyright (c) 2026 74kumi
+Copyright (c) 2026 74kumi. All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This license notice applies to the original hardware design materials in this repository, including schematics, PCB layouts, CAD source files, mechanical design files, manufacturing outputs, and original design documentation, except where a file or included third-party material states different terms.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Permission is granted to view, study, copy, modify, and fabricate prototypes from these materials for personal, educational, research, and other noncommercial purposes, subject to the conditions below.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+1. Noncommercial use only
+   You may not use these materials, modified versions of them, or products derived from them for commercial manufacture, sale, resale, paid distribution, paid integration, or other commercial exploitation without a separate written commercial license from the copyright holder.
+
+2. Redistribution of modified design material
+   If you redistribute modified versions of the covered design material for noncommercial purposes, you must:
+   - retain this copyright and license notice;
+   - clearly identify that the material has been modified;
+   - provide attribution to the original project; and
+   - distribute the modified design material under these same terms.
+
+3. No trademark rights
+   This license does not grant permission to use project names, logos, marks, or branding in a way that suggests endorsement or official origin.
+
+4. No patent license
+   No patent rights are granted by this license. Permission under copyright does not by itself grant rights under any patent that may apply to a product or implementation.
+
+5. Software and firmware
+   Software, firmware, scripts, or other code are not covered by this hardware-design license unless a file explicitly states otherwise. Those materials may be licensed separately.
+
+6. Third-party material
+   Vendor datasheets, library content, reference designs, trademarks, and other third-party material remain subject to their respective owners' terms and are not relicensed by this notice.
+
+7. Commercial licensing
+   Commercial manufacture, sale, distribution, OEM use, or incorporation into a commercial product requires a separate written agreement with the copyright holder. Commercial terms may include royalties, per-unit fees, attribution requirements, or other negotiated conditions.
+
+8. Warranty disclaimer
+   THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. USE, FABRICATION, AND OPERATION ARE AT YOUR OWN RISK.
+
+This is a source-available noncommercial license, not an OSI open-source software license or an OSHWA open-source hardware license.
