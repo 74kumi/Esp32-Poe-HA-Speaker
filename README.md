@@ -4,6 +4,8 @@ A PoE-powered network ceiling-speaker controller built around an **ESP32-S3**, *
 
 The long-term goal is a retrofit-friendly Home Assistant / voice-assistant speaker platform: reuse ordinary ceiling speakers, add network audio and control at the speaker, and optionally add a modular microphone-array ring hidden behind the existing grille.
 
+My Disclaimer: I'm not a hardware engineer I'm a It admin that loves to tinker with hardware and HomeAssistant, I feel I have a pretty good knowledge of a bunch of concepts. That said AI has done 90% of the design. I would love to have a actual engineer look over this and even work with me to get it to a stable product. I take no responsibility for the product at this point as its untested and don't know if it even works. 
+
 > **Engineering prototype — not ready to manufacture, install, or power up as a finished product.**
 >
 > The current hardware has not yet been fabricated, assembled, or electrically validated.
