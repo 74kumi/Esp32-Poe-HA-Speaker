@@ -25,4 +25,8 @@ Please open an issue with the PCB hash from `KiCad-RevE/reports/revision-status.
 
 This design was developed with AI-assisted CAD scripting. Independent engineering review and prototype measurements are needed. No assembled-board test results are claimed.
 
-The MIT license selected for this repository is retained. Included third-party references and library material retain their respective notices; the project does not claim ownership of vendor datasheets.
+## License
+
+Original hardware design materials in this repository are available for personal, educational, research, and other noncommercial use under the terms in [LICENSE](LICENSE). Commercial manufacture, sale, OEM use, paid integration, or other commercial exploitation requires a separate written commercial license from the copyright holder.
+
+Software, firmware, scripts, and third-party material may be subject to separate terms. Included vendor references, library material, trademarks, and datasheets retain their respective owners' notices and are not relicensed by this project.
