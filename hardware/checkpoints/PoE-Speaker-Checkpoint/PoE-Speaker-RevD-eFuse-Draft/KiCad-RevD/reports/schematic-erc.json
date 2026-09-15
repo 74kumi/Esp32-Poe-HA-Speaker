@@ -1,0 +1,185 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-12T19:33:47",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/bdc52394-ae89-5ba7-b103-1ddc480b2139",
+            "violations": []
+        },
+        {
+            "path": "/Bench protection/",
+            "uuid_path": "/bdc52394-ae89-5ba7-b103-1ddc480b2139/7aaf5206-3369-518f-a5f4-54d3463bd23d",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U15 Pin 1 [VIN, Power input, Line]",
+                            "pos": {
+                                "x": 2.1082,
+                                "y": 1.2954
+                            },
+                            "uuid": "7cb32528-ab54-4202-9c30-39a173c2f2e4"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                }
+            ]
+        },
+        {
+            "path": "/Controller and programming/",
+            "uuid_path": "/bdc52394-ae89-5ba7-b103-1ddc480b2139/75e35854-d766-5a43-ab36-8b7d2ef9d1f0",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 1 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 2.1082,
+                                "y": 0.381
+                            },
+                            "uuid": "9f000741-82e5-4749-94d9-3d7a3f3401a0"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 2 [3V3, Power input, Line]",
+                            "pos": {
+                                "x": 2.1082,
+                                "y": 0.4064
+                            },
+                            "uuid": "2653d705-4428-46e6-a548-732cbea06c62"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                }
+            ]
+        },
+        {
+            "path": "/Ethernet interface 1/",
+            "uuid_path": "/bdc52394-ae89-5ba7-b103-1ddc480b2139/1474847f-4417-57d4-8f00-5f6c2e8df3ef",
+            "violations": []
+        },
+        {
+            "path": "/Ethernet interface 2/",
+            "uuid_path": "/bdc52394-ae89-5ba7-b103-1ddc480b2139/c35aafe0-abce-5ee2-a670-d740be85795d",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Pin 4 [AVDD, Power input, Line]",
+                            "pos": {
+                                "x": 2.1082,
+                                "y": 1.3716
+                            },
+                            "uuid": "f14e46f3-3ee1-47ea-b716-6b1087634726"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                }
+            ]
+        },
+        {
+            "path": "/Microphone and control/",
+            "uuid_path": "/bdc52394-ae89-5ba7-b103-1ddc480b2139/aa662969-9285-527d-9f0f-179d2f9039a3",
+            "violations": []
+        },
+        {
+            "path": "/Playback DAC/",
+            "uuid_path": "/bdc52394-ae89-5ba7-b103-1ddc480b2139/1a771dbd-0d3d-5abb-8b73-53b6ad829b99",
+            "violations": []
+        },
+        {
+            "path": "/PoE input and isolation/",
+            "uuid_path": "/bdc52394-ae89-5ba7-b103-1ddc480b2139/d0cecca5-4724-55b3-9f81-06900912b8ba",
+            "violations": []
+        },
+        {
+            "path": "/Power conversion 1/",
+            "uuid_path": "/bdc52394-ae89-5ba7-b103-1ddc480b2139/87fe6e2f-e1c0-5bf8-b246-d1dc57e56832",
+            "violations": []
+        },
+        {
+            "path": "/Power conversion 2/",
+            "uuid_path": "/bdc52394-ae89-5ba7-b103-1ddc480b2139/8e676da4-8c92-5d60-83a0-136b940df095",
+            "violations": []
+        },
+        {
+            "path": "/Shared current protection/",
+            "uuid_path": "/bdc52394-ae89-5ba7-b103-1ddc480b2139/33f346c2-df8e-5c8a-98e9-d5c28469b87b",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U16 Pin 1 [IN, Power input, Line]",
+                            "pos": {
+                                "x": 2.1082,
+                                "y": 1.2954
+                            },
+                            "uuid": "3e647388-b125-41ea-a273-63e5ed773dd3"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                }
+            ]
+        },
+        {
+            "path": "/Speaker amplifier 1/",
+            "uuid_path": "/bdc52394-ae89-5ba7-b103-1ddc480b2139/c241ce07-46a8-54a1-9bc2-3086007fb23b",
+            "violations": []
+        },
+        {
+            "path": "/Speaker amplifier 2/",
+            "uuid_path": "/bdc52394-ae89-5ba7-b103-1ddc480b2139/4c73788d-a83d-51b5-b12b-7048b4789988",
+            "violations": []
+        },
+        {
+            "path": "/Test points and mounting 1/",
+            "uuid_path": "/bdc52394-ae89-5ba7-b103-1ddc480b2139/c2b540ef-c288-542f-a983-c43be58c957b",
+            "violations": []
+        },
+        {
+            "path": "/Test points and mounting 2/",
+            "uuid_path": "/bdc52394-ae89-5ba7-b103-1ddc480b2139/430c5f6e-cd64-5388-b650-172492a7e057",
+            "violations": []
+        }
+    ],
+    "source": "PoE-Speaker-RevD.kicad_sch"
+}

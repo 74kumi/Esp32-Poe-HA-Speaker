@@ -1,0 +1,56 @@
+"""Package Rev E source and explicit prototype release review status."""
+from pathlib import Path
+import json,zipfile,hashlib,pcbnew as p
+D=Path('KiCad-RevE');E=Path('engineering');m=json.loads((E/'revision-e-design.json').read_text());b=p.LoadBoard(str(D/'PoE-Speaker-RevE.kicad_pcb'))
+d=json.loads((D/'reports/board-drc.json').read_text());erc=json.loads((D/'reports/schematic-erc.json').read_text());fs={f.GetReference():f for f in b.GetFootprints()}
+rows=[]
+for ref,c in sorted(m['components'].items()):
+ feature=ref.startswith(('TP','H'));mpn=str(c['properties'].get('Manufacturer Part Number','')).strip()
+ rows.append({'reference':ref,'value':c['value'],'manufacturer':c['properties'].get('Manufacturer Name',''),'mpn':mpn,'footprint':str(fs[ref].GetFPID().GetLibItemName()),'assembly':'PCB feature' if feature else 'THT' if fs[ref].GetAttributes() & p.FP_THROUGH_HOLE else 'SMD','status':'No purchase required' if feature else 'Candidate; rating, availability and assembly checks remain','properties':c['properties']})
+missing=[r['reference'] for r in rows if r['assembly']!='PCB feature' and not r['mpn']]
+(D/'reports/procurement-audit.json').write_text(json.dumps({'missing_order_codes':missing,'components':rows,'status':'Candidate BOM, not an approved purchase list'},indent=2))
+report={'revision':'E prototype review','components':len(fs),'connected_pins':616,'drc_findings':len(d['violations']),'unconnected_items':len(d['unconnected_items']),'erc_findings':sum(len(s['violations']) for s in erc['sheets']),'missing_order_codes':missing,'fabrication_ready':False,'pcb_sha256':hashlib.sha256((D/'PoE-Speaker-RevE.kicad_pcb').read_bytes()).hexdigest()}
+(D/'reports/revision-status.json').write_text(json.dumps(report,indent=2))
+readme='''# Revision E — prototype review checkpoint
+
+Open PoE-Speaker-RevE.kicad_pro in KiCad 10. This is the latest editable board. Earlier revisions remain preserved. NOT APPROVED FOR ORDERING OR POWER-UP.
+
+Saved changes: C11 GVDD bypass is now local on B.Cu at (204.9,111.5), preserving the R15 PLIMIT branch; underside assembly clearance remains part of mechanical review. U7 FSW now connects to 3V3 per TI guidance; all previously missing passive/header order codes have documented candidates; C120/C121 use stable 100nF 100V C0G 1210 parts and C122 uses a 1uF 100V 1210 part. C17/C18 are a matched 2.2uF 25V pair. U5 is TPA3116D2DADR, U9/U10 are LM5050MK-2/NOPB, and Ag5800 is confirmed as the complete U1 code. Corrected 34 footprint assembly attributes and widened 51 power segments to 0.8mm where existing clearance permits.
+
+Validation: zero DRC findings, zero unconnected items, zero ERC findings under the saved rule profile. All 616 connected model pins match schematic and PCB. U6/U7 electrical pin types are reviewed; the root sheet declares power sources after passive elements. These annotations do not prove circuit performance, and other imported pin types remain incomplete. See reports/power-source-review.json. Missing courtyard and some metadata checks remain disabled in the inherited profile; clean DRC does not substitute for physical review.
+
+Remaining work before a prototype order:
+
+1. Reroute the remaining narrow loaded power paths, review via current capacity and local switching loops. reports/power-routing-audit.json contains exact positions and UUIDs; separate low-current sense branches from load trunks before modifying them. The two longest 24V_AMP sections (49.385mm and 39.837mm) have now been rerouted at 1.0mm width. A new continuous 1.0mm feed from C5 to the amplifier supply bypasses the congested narrow branch using two 0.5mm drilled vias. The original branch remains in parallel. See engineering/REVE-TRUNK-ROUTING.md; the whole path is not yet current-qualified.
+2. Qualify Ethernet differential routing against the explicit JLC04161H-7628 design baseline and verify continuous return paths. See engineering/ETHERNET-STACKUP.md; the calculator-derived Ethernet100 routing preset is saved, but copper still needs rerouting and fabrication confirmation.
+3. Review input fuse/transient coordination, capacitor effective capacitance and regulator stability, and amplifier supply tolerance. F1 DC interrupt ratings are now sourced; source/fault and time-current coordination remain open (engineering/FUSE-RATING-REVIEW.md).
+4. Fit a top heatsink to the TPA3116D2 DAD package, check the Ag5800 thermal interface, body clearances, mounting support and connector access. H3/H4 now support the extended right edge at x=275; use insulating M2 standoffs. Thirteen assembly components still need verified courtyard/body review.
+5. Produce and inspect Gerber, drill, assembly BOM and placement files only after those design checks; obtain fabricator stackup/via-treatment constraints. No manufacturing files or order submission are included in this checkpoint.
+
+After assembly: staged current-limited bring-up, rail/startup/overload measurements, firmware and audio/Ethernet tests. Those are prototype validation activities, not prerequisites that can be completed without hardware. The eight-microphone ring remains a future separate board; this board is not a completed eight-microphone capture system.
+
+Preserve routing: do not run build_revision.py or build_efuse_revision.py over this folder. For schematic-only updates run refresh_prototype_schematic.py, then annotate_prototype_power.py, export netlist/ERC and run validate_prototype.py. Editing model metadata alone does not update the schematic.
+'''
+(D/'README.md').write_text(readme,encoding='utf-8')
+(E/'RESUME-HERE.md').write_text('''# Resume checkpoint
+
+Latest: KiCad-RevE/PoE-Speaker-RevE.kicad_pro and PoE-Speaker-RevE-Review.zip. Read KiCad-RevE/README.md first. Zero DRC, zero unconnected, zero ERC; 616 connected pins validated. No missing candidate order codes, but procurement and circuit qualification remain incomplete. Revisions B/C/D preserved.
+
+Next: inspect RX ESD/termination branches and reference continuity, then finish TX_P layer/coupling. The RX trunk now has 8.379 mm of parallel routing at the sourced 0.225806 mm width / 0.2032 mm gap and a direct PHY approach; see reports/rx-coupled-trunk.json. The coordinated TX_N fanout and replacement B.Cu analog-supply path now allow all five receive In2 segments onto F.Cu; accepted with clean DRC and connectivity. See reports/ethernet-front-corridor.json. Existing bottom termination/ESD branches remain. Reroute using the sourced Ethernet100 preset (0.225806 mm width / 0.2032 mm gap), F.Cu over In1 GND on JLC04161H-7628; see engineering/ETHERNET-STACKUP.md. The main board now has explicit dielectric/copper settings, but impedance is not qualified. RX termination R104/R105/C102 is now a compact B.Cu cluster near U3, with twelve obsolete spur items removed and a checked local ground via (reports/rx-termination-placement.json). Main pair routing remains unqualified. Prioritize this and the concrete release blockers in engineering/ORDER-RELEASE-REVIEW.md. Mounting and eight rectifier courtyards are updated. After that, review remaining amplifier ground-pin-to-plane paths using reports/amp-ground-plane-paths.json, especially pin 1 and pins 9-11. Pin 13 now has a short 0.35 mm connection to the existing C11 ground via, improving the lower ground group; the pin 1 via trial was rejected and removed. A new via at (209.88,112.453) gives pin 22 local filled-plane access; downstream return impedance and continuous current corridors remain unqualified. Twenty-one direct ground-pin track segments were widened to 0.25-0.4 mm with clean DRC; this includes tiny stubs and does not qualify complete ground returns (reports/amp-ground-pin-widths.json). C14/C15 now have accepted local 0.8/0.4 mm ground vias with 1.1 mm, 0.6 mm wide links; both contact the filled In1 GND zone (reports/c14-c15-ground-vias.json). Use reports/amplifier-ground-access.json; it is a geometry inventory, not return-loop qualification. C5/C6 plated through-hole grounds must be assessed for direct plane access rather than distance to separate vias. Six constrained load-path vias remain. Twelve load-path vias have accepted larger drills/copper pads, including the relocated eFuse output via; see reports/power-via-review.json. Via current ratings still require plating and stackup assumptions. Four remaining load-neck segments are now 0.6 mm; the 0.3 mm wide, 0.5 mm long U16 output pin escape remains to preserve adjacent-pad clearance. See reports/load-neck-width-trial.json and reports/supply-path-audit.json. Continue amplifier review using reports/amplifier-decoupling-audit.json. C11 is accepted on B.Cu at (204.9,111.5), angle 270, with a local GVDD connection and a separate ground via. The R15 PLIMIT branch is preserved. Five obsolete C11 spur items were removed; see engineering/REVE-TRUNK-ROUTING.md. Continue amplifier decoupling and output-current/ground-return qualification. C13 is now local on F.Cu at (213.5,119); C12 is on B.Cu at (207.4,104) with a short connection through the existing supply via. Account for underside assembly and enclosure clearance. All four bootstrap capacitors now have accepted local F.Cu connections. C8 required an In2.Cu output detour with two 0.5mm drilled vias and a short 0.6mm approach that still needs current/thermal qualification; see reports/bootstrap-routing-audit.json and engineering/REVE-TRUNK-ROUTING.md. The main board is clean. Use the named main board, not temporary trial files. Both audited bench load paths now have at least 0.6mm tracks throughout, with no track below 0.5mm; current/via/thermal qualification remains; see reports/supply-path-audit.json. Three more 0.6mm bench approaches are accepted, and the ESP32 3V3 feed is at least 0.6mm throughout. Then complete Ethernet stackup/routing, fuse/transient/stability and thermal/mechanical review. Do not claim manufacturing ready from zero rule-check counts. No Gerbers/order submission yet. Firmware and ring board are not completed.
+
+Schematic update: refresh_prototype_schematic.py followed by annotate_prototype_power.py; regenerate netlist/ERC and validate_prototype.py. Model: engineering/revision-e-design.json. Most useful current scripts contain prototype in their name. Source capacitor PDFs are in engineering/sources/prototype-capacitors. Checkpoint ZIP includes source, model, scripts and reports.
+''',encoding='utf-8')
+archive=Path('PoE-Speaker-RevE-Review.zip')
+with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED) as z:
+ for f in D.rglob('*'):
+  if f.is_file() and f.suffix not in ['.prl'] and not any(part.startswith(('before-','power-trial','ethernet-trial')) for part in f.parts):z.write(f,str(f))
+ for f in E.rglob('*'):
+  if f.is_file() and (f.suffix in ['.py','.json','.md'] or 'prototype-capacitors' in f.parts):z.write(f,str(f))
+with zipfile.ZipFile(archive) as z:assert z.testzip() is None
+with zipfile.ZipFile('PoE-Speaker-Checkpoint.zip','w',zipfile.ZIP_DEFLATED) as z:
+ for name in ['PoE-Speaker-First-Board-Draft.zip','PoE-Speaker-RevC-Integrated-Draft.zip','PoE-Speaker-RevD-eFuse-Draft.zip',str(archive)]:
+  f=Path(name)
+  if f.exists():z.write(f,name)
+ z.write(E/'RESUME-HERE.md',str(E/'RESUME-HERE.md'))
+with zipfile.ZipFile('PoE-Speaker-Checkpoint.zip') as z:assert z.testzip() is None
+print(json.dumps(report,indent=2));print('Review and checkpoint archives verified')

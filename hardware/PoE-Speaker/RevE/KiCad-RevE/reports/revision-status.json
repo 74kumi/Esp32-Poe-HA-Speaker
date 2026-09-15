@@ -1,0 +1,11 @@
+{
+  "revision": "E prototype review",
+  "components": 209,
+  "connected_pins": 616,
+  "drc_findings": 0,
+  "unconnected_items": 0,
+  "erc_findings": 0,
+  "missing_order_codes": [],
+  "fabrication_ready": false,
+  "pcb_sha256": "bcb0499ee4ba1d5d870418216ff0339394077323a099d4156130cad624ae6c3a"
+}

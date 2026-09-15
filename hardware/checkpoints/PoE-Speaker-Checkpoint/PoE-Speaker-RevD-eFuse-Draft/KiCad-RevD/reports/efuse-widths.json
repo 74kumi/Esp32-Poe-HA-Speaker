@@ -1,0 +1,5 @@
+{
+  "widened_to_mm": 0.8,
+  "accepted_segments": 21,
+  "scope": "Longer shared power segments only. Pin escapes, vias, thermal/current capacity still unqualified."
+}

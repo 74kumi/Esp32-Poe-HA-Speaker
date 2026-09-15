@@ -1,0 +1,1434 @@
+{
+  "TP13": {
+    "position": [
+      196.5,
+      107.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C50": {
+    "position": [
+      206.0,
+      86.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C31": {
+    "position": [
+      134.0,
+      86.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C104": {
+    "position": [
+      130.0,
+      82.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "F1": {
+    "position": [
+      182.0,
+      110.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "TP14": {
+    "position": [
+      211.0,
+      104.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "R28": {
+    "position": [
+      152.0,
+      58.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "R36": {
+    "position": [
+      195.0,
+      88.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C51": {
+    "position": [
+      170.0,
+      81.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C24": {
+    "position": [
+      176.0,
+      80.0
+    ],
+    "angle": 180.0,
+    "side": "Top"
+  },
+  "R25": {
+    "position": [
+      121.5,
+      54.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "TP11": {
+    "position": [
+      127.0,
+      60.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C30": {
+    "position": [
+      171.5,
+      86.5
+    ],
+    "angle": 180.0,
+    "side": "Top"
+  },
+  "D10": {
+    "position": [
+      98.0,
+      108.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C22": {
+    "position": [
+      166.0,
+      80.0
+    ],
+    "angle": 180.0,
+    "side": "Top"
+  },
+  "SW2": {
+    "position": [
+      183.0,
+      58.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "J6": {
+    "position": [
+      194.0,
+      53.5
+    ],
+    "angle": 90.0,
+    "side": "Top"
+  },
+  "R8": {
+    "position": [
+      163.5,
+      82.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "R27": {
+    "position": [
+      222.0,
+      69.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "R38": {
+    "position": [
+      179.0,
+      77.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "J5": {
+    "position": [
+      176.0,
+      53.5
+    ],
+    "angle": 90.0,
+    "side": "Top"
+  },
+  "C11": {
+    "position": [
+      210.0,
+      120.0
+    ],
+    "angle": 180.0,
+    "side": "Top"
+  },
+  "FB1": {
+    "position": [
+      177.0,
+      75.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "Q1": {
+    "position": [
+      191.0,
+      117.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "TP1": {
+    "position": [
+      92.0,
+      104.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C3": {
+    "position": [
+      206.5,
+      142.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "R23": {
+    "position": [
+      168.5,
+      102.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C53": {
+    "position": [
+      197.0,
+      94.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "L4": {
+    "position": [
+      202.25,
+      92.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "TP19": {
+    "position": [
+      168.0,
+      61.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "TP20": {
+    "position": [
+      156.5,
+      81.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C112": {
+    "position": [
+      133.0,
+      79.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "R34": {
+    "position": [
+      192.0,
+      70.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "R14": {
+    "position": [
+      200.0,
+      125.0
+    ],
+    "angle": 180.0,
+    "side": "Top"
+  },
+  "R103": {
+    "position": [
+      117.5,
+      67.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C5": {
+    "position": [
+      203.5,
+      100.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "R17": {
+    "position": [
+      200.0,
+      128.0
+    ],
+    "angle": 180.0,
+    "side": "Top"
+  },
+  "D4": {
+    "position": [
+      98.0,
+      116.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C23": {
+    "position": [
+      170.0,
+      84.0
+    ],
+    "angle": 180.0,
+    "side": "Top"
+  },
+  "C20": {
+    "position": [
+      163.5,
+      86.0
+    ],
+    "angle": 180.0,
+    "side": "Top"
+  },
+  "C58": {
+    "position": [
+      200.0,
+      130.5
+    ],
+    "angle": 180.0,
+    "side": "Top"
+  },
+  "C111": {
+    "position": [
+      118.0,
+      87.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "TP7": {
+    "position": [
+      170.0,
+      67.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "U6": {
+    "position": [
+      168.0,
+      98.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "TP8": {
+    "position": [
+      173.0,
+      67.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C2": {
+    "position": [
+      190.0,
+      142.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C43": {
+    "position": [
+      172.0,
+      93.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "TP10": {
+    "position": [
+      125.0,
+      60.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C100": {
+    "position": [
+      114.0,
+      57.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "R108": {
+    "position": [
+      140.0,
+      82.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C107": {
+    "position": [
+      123.0,
+      84.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "U3": {
+    "position": [
+      125.0,
+      69.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C44": {
+    "position": [
+      179.0,
+      98.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "U2": {
+    "position": [
+      150.0,
+      70.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "J3": {
+    "position": [
+      218.0,
+      111.0
+    ],
+    "angle": 90.0,
+    "side": "Top"
+  },
+  "TP22": {
+    "position": [
+      201.0,
+      141.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "R102": {
+    "position": [
+      117.5,
+      74.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "J1": {
+    "position": [
+      92.75,
+      69.0
+    ],
+    "angle": -90.0,
+    "side": "Top"
+  },
+  "C106": {
+    "position": [
+      120.0,
+      79.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "J2": {
+    "position": [
+      218.0,
+      135.0
+    ],
+    "angle": 90.0,
+    "side": "Top"
+  },
+  "D11": {
+    "position": [
+      173.0,
+      109.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C32": {
+    "position": [
+      143.0,
+      86.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "R109": {
+    "position": [
+      139.0,
+      84.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "R7": {
+    "position": [
+      163.5,
+      88.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C1": {
+    "position": [
+      188.5,
+      130.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "TP4": {
+    "position": [
+      174.0,
+      91.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C52": {
+    "position": [
+      174.0,
+      83.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "Q2": {
+    "position": [
+      191.0,
+      104.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "R101": {
+    "position": [
+      117.5,
+      71.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C14": {
+    "position": [
+      200.0,
+      115.5
+    ],
+    "angle": 180.0,
+    "side": "Top"
+  },
+  "U13": {
+    "position": [
+      116.0,
+      99.0
+    ],
+    "angle": -90.0,
+    "side": "Top"
+  },
+  "H2": {
+    "position": [
+      75.0,
+      55.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "TP23": {
+    "position": [
+      185.5,
+      123.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C28": {
+    "position": [
+      175.5,
+      85.5
+    ],
+    "angle": 180.0,
+    "side": "Top"
+  },
+  "U14": {
+    "position": [
+      116.0,
+      107.0
+    ],
+    "angle": -90.0,
+    "side": "Top"
+  },
+  "C110": {
+    "position": [
+      133.0,
+      73.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C15": {
+    "position": [
+      200.0,
+      111.5
+    ],
+    "angle": 180.0,
+    "side": "Top"
+  },
+  "R24": {
+    "position": [
+      172.5,
+      102.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "U1": {
+    "position": [
+      114.5,
+      120.89
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "L1": {
+    "position": [
+      216.0,
+      88.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "H3": {
+    "position": [
+      225.0,
+      55.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C19": {
+    "position": [
+      179.5,
+      73.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C25": {
+    "position": [
+      167.5,
+      87.0
+    ],
+    "angle": 180.0,
+    "side": "Top"
+  },
+  "R35": {
+    "position": [
+      177.0,
+      92.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "TP12": {
+    "position": [
+      129.0,
+      62.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "R13": {
+    "position": [
+      175.5,
+      72.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "R33": {
+    "position": [
+      192.0,
+      73.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "LED1": {
+    "position": [
+      115.0,
+      54.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "U5": {
+    "position": [
+      208.0,
+      111.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C4": {
+    "position": [
+      206.5,
+      128.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "R106": {
+    "position": [
+      134.0,
+      75.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "U9": {
+    "position": [
+      198.0,
+      120.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "TP15": {
+    "position": [
+      149.0,
+      59.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "U10": {
+    "position": [
+      199.0,
+      134.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "D6": {
+    "position": [
+      98.0,
+      124.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "R15": {
+    "position": [
+      206.0,
+      120.0
+    ],
+    "angle": 180.0,
+    "side": "Top"
+  },
+  "R111": {
+    "position": [
+      152.0,
+      82.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "U12": {
+    "position": [
+      116.0,
+      91.0
+    ],
+    "angle": -90.0,
+    "side": "Top"
+  },
+  "C56": {
+    "position": [
+      186.0,
+      65.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "D9": {
+    "position": [
+      98.0,
+      101.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C109": {
+    "position": [
+      132.5,
+      69.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C114": {
+    "position": [
+      137.0,
+      73.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "R31": {
+    "position": [
+      166.0,
+      64.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C12": {
+    "position": [
+      200.0,
+      107.5
+    ],
+    "angle": 180.0,
+    "side": "Top"
+  },
+  "R32": {
+    "position": [
+      170.0,
+      64.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C27": {
+    "position": [
+      168.0,
+      89.5
+    ],
+    "angle": 180.0,
+    "side": "Top"
+  },
+  "SW1": {
+    "position": [
+      173.0,
+      60.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C45": {
+    "position": [
+      184.5,
+      95.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "R30": {
+    "position": [
+      162.0,
+      64.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "R107": {
+    "position": [
+      138.0,
+      77.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "TP16": {
+    "position": [
+      156.0,
+      59.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "R110": {
+    "position": [
+      135.0,
+      55.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "TP9": {
+    "position": [
+      176.0,
+      67.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "LED3": {
+    "position": [
+      227.0,
+      69.0
+    ],
+    "angle": 90.0,
+    "side": "Top"
+  },
+  "TP2": {
+    "position": [
+      104.0,
+      108.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "D1": {
+    "position": [
+      118.0,
+      61.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C103": {
+    "position": [
+      127.0,
+      84.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C49": {
+    "position": [
+      198.5,
+      102.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "TP6": {
+    "position": [
+      207.5,
+      89.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "D8": {
+    "position": [
+      98.0,
+      94.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C101": {
+    "position": [
+      110.0,
+      81.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "R100": {
+    "position": [
+      120.0,
+      82.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C48": {
+    "position": [
+      191.0,
+      91.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "R4": {
+    "position": [
+      106.0,
+      116.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C10": {
+    "position": [
+      214.0,
+      120.0
+    ],
+    "angle": 180.0,
+    "side": "Top"
+  },
+  "C57": {
+    "position": [
+      190.0,
+      65.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C55": {
+    "position": [
+      182.0,
+      65.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "TP18": {
+    "position": [
+      165.0,
+      61.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "TP21": {
+    "position": [
+      218.0,
+      145.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C6": {
+    "position": [
+      219.0,
+      123.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C13": {
+    "position": [
+      196.0,
+      91.0
+    ],
+    "angle": 180.0,
+    "side": "Top"
+  },
+  "C17": {
+    "position": [
+      180.0,
+      106.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "R104": {
+    "position": [
+      117.5,
+      76.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "R26": {
+    "position": [
+      216.0,
+      64.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C26": {
+    "position": [
+      159.5,
+      83.0
+    ],
+    "angle": 180.0,
+    "side": "Top"
+  },
+  "TP3": {
+    "position": [
+      201.0,
+      123.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "R5": {
+    "position": [
+      106.0,
+      120.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C108": {
+    "position": [
+      126.0,
+      62.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C42": {
+    "position": [
+      167.5,
+      94.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "D5": {
+    "position": [
+      87.5,
+      120.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C47": {
+    "position": [
+      192.0,
+      95.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "LED2": {
+    "position": [
+      218.0,
+      60.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C115": {
+    "position": [
+      138.0,
+      88.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "D3": {
+    "position": [
+      87.5,
+      112.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C29": {
+    "position": [
+      178.0,
+      83.0
+    ],
+    "angle": 180.0,
+    "side": "Top"
+  },
+  "C102": {
+    "position": [
+      116.0,
+      84.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "L2": {
+    "position": [
+      220.5,
+      99.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C41": {
+    "position": [
+      164.0,
+      98.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "R105": {
+    "position": [
+      116.0,
+      81.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C46": {
+    "position": [
+      183.5,
+      102.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "R9": {
+    "position": [
+      130.0,
+      87.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "H4": {
+    "position": [
+      225.0,
+      145.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C18": {
+    "position": [
+      184.0,
+      106.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C33": {
+    "position": [
+      142.0,
+      89.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C40": {
+    "position": [
+      164.0,
+      102.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C8": {
+    "position": [
+      198.5,
+      104.5
+    ],
+    "angle": 180.0,
+    "side": "Top"
+  },
+  "U4": {
+    "position": [
+      165.5,
+      73.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "TP17": {
+    "position": [
+      161.0,
+      59.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C105": {
+    "position": [
+      121.5,
+      76.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C7": {
+    "position": [
+      225.5,
+      92.5
+    ],
+    "angle": 180.0,
+    "side": "Top"
+  },
+  "D7": {
+    "position": [
+      98.0,
+      131.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "R3": {
+    "position": [
+      106.0,
+      112.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "U7": {
+    "position": [
+      198.0,
+      98.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "L3": {
+    "position": [
+      173.0,
+      98.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "FB2": {
+    "position": [
+      112.0,
+      83.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "D2": {
+    "position": [
+      89.0,
+      106.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C9": {
+    "position": [
+      200.0,
+      137.0
+    ],
+    "angle": 180.0,
+    "side": "Top"
+  },
+  "C16": {
+    "position": [
+      218.5,
+      142.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "C113": {
+    "position": [
+      134.0,
+      83.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "R29": {
+    "position": [
+      162.0,
+      61.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "R16": {
+    "position": [
+      200.0,
+      139.5
+    ],
+    "angle": 180.0,
+    "side": "Top"
+  },
+  "R6": {
+    "position": [
+      163.5,
+      95.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "U11": {
+    "position": [
+      186.0,
+      72.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "H1": {
+    "position": [
+      75.0,
+      145.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "X2": {
+    "position": [
+      125.0,
+      81.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "J4": {
+    "position": [
+      156.0,
+      55.7501
+    ],
+    "angle": 90.0,
+    "side": "Top"
+  },
+  "C21": {
+    "position": [
+      162.0,
+      80.0
+    ],
+    "angle": 180.0,
+    "side": "Top"
+  },
+  "U8": {
+    "position": [
+      173.0,
+      76.0
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  },
+  "TP5": {
+    "position": [
+      202.0,
+      87.5
+    ],
+    "angle": 0.0,
+    "side": "Top"
+  }
+}

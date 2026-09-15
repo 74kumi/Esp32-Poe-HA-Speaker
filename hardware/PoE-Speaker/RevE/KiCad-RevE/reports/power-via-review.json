@@ -1,0 +1,302 @@
+{
+  "method": "Audited load-path vias only. Proposed 1.0 mm copper / 0.5 mm drill; conservatively exclude holes within pad bounding box plus 0.35 mm. Clearance checked separately. No current or thermal rating inferred; plating/stackup pending.",
+  "vias": [
+    {
+      "uuid": "289de6eb-6d03-40ee-9cfb-3a05c5c6cece",
+      "net": "24V_BENCH_PROTECTED",
+      "position_mm": [
+        192.531,
+        106.23
+      ],
+      "old_diameter_mm": 0.6,
+      "old_drill_mm": 0.3,
+      "near_pads": [],
+      "trial": true,
+      "final_diameter_mm": 0.8,
+      "final_drill_mm": 0.4,
+      "changed": true,
+      "reason": "Clearance-compatible candidate"
+    },
+    {
+      "uuid": "89c39b71-6eb7-48e9-886b-f9c1176827fd",
+      "net": "24V_BENCH_PROTECTED",
+      "position_mm": [
+        251.426,
+        100.218
+      ],
+      "old_diameter_mm": 0.6,
+      "old_drill_mm": 0.3,
+      "near_pads": [],
+      "trial": true,
+      "final_diameter_mm": 0.6,
+      "final_drill_mm": 0.3,
+      "changed": false,
+      "reason": "Retained original due to neighboring copper"
+    },
+    {
+      "uuid": "a0f8ce2d-6221-436a-a5c9-5806ac63fb23",
+      "net": "24V_BENCH_PROTECTED",
+      "position_mm": [
+        261.266,
+        117.0
+      ],
+      "old_diameter_mm": 0.6,
+      "old_drill_mm": 0.3,
+      "near_pads": [],
+      "trial": true,
+      "final_diameter_mm": 1,
+      "final_drill_mm": 0.5,
+      "changed": true,
+      "reason": "Clearance-compatible candidate"
+    },
+    {
+      "uuid": "0157d520-13a5-42f4-bbdc-17cd8e58452f",
+      "net": "24V_OR",
+      "position_mm": [
+        250.0375,
+        72.7686
+      ],
+      "old_diameter_mm": 0.6,
+      "old_drill_mm": 0.3,
+      "near_pads": [],
+      "trial": true,
+      "final_diameter_mm": 1,
+      "final_drill_mm": 0.5,
+      "changed": true,
+      "reason": "Clearance-compatible candidate"
+    },
+    {
+      "uuid": "280e574d-c161-4143-b892-0b2586aa0d65",
+      "net": "24V_OR",
+      "position_mm": [
+        194.4645,
+        81.7758
+      ],
+      "old_diameter_mm": 0.6,
+      "old_drill_mm": 0.3,
+      "near_pads": [],
+      "trial": true,
+      "final_diameter_mm": 0.6,
+      "final_drill_mm": 0.3,
+      "changed": false,
+      "reason": "Retained original due to neighboring copper"
+    },
+    {
+      "uuid": "b1f97f19-06f9-4a93-ad55-9ca5424f212e",
+      "net": "24V_OR",
+      "position_mm": [
+        194.4645,
+        97.4986
+      ],
+      "old_diameter_mm": 0.6,
+      "old_drill_mm": 0.3,
+      "near_pads": [],
+      "trial": true,
+      "final_diameter_mm": 0.6,
+      "final_drill_mm": 0.3,
+      "changed": false,
+      "reason": "Retained original due to neighboring copper"
+    },
+    {
+      "uuid": "263134a7-99df-4d06-88a9-8d797b616800",
+      "net": "24V_AMP",
+      "position_mm": [
+        163.225,
+        99.5624
+      ],
+      "old_diameter_mm": 0.6,
+      "old_drill_mm": 0.3,
+      "near_pads": [],
+      "trial": true,
+      "final_diameter_mm": 1,
+      "final_drill_mm": 0.5,
+      "changed": true,
+      "reason": "Clearance-compatible candidate"
+    },
+    {
+      "uuid": "73f80dab-3815-4333-860c-569c375e2a4f",
+      "net": "24V_AMP",
+      "position_mm": [
+        166.297,
+        97.525
+      ],
+      "old_diameter_mm": 0.6,
+      "old_drill_mm": 0.3,
+      "near_pads": [],
+      "trial": true,
+      "final_diameter_mm": 0.6,
+      "final_drill_mm": 0.3,
+      "changed": false,
+      "reason": "Retained original due to neighboring copper"
+    },
+    {
+      "uuid": "743727c9-8283-4675-bdda-97d304c9e0fd",
+      "net": "24V_AMP",
+      "position_mm": [
+        199.0976,
+        90.222
+      ],
+      "old_diameter_mm": 0.6,
+      "old_drill_mm": 0.3,
+      "near_pads": [],
+      "trial": true,
+      "final_diameter_mm": 0.6,
+      "final_drill_mm": 0.3,
+      "changed": false,
+      "reason": "Retained original due to neighboring copper"
+    },
+    {
+      "uuid": "b983fee9-a187-486f-966c-0b0f0547dc19",
+      "net": "24V_AMP",
+      "position_mm": [
+        256.4755,
+        78.2346
+      ],
+      "old_diameter_mm": 0.6,
+      "old_drill_mm": 0.3,
+      "near_pads": [],
+      "trial": true,
+      "final_diameter_mm": 0.8,
+      "final_drill_mm": 0.4,
+      "changed": true,
+      "reason": "Moved 0.08 mm upward; preserved long In2 route and added 0.6 mm connecting segment. Pad-hole margin checked at 0.30 mm from center.",
+      "final_position_mm": [
+        256.4755,
+        78.1546
+      ]
+    },
+    {
+      "uuid": "c785c6e2-d183-431b-8f2b-f631cfa51b98",
+      "net": "24V_AMP",
+      "position_mm": [
+        162.271,
+        97.814
+      ],
+      "old_diameter_mm": 0.6,
+      "old_drill_mm": 0.3,
+      "near_pads": [],
+      "trial": true,
+      "final_diameter_mm": 1,
+      "final_drill_mm": 0.5,
+      "changed": true,
+      "reason": "Clearance-compatible candidate"
+    },
+    {
+      "uuid": "ad77e113-5ca1-4cf6-8478-2eeb17902561",
+      "net": "3V3",
+      "position_mm": [
+        178.515,
+        85.5
+      ],
+      "old_diameter_mm": 0.6,
+      "old_drill_mm": 0.3,
+      "near_pads": [],
+      "trial": true,
+      "final_diameter_mm": 1,
+      "final_drill_mm": 0.5,
+      "changed": true,
+      "reason": "Clearance-compatible candidate"
+    },
+    {
+      "uuid": "4862178c-1f20-4dc9-9f66-1e04db091b9b",
+      "net": "5V",
+      "position_mm": [
+        202.062,
+        96.5252
+      ],
+      "old_diameter_mm": 0.6,
+      "old_drill_mm": 0.3,
+      "near_pads": [],
+      "trial": true,
+      "final_diameter_mm": 0.8,
+      "final_drill_mm": 0.4,
+      "changed": true,
+      "reason": "Clearance-compatible candidate"
+    },
+    {
+      "uuid": "d6d960a7-9704-4d5f-950f-e6957059ab83",
+      "net": "5V",
+      "position_mm": [
+        172.752,
+        91.5
+      ],
+      "old_diameter_mm": 0.6,
+      "old_drill_mm": 0.3,
+      "near_pads": [],
+      "trial": true,
+      "final_diameter_mm": 0.8,
+      "final_drill_mm": 0.4,
+      "changed": true,
+      "reason": "Clearance-compatible candidate"
+    },
+    {
+      "uuid": "70a0bd28-a3de-465e-aecb-a3c755ddceb8",
+      "net": "24V_POE",
+      "position_mm": [
+        186.967,
+        123.466
+      ],
+      "old_diameter_mm": 0.6,
+      "old_drill_mm": 0.3,
+      "near_pads": [],
+      "trial": true,
+      "final_diameter_mm": 1,
+      "final_drill_mm": 0.5,
+      "changed": true,
+      "reason": "Clearance-compatible candidate"
+    },
+    {
+      "uuid": "0da714ac-6c84-4a6a-86a9-9877f5b65c97",
+      "net": "BENCH_FUSED",
+      "position_mm": [
+        189.756,
+        107.024
+      ],
+      "old_diameter_mm": 0.6,
+      "old_drill_mm": 0.3,
+      "near_pads": [],
+      "trial": true,
+      "final_diameter_mm": 0.6,
+      "final_drill_mm": 0.3,
+      "changed": false,
+      "reason": "Retained original due to neighboring copper"
+    },
+    {
+      "uuid": "70713e83-4e35-4e8d-a318-17ca2bccd6da",
+      "net": "BENCH_FUSED",
+      "position_mm": [
+        250.709,
+        114.662
+      ],
+      "old_diameter_mm": 0.6,
+      "old_drill_mm": 0.3,
+      "near_pads": [],
+      "trial": true,
+      "final_diameter_mm": 1,
+      "final_drill_mm": 0.5,
+      "changed": true,
+      "reason": "Clearance-compatible candidate"
+    },
+    {
+      "uuid": "79f232b6-a5f8-423b-a186-db658f943ef6",
+      "net": "BENCH_FUSED",
+      "position_mm": [
+        186.306,
+        110.0
+      ],
+      "old_diameter_mm": 0.6,
+      "old_drill_mm": 0.3,
+      "near_pads": [],
+      "trial": true,
+      "final_diameter_mm": 1,
+      "final_drill_mm": 0.5,
+      "changed": true,
+      "reason": "Clearance-compatible candidate"
+    }
+  ],
+  "validation": {
+    "drc_findings": 0,
+    "unconnected_items": 0,
+    "changed_vias": 12
+  }
+}

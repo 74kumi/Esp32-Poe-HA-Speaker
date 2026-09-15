@@ -1,0 +1,2 @@
+from pathlib import Path
+f=Path('engineering/relocate_efuse_output_via.py');s=f.read_text().replace('if t.GetNetCode()==v.GetNetCode():','if t.GetNetCode()==v.GetNetCode() and t.GetLayer()!=p.In2_Cu:');s=s.replace('v.SetPosition(new);', 't=p.PCB_TRACK(b);t.SetStart(old);t.SetEnd(new);t.SetWidth(p.FromMM(.6));t.SetLayer(p.In2_Cu);t.SetNet(v.GetNet());b.Add(t)\nv.SetPosition(new);');f.write_text(s)

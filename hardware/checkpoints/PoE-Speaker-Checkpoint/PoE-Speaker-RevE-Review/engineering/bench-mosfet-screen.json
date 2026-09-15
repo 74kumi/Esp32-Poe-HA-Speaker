@@ -1,0 +1,36 @@
+{
+  "candidate": "PSMN4R8-100BSE",
+  "package": "D2PAK / SOT404",
+  "quantity": 2,
+  "use": "New opposing-MOSFET bench disconnect, not replacement of Q1/Q2 ORing",
+  "status": "Conditional draft candidate; not fabrication approved",
+  "graph_source": "https://assets.nexperia.com/documents/data-sheet/PSMN4R8-100BSE.pdf",
+  "graph": "Figure 4, page 4; mounting base 25 C",
+  "conservative_graph_point": {
+    "vds_v": 60,
+    "id_a": 1,
+    "duration": "DC",
+    "basis": "Rounded-down visual point below the published DC curve; not an exact manufacturer tabulated limit"
+  },
+  "derating_method": "Voltage scaling per Nexperia AN50006; approximate screening",
+  "maximum_assumed_mounting_base_c": 100,
+  "voltage_scale": 0.5,
+  "screening_hot_point": {
+    "vds_v": 30.0,
+    "id_a": 1
+  },
+  "demand": {
+    "vds_v": 24.48,
+    "id_a": 0.8856880000000004,
+    "duration_ms_max": 224.4
+  },
+  "capacitor_only_rectangle_inside_screen": true,
+  "open_items": [
+    "Ensure mounting base stays <=100 C; ambient alone is not this condition.",
+    "Check DC graph and hot SOA with exact manufacturer model/test; voltage scaling is an approximation.",
+    "Selected controller gate enhancement is below the datasheet 10 V RDSon test condition; conduction loss needs validation at minimum drive.",
+    "Gate charge and ramp-network stability change with this large die. Validate fault turnoff and startup with actual circuit.",
+    "Additional loads and short-circuit currents are not included.",
+    "No new MOSFET has been placed or routed."
+  ]
+}

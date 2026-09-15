@@ -1,0 +1,25 @@
+{
+  "main_before_sha256": "7504b97c61820982018ab964373b277a3f4120a607bc504549dc32896da5b1bf",
+  "removed": [
+    "101e52cd-0d9d-46a3-bfca-6bdff61b8e4d",
+    "28a58f13-d799-442e-afe4-1af09810781a",
+    "451f726b-0158-42ac-bb22-4f4385afaaec",
+    "b7b5de4d-c76b-4552-95a1-6ec970cd7c0d"
+  ],
+  "R101_position": [
+    120.5,
+    64.8
+  ],
+  "angle": 90,
+  "side": "Bottom",
+  "supply_via": [
+    119.7,
+    63.975
+  ],
+  "status": "accepted",
+  "drc_findings": 0,
+  "unconnected_items": 0,
+  "signal_branch_before_mm": 5.3695,
+  "signal_branch_after_mm": 1.59,
+  "limits": "Approximate whole-segment branch lengths. Main differential routing remains unqualified. RX_N top-layer extension rejected for three crossings; RX_N is unchanged."
+}

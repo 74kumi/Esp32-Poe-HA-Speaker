@@ -1,0 +1,12 @@
+{
+  "logical_mapping": "PASS",
+  "components": 179,
+  "nets": 108,
+  "connected_pins": 538,
+  "no_connect_pins": 57,
+  "schematic_differences": {},
+  "pcb_differences": {},
+  "tracks": 2036,
+  "fabrication_ready": false,
+  "scope": "Verifies serialization and explicit design pin mapping, not circuit performance, ERC completeness, routing or physical operation."
+}

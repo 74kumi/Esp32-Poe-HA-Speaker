@@ -1,0 +1,33 @@
+{
+  "status": "accepted",
+  "changes": [
+    {
+      "ref": "H3",
+      "old_position_mm": [
+        225.0,
+        55.0
+      ],
+      "new_position_mm": [
+        275,
+        55
+      ],
+      "footprint": "H3_RevB"
+    },
+    {
+      "ref": "H4",
+      "old_position_mm": [
+        225.0,
+        145.0
+      ],
+      "new_position_mm": [
+        275,
+        145
+      ],
+      "footprint": "H4_RevB"
+    }
+  ],
+  "hardware": "M2 insulating standoffs; enclosure and top heatsink design still pending",
+  "pad_keepout_check": "No other component pad bounding box within 2.5 mm of each mounting center",
+  "drc_findings": 0,
+  "unconnected_items": 0
+}

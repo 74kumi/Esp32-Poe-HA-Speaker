@@ -1,0 +1,37 @@
+{
+  "widened_to_mm": 0.2,
+  "accepted": 53,
+  "blocked": [
+    {
+      "uuid": "0b0708cc-b409-44d2-bcda-02a9d2d9ef71",
+      "old_width": 150000,
+      "net": "GND"
+    },
+    {
+      "uuid": "2e3e4cbc-2564-4add-9ea1-fe30bd503d60",
+      "old_width": 150000,
+      "net": "GND"
+    },
+    {
+      "uuid": "372e5bc3-d802-4d47-a841-80169820eb99",
+      "old_width": 150000,
+      "net": "ETH_3V3A"
+    },
+    {
+      "uuid": "54e06821-0eb3-4dd9-beb8-75e304bfbfb1",
+      "old_width": 120000,
+      "net": "ETH_3V3A"
+    },
+    {
+      "uuid": "aa9297ba-0f97-4d14-a788-3faa1d2087cb",
+      "old_width": 150000,
+      "net": "ETH_3V3A"
+    },
+    {
+      "uuid": "b4bff1ec-fd0d-4697-a9f9-ecd2c70c3e90",
+      "old_width": 120000,
+      "net": "ETH_3V3A"
+    }
+  ],
+  "scope": "Geometric widening only; remaining narrow escapes require rerouting or fabrication-rule review."
+}

@@ -1,0 +1,90 @@
+{
+  "status": "Proposal not implemented; temperature and transient margin review",
+  "candidate": "TPS26630 adjustable OVP",
+  "divider_top_ohm": 200000,
+  "divider_bottom_ohm": 10000,
+  "resistor_initial_tolerance": 0.001,
+  "nominal_cutoff_v": 25.2,
+  "initial_only_corner_v": [
+    24.619036993006997,
+    25.783039009009006
+  ],
+  "resistor_temperature_assumption_c": [
+    -40,
+    125
+  ],
+  "reference_temperature_c": 25,
+  "max_temperature_distance_c": 100,
+  "temperature_corners": [
+    {
+      "tcr_each_ppm_per_c": 10,
+      "min_trip_v": 24.572167848135862,
+      "max_trip_v": 25.832176164152166,
+      "margin_above_supply_max_v": 0.09216784813586187,
+      "margin_below_26v": 0.1678238358478339,
+      "passes_static_window": true
+    },
+    {
+      "tcr_each_ppm_per_c": 25,
+      "min_trip_v": 24.502039563927163,
+      "max_trip_v": 25.906066510119327,
+      "margin_above_supply_max_v": 0.02203956392716222,
+      "margin_below_26v": 0.09393348988067274,
+      "passes_static_window": true
+    },
+    {
+      "tcr_each_ppm_per_c": 50,
+      "min_trip_v": 24.385624584370113,
+      "max_trip_v": 26.029711862617134,
+      "margin_above_supply_max_v": -0.09437541562988727,
+      "margin_below_26v": -0.02971186261713399,
+      "passes_static_window": false
+    },
+    {
+      "tcr_each_ppm_per_c": 100,
+      "min_trip_v": 24.154524673343488,
+      "max_trip_v": 26.278874844544536,
+      "margin_above_supply_max_v": -0.32547532665651246,
+      "margin_below_26v": -0.2788748445445357,
+      "passes_static_window": false
+    }
+  ],
+  "illustrative_ramp_exposure": [
+    {
+      "assumed_rail_ramp_v_per_ms": 1,
+      "additional_voltage_in_14us_v": 0.014,
+      "illustrative_rail_after_14us_v": 25.920066510119327
+    },
+    {
+      "assumed_rail_ramp_v_per_ms": 5,
+      "additional_voltage_in_14us_v": 0.07,
+      "illustrative_rail_after_14us_v": 25.976066510119328
+    },
+    {
+      "assumed_rail_ramp_v_per_ms": 10,
+      "additional_voltage_in_14us_v": 0.14,
+      "illustrative_rail_after_14us_v": 26.046066510119328
+    },
+    {
+      "assumed_rail_ramp_v_per_ms": 20,
+      "additional_voltage_in_14us_v": 0.28,
+      "illustrative_rail_after_14us_v": 26.18606651011933
+    },
+    {
+      "assumed_rail_ramp_v_per_ms": 100,
+      "additional_voltage_in_14us_v": 1.4000000000000001,
+      "illustrative_rail_after_14us_v": 27.306066510119326
+    }
+  ],
+  "assumed_supply_v": [
+    23.52,
+    24.48
+  ],
+  "decision": "Do not implement yet: static margin is small and dynamic protection is unproven.",
+  "limits": [
+    "Opposite worst-case resistor TCRs assumed; comparator and leakage bounds already include their datasheet temperature range.",
+    "Resistor aging, voltage coefficient, self heating and supplier-specific tolerance definitions still need review.",
+    "Ramp table assumes the protected rail tracks the input during a 14 us delay; it is neither a guaranteed bound nor a circuit simulation.",
+    "Datasheet delay test overdrive, FET turnoff, cable energy, output capacitance and backfeed require actual circuit analysis."
+  ]
+}

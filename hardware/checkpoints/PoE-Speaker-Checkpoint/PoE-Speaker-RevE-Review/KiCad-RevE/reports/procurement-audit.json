@@ -1,0 +1,5044 @@
+{
+  "missing_order_codes": [],
+  "components": [
+    {
+      "reference": "C1",
+      "value": "1000uF",
+      "manufacturer": "",
+      "mpn": "EEUFR1E102",
+      "footprint": "C1_RevB",
+      "assembly": "THT",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Capacitor Type": "Aluminum Electrolytic",
+        "Voltage Rating": "25V",
+        "Package": "Radial through-hole; see assigned PCB footprint",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "EEUFR1E102",
+        "Tolerance": "",
+        "Manufacturer Name": "",
+        "Functional Group": "PoE Converter Output",
+        "Role Details": "Ag5800 required 1000 uF capacitor across output 1; 25 V, 105 C",
+        "Role": "Bulk",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "1000uF",
+        "Polarity": "Pin 1 positive, pin 2 negative"
+      }
+    },
+    {
+      "reference": "C10",
+      "value": "220nF",
+      "manufacturer": "KEMET",
+      "mpn": "C0603C224K5RACTU",
+      "footprint": "C10_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Functional Group": "Class-D Amplifier",
+        "Voltage Rating": "50 V",
+        "Role": "Bootstrapping",
+        "Package": "SMD_0603_1608Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "C0603C224K5RACTU",
+        "Tolerance": "10%",
+        "Manufacturer Name": "KEMET",
+        "Role Details": "TPA3116 bootstrap capacitor to corresponding output",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "220nF",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0603C224K5RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Dielectric": "X7R"
+      }
+    },
+    {
+      "reference": "C100",
+      "value": "22nF",
+      "manufacturer": "KEMET",
+      "mpn": "C0603C223K5RACTU",
+      "footprint": "C100_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "C0603C223K5RACTU",
+        "Voltage Rating": "50 V",
+        "Dielectric": "X7R",
+        "Manufacturer Name": "KEMET",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0603C223K5RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Tolerance": "10%"
+      }
+    },
+    {
+      "reference": "C101",
+      "value": "6.8nF",
+      "manufacturer": "KEMET",
+      "mpn": "C0603C682J5GACTU",
+      "footprint": "C101_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "C0603C682J5GACTU",
+        "Voltage Rating": "50 V",
+        "Dielectric": "C0G",
+        "Manufacturer Name": "KEMET",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0603C682J5GACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Tolerance": "5%"
+      }
+    },
+    {
+      "reference": "C102",
+      "value": "10nF",
+      "manufacturer": "KEMET",
+      "mpn": "C0603C103K5RACTU",
+      "footprint": "C102_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "C0603C103K5RACTU",
+        "Voltage Rating": "50 V",
+        "Dielectric": "X7R",
+        "Manufacturer Name": "KEMET",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0603C103K5RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Tolerance": "10%"
+      }
+    },
+    {
+      "reference": "C103",
+      "value": "4.7uF",
+      "manufacturer": "KEMET",
+      "mpn": "C0805C475K4RACTU",
+      "footprint": "C103_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "C0805C475K4RACTU",
+        "Voltage Rating": "16 V",
+        "Dielectric": "X7R",
+        "Manufacturer Name": "KEMET",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0805C475K4RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Tolerance": "10%"
+      }
+    },
+    {
+      "reference": "C104",
+      "value": "10nF",
+      "manufacturer": "KEMET",
+      "mpn": "C0603C103K5RACTU",
+      "footprint": "C104_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "C0603C103K5RACTU",
+        "Voltage Rating": "50 V",
+        "Dielectric": "X7R",
+        "Manufacturer Name": "KEMET",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0603C103K5RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Tolerance": "10%"
+      }
+    },
+    {
+      "reference": "C105",
+      "value": "100nF",
+      "manufacturer": "KEMET",
+      "mpn": "C0603C104K5RACTU",
+      "footprint": "C105_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "C0603C104K5RACTU",
+        "Voltage Rating": "50 V",
+        "Dielectric": "X7R",
+        "Manufacturer Name": "KEMET",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Tolerance": "10%"
+      }
+    },
+    {
+      "reference": "C106",
+      "value": "100nF",
+      "manufacturer": "KEMET",
+      "mpn": "C0603C104K5RACTU",
+      "footprint": "C106_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "C0603C104K5RACTU",
+        "Voltage Rating": "50 V",
+        "Dielectric": "X7R",
+        "Manufacturer Name": "KEMET",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Tolerance": "10%"
+      }
+    },
+    {
+      "reference": "C107",
+      "value": "100nF",
+      "manufacturer": "KEMET",
+      "mpn": "C0603C104K5RACTU",
+      "footprint": "C107_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "C0603C104K5RACTU",
+        "Voltage Rating": "50 V",
+        "Dielectric": "X7R",
+        "Manufacturer Name": "KEMET",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Tolerance": "10%"
+      }
+    },
+    {
+      "reference": "C108",
+      "value": "100nF",
+      "manufacturer": "KEMET",
+      "mpn": "C0603C104K5RACTU",
+      "footprint": "C108_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "C0603C104K5RACTU",
+        "Voltage Rating": "50 V",
+        "Dielectric": "X7R",
+        "Manufacturer Name": "KEMET",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Tolerance": "10%"
+      }
+    },
+    {
+      "reference": "C109",
+      "value": "100nF",
+      "manufacturer": "KEMET",
+      "mpn": "C0603C104K5RACTU",
+      "footprint": "C109_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "C0603C104K5RACTU",
+        "Voltage Rating": "50 V",
+        "Dielectric": "X7R",
+        "Manufacturer Name": "KEMET",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Tolerance": "10%"
+      }
+    },
+    {
+      "reference": "C11",
+      "value": "1uF",
+      "manufacturer": "KEMET",
+      "mpn": "C0603C105K4RACTU",
+      "footprint": "C11_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Voltage Rating": "16 V",
+        "Functional Group": "Class-D Amplifier",
+        "Package": "SMD_0603_1608Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "C0603C105K4RACTU",
+        "Tolerance": "10%",
+        "Manufacturer Name": "KEMET",
+        "Role": "Decoupling",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Role Details": "TPA3116 GVDD bypass only",
+        "Capacitance": "1uF",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0603C105K4RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Dielectric": "X7R"
+      }
+    },
+    {
+      "reference": "C110",
+      "value": "100nF",
+      "manufacturer": "KEMET",
+      "mpn": "C0603C104K5RACTU",
+      "footprint": "C110_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "C0603C104K5RACTU",
+        "Voltage Rating": "50 V",
+        "Dielectric": "X7R",
+        "Manufacturer Name": "KEMET",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Tolerance": "10%"
+      }
+    },
+    {
+      "reference": "C111",
+      "value": "10uF",
+      "manufacturer": "Murata",
+      "mpn": "GRM21BR61C106KE15L",
+      "footprint": "C111_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "GRM21BR61C106KE15L",
+        "Voltage Rating": "16 V",
+        "Dielectric": "X5R",
+        "Manufacturer Name": "Murata",
+        "Datasheet": "https://www.murata.com/en-global/products/productdetail?partno=GRM21BR61C106KE15L",
+        "Selection status": "Documented prototype candidate; circuit qualification pending",
+        "Tolerance": "10%"
+      }
+    },
+    {
+      "reference": "C112",
+      "value": "100nF",
+      "manufacturer": "KEMET",
+      "mpn": "C0603C104K5RACTU",
+      "footprint": "C112_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "C0603C104K5RACTU",
+        "Voltage Rating": "50 V",
+        "Dielectric": "X7R",
+        "Manufacturer Name": "KEMET",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Tolerance": "10%"
+      }
+    },
+    {
+      "reference": "C113",
+      "value": "10uF",
+      "manufacturer": "Murata",
+      "mpn": "GRM21BR61C106KE15L",
+      "footprint": "C113_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "GRM21BR61C106KE15L",
+        "Voltage Rating": "16 V",
+        "Dielectric": "X5R",
+        "Manufacturer Name": "Murata",
+        "Datasheet": "https://www.murata.com/en-global/products/productdetail?partno=GRM21BR61C106KE15L",
+        "Selection status": "Documented prototype candidate; circuit qualification pending",
+        "Tolerance": "10%"
+      }
+    },
+    {
+      "reference": "C114",
+      "value": "1uF",
+      "manufacturer": "KEMET",
+      "mpn": "C0603C105K4RACTU",
+      "footprint": "C114_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "C0603C105K4RACTU",
+        "Voltage Rating": "16 V",
+        "Dielectric": "X7R",
+        "Manufacturer Name": "KEMET",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0603C105K4RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Tolerance": "10%"
+      }
+    },
+    {
+      "reference": "C115",
+      "value": "100nF",
+      "manufacturer": "KEMET",
+      "mpn": "C0603C104K5RACTU",
+      "footprint": "C115_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "C0603C104K5RACTU",
+        "Voltage Rating": "50 V",
+        "Dielectric": "X7R",
+        "Manufacturer Name": "KEMET",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Tolerance": "10%"
+      }
+    },
+    {
+      "reference": "C12",
+      "value": "1uF",
+      "manufacturer": "KEMET",
+      "mpn": "C1210C105K1RACTU",
+      "footprint": "C12_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Functional Group": "Class-D Amplifier",
+        "Voltage Rating": "100 V",
+        "Role Details": "PVCC/AVCC local switching bypass",
+        "Package": "SMD_1210_3225Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "C1210C105K1RACTU",
+        "Tolerance": "10%",
+        "Manufacturer Name": "KEMET",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "1uF",
+        "Role": "Decoupling",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C1210C105K1RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Dielectric": "X7R"
+      }
+    },
+    {
+      "reference": "C120",
+      "value": "100nF",
+      "manufacturer": "KEMET",
+      "mpn": "C1210C104J1GACTU",
+      "footprint": "C_1210_3225Metric",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "C1210C104J1GACTU",
+        "Review status": "Prototype candidate; not release qualified",
+        "Voltage rating": "100 V",
+        "Tolerance": "5%",
+        "Manufacturer Name": "KEMET",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C1210C104J1GACTU",
+        "Selection status": "Documented prototype candidate; circuit qualification pending",
+        "Voltage Rating": "100 V",
+        "Dielectric": "C0G"
+      }
+    },
+    {
+      "reference": "C121",
+      "value": "100nF",
+      "manufacturer": "KEMET",
+      "mpn": "C1210C104J1GACTU",
+      "footprint": "C_1210_3225Metric",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "C1210C104J1GACTU",
+        "Review status": "Development selection; thermal/transient checks pending",
+        "Voltage rating": "50 V",
+        "Manufacturer Name": "KEMET",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C1210C104J1GACTU",
+        "Selection status": "Documented prototype candidate; circuit qualification pending",
+        "Voltage Rating": "100 V",
+        "Tolerance": "5%",
+        "Dielectric": "C0G"
+      }
+    },
+    {
+      "reference": "C122",
+      "value": "1uF",
+      "manufacturer": "KEMET",
+      "mpn": "C1210C105K1RACTU",
+      "footprint": "C_1210_3225Metric",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "C1210C105K1RACTU",
+        "Review status": "Development selection; thermal/transient checks pending",
+        "Voltage rating": "100 V",
+        "Manufacturer Name": "KEMET",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C1210C105K1RACTU",
+        "Selection status": "Documented prototype candidate; circuit qualification pending",
+        "Voltage Rating": "100 V",
+        "Tolerance": "10%",
+        "Dielectric": "X7R"
+      }
+    },
+    {
+      "reference": "C123",
+      "value": "1uF",
+      "manufacturer": "KEMET",
+      "mpn": "C0805C105K5RACTU",
+      "footprint": "C123_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "C0805C105K5RACTU",
+        "Review status": "Development selection; thermal/transient checks pending",
+        "Voltage rating": "50 V",
+        "Manufacturer Name": "KEMET",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0805C105K5RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Voltage Rating": "50 V",
+        "Dielectric": "X7R",
+        "Tolerance": "10%"
+      }
+    },
+    {
+      "reference": "C13",
+      "value": "1uF",
+      "manufacturer": "KEMET",
+      "mpn": "C1210C105K1RACTU",
+      "footprint": "C13_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Voltage Rating": "100 V",
+        "Package": "SMD_1210_3225Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "C1210C105K1RACTU",
+        "Tolerance": "10%",
+        "Functional Group": "Class-D Amplifier",
+        "Manufacturer Name": "KEMET",
+        "Role Details": "PVCC/AVCC local switching bypass",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Role": "Decoupling",
+        "Capacitance": "1uF",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C1210C105K1RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Dielectric": "X7R"
+      }
+    },
+    {
+      "reference": "C14",
+      "value": "1uF",
+      "manufacturer": "KEMET",
+      "mpn": "C1210C105K1RACTU",
+      "footprint": "C14_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Role Details": "PVCC/AVCC local switching bypass",
+        "Voltage Rating": "100 V",
+        "Package": "SMD_1210_3225Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "C1210C105K1RACTU",
+        "Tolerance": "10%",
+        "Manufacturer Name": "KEMET",
+        "Role": "Decoupling",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "1uF",
+        "Functional Group": "Class-D Amplifier",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C1210C105K1RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Dielectric": "X7R"
+      }
+    },
+    {
+      "reference": "C15",
+      "value": "1uF",
+      "manufacturer": "KEMET",
+      "mpn": "C1210C105K1RACTU",
+      "footprint": "C15_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Voltage Rating": "100 V",
+        "Package": "SMD_1210_3225Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "C1210C105K1RACTU",
+        "Tolerance": "10%",
+        "Manufacturer Name": "KEMET",
+        "Role Details": "PVCC/AVCC local switching bypass",
+        "Role": "Decoupling",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Functional Group": "Class-D Amplifier",
+        "Capacitance": "1uF",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C1210C105K1RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Dielectric": "X7R"
+      }
+    },
+    {
+      "reference": "C16",
+      "value": "1uF",
+      "manufacturer": "KEMET",
+      "mpn": "C1210C105K1RACTU",
+      "footprint": "C16_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Voltage Rating": "100 V",
+        "Package": "SMD_1210_3225Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "C1210C105K1RACTU",
+        "Tolerance": "10%",
+        "Role": "Filtering",
+        "Manufacturer Name": "KEMET",
+        "Functional Group": "Class-D Output Filter",
+        "Role Details": "Differential capacitor across filtered speaker outputs",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "1uF",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C1210C105K1RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Dielectric": "X7R"
+      }
+    },
+    {
+      "reference": "C17",
+      "value": "2.2uF",
+      "manufacturer": "KEMET",
+      "mpn": "C0805C225K3RACTU",
+      "footprint": "C17_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Voltage Rating": "25 V",
+        "Package": "SMD_0805_2012Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "C0805C225K3RACTU",
+        "Tolerance": "10%",
+        "Manufacturer Name": "KEMET",
+        "Role": "Coupling",
+        "Role Details": "20 dB gain input AC coupling",
+        "Designator Prefix": "C",
+        "Functional Group": "Class-D Input",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "2.2uF",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0805C225K3RACTU",
+        "Selection status": "Documented prototype candidate; circuit qualification pending",
+        "Dielectric": "X7R",
+        "Design note": "Matched AC coupling pair; changed from 1.5uF to 2.2uF. Hold amplifier shutdown until DAC settles."
+      }
+    },
+    {
+      "reference": "C18",
+      "value": "2.2uF",
+      "manufacturer": "KEMET",
+      "mpn": "C0805C225K3RACTU",
+      "footprint": "C18_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Voltage Rating": "25 V",
+        "Package": "SMD_0805_2012Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "C0805C225K3RACTU",
+        "Tolerance": "10%",
+        "Functional Group": "Class-D Input",
+        "Role Details": "20 dB gain input AC coupling",
+        "Manufacturer Name": "KEMET",
+        "Role": "Coupling",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "2.2uF",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0805C225K3RACTU",
+        "Selection status": "Documented prototype candidate; circuit qualification pending",
+        "Dielectric": "X7R",
+        "Design note": "Matched AC coupling pair; changed from 1.5uF to 2.2uF. Hold amplifier shutdown until DAC settles."
+      }
+    },
+    {
+      "reference": "C19",
+      "value": "2.2nF",
+      "manufacturer": "KEMET",
+      "mpn": "C0603C222J5GACTU",
+      "footprint": "C19_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Functional Group": "Playback DAC Output",
+        "Voltage Rating": "50 V",
+        "Package": "SMD_0603_1608Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "C0603C222J5GACTU",
+        "Tolerance": "5%",
+        "Manufacturer Name": "KEMET",
+        "Role": "Filtering",
+        "Role Details": "C0G shunt capacitor after 470 ohm DAC output resistor",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "2.2nF",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0603C222J5GACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Dielectric": "C0G"
+      }
+    },
+    {
+      "reference": "C2",
+      "value": "1000uF",
+      "manufacturer": "",
+      "mpn": "EEUFR1E102",
+      "footprint": "C2_RevB",
+      "assembly": "THT",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Role": "Bulk",
+        "Voltage Rating": "25V",
+        "Package": "Radial through-hole; see assigned PCB footprint",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "EEUFR1E102",
+        "Tolerance": "",
+        "Manufacturer Name": "",
+        "Functional Group": "PoE Converter Output",
+        "Capacitor Type": "Aluminum Electrolytic",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "1000uF",
+        "Role Details": "Ag5800 required 1000 uF capacitor across output 2; 25 V, 105 C",
+        "Polarity": "Pin 1 positive, pin 2 negative"
+      }
+    },
+    {
+      "reference": "C20",
+      "value": "2.2uF",
+      "manufacturer": "KEMET",
+      "mpn": "C0805C225K3RACTU",
+      "footprint": "C20_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Role Details": "PCM5122 charge-pump capacitor",
+        "Voltage Rating": "25 V",
+        "Package": "SMD_0805_2012Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "C0805C225K3RACTU",
+        "Tolerance": "10%",
+        "Manufacturer Name": "KEMET",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "2.2uF",
+        "Functional Group": "Playback DAC Charge Pump",
+        "Role": "Energy Storage",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0805C225K3RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Dielectric": "X7R"
+      }
+    },
+    {
+      "reference": "C21",
+      "value": "2.2uF",
+      "manufacturer": "KEMET",
+      "mpn": "C0805C225K3RACTU",
+      "footprint": "C21_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Role Details": "PCM5122 charge-pump capacitor",
+        "Voltage Rating": "25 V",
+        "Package": "SMD_0805_2012Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "C0805C225K3RACTU",
+        "Tolerance": "10%",
+        "Manufacturer Name": "KEMET",
+        "Functional Group": "Playback DAC Charge Pump",
+        "Role": "Energy Storage",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "2.2uF",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0805C225K3RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Dielectric": "X7R"
+      }
+    },
+    {
+      "reference": "C22",
+      "value": "10uF",
+      "manufacturer": "Murata",
+      "mpn": "GRM21BR61C106KE15L",
+      "footprint": "C22_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Role Details": "PCM5122 AVDD/CPVDD/DVDD rail bypass",
+        "Role": "Decoupling",
+        "Voltage Rating": "16 V",
+        "Package": "SMD_0805_2012Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "GRM21BR61C106KE15L",
+        "Tolerance": "10%",
+        "Manufacturer Name": "Murata",
+        "Functional Group": "Playback DAC",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "10uF",
+        "Datasheet": "https://www.murata.com/en-global/products/productdetail?partno=GRM21BR61C106KE15L",
+        "Selection status": "Documented prototype candidate; circuit qualification pending",
+        "Dielectric": "X5R"
+      }
+    },
+    {
+      "reference": "C23",
+      "value": "10uF",
+      "manufacturer": "Murata",
+      "mpn": "GRM21BR61C106KE15L",
+      "footprint": "C23_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Functional Group": "Playback DAC",
+        "Role": "Decoupling",
+        "Voltage Rating": "16 V",
+        "Package": "SMD_0805_2012Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "GRM21BR61C106KE15L",
+        "Tolerance": "10%",
+        "Role Details": "PCM5122 AVDD/CPVDD/DVDD rail bypass",
+        "Manufacturer Name": "Murata",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "10uF",
+        "Datasheet": "https://www.murata.com/en-global/products/productdetail?partno=GRM21BR61C106KE15L",
+        "Selection status": "Documented prototype candidate; circuit qualification pending",
+        "Dielectric": "X5R"
+      }
+    },
+    {
+      "reference": "C24",
+      "value": "10uF",
+      "manufacturer": "Murata",
+      "mpn": "GRM21BR61C106KE15L",
+      "footprint": "C24_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Voltage Rating": "16 V",
+        "Role Details": "PCM5122 AVDD/CPVDD/DVDD rail bypass",
+        "Package": "SMD_0805_2012Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "GRM21BR61C106KE15L",
+        "Tolerance": "10%",
+        "Functional Group": "Playback DAC",
+        "Role": "Decoupling",
+        "Manufacturer Name": "Murata",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "10uF",
+        "Datasheet": "https://www.murata.com/en-global/products/productdetail?partno=GRM21BR61C106KE15L",
+        "Selection status": "Documented prototype candidate; circuit qualification pending",
+        "Dielectric": "X5R"
+      }
+    },
+    {
+      "reference": "C25",
+      "value": "10uF",
+      "manufacturer": "Murata",
+      "mpn": "GRM21BR61C106KE15L",
+      "footprint": "C25_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Role": "Decoupling",
+        "Role Details": "PCM5122 AVDD/CPVDD/DVDD rail bypass",
+        "Voltage Rating": "16 V",
+        "Functional Group": "Playback DAC",
+        "Package": "SMD_0805_2012Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "GRM21BR61C106KE15L",
+        "Tolerance": "10%",
+        "Manufacturer Name": "Murata",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "10uF",
+        "Datasheet": "https://www.murata.com/en-global/products/productdetail?partno=GRM21BR61C106KE15L",
+        "Selection status": "Documented prototype candidate; circuit qualification pending",
+        "Dielectric": "X5R"
+      }
+    },
+    {
+      "reference": "C26",
+      "value": "100nF",
+      "manufacturer": "KEMET",
+      "mpn": "C0603C104K5RACTU",
+      "footprint": "C26_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Functional Group": "Playback DAC",
+        "Voltage Rating": "50 V",
+        "Package": "SMD_0603_1608Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "C0603C104K5RACTU",
+        "Tolerance": "10%",
+        "Manufacturer Name": "KEMET",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Role Details": "PCM5122 local supply decoupling",
+        "Capacitance": "100nF",
+        "Role": "Decoupling",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Dielectric": "X7R"
+      }
+    },
+    {
+      "reference": "C27",
+      "value": "100nF",
+      "manufacturer": "KEMET",
+      "mpn": "C0603C104K5RACTU",
+      "footprint": "C27_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Voltage Rating": "50 V",
+        "Role Details": "PCM5122 local supply decoupling",
+        "Package": "SMD_0603_1608Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "C0603C104K5RACTU",
+        "Tolerance": "10%",
+        "Manufacturer Name": "KEMET",
+        "Functional Group": "Playback DAC",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "100nF",
+        "Role": "Decoupling",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Dielectric": "X7R"
+      }
+    },
+    {
+      "reference": "C28",
+      "value": "100nF",
+      "manufacturer": "KEMET",
+      "mpn": "C0603C104K5RACTU",
+      "footprint": "C28_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Voltage Rating": "50 V",
+        "Package": "SMD_0603_1608Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "C0603C104K5RACTU",
+        "Tolerance": "10%",
+        "Role Details": "PCM5122 local supply decoupling",
+        "Manufacturer Name": "KEMET",
+        "Role": "Decoupling",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Functional Group": "Playback DAC",
+        "Capacitance": "100nF",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Dielectric": "X7R"
+      }
+    },
+    {
+      "reference": "C29",
+      "value": "100nF",
+      "manufacturer": "KEMET",
+      "mpn": "C0603C104K5RACTU",
+      "footprint": "C29_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Functional Group": "Playback DAC",
+        "Voltage Rating": "50 V",
+        "Package": "SMD_0603_1608Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "C0603C104K5RACTU",
+        "Tolerance": "10%",
+        "Manufacturer Name": "KEMET",
+        "Role Details": "PCM5122 local supply decoupling",
+        "Role": "Decoupling",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "100nF",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Dielectric": "X7R"
+      }
+    },
+    {
+      "reference": "C3",
+      "value": "1000uF",
+      "manufacturer": "",
+      "mpn": "EEUFR1V102",
+      "footprint": "C3_RevB",
+      "assembly": "THT",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Functional Group": "24 V Amplifier Rail",
+        "Voltage Rating": "35V",
+        "Package": "Radial through-hole; see assigned PCB footprint",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "EEUFR1V102",
+        "Tolerance": "",
+        "Capacitor Type": "Aluminum Electrolytic",
+        "Manufacturer Name": "",
+        "Role Details": "24V_AMP low-ESR transient reservoir; 35 V, 105 C",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "1000uF",
+        "Role": "Bulk",
+        "Polarity": "Pin 1 positive, pin 2 negative"
+      }
+    },
+    {
+      "reference": "C30",
+      "value": "100nF",
+      "manufacturer": "KEMET",
+      "mpn": "C0603C104K5RACTU",
+      "footprint": "C30_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Voltage Rating": "50 V",
+        "Package": "SMD_0603_1608Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "C0603C104K5RACTU",
+        "Tolerance": "10%",
+        "Role Details": "LDOO 1.8 V bypass",
+        "Manufacturer Name": "KEMET",
+        "Functional Group": "Playback DAC",
+        "Role": "Decoupling",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "100nF",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Dielectric": "X7R"
+      }
+    },
+    {
+      "reference": "C31",
+      "value": "22uF",
+      "manufacturer": "Murata",
+      "mpn": "GRM21BR61C226ME44L",
+      "footprint": "C31_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Role Details": "ESP32-WROVER 3.3 V local bulk",
+        "Voltage Rating": "16 V",
+        "Package": "SMD_0805_2012Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "GRM21BR61C226ME44L",
+        "Tolerance": "20%",
+        "Role": "Bulk",
+        "Manufacturer Name": "Murata",
+        "Designator Prefix": "C",
+        "Functional Group": "MCU Support",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "22uF",
+        "Datasheet": "https://www.murata.com/en-global/products/productdetail?partno=GRM21BR61C226ME44L",
+        "Selection status": "Documented prototype candidate; circuit qualification pending",
+        "Dielectric": "X5R"
+      }
+    },
+    {
+      "reference": "C32",
+      "value": "100nF",
+      "manufacturer": "KEMET",
+      "mpn": "C0603C104K5RACTU",
+      "footprint": "C32_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Role": "Decoupling",
+        "Role Details": "ESP32 supply/enable local capacitor",
+        "Voltage Rating": "50 V",
+        "Package": "SMD_0603_1608Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "C0603C104K5RACTU",
+        "Tolerance": "10%",
+        "Manufacturer Name": "KEMET",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Functional Group": "MCU Support",
+        "Capacitance": "100nF",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Dielectric": "X7R"
+      }
+    },
+    {
+      "reference": "C33",
+      "value": "100nF",
+      "manufacturer": "KEMET",
+      "mpn": "C0603C104K5RACTU",
+      "footprint": "C33_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Voltage Rating": "50 V",
+        "Package": "SMD_0603_1608Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "C0603C104K5RACTU",
+        "Tolerance": "10%",
+        "Role Details": "ESP32 supply/enable local capacitor",
+        "Manufacturer Name": "KEMET",
+        "Functional Group": "MCU Support",
+        "Role": "Decoupling",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "100nF",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Dielectric": "X7R"
+      }
+    },
+    {
+      "reference": "C4",
+      "value": "1000uF",
+      "manufacturer": "",
+      "mpn": "EEUFR1V102",
+      "footprint": "C4_RevB",
+      "assembly": "THT",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Role": "Bulk",
+        "Voltage Rating": "35V",
+        "Functional Group": "24 V Amplifier Rail",
+        "Package": "Radial through-hole; see assigned PCB footprint",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "EEUFR1V102",
+        "Tolerance": "",
+        "Manufacturer Name": "",
+        "Role Details": "24V_AMP low-ESR transient reservoir; 35 V, 105 C",
+        "Capacitor Type": "Aluminum Electrolytic",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "1000uF",
+        "Polarity": "Pin 1 positive, pin 2 negative"
+      }
+    },
+    {
+      "reference": "C40",
+      "value": "10uF",
+      "manufacturer": "KEMET",
+      "mpn": "C1210C106K5RACTU",
+      "footprint": "C40_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Role": "Power Filtering",
+        "Voltage Rating": "50 V",
+        "Package": "SMD_1210_3225Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "C1210C106K5RACTU",
+        "Tolerance": "10%",
+        "Manufacturer Name": "KEMET",
+        "Role Details": "LMR33630 effective VIN capacitance",
+        "Functional Group": "5 V Buck",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "10uF",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C1210C106K5RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Dielectric": "X7R"
+      }
+    },
+    {
+      "reference": "C41",
+      "value": "220nF",
+      "manufacturer": "KEMET",
+      "mpn": "C0603C224K5RACTU",
+      "footprint": "C41_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Voltage Rating": "50 V",
+        "Package": "SMD_0603_1608Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "C0603C224K5RACTU",
+        "Tolerance": "10%",
+        "Manufacturer Name": "KEMET",
+        "Role": "Decoupling",
+        "Functional Group": "5 V Buck",
+        "Designator Prefix": "C",
+        "Role Details": "LMR33630 high-frequency VIN bypass",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "220nF",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0603C224K5RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Dielectric": "X7R"
+      }
+    },
+    {
+      "reference": "C42",
+      "value": "100nF",
+      "manufacturer": "KEMET",
+      "mpn": "C0603C104K5RACTU",
+      "footprint": "C42_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Voltage Rating": "50 V",
+        "Package": "SMD_0603_1608Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "C0603C104K5RACTU",
+        "Tolerance": "10%",
+        "Manufacturer Name": "KEMET",
+        "Role": "Bootstrapping",
+        "Functional Group": "5 V Buck",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Role Details": "Connected between BST and SW",
+        "Capacitance": "100nF",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Dielectric": "X7R"
+      }
+    },
+    {
+      "reference": "C43",
+      "value": "1uF",
+      "manufacturer": "KEMET",
+      "mpn": "C0603C105K4RACTU",
+      "footprint": "C43_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Voltage Rating": "16 V",
+        "Functional Group": "5 V Buck",
+        "Role Details": "Internal VCC regulator bypass",
+        "Package": "SMD_0603_1608Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "C0603C105K4RACTU",
+        "Tolerance": "10%",
+        "Manufacturer Name": "KEMET",
+        "Role": "Decoupling",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "1uF",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0603C105K4RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Dielectric": "X7R"
+      }
+    },
+    {
+      "reference": "C44",
+      "value": "22uF",
+      "manufacturer": "KEMET",
+      "mpn": "C1210C226K3RACTU",
+      "footprint": "C44_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Role": "Power Filtering",
+        "Voltage Rating": "25 V",
+        "Package": "SMD_1210_3225Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "C1210C226K3RACTU",
+        "Tolerance": "10%",
+        "Role Details": "5 V buck output effective capacitance bank",
+        "Manufacturer Name": "KEMET",
+        "Designator Prefix": "C",
+        "Functional Group": "5 V Buck",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "22uF",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C1210C226K3RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Dielectric": "X7R"
+      }
+    },
+    {
+      "reference": "C45",
+      "value": "22uF",
+      "manufacturer": "KEMET",
+      "mpn": "C1210C226K3RACTU",
+      "footprint": "C45_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Role Details": "5 V buck output effective capacitance bank",
+        "Role": "Power Filtering",
+        "Voltage Rating": "25 V",
+        "Functional Group": "5 V Buck",
+        "Package": "SMD_1210_3225Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "C1210C226K3RACTU",
+        "Tolerance": "10%",
+        "Manufacturer Name": "KEMET",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "22uF",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C1210C226K3RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Dielectric": "X7R"
+      }
+    },
+    {
+      "reference": "C46",
+      "value": "22uF",
+      "manufacturer": "KEMET",
+      "mpn": "C1210C226K3RACTU",
+      "footprint": "C46_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Role": "Power Filtering",
+        "Voltage Rating": "25 V",
+        "Role Details": "5 V buck output effective capacitance bank",
+        "Package": "SMD_1210_3225Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "C1210C226K3RACTU",
+        "Tolerance": "10%",
+        "Manufacturer Name": "KEMET",
+        "Functional Group": "5 V Buck",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "22uF",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C1210C226K3RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Dielectric": "X7R"
+      }
+    },
+    {
+      "reference": "C47",
+      "value": "22uF",
+      "manufacturer": "KEMET",
+      "mpn": "C1210C226K3RACTU",
+      "footprint": "C47_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Voltage Rating": "25 V",
+        "Package": "SMD_1210_3225Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "C1210C226K3RACTU",
+        "Tolerance": "10%",
+        "Functional Group": "5 V Buck",
+        "Role": "Power Filtering",
+        "Manufacturer Name": "KEMET",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "22uF",
+        "Role Details": "5 V buck output effective capacitance bank",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C1210C226K3RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Dielectric": "X7R"
+      }
+    },
+    {
+      "reference": "C48",
+      "value": "10uF",
+      "manufacturer": "Murata",
+      "mpn": "GRM21BR61C106KE15L",
+      "footprint": "C48_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Voltage Rating": "16 V",
+        "Role Details": "TPS62132 5 V input bypass",
+        "Package": "SMD_0805_2012Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "GRM21BR61C106KE15L",
+        "Tolerance": "10%",
+        "Manufacturer Name": "Murata",
+        "Role": "Power Filtering",
+        "Functional Group": "3.3 V Buck",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "10uF",
+        "Datasheet": "https://www.murata.com/en-global/products/productdetail?partno=GRM21BR61C106KE15L",
+        "Selection status": "Documented prototype candidate; circuit qualification pending",
+        "Dielectric": "X5R"
+      }
+    },
+    {
+      "reference": "C49",
+      "value": "22uF",
+      "manufacturer": "Murata",
+      "mpn": "GRM21BR61C226ME44L",
+      "footprint": "C49_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Voltage Rating": "16 V",
+        "Functional Group": "3.3 V Buck",
+        "Package": "SMD_0805_2012Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "GRM21BR61C226ME44L",
+        "Role Details": "3.3 V buck output capacitance",
+        "Tolerance": "20%",
+        "Role": "Power Filtering",
+        "Manufacturer Name": "Murata",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "22uF",
+        "Datasheet": "https://www.murata.com/en-global/products/productdetail?partno=GRM21BR61C226ME44L",
+        "Selection status": "Documented prototype candidate; circuit qualification pending",
+        "Dielectric": "X5R"
+      }
+    },
+    {
+      "reference": "C5",
+      "value": "100uF",
+      "manufacturer": "",
+      "mpn": "EEUFR1H101",
+      "footprint": "C5_RevB",
+      "assembly": "THT",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Voltage Rating": "50V",
+        "Package": "Radial through-hole; see assigned PCB footprint",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "EEUFR1H101",
+        "Tolerance": "",
+        "Role": "Bulk",
+        "Manufacturer Name": "",
+        "Capacitor Type": "Aluminum Electrolytic",
+        "Role Details": "TPA3116 local low-ESR PVCC bulk; 50 V, 105 C",
+        "Functional Group": "Class-D Amplifier",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "100uF",
+        "Polarity": "Pin 1 positive, pin 2 negative"
+      }
+    },
+    {
+      "reference": "C50",
+      "value": "47uF",
+      "manufacturer": "Murata",
+      "mpn": "GRM32ER61C476KE15L",
+      "footprint": "C50_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Role Details": "Logic rail transient support",
+        "Voltage Rating": "16 V",
+        "Package": "SMD_1210_3225Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "GRM32ER61C476KE15L",
+        "Tolerance": "10%",
+        "Role": "Bulk",
+        "Manufacturer Name": "Murata",
+        "Functional Group": "3.3 V Rail",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "47uF",
+        "Datasheet": "https://www.murata.com/en-global/products/productdetail?partno=GRM32ER61C476KE15L",
+        "Selection status": "Documented prototype candidate; circuit qualification pending",
+        "Dielectric": "X5R"
+      }
+    },
+    {
+      "reference": "C51",
+      "value": "4.7uF",
+      "manufacturer": "KEMET",
+      "mpn": "C0805C475K4RACTU",
+      "footprint": "C51_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Role": "Decoupling",
+        "Role Details": "Low-noise DAC LDO stability capacitor",
+        "Voltage Rating": "16 V",
+        "Package": "SMD_0805_2012Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "C0805C475K4RACTU",
+        "Tolerance": "10%",
+        "Functional Group": "DAC LDO",
+        "Manufacturer Name": "KEMET",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "4.7uF",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0805C475K4RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Dielectric": "X7R"
+      }
+    },
+    {
+      "reference": "C52",
+      "value": "4.7uF",
+      "manufacturer": "KEMET",
+      "mpn": "C0805C475K4RACTU",
+      "footprint": "C52_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Voltage Rating": "16 V",
+        "Package": "SMD_0805_2012Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "C0805C475K4RACTU",
+        "Tolerance": "10%",
+        "Manufacturer Name": "KEMET",
+        "Functional Group": "DAC LDO",
+        "Role Details": "Low-noise DAC LDO stability capacitor",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "4.7uF",
+        "Role": "Decoupling",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0805C475K4RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Dielectric": "X7R"
+      }
+    },
+    {
+      "reference": "C53",
+      "value": "3.3nF",
+      "manufacturer": "KEMET",
+      "mpn": "C0603C332J5GACTU",
+      "footprint": "C53_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Voltage Rating": "50 V",
+        "Package": "SMD_0603_1608Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "C0603C332J5GACTU",
+        "Tolerance": "5%",
+        "Functional Group": "3.3 V Buck",
+        "Manufacturer Name": "KEMET",
+        "Role": "Soft Start",
+        "Designator Prefix": "C",
+        "Role Details": "TPS62132 SS/TR timing capacitor",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "3.3nF",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0603C332J5GACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Dielectric": "C0G"
+      }
+    },
+    {
+      "reference": "C55",
+      "value": "100nF",
+      "manufacturer": "KEMET",
+      "mpn": "C0603C104K5RACTU",
+      "footprint": "C55_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Voltage Rating": "50 V",
+        "Role Details": "Local 3.3 V active-device bypass",
+        "Package": "SMD_0603_1608Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "C0603C104K5RACTU",
+        "Tolerance": "10%",
+        "Manufacturer Name": "KEMET",
+        "Role": "Decoupling",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Functional Group": "Clock and GPIO Expander",
+        "Capacitance": "100nF",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Dielectric": "X7R"
+      }
+    },
+    {
+      "reference": "C56",
+      "value": "100nF",
+      "manufacturer": "KEMET",
+      "mpn": "C0603C104K5RACTU",
+      "footprint": "C56_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Role": "Decoupling",
+        "Voltage Rating": "50 V",
+        "Package": "SMD_0603_1608Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "C0603C104K5RACTU",
+        "Tolerance": "10%",
+        "Role Details": "Local 3.3 V active-device bypass",
+        "Manufacturer Name": "KEMET",
+        "Functional Group": "Clock and GPIO Expander",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "100nF",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Dielectric": "X7R"
+      }
+    },
+    {
+      "reference": "C57",
+      "value": "100nF",
+      "manufacturer": "KEMET",
+      "mpn": "C0603C104K5RACTU",
+      "footprint": "C57_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Voltage Rating": "50 V",
+        "Package": "SMD_0603_1608Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "C0603C104K5RACTU",
+        "Tolerance": "10%",
+        "Manufacturer Name": "KEMET",
+        "Functional Group": "Clock and GPIO Expander",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "100nF",
+        "Role Details": "Local 3.3 V active-device bypass",
+        "Role": "Decoupling",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Dielectric": "X7R"
+      }
+    },
+    {
+      "reference": "C58",
+      "value": "1uF",
+      "manufacturer": "KEMET",
+      "mpn": "C0603C105K4RACTU",
+      "footprint": "C58_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Voltage Rating": "16 V",
+        "Package": "SMD_0603_1608Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "C0603C105K4RACTU",
+        "Tolerance": "10%",
+        "Manufacturer Name": "KEMET",
+        "Role": "Decoupling",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "1uF",
+        "Role Details": "Required 1 uF ceramic from TPA3116D2 PLIMIT to ground for limiter stability",
+        "Functional Group": "Class-D Amplifier",
+        "Capacitor Type": "Ceramic",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0603C105K4RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Dielectric": "X7R"
+      }
+    },
+    {
+      "reference": "C6",
+      "value": "100uF",
+      "manufacturer": "",
+      "mpn": "EEUFR1H101",
+      "footprint": "C6_RevB",
+      "assembly": "THT",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Capacitor Type": "Aluminum Electrolytic",
+        "Voltage Rating": "50V",
+        "Package": "Radial through-hole; see assigned PCB footprint",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "EEUFR1H101",
+        "Tolerance": "",
+        "Manufacturer Name": "",
+        "Role Details": "TPA3116 local low-ESR PVCC bulk; 50 V, 105 C",
+        "Functional Group": "Class-D Amplifier",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Role": "Bulk",
+        "Capacitance": "100uF",
+        "Polarity": "Pin 1 positive, pin 2 negative"
+      }
+    },
+    {
+      "reference": "C7",
+      "value": "220nF",
+      "manufacturer": "KEMET",
+      "mpn": "C0603C224K5RACTU",
+      "footprint": "C7_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Voltage Rating": "50 V",
+        "Package": "SMD_0603_1608Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "C0603C224K5RACTU",
+        "Tolerance": "10%",
+        "Functional Group": "Class-D Amplifier",
+        "Manufacturer Name": "KEMET",
+        "Role Details": "TPA3116 bootstrap capacitor to corresponding output",
+        "Role": "Bootstrapping",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "220nF",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0603C224K5RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Dielectric": "X7R"
+      }
+    },
+    {
+      "reference": "C8",
+      "value": "220nF",
+      "manufacturer": "KEMET",
+      "mpn": "C0603C224K5RACTU",
+      "footprint": "C8_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Voltage Rating": "50 V",
+        "Package": "SMD_0603_1608Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "C0603C224K5RACTU",
+        "Tolerance": "10%",
+        "Role": "Bootstrapping",
+        "Manufacturer Name": "KEMET",
+        "Role Details": "TPA3116 bootstrap capacitor to corresponding output",
+        "Functional Group": "Class-D Amplifier",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "220nF",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0603C224K5RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Dielectric": "X7R"
+      }
+    },
+    {
+      "reference": "C9",
+      "value": "220nF",
+      "manufacturer": "KEMET",
+      "mpn": "C0603C224K5RACTU",
+      "footprint": "C9_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Voltage Rating": "50 V",
+        "Package": "SMD_0603_1608Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Manufacturer Part Number": "C0603C224K5RACTU",
+        "Tolerance": "10%",
+        "Role Details": "TPA3116 bootstrap capacitor to corresponding output",
+        "Manufacturer Name": "KEMET",
+        "Designator Prefix": "C",
+        "Part Type": "Non-Polarized Capacitor",
+        "Capacitance": "220nF",
+        "Role": "Bootstrapping",
+        "Functional Group": "Class-D Amplifier",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0603C224K5RACTU",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Dielectric": "X7R"
+      }
+    },
+    {
+      "reference": "D1",
+      "value": "PRTR5V0U4D,125",
+      "manufacturer": "Nexperia",
+      "mpn": "PRTR5V0U4D,125",
+      "footprint": "D1_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Name": "Nexperia",
+        "Datasheet URL": {
+          "text": "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U4D.pdf",
+          "type": "link",
+          "url": "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U4D.pdf"
+        },
+        "Functional Group": "Ethernet Protection",
+        "Package or Case Code": "TO",
+        "Role": "ESD Protection",
+        "Designator Prefix": "D",
+        "Role Details": "Protects LAN8720 MDI differential pairs",
+        "Manufacturer Part Number": "PRTR5V0U4D,125",
+        "Part Type": "Circuit Protection Devices"
+      }
+    },
+    {
+      "reference": "D10",
+      "value": "B5100C",
+      "manufacturer": "Diodes Incorporated",
+      "mpn": "B5100C",
+      "footprint": "D10_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "JLCPCB Part Class": "",
+        "Manufacturer Part Number": "B5100C",
+        "Functional Group": "PoE Input Rectification",
+        "Datasheet URL": "https://www.diodes.com/datasheet/download/B5100C.pdf",
+        "Role": "PoE Bridge Rectifier",
+        "Role Details": "PoE bridge: 100 V draft replacement; thermal and transient qualification pending",
+        "Diode Type": "Schottky Diode",
+        "License": "https://creativecommons.org/licenses/by/4.0/",
+        "Part Type": "Schottky Barrier Diodes (SBD)",
+        "Package or Case Code": "SMC (DO-214AB)",
+        "LCSC Part Number": "",
+        "Manufacturer Name": "Diodes Incorporated",
+        "Forward Voltage": "0.85 V max at 5 A",
+        "Reverse Voltage": "100",
+        "Designator Prefix": "D"
+      }
+    },
+    {
+      "reference": "D11",
+      "value": "SMBJ26CA",
+      "manufacturer": "TBD",
+      "mpn": "SMBJ26CA",
+      "footprint": "D11_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "SMBJ26CA",
+        "Datasheet URL": {
+          "text": "https://www.vishay.com/docs/88392/smbj.pdf",
+          "type": "link",
+          "url": "https://www.vishay.com/docs/88392/smbj.pdf"
+        },
+        "License": "https://creativecommons.org/licenses/by/4.0/",
+        "Part Type": "Diode",
+        "Role": "Clamping",
+        "Functional Group": "Bench Power Input",
+        "Designator Prefix": "D",
+        "Role Details": "Bidirectional input clamp; pulse coordination remains open",
+        "Manufacturer Name": "TBD",
+        "LCSC Part Number": ""
+      }
+    },
+    {
+      "reference": "D2",
+      "value": "SMAJ58A-TR",
+      "manufacturer": "ST(\u610f\u6cd5\u534a\u5bfc\u4f53)",
+      "mpn": "SMAJ58A-TR",
+      "footprint": "D2_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Role Details": "58 V standoff TVS across rectified PoE input",
+        "Role": "Surge Protection",
+        "Manufacturer Name": "ST(\u610f\u6cd5\u534a\u5bfc\u4f53)",
+        "Manufacturer Part Number": "SMAJ58A-TR",
+        "JLCPCB Part Class": "Extended Part",
+        "LCSC Part Number": "C132936",
+        "Datasheet URL": {
+          "text": "https://storage.googleapis.com/graviton-electric-symbols/document_assets/lcsc/2304140030_STMicroelectronics-SMAJ58A-TR_C132936.pdf",
+          "type": "link",
+          "url": "https://storage.googleapis.com/graviton-electric-symbols/document_assets/lcsc/2304140030_STMicroelectronics-SMAJ58A-TR_C132936.pdf"
+        },
+        "Functional Group": "PoE Input Protection",
+        "Part Type": "TVS",
+        "Designator Prefix": "D",
+        "Product Info Url": {
+          "text": "https://lcsc.com/product-detail/TVS_STMicroelectronics_SMAJ58A-TR_SMAJ58A-TR_C132936.html",
+          "type": "link",
+          "url": "https://lcsc.com/product-detail/TVS_STMicroelectronics_SMAJ58A-TR_SMAJ58A-TR_C132936.html"
+        },
+        "Package or Case Code": "SMA_L4.4-W2.8-LS5.4-RD"
+      }
+    },
+    {
+      "reference": "D3",
+      "value": "B5100C",
+      "manufacturer": "Diodes Incorporated",
+      "mpn": "B5100C",
+      "footprint": "D3_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "JLCPCB Part Class": "",
+        "Manufacturer Part Number": "B5100C",
+        "Datasheet URL": "https://www.diodes.com/datasheet/download/B5100C.pdf",
+        "Role": "PoE Bridge Rectifier",
+        "Diode Type": "Schottky Diode",
+        "License": "https://creativecommons.org/licenses/by/4.0/",
+        "Part Type": "Schottky Barrier Diodes (SBD)",
+        "Functional Group": "PoE Input Rectification",
+        "Package or Case Code": "SMC (DO-214AB)",
+        "LCSC Part Number": "",
+        "Manufacturer Name": "Diodes Incorporated",
+        "Forward Voltage": "0.85 V max at 5 A",
+        "Role Details": "PoE bridge: 100 V draft replacement; thermal and transient qualification pending",
+        "Reverse Voltage": "100",
+        "Designator Prefix": "D"
+      }
+    },
+    {
+      "reference": "D4",
+      "value": "B5100C",
+      "manufacturer": "Diodes Incorporated",
+      "mpn": "B5100C",
+      "footprint": "D4_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Functional Group": "PoE Input Rectification",
+        "JLCPCB Part Class": "",
+        "Manufacturer Part Number": "B5100C",
+        "Role Details": "PoE bridge: 100 V draft replacement; thermal and transient qualification pending",
+        "Datasheet URL": "https://www.diodes.com/datasheet/download/B5100C.pdf",
+        "Role": "PoE Bridge Rectifier",
+        "Diode Type": "Schottky Diode",
+        "License": "https://creativecommons.org/licenses/by/4.0/",
+        "Part Type": "Schottky Barrier Diodes (SBD)",
+        "Package or Case Code": "SMC (DO-214AB)",
+        "LCSC Part Number": "",
+        "Manufacturer Name": "Diodes Incorporated",
+        "Forward Voltage": "0.85 V max at 5 A",
+        "Reverse Voltage": "100",
+        "Designator Prefix": "D"
+      }
+    },
+    {
+      "reference": "D5",
+      "value": "B5100C",
+      "manufacturer": "Diodes Incorporated",
+      "mpn": "B5100C",
+      "footprint": "D5_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "JLCPCB Part Class": "",
+        "Manufacturer Part Number": "B5100C",
+        "Datasheet URL": "https://www.diodes.com/datasheet/download/B5100C.pdf",
+        "Role Details": "PoE bridge: 100 V draft replacement; thermal and transient qualification pending",
+        "Diode Type": "Schottky Diode",
+        "License": "https://creativecommons.org/licenses/by/4.0/",
+        "Part Type": "Schottky Barrier Diodes (SBD)",
+        "Package or Case Code": "SMC (DO-214AB)",
+        "LCSC Part Number": "",
+        "Role": "PoE Bridge Rectifier",
+        "Functional Group": "PoE Input Rectification",
+        "Manufacturer Name": "Diodes Incorporated",
+        "Forward Voltage": "0.85 V max at 5 A",
+        "Reverse Voltage": "100",
+        "Designator Prefix": "D"
+      }
+    },
+    {
+      "reference": "D6",
+      "value": "B5100C",
+      "manufacturer": "Diodes Incorporated",
+      "mpn": "B5100C",
+      "footprint": "D6_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "JLCPCB Part Class": "",
+        "Manufacturer Part Number": "B5100C",
+        "Datasheet URL": "https://www.diodes.com/datasheet/download/B5100C.pdf",
+        "Role Details": "PoE bridge: 100 V draft replacement; thermal and transient qualification pending",
+        "Diode Type": "Schottky Diode",
+        "License": "https://creativecommons.org/licenses/by/4.0/",
+        "Part Type": "Schottky Barrier Diodes (SBD)",
+        "Functional Group": "PoE Input Rectification",
+        "Package or Case Code": "SMC (DO-214AB)",
+        "LCSC Part Number": "",
+        "Manufacturer Name": "Diodes Incorporated",
+        "Forward Voltage": "0.85 V max at 5 A",
+        "Role": "PoE Bridge Rectifier",
+        "Reverse Voltage": "100",
+        "Designator Prefix": "D"
+      }
+    },
+    {
+      "reference": "D7",
+      "value": "B5100C",
+      "manufacturer": "Diodes Incorporated",
+      "mpn": "B5100C",
+      "footprint": "D7_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "JLCPCB Part Class": "",
+        "Manufacturer Part Number": "B5100C",
+        "Datasheet URL": "https://www.diodes.com/datasheet/download/B5100C.pdf",
+        "Role Details": "PoE bridge: 100 V draft replacement; thermal and transient qualification pending",
+        "Diode Type": "Schottky Diode",
+        "License": "https://creativecommons.org/licenses/by/4.0/",
+        "Part Type": "Schottky Barrier Diodes (SBD)",
+        "Package or Case Code": "SMC (DO-214AB)",
+        "LCSC Part Number": "",
+        "Manufacturer Name": "Diodes Incorporated",
+        "Forward Voltage": "0.85 V max at 5 A",
+        "Role": "PoE Bridge Rectifier",
+        "Reverse Voltage": "100",
+        "Designator Prefix": "D",
+        "Functional Group": "PoE Input Rectification"
+      }
+    },
+    {
+      "reference": "D8",
+      "value": "B5100C",
+      "manufacturer": "Diodes Incorporated",
+      "mpn": "B5100C",
+      "footprint": "D8_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "JLCPCB Part Class": "",
+        "Manufacturer Part Number": "B5100C",
+        "Datasheet URL": "https://www.diodes.com/datasheet/download/B5100C.pdf",
+        "Diode Type": "Schottky Diode",
+        "License": "https://creativecommons.org/licenses/by/4.0/",
+        "Part Type": "Schottky Barrier Diodes (SBD)",
+        "Package or Case Code": "SMC (DO-214AB)",
+        "LCSC Part Number": "",
+        "Manufacturer Name": "Diodes Incorporated",
+        "Functional Group": "PoE Input Rectification",
+        "Forward Voltage": "0.85 V max at 5 A",
+        "Role Details": "PoE bridge: 100 V draft replacement; thermal and transient qualification pending",
+        "Reverse Voltage": "100",
+        "Role": "PoE Bridge Rectifier",
+        "Designator Prefix": "D"
+      }
+    },
+    {
+      "reference": "D9",
+      "value": "B5100C",
+      "manufacturer": "Diodes Incorporated",
+      "mpn": "B5100C",
+      "footprint": "D9_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "JLCPCB Part Class": "",
+        "Manufacturer Part Number": "B5100C",
+        "Datasheet URL": "https://www.diodes.com/datasheet/download/B5100C.pdf",
+        "Diode Type": "Schottky Diode",
+        "License": "https://creativecommons.org/licenses/by/4.0/",
+        "Part Type": "Schottky Barrier Diodes (SBD)",
+        "Package or Case Code": "SMC (DO-214AB)",
+        "LCSC Part Number": "",
+        "Functional Group": "PoE Input Rectification",
+        "Manufacturer Name": "Diodes Incorporated",
+        "Forward Voltage": "0.85 V max at 5 A",
+        "Role": "PoE Bridge Rectifier",
+        "Reverse Voltage": "100",
+        "Designator Prefix": "D",
+        "Role Details": "PoE bridge: 100 V draft replacement; thermal and transient qualification pending"
+      }
+    },
+    {
+      "reference": "F1",
+      "value": "24T 3.15A250V",
+      "manufacturer": "xcfuse(\u65ed\u7a0b)",
+      "mpn": "24T 3.15A250V",
+      "footprint": "F1_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "LCSC Part Number": "C2905508",
+        "Manufacturer Part Number": "24T 3.15A250V",
+        "Role Details": "3.15 A one-time fuse on 24 V bench input",
+        "Package or Case Code": "FUSE-SMD_L6.1-W2.6",
+        "JLCPCB Part Class": "Extended Part",
+        "Manufacturer Name": "xcfuse(\u65ed\u7a0b)",
+        "Role": "Protection",
+        "Functional Group": "Bench Power Input",
+        "Part Type": "Fuses",
+        "Designator Prefix": "F"
+      }
+    },
+    {
+      "reference": "FB1",
+      "value": "600ohm@100MHz",
+      "manufacturer": "Murata",
+      "mpn": "BLM18AG601SN1D",
+      "footprint": "FB1_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Current Rating": "0.5A",
+        "Package": "SMD_0603_1608Metric",
+        "Functional Group": "Playback DAC Power",
+        "Role": "Choke (EMI Filter)",
+        "Part Type": "Inductor",
+        "Designator Prefix": "L",
+        "Role Details": "Isolates DAC 3.3VA from switching supply noise",
+        "Manufacturer Name": "Murata",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Inductance": "600ohm@100MHz",
+        "Manufacturer Part Number": "BLM18AG601SN1D",
+        "Datasheet": "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf",
+        "Selection status": "Documented prototype candidate; circuit qualification pending",
+        "Current rating": "500 mA",
+        "DCR maximum": "0.48 ohm"
+      }
+    },
+    {
+      "reference": "FB2",
+      "value": "120R@100MHz",
+      "manufacturer": "",
+      "mpn": "BLM18PG121SN1D",
+      "footprint": "FB2_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "BLM18PG121SN1D"
+      }
+    },
+    {
+      "reference": "H1",
+      "value": "MountingHole",
+      "manufacturer": "",
+      "mpn": "MountingHole",
+      "footprint": "H1_RevB",
+      "assembly": "PCB feature",
+      "status": "No purchase required",
+      "properties": {
+        "Role Details": "M2 non-electrical mounting provision",
+        "Designator Prefix": "H",
+        "Manufacturer Part Number": "MountingHole",
+        "Exclude from BOM": "true",
+        "Role": "Coupling",
+        "Functional Group": "Mechanical"
+      }
+    },
+    {
+      "reference": "H2",
+      "value": "MountingHole",
+      "manufacturer": "",
+      "mpn": "MountingHole",
+      "footprint": "H2_RevB",
+      "assembly": "PCB feature",
+      "status": "No purchase required",
+      "properties": {
+        "Role": "Coupling",
+        "Designator Prefix": "H",
+        "Manufacturer Part Number": "MountingHole",
+        "Exclude from BOM": "true",
+        "Role Details": "M2 non-electrical mounting provision",
+        "Functional Group": "Mechanical"
+      }
+    },
+    {
+      "reference": "H3",
+      "value": "MountingHole",
+      "manufacturer": "",
+      "mpn": "MountingHole",
+      "footprint": "H3_RevB",
+      "assembly": "PCB feature",
+      "status": "No purchase required",
+      "properties": {
+        "Functional Group": "Mechanical",
+        "Role": "Coupling",
+        "Role Details": "M2 non-electrical mounting provision",
+        "Designator Prefix": "H",
+        "Manufacturer Part Number": "MountingHole",
+        "Exclude from BOM": "true"
+      }
+    },
+    {
+      "reference": "H4",
+      "value": "MountingHole",
+      "manufacturer": "",
+      "mpn": "MountingHole",
+      "footprint": "H4_RevB",
+      "assembly": "PCB feature",
+      "status": "No purchase required",
+      "properties": {
+        "Role Details": "M2 non-electrical mounting provision",
+        "Designator Prefix": "H",
+        "Functional Group": "Mechanical",
+        "Role": "Coupling",
+        "Manufacturer Part Number": "MountingHole",
+        "Exclude from BOM": "true"
+      }
+    },
+    {
+      "reference": "J1",
+      "value": "2250506-1",
+      "manufacturer": "Bel Fuse Inc.",
+      "mpn": "2250506-1",
+      "footprint": "J1_RevB",
+      "assembly": "THT",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Symbol Style": "parametric-v1",
+        "Role Details": "4PPoE-capable MagJack; only two data pairs used by 10/100 PHY",
+        "License": "https://creativecommons.org/licenses/by/4.0/",
+        "Manufacturer Name": "Bel Fuse Inc.",
+        "Functional Group": "Ethernet and PoE Primary",
+        "Role": "Transformer Winding",
+        "Designator Prefix": "J",
+        "Datasheet URL": {
+          "text": "https://www.belfuse.com/media/datasheets/products/magjack%20ICMs/ds-mag-1g_2gbase-t-100w-poe-icms.pdf",
+          "type": "link",
+          "url": "https://www.belfuse.com/media/datasheets/products/magjack%20ICMs/ds-mag-1g_2gbase-t-100w-poe-icms.pdf"
+        },
+        "Manufacturer Part Number": "2250506-1",
+        "Part Type": "Ethernet connector"
+      }
+    },
+    {
+      "reference": "J2",
+      "value": "MX2EDGR-5.08-02P-GN01-Cu-A",
+      "manufacturer": "MAX",
+      "mpn": "MX2EDGR-5.08-02P-GN01-Cu-A",
+      "footprint": "J2_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Designator Prefix": "J",
+        "Role Details": "24 V nominal, 26 V maximum, pin 1 +24V and pin 2 0V",
+        "License": "https://creativecommons.org/licenses/by/4.0/",
+        "Manufacturer Name": "MAX",
+        "Datasheet URL": {
+          "text": "https://www.lcsc.com/datasheet/C5187973.pdf",
+          "type": "link",
+          "url": "https://storage.googleapis.com/graviton-electric-symbols/document_assets/user-uploaded/7382a9c0e0b8238b011d89bca42ee5b8c29931c44fb607e5b453072a900640b7.pdf"
+        },
+        "Role": "Power Input Connector",
+        "Symbol Style": "parametric-v1",
+        "Manufacturer Part Number": "MX2EDGR-5.08-02P-GN01-Cu-A",
+        "Part Type": "Connector",
+        "Functional Group": "Bench Power Input",
+        "LCSC Part Number": "C5187973"
+      }
+    },
+    {
+      "reference": "J3",
+      "value": "MX2EDGR-5.08-02P-GN01-Cu-A",
+      "manufacturer": "MAX",
+      "mpn": "MX2EDGR-5.08-02P-GN01-Cu-A",
+      "footprint": "J3_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Designator Prefix": "J",
+        "Functional Group": "Speaker Output",
+        "License": "https://creativecommons.org/licenses/by/4.0/",
+        "Manufacturer Name": "MAX",
+        "Role": "Speaker Connector",
+        "Datasheet URL": {
+          "text": "https://www.lcsc.com/datasheet/C5187973.pdf",
+          "type": "link",
+          "url": "https://storage.googleapis.com/graviton-electric-symbols/document_assets/user-uploaded/7382a9c0e0b8238b011d89bca42ee5b8c29931c44fb607e5b453072a900640b7.pdf"
+        },
+        "Symbol Style": "parametric-v1",
+        "Role Details": "Floating PBTL output: pin 1 SPK+, pin 2 SPK-; do not ground",
+        "Manufacturer Part Number": "MX2EDGR-5.08-02P-GN01-Cu-A",
+        "Part Type": "Connector",
+        "LCSC Part Number": "C5187973"
+      }
+    },
+    {
+      "reference": "J4",
+      "value": "Pin Header 02x07 2.54mm Vertical",
+      "manufacturer": "Samtec",
+      "mpn": "TSW-107-07-G-D",
+      "footprint": "J4_RevB",
+      "assembly": "THT",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "TSW-107-07-G-D",
+        "License": "https://creativecommons.org/licenses/by/4.0/",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Designator Prefix": "J",
+        "Manufacturer Name": "Samtec",
+        "Part Type": "Connector",
+        "Role": "Coupling",
+        "Functional Group": "Microphone Ring Interface",
+        "Role Details": "PDM x4, clock, I2C, spare GPIO, 3.3 V and grounds",
+        "Datasheet": "https://www.samtec.com/products/TSW-107-07-G-D",
+        "Selection status": "Documented prototype candidate; circuit qualification pending"
+      }
+    },
+    {
+      "reference": "J5",
+      "value": "Pin Header 01x06 2.54mm Vertical",
+      "manufacturer": "Samtec",
+      "mpn": "TSW-106-07-G-S",
+      "footprint": "J5_RevB",
+      "assembly": "THT",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Designator Prefix": "J",
+        "License": "https://creativecommons.org/licenses/by/4.0/",
+        "Part Type": "Connector",
+        "Functional Group": "Debug",
+        "Role": "Coupling",
+        "Role Details": "UART0 TX/RX, BOOT, EN, GND, 3V3",
+        "Manufacturer Part Number": "TSW-106-07-G-S",
+        "Manufacturer Name": "Samtec",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Datasheet": "https://www.samtec.com/products/TSW-106-07-G-S",
+        "Selection status": "Documented prototype candidate; circuit qualification pending"
+      }
+    },
+    {
+      "reference": "J6",
+      "value": "Pin Header 01x06 2.54mm Vertical",
+      "manufacturer": "Samtec",
+      "mpn": "TSW-106-07-G-S",
+      "footprint": "J6_RevB",
+      "assembly": "THT",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Functional Group": "I2C Expansion",
+        "Designator Prefix": "J",
+        "License": "https://creativecommons.org/licenses/by/4.0/",
+        "Part Type": "Connector",
+        "Role Details": "3V3, GND, SDA, SCL and two PCAL GPIO",
+        "Role": "Coupling",
+        "Manufacturer Part Number": "TSW-106-07-G-S",
+        "Manufacturer Name": "Samtec",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Datasheet": "https://www.samtec.com/products/TSW-106-07-G-S",
+        "Selection status": "Documented prototype candidate; circuit qualification pending"
+      }
+    },
+    {
+      "reference": "L1",
+      "value": "10uH",
+      "manufacturer": "",
+      "mpn": "SRP1038A-100M",
+      "footprint": "L1_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Role Details": "10 uH shielded, 7.5 A Irms, 12 A Isat; verify thermal performance",
+        "Package": "SMD_1210_3225Metric",
+        "Role": "Filtering",
+        "Part Type": "Inductor",
+        "Saturation Current": "7A",
+        "Designator Prefix": "L",
+        "Manufacturer Name": "",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Inductance": "10uH",
+        "Manufacturer Part Number": "SRP1038A-100M",
+        "Functional Group": "Class-D Output Filter",
+        "Current Rating": "5A"
+      }
+    },
+    {
+      "reference": "L2",
+      "value": "10uH",
+      "manufacturer": "",
+      "mpn": "SRP1038A-100M",
+      "footprint": "L2_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Package": "SMD_1210_3225Metric",
+        "Role": "Filtering",
+        "Part Type": "Inductor",
+        "Role Details": "10 uH shielded, 7.5 A Irms, 12 A Isat; verify thermal performance",
+        "Functional Group": "Class-D Output Filter",
+        "Saturation Current": "7A",
+        "Designator Prefix": "L",
+        "Manufacturer Name": "",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Inductance": "10uH",
+        "Current Rating": "5A",
+        "Manufacturer Part Number": "SRP1038A-100M"
+      }
+    },
+    {
+      "reference": "L3",
+      "value": "8.2uH",
+      "manufacturer": "",
+      "mpn": "XAL5050-822MEC",
+      "footprint": "L3_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Functional Group": "5 V Buck",
+        "Package": "SMD_1210_3225Metric",
+        "Current Rating": "4A",
+        "Role": "Energy Storage",
+        "Part Type": "Inductor",
+        "Saturation Current": "5A",
+        "Designator Prefix": "L",
+        "Manufacturer Name": "",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Inductance": "8uH",
+        "Role Details": "8.2 uH shielded buck inductor",
+        "Manufacturer Part Number": "XAL5050-822MEC"
+      }
+    },
+    {
+      "reference": "L4",
+      "value": "2.2uH",
+      "manufacturer": "",
+      "mpn": "XAL5030-222MEC",
+      "footprint": "L4_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Current Rating": "4A",
+        "Package": "SMD_1210_3225Metric",
+        "Part Type": "Inductor",
+        "Role": "Energy Storage",
+        "Designator Prefix": "L",
+        "Saturation Current": "5A",
+        "Manufacturer Name": "",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Inductance": "2.2uH",
+        "Functional Group": "3.3 V Buck",
+        "Role Details": "2.2 uH shielded buck inductor",
+        "Manufacturer Part Number": "XAL5030-222MEC"
+      }
+    },
+    {
+      "reference": "LED1",
+      "value": "SML-D13FWT86C",
+      "manufacturer": "Rohm Semiconductor",
+      "mpn": "SML-D13FWT86C",
+      "footprint": "LED1_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Name": "Rohm Semiconductor",
+        "Manufacturer Part Number": "SML-D13FWT86C",
+        "Role": "Modulation / Demodulation",
+        "Datasheet URL": {
+          "text": "https://www.snapeda.com/parts/SML-D13FWT86C/Rohm%20Semiconductor/datasheet/",
+          "type": "link",
+          "url": "https://www.snapeda.com/parts/SML-D13FWT86C/Rohm%20Semiconductor/datasheet/"
+        },
+        "Role Details": "3.3 V power and firmware status indication",
+        "Part Type": "Optoelectronic Devices",
+        "Functional Group": "Status LEDs",
+        "Designator Prefix": "R"
+      }
+    },
+    {
+      "reference": "LED2",
+      "value": "SML-D13FWT86C",
+      "manufacturer": "Rohm Semiconductor",
+      "mpn": "SML-D13FWT86C",
+      "footprint": "LED2_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Name": "Rohm Semiconductor",
+        "Manufacturer Part Number": "SML-D13FWT86C",
+        "Role": "Modulation / Demodulation",
+        "Functional Group": "Status LEDs",
+        "Datasheet URL": {
+          "text": "https://www.snapeda.com/parts/SML-D13FWT86C/Rohm%20Semiconductor/datasheet/",
+          "type": "link",
+          "url": "https://www.snapeda.com/parts/SML-D13FWT86C/Rohm%20Semiconductor/datasheet/"
+        },
+        "Part Type": "Optoelectronic Devices",
+        "Role Details": "3.3 V power and firmware status indication",
+        "Designator Prefix": "R"
+      }
+    },
+    {
+      "reference": "LED3",
+      "value": "SML-D13FWT86C",
+      "manufacturer": "Rohm Semiconductor",
+      "mpn": "SML-D13FWT86C",
+      "footprint": "LED3_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Name": "Rohm Semiconductor",
+        "Manufacturer Part Number": "SML-D13FWT86C",
+        "Datasheet URL": {
+          "text": "https://www.snapeda.com/parts/SML-D13FWT86C/Rohm%20Semiconductor/datasheet/",
+          "type": "link",
+          "url": "https://www.snapeda.com/parts/SML-D13FWT86C/Rohm%20Semiconductor/datasheet/"
+        },
+        "Role Details": "3.3 V power and firmware status indication",
+        "Role": "Modulation / Demodulation",
+        "Functional Group": "Status LEDs",
+        "Part Type": "Optoelectronic Devices",
+        "Designator Prefix": "R"
+      }
+    },
+    {
+      "reference": "Q1",
+      "value": "DMNH6012LK3-13",
+      "manufacturer": "Diodes Incorporated",
+      "mpn": "DMNH6012LK3-13",
+      "footprint": "Q1_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "DMNH6012LK3-13",
+        "Role": "Power ORing FET",
+        "Functional Group": "24 V Power ORing",
+        "Role Details": "60 V low-RDS(on) PoE source ideal diode",
+        "Designator Prefix": "Q",
+        "Datasheet URL": {
+          "text": "https://www.diodes.com/assets/Datasheets/DMNH6012LK3.pdf",
+          "type": "link",
+          "url": "https://storage.googleapis.com/graviton-electric-symbols/document_assets/user-uploaded/5055ded3219d2d01920344ecce473db2b50646616dedbfdb382749e79793463b.pdf"
+        },
+        "Part Type": "Transistor",
+        "Manufacturer Name": "Diodes Incorporated",
+        "License": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "reference": "Q2",
+      "value": "DMNH6012LK3-13",
+      "manufacturer": "Diodes Incorporated",
+      "mpn": "DMNH6012LK3-13",
+      "footprint": "Q2_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "DMNH6012LK3-13",
+        "Functional Group": "24 V Power ORing",
+        "Designator Prefix": "Q",
+        "Datasheet URL": {
+          "text": "https://www.diodes.com/assets/Datasheets/DMNH6012LK3.pdf",
+          "type": "link",
+          "url": "https://storage.googleapis.com/graviton-electric-symbols/document_assets/user-uploaded/5055ded3219d2d01920344ecce473db2b50646616dedbfdb382749e79793463b.pdf"
+        },
+        "Part Type": "Transistor",
+        "Manufacturer Name": "Diodes Incorporated",
+        "Role Details": "60 V low-RDS(on) bench source ideal diode",
+        "Role": "Power ORing FET",
+        "License": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "reference": "Q3",
+      "value": "PSMN4R8-100BSE",
+      "manufacturer": "",
+      "mpn": "PSMN4R8-100BSE",
+      "footprint": "Q3_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "PSMN4R8-100BSE",
+        "Review status": "Prototype candidate; not release qualified"
+      }
+    },
+    {
+      "reference": "Q4",
+      "value": "PSMN4R8-100BSE",
+      "manufacturer": "",
+      "mpn": "PSMN4R8-100BSE",
+      "footprint": "Q4_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "PSMN4R8-100BSE",
+        "Review status": "Prototype candidate; not release qualified"
+      }
+    },
+    {
+      "reference": "R100",
+      "value": "12.4k",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW060312K4FHEA",
+      "footprint": "R100_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "TNPW060312K4FHEA",
+        "Manufacturer Name": "Vishay",
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Tolerance": "1%",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.10 W conservative"
+      }
+    },
+    {
+      "reference": "R101",
+      "value": "49.9",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW060349R9FHEA",
+      "footprint": "R101_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "TNPW060349R9FHEA",
+        "Manufacturer Name": "Vishay",
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Tolerance": "1%",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.10 W conservative"
+      }
+    },
+    {
+      "reference": "R102",
+      "value": "49.9",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW060349R9FHEA",
+      "footprint": "R102_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "TNPW060349R9FHEA",
+        "Manufacturer Name": "Vishay",
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Tolerance": "1%",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.10 W conservative"
+      }
+    },
+    {
+      "reference": "R103",
+      "value": "10",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW060310R0FHEA",
+      "footprint": "R103_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "TNPW060310R0FHEA",
+        "Manufacturer Name": "Vishay",
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Tolerance": "1%",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.10 W conservative"
+      }
+    },
+    {
+      "reference": "R104",
+      "value": "49.9",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW060349R9FHEA",
+      "footprint": "R104_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "TNPW060349R9FHEA",
+        "Manufacturer Name": "Vishay",
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Tolerance": "1%",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.10 W conservative"
+      }
+    },
+    {
+      "reference": "R105",
+      "value": "49.9",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW060349R9FHEA",
+      "footprint": "R105_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "TNPW060349R9FHEA",
+        "Manufacturer Name": "Vishay",
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Tolerance": "1%",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.10 W conservative"
+      }
+    },
+    {
+      "reference": "R106",
+      "value": "10k",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW060310K0FHEA",
+      "footprint": "R106_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "TNPW060310K0FHEA",
+        "Manufacturer Name": "Vishay",
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Tolerance": "1%",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.10 W conservative"
+      }
+    },
+    {
+      "reference": "R107",
+      "value": "10k",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW060310K0FHEA",
+      "footprint": "R107_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "TNPW060310K0FHEA",
+        "Manufacturer Name": "Vishay",
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Tolerance": "1%",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.10 W conservative"
+      }
+    },
+    {
+      "reference": "R108",
+      "value": "33",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW060333R0FHEA",
+      "footprint": "R108_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "TNPW060333R0FHEA",
+        "Manufacturer Name": "Vishay",
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Tolerance": "1%",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.10 W conservative"
+      }
+    },
+    {
+      "reference": "R109",
+      "value": "33",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW060333R0FHEA",
+      "footprint": "R109_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "TNPW060333R0FHEA",
+        "Manufacturer Name": "Vishay",
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Tolerance": "1%",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.10 W conservative"
+      }
+    },
+    {
+      "reference": "R110",
+      "value": "10k",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW060310K0FHEA",
+      "footprint": "R110_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "TNPW060310K0FHEA",
+        "Manufacturer Name": "Vishay",
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Tolerance": "1%",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.10 W conservative"
+      }
+    },
+    {
+      "reference": "R111",
+      "value": "10k",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW060310K0FHEA",
+      "footprint": "R111_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "TNPW060310K0FHEA",
+        "Manufacturer Name": "Vishay",
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Tolerance": "1%",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.10 W conservative"
+      }
+    },
+    {
+      "reference": "R120",
+      "value": "198k",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW0805198KBYEA",
+      "footprint": "R120_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "TNPW0805198KBYEA",
+        "Review status": "Prototype candidate; not release qualified",
+        "Tolerance": "0.1%",
+        "Temperature coefficient": "10 ppm/C maximum",
+        "Manufacturer Name": "Vishay",
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Power rating": "0.125 W conservative"
+      }
+    },
+    {
+      "reference": "R121",
+      "value": "4.02k",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW08054K02BYEA",
+      "footprint": "R121_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "TNPW08054K02BYEA",
+        "Review status": "Prototype candidate; not release qualified",
+        "Tolerance": "0.1%",
+        "Temperature coefficient": "10 ppm/C maximum",
+        "Manufacturer Name": "Vishay",
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Power rating": "0.125 W conservative"
+      }
+    },
+    {
+      "reference": "R122",
+      "value": "392k",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW0805392KFHEA",
+      "footprint": "R122_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "TNPW0805392KFHEA",
+        "Review status": "Prototype candidate; not release qualified",
+        "Manufacturer Name": "Vishay",
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Tolerance": "1%",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.125 W conservative"
+      }
+    },
+    {
+      "reference": "R123",
+      "value": "10k",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW080510K0FHEA",
+      "footprint": "R123_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "TNPW080510K0FHEA",
+        "Review status": "Prototype candidate; not release qualified",
+        "Manufacturer Name": "Vishay",
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Tolerance": "1%",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.125 W conservative"
+      }
+    },
+    {
+      "reference": "R124",
+      "value": "100k",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW0805100KFHEA",
+      "footprint": "R124_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "TNPW0805100KFHEA",
+        "Review status": "Prototype candidate; not release qualified",
+        "Manufacturer Name": "Vishay",
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Tolerance": "1%",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.125 W conservative"
+      }
+    },
+    {
+      "reference": "R125",
+      "value": "10",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW080510R0FHEA",
+      "footprint": "R125_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "TNPW080510R0FHEA",
+        "Review status": "Prototype candidate; not release qualified",
+        "Manufacturer Name": "Vishay",
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Tolerance": "1%",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.125 W conservative"
+      }
+    },
+    {
+      "reference": "R126",
+      "value": "10",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW080510R0FHEA",
+      "footprint": "R126_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "TNPW080510R0FHEA",
+        "Review status": "Prototype candidate; not release qualified",
+        "Manufacturer Name": "Vishay",
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Tolerance": "1%",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.125 W conservative"
+      }
+    },
+    {
+      "reference": "R127",
+      "value": "5.1k",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW08055K10FHEA",
+      "footprint": "R127_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "TNPW08055K10FHEA",
+        "Review status": "Prototype candidate; not release qualified",
+        "Manufacturer Name": "Vishay",
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Tolerance": "1%",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.125 W conservative"
+      }
+    },
+    {
+      "reference": "R128",
+      "value": "10k",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW080510K0FHEA",
+      "footprint": "R128_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "TNPW080510K0FHEA",
+        "Review status": "Prototype candidate; not release qualified",
+        "Manufacturer Name": "Vishay",
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Tolerance": "1%",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.125 W conservative"
+      }
+    },
+    {
+      "reference": "R129",
+      "value": "10k",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW080510K0FHEA",
+      "footprint": "R129_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "TNPW080510K0FHEA",
+        "Review status": "Prototype candidate; not release qualified",
+        "Manufacturer Name": "Vishay",
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Tolerance": "1%",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.125 W conservative"
+      }
+    },
+    {
+      "reference": "R13",
+      "value": "470\u03a9",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW0603470RFHEA",
+      "footprint": "R13_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Part Type": "Resistor",
+        "Manufacturer Name": "Vishay",
+        "Functional Group": "Playback DAC Output",
+        "Voltage Rating": "",
+        "Role": "Filtering",
+        "Manufacturer Part Number": "TNPW0603470RFHEA",
+        "Designator Prefix": "R",
+        "Role Details": "Left-channel RC output low-pass",
+        "Tolerance": "1%",
+        "Resistance": "470\u03a9",
+        "Package": "SMD_0603_1608Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.10 W conservative"
+      }
+    },
+    {
+      "reference": "R130",
+      "value": "6.04k",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW08056K04FHEA",
+      "footprint": "R130_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "TNPW08056K04FHEA",
+        "Review status": "Development selection; thermal/transient checks pending",
+        "Tolerance": "1%",
+        "Manufacturer Name": "Vishay",
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.125 W conservative"
+      }
+    },
+    {
+      "reference": "R131",
+      "value": "200k",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW0805200KBYEA",
+      "footprint": "R131_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "TNPW0805200KBYEA",
+        "Review status": "Development selection; thermal/transient checks pending",
+        "Tolerance": "0.1%",
+        "Temperature coefficient": "10 ppm/C maximum",
+        "Manufacturer Name": "Vishay",
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Power rating": "0.125 W conservative"
+      }
+    },
+    {
+      "reference": "R132",
+      "value": "10k",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW080510K0BYEA",
+      "footprint": "R132_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "TNPW080510K0BYEA",
+        "Review status": "Development selection; thermal/transient checks pending",
+        "Tolerance": "0.1%",
+        "Temperature coefficient": "10 ppm/C maximum",
+        "Manufacturer Name": "Vishay",
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Power rating": "0.125 W conservative"
+      }
+    },
+    {
+      "reference": "R133",
+      "value": "158k",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW0805158KFHEA",
+      "footprint": "R133_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "TNPW0805158KFHEA",
+        "Review status": "Development selection; thermal/transient checks pending",
+        "Tolerance": "1%",
+        "Manufacturer Name": "Vishay",
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.125 W conservative"
+      }
+    },
+    {
+      "reference": "R134",
+      "value": "10k",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW080510K0FHEA",
+      "footprint": "R134_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "TNPW080510K0FHEA",
+        "Review status": "Development selection; thermal/transient checks pending",
+        "Tolerance": "1%",
+        "Manufacturer Name": "Vishay",
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.125 W conservative"
+      }
+    },
+    {
+      "reference": "R135",
+      "value": "1k",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW08051K00FHEA",
+      "footprint": "R135_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "TNPW08051K00FHEA",
+        "Review status": "Development selection; thermal/transient checks pending",
+        "Tolerance": "1%",
+        "Manufacturer Name": "Vishay",
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.125 W conservative"
+      }
+    },
+    {
+      "reference": "R136",
+      "value": "174k",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW0805174KFHEA",
+      "footprint": "R136_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "TNPW0805174KFHEA",
+        "Review status": "Development selection; thermal/transient checks pending",
+        "Tolerance": "1%",
+        "Manufacturer Name": "Vishay",
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.125 W conservative"
+      }
+    },
+    {
+      "reference": "R137",
+      "value": "10k",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW080510K0FHEA",
+      "footprint": "R137_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "TNPW080510K0FHEA",
+        "Review status": "Development selection; thermal/transient checks pending",
+        "Tolerance": "1%",
+        "Manufacturer Name": "Vishay",
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.125 W conservative"
+      }
+    },
+    {
+      "reference": "R138",
+      "value": "10k",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW080510K0FHEA",
+      "footprint": "R138_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "TNPW080510K0FHEA",
+        "Review status": "Development selection; thermal/transient checks pending",
+        "Tolerance": "1%",
+        "Manufacturer Name": "Vishay",
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.125 W conservative"
+      }
+    },
+    {
+      "reference": "R14",
+      "value": "5.6k\u03a9",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW06035K60FHEA",
+      "footprint": "R14_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Part Type": "Resistor",
+        "Manufacturer Name": "Vishay",
+        "Role Details": "GAIN/SLV to ground selects master 20 dB",
+        "Voltage Rating": "",
+        "Manufacturer Part Number": "TNPW06035K60FHEA",
+        "Functional Group": "Class-D Amplifier",
+        "Role": "Voltage Division",
+        "Designator Prefix": "R",
+        "Tolerance": "1%",
+        "Resistance": "5.6k\u03a9",
+        "Package": "SMD_0603_1608Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.10 W conservative"
+      }
+    },
+    {
+      "reference": "R15",
+      "value": "82k\u03a9",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW060382K0FHEA",
+      "footprint": "R15_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Part Type": "Resistor",
+        "Manufacturer Name": "Vishay",
+        "Power Rating": 0.1,
+        "Voltage Rating": "",
+        "Functional Group": "Class-D Amplifier",
+        "Manufacturer Part Number": "TNPW060382K0FHEA",
+        "Role Details": "PLIMIT upper resistor to GVDD; with R16 gives approximately 30 W hardware ceiling into 4 ohms",
+        "Designator Prefix": "R",
+        "Tolerance": "1%",
+        "Resistance": "82k\u03a9",
+        "Package": "SMD_0603_1608Metric",
+        "Role": "Voltage Division",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.10 W conservative"
+      }
+    },
+    {
+      "reference": "R16",
+      "value": "51k\u03a9",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW060351K0FHEA",
+      "footprint": "R16_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Part Type": "Resistor",
+        "Manufacturer Name": "Vishay",
+        "Functional Group": "Class-D Amplifier",
+        "Voltage Rating": "",
+        "Power Rating": 0.1,
+        "Manufacturer Part Number": "TNPW060351K0FHEA",
+        "Designator Prefix": "R",
+        "Tolerance": "1%",
+        "Role Details": "PLIMIT lower resistor to ground; with R15 gives approximately 30 W hardware ceiling into 4 ohms",
+        "Resistance": "51k\u03a9",
+        "Package": "SMD_0603_1608Metric",
+        "Role": "Voltage Division",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.10 W conservative"
+      }
+    },
+    {
+      "reference": "R17",
+      "value": "10k\u03a9",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW060310K0FHEA",
+      "footprint": "R17_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Part Type": "Resistor",
+        "Manufacturer Name": "Vishay",
+        "Functional Group": "Class-D Amplifier",
+        "Voltage Rating": "",
+        "Manufacturer Part Number": "TNPW060310K0FHEA",
+        "Designator Prefix": "R",
+        "Tolerance": "1%",
+        "Role": "Pull Up / Down",
+        "Resistance": "10k\u03a9",
+        "Package": "SMD_0603_1608Metric",
+        "Role Details": "FAULTZ open-drain pull-up to 3.3 V",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.10 W conservative"
+      }
+    },
+    {
+      "reference": "R23",
+      "value": "100k\u03a9",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW0603100KFHEA",
+      "footprint": "R23_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Part Type": "Resistor",
+        "Manufacturer Name": "Vishay",
+        "Role": "Feedback",
+        "Voltage Rating": "",
+        "Manufacturer Part Number": "TNPW0603100KFHEA",
+        "Designator Prefix": "R",
+        "Tolerance": "1%",
+        "Functional Group": "5 V Buck",
+        "Role Details": "5 V feedback divider top",
+        "Resistance": "100k\u03a9",
+        "Package": "SMD_0603_1608Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.10 W conservative"
+      }
+    },
+    {
+      "reference": "R24",
+      "value": "24.9k\u03a9",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW060324K9FHEA",
+      "footprint": "R24_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Part Type": "Resistor",
+        "Manufacturer Name": "Vishay",
+        "Role": "Feedback",
+        "Voltage Rating": "",
+        "Manufacturer Part Number": "TNPW060324K9FHEA",
+        "Designator Prefix": "R",
+        "Role Details": "5 V feedback divider bottom",
+        "Tolerance": "1%",
+        "Resistance": "24.9k\u03a9",
+        "Package": "SMD_0603_1608Metric",
+        "Functional Group": "5 V Buck",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.10 W conservative"
+      }
+    },
+    {
+      "reference": "R25",
+      "value": "1k\u03a9",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW06031K00FHEA",
+      "footprint": "R25_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Part Type": "Resistor",
+        "Manufacturer Name": "Vishay",
+        "Voltage Rating": "",
+        "Role": "Current Limiting",
+        "Manufacturer Part Number": "TNPW06031K00FHEA",
+        "Functional Group": "Status LEDs",
+        "Designator Prefix": "R",
+        "Role Details": "3.3 V status LED current limit",
+        "Tolerance": "1%",
+        "Resistance": "1k\u03a9",
+        "Package": "SMD_0603_1608Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.10 W conservative"
+      }
+    },
+    {
+      "reference": "R26",
+      "value": "1k\u03a9",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW06031K00FHEA",
+      "footprint": "R26_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Part Type": "Resistor",
+        "Manufacturer Name": "Vishay",
+        "Voltage Rating": "",
+        "Role": "Current Limiting",
+        "Manufacturer Part Number": "TNPW06031K00FHEA",
+        "Functional Group": "Status LEDs",
+        "Designator Prefix": "R",
+        "Tolerance": "1%",
+        "Role Details": "3.3 V status LED current limit",
+        "Resistance": "1k\u03a9",
+        "Package": "SMD_0603_1608Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.10 W conservative"
+      }
+    },
+    {
+      "reference": "R27",
+      "value": "1k\u03a9",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW06031K00FHEA",
+      "footprint": "R27_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Part Type": "Resistor",
+        "Manufacturer Name": "Vishay",
+        "Voltage Rating": "",
+        "Role": "Current Limiting",
+        "Manufacturer Part Number": "TNPW06031K00FHEA",
+        "Functional Group": "Status LEDs",
+        "Designator Prefix": "R",
+        "Tolerance": "1%",
+        "Role Details": "3.3 V status LED current limit",
+        "Resistance": "1k\u03a9",
+        "Package": "SMD_0603_1608Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.10 W conservative"
+      }
+    },
+    {
+      "reference": "R28",
+      "value": "33\u03a9",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW060333R0FHEA",
+      "footprint": "R28_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Part Type": "Resistor",
+        "Manufacturer Name": "Vishay",
+        "Role Details": "PDM clock/data or I2S source-series edge damping",
+        "Voltage Rating": "",
+        "Role": "Snubber / Damping",
+        "Manufacturer Part Number": "TNPW060333R0FHEA",
+        "Designator Prefix": "R",
+        "Tolerance": "1%",
+        "Resistance": "33\u03a9",
+        "Package": "SMD_0603_1608Metric",
+        "Functional Group": "PDM and I2S Damping",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.10 W conservative"
+      }
+    },
+    {
+      "reference": "R29",
+      "value": "33\u03a9",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW060333R0FHEA",
+      "footprint": "R29_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Part Type": "Resistor",
+        "Manufacturer Name": "Vishay",
+        "Voltage Rating": "",
+        "Manufacturer Part Number": "TNPW060333R0FHEA",
+        "Functional Group": "PDM and I2S Damping",
+        "Designator Prefix": "R",
+        "Role Details": "PDM clock/data or I2S source-series edge damping",
+        "Role": "Snubber / Damping",
+        "Tolerance": "1%",
+        "Resistance": "33\u03a9",
+        "Package": "SMD_0603_1608Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.10 W conservative"
+      }
+    },
+    {
+      "reference": "R3",
+      "value": "27k\u03a9",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW120627K0FHEA",
+      "footprint": "R3_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Functional Group": "PoE Class Isolation",
+        "Part Type": "Resistor",
+        "Manufacturer Name": "Vishay",
+        "Voltage Rating": "",
+        "Power Rating": 0.25,
+        "Role": "Current Limiting",
+        "Manufacturer Part Number": "TNPW120627K0FHEA",
+        "Designator Prefix": "R",
+        "Role Details": "Ag5800 AT/Type3/Type4 detect optocoupler LED resistor",
+        "Tolerance": "1%",
+        "Resistance": "27k\u03a9",
+        "Package": "SMD_1206_3216Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.25 W conservative"
+      }
+    },
+    {
+      "reference": "R30",
+      "value": "33\u03a9",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW060333R0FHEA",
+      "footprint": "R30_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Part Type": "Resistor",
+        "Manufacturer Name": "Vishay",
+        "Functional Group": "PDM and I2S Damping",
+        "Voltage Rating": "",
+        "Role Details": "PDM clock/data or I2S source-series edge damping",
+        "Role": "Snubber / Damping",
+        "Manufacturer Part Number": "TNPW060333R0FHEA",
+        "Designator Prefix": "R",
+        "Tolerance": "1%",
+        "Resistance": "33\u03a9",
+        "Package": "SMD_0603_1608Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.10 W conservative"
+      }
+    },
+    {
+      "reference": "R31",
+      "value": "33\u03a9",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW060333R0FHEA",
+      "footprint": "R31_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Part Type": "Resistor",
+        "Manufacturer Name": "Vishay",
+        "Role": "Snubber / Damping",
+        "Voltage Rating": "",
+        "Functional Group": "PDM and I2S Damping",
+        "Manufacturer Part Number": "TNPW060333R0FHEA",
+        "Designator Prefix": "R",
+        "Tolerance": "1%",
+        "Resistance": "33\u03a9",
+        "Package": "SMD_0603_1608Metric",
+        "Role Details": "PDM clock/data or I2S source-series edge damping",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.10 W conservative"
+      }
+    },
+    {
+      "reference": "R32",
+      "value": "33\u03a9",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW060333R0FHEA",
+      "footprint": "R32_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Part Type": "Resistor",
+        "Manufacturer Name": "Vishay",
+        "Voltage Rating": "",
+        "Role": "Snubber / Damping",
+        "Manufacturer Part Number": "TNPW060333R0FHEA",
+        "Designator Prefix": "R",
+        "Role Details": "PDM clock/data or I2S source-series edge damping",
+        "Tolerance": "1%",
+        "Resistance": "33\u03a9",
+        "Package": "SMD_0603_1608Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Functional Group": "PDM and I2S Damping",
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.10 W conservative"
+      }
+    },
+    {
+      "reference": "R33",
+      "value": "4.7k\u03a9",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW06034K70FHEA",
+      "footprint": "R33_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Part Type": "Resistor",
+        "Manufacturer Name": "Vishay",
+        "Voltage Rating": "",
+        "Role": "Pull Up / Down",
+        "Manufacturer Part Number": "TNPW06034K70FHEA",
+        "Role Details": "Shared 3.3 V I2C bus pull-up",
+        "Designator Prefix": "R",
+        "Functional Group": "I2C",
+        "Tolerance": "1%",
+        "Resistance": "4.7k\u03a9",
+        "Package": "SMD_0603_1608Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.10 W conservative"
+      }
+    },
+    {
+      "reference": "R34",
+      "value": "4.7k\u03a9",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW06034K70FHEA",
+      "footprint": "R34_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Part Type": "Resistor",
+        "Manufacturer Name": "Vishay",
+        "Voltage Rating": "",
+        "Functional Group": "I2C",
+        "Manufacturer Part Number": "TNPW06034K70FHEA",
+        "Role Details": "Shared 3.3 V I2C bus pull-up",
+        "Role": "Pull Up / Down",
+        "Designator Prefix": "R",
+        "Tolerance": "1%",
+        "Resistance": "4.7k\u03a9",
+        "Package": "SMD_0603_1608Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.10 W conservative"
+      }
+    },
+    {
+      "reference": "R35",
+      "value": "100k\u03a9",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW0603100KFHEA",
+      "footprint": "R35_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Functional Group": "Power Good",
+        "Part Type": "Resistor",
+        "Manufacturer Name": "Vishay",
+        "Role Details": "Open-drain regulator PG pull-up",
+        "Voltage Rating": "",
+        "Manufacturer Part Number": "TNPW0603100KFHEA",
+        "Designator Prefix": "R",
+        "Tolerance": "1%",
+        "Role": "Pull Up / Down",
+        "Resistance": "100k\u03a9",
+        "Package": "SMD_0603_1608Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.10 W conservative"
+      }
+    },
+    {
+      "reference": "R36",
+      "value": "100k\u03a9",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW0603100KFHEA",
+      "footprint": "R36_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Part Type": "Resistor",
+        "Manufacturer Name": "Vishay",
+        "Voltage Rating": "",
+        "Role": "Pull Up / Down",
+        "Role Details": "Open-drain regulator PG pull-up",
+        "Manufacturer Part Number": "TNPW0603100KFHEA",
+        "Functional Group": "Power Good",
+        "Designator Prefix": "R",
+        "Tolerance": "1%",
+        "Resistance": "100k\u03a9",
+        "Package": "SMD_0603_1608Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.10 W conservative"
+      }
+    },
+    {
+      "reference": "R38",
+      "value": "10k\u03a9",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW060310K0FHEA",
+      "footprint": "R38_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Part Type": "Resistor",
+        "Manufacturer Name": "Vishay",
+        "Voltage Rating": "",
+        "Functional Group": "GPIO Expander",
+        "Manufacturer Part Number": "TNPW060310K0FHEA",
+        "Role Details": "PCAL6416 active-low reset pull-up",
+        "Role": "Pull Up / Down",
+        "Designator Prefix": "R",
+        "Tolerance": "1%",
+        "Resistance": "10k\u03a9",
+        "Package": "SMD_0603_1608Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.10 W conservative"
+      }
+    },
+    {
+      "reference": "R4",
+      "value": "27k\u03a9",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW120627K0FHEA",
+      "footprint": "R4_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Part Type": "Resistor",
+        "Manufacturer Name": "Vishay",
+        "Functional Group": "PoE Class Isolation",
+        "Power Rating": 0.25,
+        "Voltage Rating": "",
+        "Manufacturer Part Number": "TNPW120627K0FHEA",
+        "Designator Prefix": "R",
+        "Role Details": "Ag5800 AT/Type3/Type4 detect optocoupler LED resistor",
+        "Tolerance": "1%",
+        "Resistance": "27k\u03a9",
+        "Package": "SMD_1206_3216Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Role": "Current Limiting",
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.25 W conservative"
+      }
+    },
+    {
+      "reference": "R5",
+      "value": "27k\u03a9",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW120627K0FHEA",
+      "footprint": "R5_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Part Type": "Resistor",
+        "Manufacturer Name": "Vishay",
+        "Functional Group": "PoE Class Isolation",
+        "Voltage Rating": "",
+        "Role Details": "Ag5800 AT/Type3/Type4 detect optocoupler LED resistor",
+        "Manufacturer Part Number": "TNPW120627K0FHEA",
+        "Power Rating": 0.25,
+        "Role": "Current Limiting",
+        "Designator Prefix": "R",
+        "Tolerance": "1%",
+        "Resistance": "27k\u03a9",
+        "Package": "SMD_1206_3216Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.25 W conservative"
+      }
+    },
+    {
+      "reference": "R6",
+      "value": "10k\u03a9",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW060310K0FHEA",
+      "footprint": "R6_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Part Type": "Resistor",
+        "Manufacturer Name": "Vishay",
+        "Voltage Rating": "",
+        "Manufacturer Part Number": "TNPW060310K0FHEA",
+        "Role": "Pull Up / Down",
+        "Designator Prefix": "R",
+        "Role Details": "10k pull-up to 3.3 V; class detection asserted low by PC817 collector",
+        "Tolerance": "1%",
+        "Functional Group": "PoE Class Isolation",
+        "Resistance": "10k\u03a9",
+        "Package": "SMD_0603_1608Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.10 W conservative"
+      }
+    },
+    {
+      "reference": "R7",
+      "value": "10k\u03a9",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW060310K0FHEA",
+      "footprint": "R7_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Part Type": "Resistor",
+        "Manufacturer Name": "Vishay",
+        "Role": "Pull Up / Down",
+        "Role Details": "10k pull-up to 3.3 V; class detection asserted low by PC817 collector",
+        "Voltage Rating": "",
+        "Manufacturer Part Number": "TNPW060310K0FHEA",
+        "Designator Prefix": "R",
+        "Tolerance": "1%",
+        "Functional Group": "PoE Class Isolation",
+        "Resistance": "10k\u03a9",
+        "Package": "SMD_0603_1608Metric",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.10 W conservative"
+      }
+    },
+    {
+      "reference": "R8",
+      "value": "10k\u03a9",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW060310K0FHEA",
+      "footprint": "R8_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Part Type": "Resistor",
+        "Manufacturer Name": "Vishay",
+        "Role": "Pull Up / Down",
+        "Voltage Rating": "",
+        "Manufacturer Part Number": "TNPW060310K0FHEA",
+        "Functional Group": "PoE Class Isolation",
+        "Designator Prefix": "R",
+        "Tolerance": "1%",
+        "Resistance": "10k\u03a9",
+        "Package": "SMD_0603_1608Metric",
+        "Role Details": "10k pull-up to 3.3 V; class detection asserted low by PC817 collector",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.10 W conservative"
+      }
+    },
+    {
+      "reference": "R9",
+      "value": "10k\u03a9",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW060310K0FHEA",
+      "footprint": "R9_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Part Type": "Resistor",
+        "Manufacturer Name": "Vishay",
+        "Voltage Rating": "",
+        "Manufacturer Part Number": "TNPW060310K0FHEA",
+        "Designator Prefix": "R",
+        "Functional Group": "MCU Support",
+        "Tolerance": "1%",
+        "Role": "Pull Up / Down",
+        "Resistance": "10k\u03a9",
+        "Package": "SMD_0603_1608Metric",
+        "Role Details": "ESP32 EN power-on pull-up",
+        "Datasheet URL": {
+          "text": "",
+          "type": "link",
+          "url": ""
+        },
+        "Datasheet": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+        "Selection status": "Datasheet-selected prototype candidate; availability and circuit qualification pending",
+        "Temperature coefficient": "50 ppm/C maximum",
+        "Power rating": "0.10 W conservative"
+      }
+    },
+    {
+      "reference": "SW1",
+      "value": "TS-1088-AR02016",
+      "manufacturer": "XUNPU(\u8baf\u666e)",
+      "mpn": "TS-1088-AR02016",
+      "footprint": "SW1_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Role Details": "Momentarily pulls EN low",
+        "Role": "Switching",
+        "Manufacturer Name": "XUNPU(\u8baf\u666e)",
+        "Datasheet URL": {
+          "text": "https://www.lcsc.com/datasheet/lcsc_datasheet_2409302330_XUNPU-TS-1088-AR02016_C720477.pdf",
+          "type": "link",
+          "url": "https://storage.googleapis.com/graviton-electric-symbols/document_assets/lcsc/2409302330_XUNPU-TS-1088-AR02016_C720477.pdf"
+        },
+        "JLCPCB Part Class": "Extended Part",
+        "Designator Prefix": "SW",
+        "Manufacturer Part Number": "TS-1088-AR02016",
+        "Product Info Url": {
+          "text": "https://lcsc.com/product-detail/Tactile-Switches_XUNPU-TS-1088-AR02016_C720477.html",
+          "type": "link",
+          "url": "https://lcsc.com/product-detail/Tactile-Switches_XUNPU-TS-1088-AR02016_C720477.html"
+        },
+        "Functional Group": "Debug",
+        "LCSC Part Number": "C720477",
+        "Part Type": "Tactile Switches",
+        "Package or Case Code": "SW-SMD_L3.9-W3.0-P4.45"
+      }
+    },
+    {
+      "reference": "SW2",
+      "value": "TS-1088-AR02016",
+      "manufacturer": "XUNPU(\u8baf\u666e)",
+      "mpn": "TS-1088-AR02016",
+      "footprint": "SW2_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Functional Group": "Debug",
+        "Manufacturer Name": "XUNPU(\u8baf\u666e)",
+        "Datasheet URL": {
+          "text": "https://www.lcsc.com/datasheet/lcsc_datasheet_2409302330_XUNPU-TS-1088-AR02016_C720477.pdf",
+          "type": "link",
+          "url": "https://storage.googleapis.com/graviton-electric-symbols/document_assets/lcsc/2409302330_XUNPU-TS-1088-AR02016_C720477.pdf"
+        },
+        "Role Details": "Momentarily pulls GPIO0 low for ROM download mode",
+        "JLCPCB Part Class": "Extended Part",
+        "Role": "Switching",
+        "Designator Prefix": "SW",
+        "Manufacturer Part Number": "TS-1088-AR02016",
+        "Product Info Url": {
+          "text": "https://lcsc.com/product-detail/Tactile-Switches_XUNPU-TS-1088-AR02016_C720477.html",
+          "type": "link",
+          "url": "https://lcsc.com/product-detail/Tactile-Switches_XUNPU-TS-1088-AR02016_C720477.html"
+        },
+        "LCSC Part Number": "C720477",
+        "Part Type": "Tactile Switches",
+        "Package or Case Code": "SW-SMD_L3.9-W3.0-P4.45"
+      }
+    },
+    {
+      "reference": "TP1",
+      "value": "Generic Testpoint",
+      "manufacturer": "",
+      "mpn": "",
+      "footprint": "TP1_RevB",
+      "assembly": "PCB feature",
+      "status": "No purchase required",
+      "properties": {
+        "Testpoint Size": "0.5",
+        "Role": "Coupling",
+        "Part Type": "Test Point",
+        "Functional Group": "Test Points",
+        "Designator Prefix": "TP",
+        "Role Details": "Bring-up oscilloscope/DMM test point",
+        "Package": "SMD_Pad_2.0mm"
+      }
+    },
+    {
+      "reference": "TP10",
+      "value": "Generic Testpoint",
+      "manufacturer": "",
+      "mpn": "",
+      "footprint": "TP10_RevB",
+      "assembly": "PCB feature",
+      "status": "No purchase required",
+      "properties": {
+        "Testpoint Size": "0.5",
+        "Functional Group": "Test Points",
+        "Part Type": "Test Point",
+        "Role Details": "Bring-up oscilloscope/DMM test point",
+        "Role": "Coupling",
+        "Package": "SMD_Pad_2.0mm",
+        "Designator Prefix": "TP"
+      }
+    },
+    {
+      "reference": "TP11",
+      "value": "Generic Testpoint",
+      "manufacturer": "",
+      "mpn": "",
+      "footprint": "TP11_RevB",
+      "assembly": "PCB feature",
+      "status": "No purchase required",
+      "properties": {
+        "Role": "Coupling",
+        "Testpoint Size": "0.5",
+        "Part Type": "Test Point",
+        "Role Details": "Bring-up oscilloscope/DMM test point",
+        "Designator Prefix": "TP",
+        "Functional Group": "Test Points",
+        "Package": "SMD_Pad_2.0mm"
+      }
+    },
+    {
+      "reference": "TP12",
+      "value": "Generic Testpoint",
+      "manufacturer": "",
+      "mpn": "",
+      "footprint": "TP12_RevB",
+      "assembly": "PCB feature",
+      "status": "No purchase required",
+      "properties": {
+        "Functional Group": "Test Points",
+        "Testpoint Size": "0.5",
+        "Package": "SMD_Pad_2.0mm",
+        "Part Type": "Test Point",
+        "Role Details": "Bring-up oscilloscope/DMM test point",
+        "Designator Prefix": "TP",
+        "Role": "Coupling"
+      }
+    },
+    {
+      "reference": "TP13",
+      "value": "Generic Testpoint",
+      "manufacturer": "",
+      "mpn": "",
+      "footprint": "TP13_RevB",
+      "assembly": "PCB feature",
+      "status": "No purchase required",
+      "properties": {
+        "Testpoint Size": "0.5",
+        "Part Type": "Test Point",
+        "Package": "SMD_Pad_2.0mm",
+        "Role": "Coupling",
+        "Designator Prefix": "TP",
+        "Functional Group": "Test Points",
+        "Role Details": "Bring-up oscilloscope/DMM test point"
+      }
+    },
+    {
+      "reference": "TP14",
+      "value": "Generic Testpoint",
+      "manufacturer": "",
+      "mpn": "",
+      "footprint": "TP14_RevB",
+      "assembly": "PCB feature",
+      "status": "No purchase required",
+      "properties": {
+        "Role": "Coupling",
+        "Role Details": "Bring-up oscilloscope/DMM test point",
+        "Testpoint Size": "0.5",
+        "Part Type": "Test Point",
+        "Designator Prefix": "TP",
+        "Functional Group": "Test Points",
+        "Package": "SMD_Pad_2.0mm"
+      }
+    },
+    {
+      "reference": "TP15",
+      "value": "Generic Testpoint",
+      "manufacturer": "",
+      "mpn": "",
+      "footprint": "TP15_RevB",
+      "assembly": "PCB feature",
+      "status": "No purchase required",
+      "properties": {
+        "Testpoint Size": "0.5",
+        "Package": "SMD_Pad_2.0mm",
+        "Part Type": "Test Point",
+        "Designator Prefix": "TP",
+        "Functional Group": "Test Points",
+        "Role Details": "Bring-up oscilloscope/DMM test point",
+        "Role": "Coupling"
+      }
+    },
+    {
+      "reference": "TP16",
+      "value": "Generic Testpoint",
+      "manufacturer": "",
+      "mpn": "",
+      "footprint": "TP16_RevB",
+      "assembly": "PCB feature",
+      "status": "No purchase required",
+      "properties": {
+        "Functional Group": "Test Points",
+        "Testpoint Size": "0.5",
+        "Package": "SMD_Pad_2.0mm",
+        "Role": "Coupling",
+        "Part Type": "Test Point",
+        "Designator Prefix": "TP",
+        "Role Details": "Bring-up oscilloscope/DMM test point"
+      }
+    },
+    {
+      "reference": "TP17",
+      "value": "Generic Testpoint",
+      "manufacturer": "",
+      "mpn": "",
+      "footprint": "TP17_RevB",
+      "assembly": "PCB feature",
+      "status": "No purchase required",
+      "properties": {
+        "Testpoint Size": "0.5",
+        "Part Type": "Test Point",
+        "Package": "SMD_Pad_2.0mm",
+        "Designator Prefix": "TP",
+        "Functional Group": "Test Points",
+        "Role Details": "Bring-up oscilloscope/DMM test point",
+        "Role": "Coupling"
+      }
+    },
+    {
+      "reference": "TP18",
+      "value": "Generic Testpoint",
+      "manufacturer": "",
+      "mpn": "",
+      "footprint": "TP18_RevB",
+      "assembly": "PCB feature",
+      "status": "No purchase required",
+      "properties": {
+        "Role": "Coupling",
+        "Testpoint Size": "0.5",
+        "Part Type": "Test Point",
+        "Package": "SMD_Pad_2.0mm",
+        "Role Details": "Bring-up oscilloscope/DMM test point",
+        "Designator Prefix": "TP",
+        "Functional Group": "Test Points"
+      }
+    },
+    {
+      "reference": "TP19",
+      "value": "Generic Testpoint",
+      "manufacturer": "",
+      "mpn": "",
+      "footprint": "TP19_RevB",
+      "assembly": "PCB feature",
+      "status": "No purchase required",
+      "properties": {
+        "Testpoint Size": "0.5",
+        "Functional Group": "Test Points",
+        "Part Type": "Test Point",
+        "Designator Prefix": "TP",
+        "Package": "SMD_Pad_2.0mm",
+        "Role": "Coupling",
+        "Role Details": "Bring-up oscilloscope/DMM test point"
+      }
+    },
+    {
+      "reference": "TP2",
+      "value": "Generic Testpoint",
+      "manufacturer": "",
+      "mpn": "",
+      "footprint": "TP2_RevB",
+      "assembly": "PCB feature",
+      "status": "No purchase required",
+      "properties": {
+        "Testpoint Size": "0.5",
+        "Part Type": "Test Point",
+        "Role": "Coupling",
+        "Designator Prefix": "TP",
+        "Package": "SMD_Pad_2.0mm",
+        "Role Details": "Bring-up oscilloscope/DMM test point",
+        "Functional Group": "Test Points"
+      }
+    },
+    {
+      "reference": "TP20",
+      "value": "Generic Testpoint",
+      "manufacturer": "",
+      "mpn": "",
+      "footprint": "TP20_RevB",
+      "assembly": "PCB feature",
+      "status": "No purchase required",
+      "properties": {
+        "Testpoint Size": "0.5",
+        "Role": "Coupling",
+        "Part Type": "Test Point",
+        "Role Details": "Bring-up oscilloscope/DMM test point",
+        "Designator Prefix": "TP",
+        "Package": "SMD_Pad_2.0mm",
+        "Functional Group": "Test Points"
+      }
+    },
+    {
+      "reference": "TP21",
+      "value": "Generic Testpoint",
+      "manufacturer": "",
+      "mpn": "",
+      "footprint": "TP21_RevB",
+      "assembly": "PCB feature",
+      "status": "No purchase required",
+      "properties": {
+        "Role Details": "24 V bench raw input test point before fuse",
+        "Testpoint Size": "0.5",
+        "Part Type": "Test Point",
+        "Role": "Test Point",
+        "Designator Prefix": "TP",
+        "Functional Group": "Test Points",
+        "Package": "SMD_Pad_2.0mm"
+      }
+    },
+    {
+      "reference": "TP22",
+      "value": "Generic Testpoint",
+      "manufacturer": "",
+      "mpn": "",
+      "footprint": "TP22_RevB",
+      "assembly": "PCB feature",
+      "status": "No purchase required",
+      "properties": {
+        "Testpoint Size": "0.5",
+        "Part Type": "Test Point",
+        "Role Details": "Protected bench input test point after fuse and TVS",
+        "Role": "Test Point",
+        "Package": "SMD_Pad_2.0mm",
+        "Designator Prefix": "TP",
+        "Functional Group": "Test Points"
+      }
+    },
+    {
+      "reference": "TP23",
+      "value": "Generic Testpoint",
+      "manufacturer": "",
+      "mpn": "",
+      "footprint": "TP23_RevB",
+      "assembly": "PCB feature",
+      "status": "No purchase required",
+      "properties": {
+        "Role": "Test Point",
+        "Testpoint Size": "0.5",
+        "Part Type": "Test Point",
+        "Package": "SMD_Pad_2.0mm",
+        "Designator Prefix": "TP",
+        "Role Details": "24 V PoE secondary test point for ideal-diode no-backfeed checks",
+        "Functional Group": "Test Points"
+      }
+    },
+    {
+      "reference": "TP25",
+      "value": "BENCH_FAULT_N",
+      "manufacturer": "",
+      "mpn": "BENCH_FAULT_N",
+      "footprint": "TP25_RevB",
+      "assembly": "PCB feature",
+      "status": "No purchase required",
+      "properties": {
+        "Manufacturer Part Number": "BENCH_FAULT_N",
+        "Review status": "Prototype candidate; not release qualified"
+      }
+    },
+    {
+      "reference": "TP26",
+      "value": "EFUSE_SHDN",
+      "manufacturer": "",
+      "mpn": "TBD",
+      "footprint": "TP26_RevB",
+      "assembly": "PCB feature",
+      "status": "No purchase required",
+      "properties": {
+        "Manufacturer Part Number": "TBD",
+        "Review status": "Development selection; thermal/transient checks pending"
+      }
+    },
+    {
+      "reference": "TP27",
+      "value": "EFUSE_FAULT_N",
+      "manufacturer": "",
+      "mpn": "TBD",
+      "footprint": "TP27_RevB",
+      "assembly": "PCB feature",
+      "status": "No purchase required",
+      "properties": {
+        "Manufacturer Part Number": "TBD",
+        "Review status": "Development selection; thermal/transient checks pending"
+      }
+    },
+    {
+      "reference": "TP3",
+      "value": "Generic Testpoint",
+      "manufacturer": "",
+      "mpn": "",
+      "footprint": "TP3_RevB",
+      "assembly": "PCB feature",
+      "status": "No purchase required",
+      "properties": {
+        "Testpoint Size": "0.5",
+        "Part Type": "Test Point",
+        "Package": "SMD_Pad_2.0mm",
+        "Designator Prefix": "TP",
+        "Functional Group": "Test Points",
+        "Role Details": "Bring-up oscilloscope/DMM test point",
+        "Role": "Coupling"
+      }
+    },
+    {
+      "reference": "TP4",
+      "value": "Generic Testpoint",
+      "manufacturer": "",
+      "mpn": "",
+      "footprint": "TP4_RevB",
+      "assembly": "PCB feature",
+      "status": "No purchase required",
+      "properties": {
+        "Functional Group": "Test Points",
+        "Role": "Coupling",
+        "Testpoint Size": "0.5",
+        "Part Type": "Test Point",
+        "Designator Prefix": "TP",
+        "Package": "SMD_Pad_2.0mm",
+        "Role Details": "Bring-up oscilloscope/DMM test point"
+      }
+    },
+    {
+      "reference": "TP5",
+      "value": "Generic Testpoint",
+      "manufacturer": "",
+      "mpn": "",
+      "footprint": "TP5_RevB",
+      "assembly": "PCB feature",
+      "status": "No purchase required",
+      "properties": {
+        "Testpoint Size": "0.5",
+        "Part Type": "Test Point",
+        "Functional Group": "Test Points",
+        "Designator Prefix": "TP",
+        "Role Details": "Bring-up oscilloscope/DMM test point",
+        "Role": "Coupling",
+        "Package": "SMD_Pad_2.0mm"
+      }
+    },
+    {
+      "reference": "TP6",
+      "value": "Generic Testpoint",
+      "manufacturer": "",
+      "mpn": "",
+      "footprint": "TP6_RevB",
+      "assembly": "PCB feature",
+      "status": "No purchase required",
+      "properties": {
+        "Package": "SMD_Pad_2.0mm",
+        "Role Details": "Bring-up oscilloscope/DMM test point",
+        "Testpoint Size": "0.5",
+        "Part Type": "Test Point",
+        "Functional Group": "Test Points",
+        "Designator Prefix": "TP",
+        "Role": "Coupling"
+      }
+    },
+    {
+      "reference": "TP7",
+      "value": "Generic Testpoint",
+      "manufacturer": "",
+      "mpn": "",
+      "footprint": "TP7_RevB",
+      "assembly": "PCB feature",
+      "status": "No purchase required",
+      "properties": {
+        "Package": "SMD_Pad_2.0mm",
+        "Testpoint Size": "0.5",
+        "Part Type": "Test Point",
+        "Role": "Coupling",
+        "Designator Prefix": "TP",
+        "Functional Group": "Test Points",
+        "Role Details": "Bring-up oscilloscope/DMM test point"
+      }
+    },
+    {
+      "reference": "TP8",
+      "value": "Generic Testpoint",
+      "manufacturer": "",
+      "mpn": "",
+      "footprint": "TP8_RevB",
+      "assembly": "PCB feature",
+      "status": "No purchase required",
+      "properties": {
+        "Role Details": "Bring-up oscilloscope/DMM test point",
+        "Testpoint Size": "0.5",
+        "Part Type": "Test Point",
+        "Package": "SMD_Pad_2.0mm",
+        "Designator Prefix": "TP",
+        "Functional Group": "Test Points",
+        "Role": "Coupling"
+      }
+    },
+    {
+      "reference": "TP9",
+      "value": "Generic Testpoint",
+      "manufacturer": "",
+      "mpn": "",
+      "footprint": "TP9_RevB",
+      "assembly": "PCB feature",
+      "status": "No purchase required",
+      "properties": {
+        "Functional Group": "Test Points",
+        "Testpoint Size": "0.5",
+        "Role": "Coupling",
+        "Role Details": "Bring-up oscilloscope/DMM test point",
+        "Part Type": "Test Point",
+        "Package": "SMD_Pad_2.0mm",
+        "Designator Prefix": "TP"
+      }
+    },
+    {
+      "reference": "U1",
+      "value": "Ag5800",
+      "manufacturer": "Silvertel",
+      "mpn": "Ag5800",
+      "footprint": "U1_RevB",
+      "assembly": "THT",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Functional Group": "PoE Isolation and Conversion",
+        "Manufacturer Name": "Silvertel",
+        "Datasheet URL": {
+          "text": "https://silvertel.com/images/datasheets/Ag5800-datasheet-%20IEEE802_3bt-Power-over-Ethernet-4-pair-PD.pdf",
+          "type": "link",
+          "url": "https://storage.googleapis.com/graviton-electric-symbols/document_assets/user-uploaded/38080c002fb70dedaf2ce95584940c6924502d092a358853984412fa5c7f9b16.pdf"
+        },
+        "Part Type": "Integrated Circuits",
+        "Designator Prefix": "PS",
+        "Package or Case Code": "Module",
+        "Role": "PoE Converter",
+        "Role Details": "24 V series-output isolated supply; budgeted to 43 W input for 30 W audio baseline",
+        "Symbol Style": "parametric-v1",
+        "Manufacturer Part Number": "Ag5800",
+        "Datasheet": "https://www.silvertel.com/images/datasheets/Ag5800-datasheet-%20IEEE802_3bt-Power-over-Ethernet-4-pair-PD.pdf",
+        "Order code review": "Complete code in Table 1; outputs in series for 24V; not Ag5824"
+      }
+    },
+    {
+      "reference": "U10",
+      "value": "LM5050-2",
+      "manufacturer": "Texas Instruments Inc.",
+      "mpn": "LM5050MK-2/NOPB",
+      "footprint": "U10_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Role": "Ideal Diode Controller",
+        "Role Details": "Low-loss protected bench source path",
+        "Designator Prefix": "U",
+        "Manufacturer Part Number": "LM5050MK-2/NOPB",
+        "Functional Group": "24 V Power ORing",
+        "Datasheet URL": {
+          "text": "http://www.ti.com/lit/ds/symlink/lm5050-2.pdf",
+          "type": "link",
+          "url": "http://www.ti.com/lit/ds/symlink/lm5050-2.pdf"
+        },
+        "Manufacturer Name": "Texas Instruments Inc.",
+        "Package or Case Code": "TSOT-23-6",
+        "Datasheet": "https://www.ti.com/lit/gpn/LM5050-2",
+        "Order code review": "DDC 6-lead thin SOT23; 0.95mm pitch"
+      }
+    },
+    {
+      "reference": "U11",
+      "value": "PCAL6416APW",
+      "manufacturer": "NXP Semiconductors NV",
+      "mpn": "PCAL6416APW",
+      "footprint": "U11_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Package or Case Code": "TSSOP-24_4.4x7.8mm_P0.65mm",
+        "Designator Prefix": "U",
+        "Role": "GPIO Expander",
+        "Manufacturer Name": "NXP Semiconductors NV",
+        "Datasheet URL": {
+          "text": "https://www.nxp.com/docs/en/data-sheet/PCAL6416A.pdf",
+          "type": "link",
+          "url": "https://www.nxp.com/docs/en/data-sheet/PCAL6416A.pdf"
+        },
+        "Functional Group": "Control and Power Policy",
+        "Role Details": "Safe startup controls and PoE class/fault status",
+        "Manufacturer Part Number": "PCAL6416APW"
+      }
+    },
+    {
+      "reference": "U12",
+      "value": "PC817X2NSZ9F",
+      "manufacturer": "SHARP(\u590f\u666e)",
+      "mpn": "PC817X2NSZ9F",
+      "footprint": "U12_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Product Info Url": {
+          "text": "https://lcsc.com/product-detail/DIP-Optocouplers_Sharp-Microelectronics-PC817X2NSZ9F_C390734.html",
+          "type": "link",
+          "url": "https://lcsc.com/product-detail/DIP-Optocouplers_Sharp-Microelectronics-PC817X2NSZ9F_C390734.html"
+        },
+        "Manufacturer Name": "SHARP(\u590f\u666e)",
+        "Part Type": "Optocouplers - Phototransistor Output",
+        "Manufacturer Part Number": "PC817X2NSZ9F",
+        "Datasheet URL": {
+          "text": "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_Sharp-Microelectronics-PC817X2NSZ9F_C390734.pdf",
+          "type": "link",
+          "url": "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_Sharp-Microelectronics-PC817X2NSZ9F_C390734.pdf"
+        },
+        "Role Details": "Ag5800 class-detect signal isolation",
+        "LCSC Part Number": "C390734",
+        "Designator Prefix": "U",
+        "Role": "Isolation Optocoupler",
+        "Package or Case Code": "DIP-4_L6.4-W4.6-P2.54-LS7.6-BL",
+        "Functional Group": "PoE Class Isolation",
+        "JLCPCB Part Class": "Extended Part"
+      }
+    },
+    {
+      "reference": "U13",
+      "value": "PC817X2NSZ9F",
+      "manufacturer": "SHARP(\u590f\u666e)",
+      "mpn": "PC817X2NSZ9F",
+      "footprint": "U13_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Product Info Url": {
+          "text": "https://lcsc.com/product-detail/DIP-Optocouplers_Sharp-Microelectronics-PC817X2NSZ9F_C390734.html",
+          "type": "link",
+          "url": "https://lcsc.com/product-detail/DIP-Optocouplers_Sharp-Microelectronics-PC817X2NSZ9F_C390734.html"
+        },
+        "Role Details": "Ag5800 class-detect signal isolation",
+        "Manufacturer Name": "SHARP(\u590f\u666e)",
+        "Part Type": "Optocouplers - Phototransistor Output",
+        "Manufacturer Part Number": "PC817X2NSZ9F",
+        "Datasheet URL": {
+          "text": "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_Sharp-Microelectronics-PC817X2NSZ9F_C390734.pdf",
+          "type": "link",
+          "url": "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_Sharp-Microelectronics-PC817X2NSZ9F_C390734.pdf"
+        },
+        "Role": "Isolation Optocoupler",
+        "LCSC Part Number": "C390734",
+        "Designator Prefix": "U",
+        "Package or Case Code": "DIP-4_L6.4-W4.6-P2.54-LS7.6-BL",
+        "JLCPCB Part Class": "Extended Part",
+        "Functional Group": "PoE Class Isolation"
+      }
+    },
+    {
+      "reference": "U14",
+      "value": "PC817X2NSZ9F",
+      "manufacturer": "SHARP(\u590f\u666e)",
+      "mpn": "PC817X2NSZ9F",
+      "footprint": "U14_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Product Info Url": {
+          "text": "https://lcsc.com/product-detail/DIP-Optocouplers_Sharp-Microelectronics-PC817X2NSZ9F_C390734.html",
+          "type": "link",
+          "url": "https://lcsc.com/product-detail/DIP-Optocouplers_Sharp-Microelectronics-PC817X2NSZ9F_C390734.html"
+        },
+        "Role Details": "Ag5800 class-detect signal isolation",
+        "Manufacturer Name": "SHARP(\u590f\u666e)",
+        "Part Type": "Optocouplers - Phototransistor Output",
+        "Manufacturer Part Number": "PC817X2NSZ9F",
+        "Datasheet URL": {
+          "text": "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_Sharp-Microelectronics-PC817X2NSZ9F_C390734.pdf",
+          "type": "link",
+          "url": "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_Sharp-Microelectronics-PC817X2NSZ9F_C390734.pdf"
+        },
+        "Role": "Isolation Optocoupler",
+        "Functional Group": "PoE Class Isolation",
+        "LCSC Part Number": "C390734",
+        "Designator Prefix": "U",
+        "Package or Case Code": "DIP-4_L6.4-W4.6-P2.54-LS7.6-BL",
+        "JLCPCB Part Class": "Extended Part"
+      }
+    },
+    {
+      "reference": "U15",
+      "value": "LTC4365HTS8#TRPBF",
+      "manufacturer": "",
+      "mpn": "LTC4365HTS8#TRPBF",
+      "footprint": "U15_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "LTC4365HTS8#TRPBF",
+        "Review status": "Prototype candidate; not release qualified"
+      }
+    },
+    {
+      "reference": "U16",
+      "value": "TPS26630RGER",
+      "manufacturer": "",
+      "mpn": "TPS26630RGER",
+      "footprint": "U16_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "TPS26630RGER",
+        "Review status": "Development selection; thermal/transient checks pending"
+      }
+    },
+    {
+      "reference": "U2",
+      "value": "ESP32-S3-WROOM-1U-N16R8",
+      "manufacturer": "",
+      "mpn": "ESP32-S3-WROOM-1U-N16R8",
+      "footprint": "U2_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "ESP32-S3-WROOM-1U-N16R8"
+      }
+    },
+    {
+      "reference": "U3",
+      "value": "W5500",
+      "manufacturer": "",
+      "mpn": "W5500",
+      "footprint": "U3_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "W5500"
+      }
+    },
+    {
+      "reference": "U4",
+      "value": "PCM5122PWR",
+      "manufacturer": "TI(\u5fb7\u5dde\u4eea\u5668)",
+      "mpn": "PCM5122PWR",
+      "footprint": "U4_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Role": "Audio DAC",
+        "Symbol Style": "parametric-v1",
+        "Part Type": "Digital To Analog Converters (DACs)",
+        "JLCPCB Part Class": "Extended Part",
+        "Functional Group": "Playback DAC",
+        "Manufacturer Part Number": "PCM5122PWR",
+        "Manufacturer Name": "TI(\u5fb7\u5dde\u4eea\u5668)",
+        "Datasheet URL": {
+          "text": "https://www.ti.com/lit/ds/symlink/pcm5122.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1780518901207&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fpcm5122",
+          "type": "link",
+          "url": "https://www.ti.com/lit/ds/symlink/pcm5122.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1780518901207&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fpcm5122"
+        },
+        "Package or Case Code": "TSSOP-28_L9.8-W6.6-P0.65-BL",
+        "Role Details": "3-wire I2S, I2C control, left-channel mono analog source",
+        "LCSC Part Number": "C962071",
+        "Designator Prefix": "U"
+      }
+    },
+    {
+      "reference": "U5",
+      "value": "TPA3116D2",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPA3116D2DADR",
+      "footprint": "U5_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Role Details": "24 V PBTL mono; fixed PLIMIT hardware ceiling approximately 30 W into 4 ohms, firmware DSP applies lower af/at limits",
+        "Designator Prefix": "U",
+        "Datasheet URL": {
+          "text": "https://www.ti.com/lit/ds/symlink/tpa3116d2.pdf",
+          "type": "link",
+          "url": "https://www.ti.com/lit/ds/symlink/tpa3116d2.pdf"
+        },
+        "Part Type": "Integrated Circuit",
+        "Manufacturer Name": "Texas Instruments",
+        "Role": "Power Amplifier",
+        "Functional Group": "Class-D Amplifier",
+        "License": "https://creativecommons.org/licenses/by/4.0/",
+        "Manufacturer Part Number": "TPA3116D2DADR",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tpa3116d2.pdf",
+        "Order code review": "DAD0032A top thermal pad; existing 32-lead 0.65mm pitch footprint; external top heatsink required"
+      }
+    },
+    {
+      "reference": "U6",
+      "value": "LMR33630AQRNXRQ1",
+      "manufacturer": "Texas Instruments",
+      "mpn": "LMR33630AQRNXRQ1",
+      "footprint": "U6_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Symbol Style": "parametric-v1",
+        "Package or Case Code": "VQFN-HR (RNX) | 12, RNX0012B, 3 x 2 x 0.85 mm",
+        "Designator Prefix": "U",
+        "Functional Group": "Secondary Regulators",
+        "Manufacturer Name": "Texas Instruments",
+        "Role Details": "24V_AMP to 5V; peak rail budget 1.2 A with margin",
+        "Manufacturer Part Number": "LMR33630AQRNXRQ1",
+        "Role": "Buck Regulator",
+        "Datasheet URL": {
+          "text": "https://www.ti.com/lit/gpn/lmr33630-q1",
+          "type": "link",
+          "url": "https://www.ti.com/lit/gpn/lmr33630-q1"
+        },
+        "Part Type": "DC-DC Converters",
+        "Pin type review": "TI pin table; duplicate internally common switch pins remain passive to avoid false output contention"
+      }
+    },
+    {
+      "reference": "U7",
+      "value": "TPS62132RGTR",
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS62132RGTR",
+      "footprint": "U7_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Datasheet URL": {
+          "text": "https://www.ti.com/lit/ds/symlink/tps62130.pdf",
+          "type": "link",
+          "url": "https://storage.googleapis.com/graviton-electric-symbols/document_assets/user-uploaded/2b09978c5a36002dc49ca4300f119423ba99e96ccefbd1cd5eae582fb1690617.pdf"
+        },
+        "Designator Prefix": "IC",
+        "Symbol Style": "parametric-v1",
+        "Package or Case Code": "16-VQFN (3x3)",
+        "Manufacturer Name": "Texas Instruments",
+        "Role Details": "3.3 V 3 A rail; design peak load 1.42 A",
+        "License": "https://creativecommons.org/licenses/by/4.0/",
+        "Role": "Buck Regulator",
+        "Part Type": "Integrated Circuit",
+        "Manufacturer Part Number": "TPS62132RGTR",
+        "Functional Group": "Secondary Regulators",
+        "Pin type review": "TI pin table; duplicate internally common switch pins remain passive to avoid false output contention"
+      }
+    },
+    {
+      "reference": "U8",
+      "value": "RT9013-33GB",
+      "manufacturer": " Richtek Tech",
+      "mpn": "RT9013-33GB",
+      "footprint": "U8_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Designator Prefix": "U",
+        "Functional Group": "Playback DAC Power",
+        "Manufacturer Name": " Richtek Tech",
+        "Role Details": "5 V to 3.3VA DAC-only supply, under 0.1 W typical dissipation",
+        "Role": "Low Noise LDO",
+        "Manufacturer Part Number": "RT9013-33GB",
+        "Datasheet URL": {
+          "text": "https://datasheet.lcsc.com/lcsc/1809081207_Richtek-Tech-RT9013-33GB_C47773.pdf",
+          "type": "link",
+          "url": "https://datasheet.lcsc.com/lcsc/1809081207_Richtek-Tech-RT9013-33GB_C47773.pdf"
+        },
+        "Part Type": "Integrated Circuit"
+      }
+    },
+    {
+      "reference": "U9",
+      "value": "LM5050-2",
+      "manufacturer": "Texas Instruments Inc.",
+      "mpn": "LM5050MK-2/NOPB",
+      "footprint": "U9_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Functional Group": "24 V Power ORing",
+        "Role": "Ideal Diode Controller",
+        "Role Details": "Blocks backfeed from bench rail into PoE converter",
+        "Designator Prefix": "U",
+        "Manufacturer Part Number": "LM5050MK-2/NOPB",
+        "Datasheet URL": {
+          "text": "http://www.ti.com/lit/ds/symlink/lm5050-2.pdf",
+          "type": "link",
+          "url": "http://www.ti.com/lit/ds/symlink/lm5050-2.pdf"
+        },
+        "Manufacturer Name": "Texas Instruments Inc.",
+        "Package or Case Code": "TSOT-23-6",
+        "Datasheet": "https://www.ti.com/lit/gpn/LM5050-2",
+        "Order code review": "DDC 6-lead thin SOT23; 0.95mm pitch"
+      }
+    },
+    {
+      "reference": "X2",
+      "value": "25MHz",
+      "manufacturer": "",
+      "mpn": "ASE-25.000MHZ-LC-T",
+      "footprint": "X2_RevB",
+      "assembly": "SMD",
+      "status": "Candidate; rating, availability and assembly checks remain",
+      "properties": {
+        "Manufacturer Part Number": "ASE-25.000MHZ-LC-T"
+      }
+    }
+  ],
+  "status": "Candidate BOM, not an approved purchase list"
+}

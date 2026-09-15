@@ -1,0 +1,3 @@
+from pathlib import Path
+f=Path('engineering/ORDER-RELEASE-REVIEW.md');s=f.read_text().replace('seven vias across the four signal nets, including branches.', 'six vias across the four signal nets, including branches. RX termination R104/R105/C102 is now a local bottom-side cluster; twelve obsolete branch items were removed, reducing total RX-net copper from 81.680 mm to 55.734 mm. These totals include branches, not just pair lengths.');f.write_text(s)
+f=Path('engineering/REVE-TRUNK-ROUTING.md');s=f.read_text();s+='\nPost-change Ethernet inventory: RX_P total copper 41.116 to 28.831 mm; RX_N 40.564 to 26.903 mm, including branches. Main PHY-to-jack screening paths unchanged. This is a termination-branch improvement, not completion of pair routing.\n';f.write_text(s)

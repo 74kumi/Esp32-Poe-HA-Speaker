@@ -1,0 +1,18 @@
+{
+  "source": "https://jlcpcb.com/impedance",
+  "checked_date": "2026-09-14",
+  "stackup": "JLC04161H-7628",
+  "status": "design baseline; not fabrication approval",
+  "main_before_sha256": "4302b4232289672ac66f7ed47293f1548acd60b76c9d692bd7997f8a7c7ed8b9",
+  "nominal_order_thickness_mm": 1.6,
+  "copper_dielectric_sum_mm": 1.5862,
+  "outer_copper_mm": 0.035,
+  "inner_copper_mm": 0.0152,
+  "outer_dielectric_mm": 0.2104,
+  "core_mm": 1.065,
+  "mask_above_trace_mm": 0.01524,
+  "mask_above_substrate_mm": 0.03048,
+  "mask_between_traces_mm": 0.03048,
+  "note": "KiCad mask thickness models above-trace value only. Do not flatten the nonuniform mask into the impedance calculator. No loss tangent was assumed. No trace geometry was qualified.",
+  "copper_and_placements_unchanged": true
+}

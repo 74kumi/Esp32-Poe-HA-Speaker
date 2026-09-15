@@ -1,0 +1,111 @@
+{
+  "changes": [
+    {
+      "uuid": "1e4646d5-02de-45a0-915a-36cd06ab86e6",
+      "old_width_mm": 0.2,
+      "new_width_mm": 0.4
+    },
+    {
+      "uuid": "343b2dc3-0430-456b-b49f-dab1ffd17018",
+      "old_width_mm": 0.2,
+      "new_width_mm": 0.4
+    },
+    {
+      "uuid": "4727db83-e72f-44a2-b00c-6aaa349b63bf",
+      "old_width_mm": 0.2,
+      "new_width_mm": 0.4
+    },
+    {
+      "uuid": "61d338be-9488-486a-bbac-33a998c3d250",
+      "old_width_mm": 0.2,
+      "new_width_mm": 0.4
+    },
+    {
+      "uuid": "63a72b64-9ad2-4a70-a784-d1f8581cc1fe",
+      "old_width_mm": 0.2,
+      "new_width_mm": 0.4
+    },
+    {
+      "uuid": "66f55434-babd-4555-98d6-1c3fe4528629",
+      "old_width_mm": 0.2,
+      "new_width_mm": 0.4
+    },
+    {
+      "uuid": "74729636-8b0f-401f-bfc1-ffe77b53073b",
+      "old_width_mm": 0.2,
+      "new_width_mm": 0.4
+    },
+    {
+      "uuid": "8bf84c89-c5b6-493c-9b0b-70c88506c79b",
+      "old_width_mm": 0.2,
+      "new_width_mm": 0.35
+    },
+    {
+      "uuid": "94e49f79-ff0d-41a2-87cb-903da2099560",
+      "old_width_mm": 0.2,
+      "new_width_mm": 0.4
+    },
+    {
+      "uuid": "9910f2ea-7f22-4118-ae8d-fd3896f1029c",
+      "old_width_mm": 0.2,
+      "new_width_mm": 0.4
+    },
+    {
+      "uuid": "a5f0249f-5361-4050-a143-0ddb94d649b7",
+      "old_width_mm": 0.2,
+      "new_width_mm": 0.4
+    },
+    {
+      "uuid": "b2117fb3-8b73-4730-857f-57adee7071de",
+      "old_width_mm": 0.2,
+      "new_width_mm": 0.35
+    },
+    {
+      "uuid": "be825607-73f3-4766-ad2c-eaca8c90f64f",
+      "old_width_mm": 0.2,
+      "new_width_mm": 0.4
+    },
+    {
+      "uuid": "bf6ade44-d1c7-46a7-bda9-f078665f32f7",
+      "old_width_mm": 0.2,
+      "new_width_mm": 0.35
+    },
+    {
+      "uuid": "c3a26744-0859-4fda-ab00-b8227f98be08",
+      "old_width_mm": 0.2,
+      "new_width_mm": 0.4
+    },
+    {
+      "uuid": "db74049b-b482-434a-a544-311ae73e3170",
+      "old_width_mm": 0.2,
+      "new_width_mm": 0.4
+    },
+    {
+      "uuid": "e36572db-e122-406d-a707-66c034cb2c74",
+      "old_width_mm": 0.2,
+      "new_width_mm": 0.4
+    },
+    {
+      "uuid": "eeee4b78-fee6-4868-b719-6d7f0b943c31",
+      "old_width_mm": 0.2,
+      "new_width_mm": 0.4
+    },
+    {
+      "uuid": "f4d0ccd1-ef4d-45bb-83f6-5c632a0aca77",
+      "old_width_mm": 0.2,
+      "new_width_mm": 0.4
+    },
+    {
+      "uuid": "f80c54b9-11a5-48bf-b733-72233609d91e",
+      "old_width_mm": 0.2,
+      "new_width_mm": 0.4
+    },
+    {
+      "uuid": "fa20c80a-0752-4bb1-946f-ad6e4b077f9a",
+      "old_width_mm": 0.2,
+      "new_width_mm": 0.25
+    }
+  ],
+  "status": "accepted",
+  "limitation": "Direct pin segments only; some are tiny imported stubs. Downstream ground paths, filled-plane continuity and return impedance are not qualified by this change."
+}

@@ -1,0 +1,199 @@
+{
+  "status": "rejected; validated main unchanged",
+  "main_sha256": "7504b97c61820982018ab964373b277a3f4120a607bc504549dc32896da5b1bf",
+  "changed_segments": [
+    "31e7f51d-b35f-4433-ae72-56079566dbdb",
+    "e44ea4ee-caec-4518-b79f-957d0853a189",
+    "fd3a6089-a6b6-4e13-9bf9-0a6a626d0356",
+    "2a5b85c8-ac33-4f3c-9c54-a648da20eb4a",
+    "7dbcba05-5a2a-47c0-8aff-7329b67a8b1d"
+  ],
+  "drc_findings": 8,
+  "unconnected_items": 0,
+  "findings": [
+    {
+      "description": "Tracks crossing",
+      "items": [
+        {
+          "description": "Track [ETH_TX_N] on F.Cu, length 6.0330 mm",
+          "pos": {
+            "x": 112.409,
+            "y": 68.847
+          },
+          "uuid": "e14890bb-ccbf-4afb-9246-4f0fae845a06"
+        },
+        {
+          "description": "Track [ETH_RX_P] on F.Cu, length 5.8320 mm",
+          "pos": {
+            "x": 114.789,
+            "y": 68.9508
+          },
+          "uuid": "e44ea4ee-caec-4518-b79f-957d0853a189"
+        }
+      ],
+      "severity": "error",
+      "type": "tracks_crossing"
+    },
+    {
+      "description": "Items shorting two nets (nets ETH_TX_P and ETH_RX_P)",
+      "items": [
+        {
+          "description": "Pad 1 [ETH_TX_P] of R101 on F.Cu",
+          "pos": {
+            "x": 116.675,
+            "y": 71.0
+          },
+          "uuid": "1ea82684-5dab-4b26-b750-989abdfcb585"
+        },
+        {
+          "description": "Track [ETH_RX_P] on F.Cu, length 3.8342 mm",
+          "pos": {
+            "x": 117.5,
+            "y": 71.6622
+          },
+          "uuid": "31e7f51d-b35f-4433-ae72-56079566dbdb"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets ETH_TX_N and ETH_RX_P)",
+      "items": [
+        {
+          "description": "Track [ETH_TX_N] on F.Cu, length 2.6573 mm",
+          "pos": {
+            "x": 110.53,
+            "y": 66.968
+          },
+          "uuid": "afbcb83b-8a30-447e-8eae-370f07a999e8"
+        },
+        {
+          "description": "Track [ETH_RX_P] on F.Cu, length 5.8320 mm",
+          "pos": {
+            "x": 114.789,
+            "y": 68.9508
+          },
+          "uuid": "e44ea4ee-caec-4518-b79f-957d0853a189"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Items shorting two nets (nets ETH_RX_P and ETH_TX_N)",
+      "items": [
+        {
+          "description": "Track [ETH_RX_P] on F.Cu, length 5.8320 mm",
+          "pos": {
+            "x": 114.789,
+            "y": 68.9508
+          },
+          "uuid": "e44ea4ee-caec-4518-b79f-957d0853a189"
+        },
+        {
+          "description": "Track [ETH_TX_N] on F.Cu, length 7.4499 mm",
+          "pos": {
+            "x": 117.677,
+            "y": 63.5793
+          },
+          "uuid": "fb6f1fd4-4ae2-4fc5-8139-989e9359d856"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Tracks crossing",
+      "items": [
+        {
+          "description": "Track [ETH_RX_P] on F.Cu, length 3.8342 mm",
+          "pos": {
+            "x": 117.5,
+            "y": 71.6622
+          },
+          "uuid": "31e7f51d-b35f-4433-ae72-56079566dbdb"
+        },
+        {
+          "description": "Track [ETH_TX_P] on F.Cu, length 1.1547 mm",
+          "pos": {
+            "x": 116.675,
+            "y": 69.8453
+          },
+          "uuid": "b7b5de4d-c76b-4552-95a1-6ec970cd7c0d"
+        }
+      ],
+      "severity": "error",
+      "type": "tracks_crossing"
+    },
+    {
+      "description": "Tracks crossing",
+      "items": [
+        {
+          "description": "Track [ETH_TX_P] on F.Cu, length 3.9907 mm",
+          "pos": {
+            "x": 119.497,
+            "y": 67.0236
+          },
+          "uuid": "28a58f13-d799-442e-afe4-1af09810781a"
+        },
+        {
+          "description": "Track [ETH_RX_N] on F.Cu, length 9.3720 mm",
+          "pos": {
+            "x": 110.221,
+            "y": 68.1826
+          },
+          "uuid": "7dbcba05-5a2a-47c0-8aff-7329b67a8b1d"
+        }
+      ],
+      "severity": "error",
+      "type": "tracks_crossing"
+    },
+    {
+      "description": "Tracks crossing",
+      "items": [
+        {
+          "description": "Track [ETH_RX_P] on F.Cu, length 3.8342 mm",
+          "pos": {
+            "x": 117.5,
+            "y": 71.6622
+          },
+          "uuid": "31e7f51d-b35f-4433-ae72-56079566dbdb"
+        },
+        {
+          "description": "Track [ETH_3V3A] on F.Cu, length 3.7781 mm",
+          "pos": {
+            "x": 115.95,
+            "y": 67.7255
+          },
+          "uuid": "3da52bb8-048a-42ef-84bb-566052a83846"
+        }
+      ],
+      "severity": "error",
+      "type": "tracks_crossing"
+    },
+    {
+      "description": "Front solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Track [ETH_RX_P] on F.Cu, length 3.8342 mm",
+          "pos": {
+            "x": 117.5,
+            "y": 71.6622
+          },
+          "uuid": "31e7f51d-b35f-4433-ae72-56079566dbdb"
+        },
+        {
+          "description": "Pad 1 [ETH_TX_P] of R101 on F.Cu",
+          "pos": {
+            "x": 116.675,
+            "y": 71.0
+          },
+          "uuid": "1ea82684-5dab-4b26-b750-989abdfcb585"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    }
+  ]
+}

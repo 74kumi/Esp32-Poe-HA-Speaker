@@ -1,0 +1,11 @@
+{
+  "rotated": [
+    "U12",
+    "U13",
+    "U14"
+  ],
+  "removed_route_items": 74,
+  "retained_route_items": 1959,
+  "interclass_target_mm": 3,
+  "status": "Routing trial"
+}

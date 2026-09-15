@@ -1,0 +1,351 @@
+[
+  {
+    "uuid": "9746db39-c072-4b7b-bf02-b28400d17146",
+    "net": "BENCH_FUSED",
+    "kind": "track",
+    "width_mm": 0.2,
+    "length_mm": 3.929,
+    "start_mm": [
+      193.685,
+      107.024
+    ],
+    "end_mm": [
+      189.756,
+      107.024
+    ],
+    "layer": "In2.Cu",
+    "trial_width_mm": 0.6,
+    "accepted": false,
+    "findings": [
+      {
+        "type": "clearance",
+        "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1940 mm)"
+      }
+    ]
+  },
+  {
+    "uuid": "66a89fd1-e052-4310-916f-44f7a70a4b6a",
+    "net": "BENCH_FUSED",
+    "kind": "track",
+    "width_mm": 0.2,
+    "length_mm": 1.1229,
+    "start_mm": [
+      194.479,
+      106.23
+    ],
+    "end_mm": [
+      193.685,
+      107.024
+    ],
+    "layer": "In2.Cu",
+    "trial_width_mm": 0.6,
+    "accepted": false,
+    "findings": [
+      {
+        "type": "clearance",
+        "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0020 mm)"
+      }
+    ]
+  },
+  {
+    "uuid": "64660bc2-fe34-4a02-91bc-d74779fb3a95",
+    "net": "BENCH_FUSED",
+    "kind": "track",
+    "width_mm": 0.2,
+    "length_mm": 3.199,
+    "start_mm": [
+      197.678,
+      106.23
+    ],
+    "end_mm": [
+      194.479,
+      106.23
+    ],
+    "layer": "In2.Cu",
+    "trial_width_mm": 0.6,
+    "accepted": false,
+    "findings": [
+      {
+        "type": "clearance",
+        "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0020 mm)"
+      },
+      {
+        "type": "clearance",
+        "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0020 mm)"
+      }
+    ]
+  },
+  {
+    "uuid": "cde0e6a5-e18d-404f-82e9-1b91cab4d5a4",
+    "net": "BENCH_FUSED",
+    "kind": "track",
+    "width_mm": 0.2,
+    "length_mm": 1.9728,
+    "start_mm": [
+      199.073,
+      104.835
+    ],
+    "end_mm": [
+      197.678,
+      106.23
+    ],
+    "layer": "In2.Cu",
+    "trial_width_mm": 0.6,
+    "accepted": false,
+    "findings": [
+      {
+        "type": "clearance",
+        "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0500 mm)"
+      },
+      {
+        "type": "clearance",
+        "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0017 mm)"
+      }
+    ]
+  },
+  {
+    "uuid": "239e0d29-fd1c-4d59-bd74-cabbd244cd22",
+    "net": "BENCH_FUSED",
+    "kind": "track",
+    "width_mm": 0.2,
+    "length_mm": 15.662,
+    "start_mm": [
+      214.735,
+      104.835
+    ],
+    "end_mm": [
+      199.073,
+      104.835
+    ],
+    "layer": "In2.Cu",
+    "trial_width_mm": 0.6,
+    "accepted": false,
+    "findings": [
+      {
+        "type": "clearance",
+        "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0500 mm)"
+      },
+      {
+        "type": "clearance",
+        "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0500 mm)"
+      },
+      {
+        "type": "clearance",
+        "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0490 mm)"
+      }
+    ]
+  },
+  {
+    "uuid": "7e850267-ac0f-4dda-9778-2a9aed3ad394",
+    "net": "BENCH_FUSED",
+    "kind": "track",
+    "width_mm": 0.2,
+    "length_mm": 1.0819,
+    "start_mm": [
+      215.5,
+      105.6
+    ],
+    "end_mm": [
+      214.735,
+      104.835
+    ],
+    "layer": "In2.Cu",
+    "trial_width_mm": 0.6,
+    "accepted": false,
+    "findings": [
+      {
+        "type": "clearance",
+        "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1522 mm)"
+      },
+      {
+        "type": "clearance",
+        "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1522 mm)"
+      }
+    ]
+  },
+  {
+    "uuid": "6bf2c967-f33f-4e3d-ab9c-46790acf1922",
+    "net": "24V_BENCH_PROTECTED",
+    "kind": "track",
+    "width_mm": 0.2,
+    "length_mm": 6.8231,
+    "start_mm": [
+      251.426,
+      100.218
+    ],
+    "end_mm": [
+      251.306,
+      107.04
+    ],
+    "layer": "B.Cu",
+    "trial_width_mm": 0.6,
+    "accepted": false,
+    "findings": [
+      {
+        "type": "clearance",
+        "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1022 mm)"
+      }
+    ]
+  },
+  {
+    "uuid": "abcfc146-f162-4004-af75-3cc525df2238",
+    "net": "24V_BENCH_PROTECTED",
+    "kind": "track",
+    "width_mm": 0.2,
+    "length_mm": 1.5344,
+    "start_mm": [
+      215.5,
+      103.3
+    ],
+    "end_mm": [
+      214.415,
+      104.385
+    ],
+    "layer": "In2.Cu",
+    "trial_width_mm": 0.6,
+    "accepted": false,
+    "findings": [
+      {
+        "type": "clearance",
+        "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1522 mm)"
+      }
+    ]
+  },
+  {
+    "uuid": "c5291573-33f4-49cd-a8b3-3127060a2ee0",
+    "net": "24V_BENCH_PROTECTED",
+    "kind": "track",
+    "width_mm": 0.2,
+    "length_mm": 17.56,
+    "start_mm": [
+      214.415,
+      104.385
+    ],
+    "end_mm": [
+      196.855,
+      104.385
+    ],
+    "layer": "In2.Cu",
+    "trial_width_mm": 0.6,
+    "accepted": false,
+    "findings": [
+      {
+        "type": "clearance",
+        "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1522 mm)"
+      },
+      {
+        "type": "clearance",
+        "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0754 mm)"
+      }
+    ]
+  },
+  {
+    "uuid": "5ca90b07-e6b7-401f-b20a-8837c8e69503",
+    "net": "24V_BENCH_PROTECTED",
+    "kind": "track",
+    "width_mm": 0.2,
+    "length_mm": 2.0407,
+    "start_mm": [
+      196.855,
+      104.385
+    ],
+    "end_mm": [
+      195.412,
+      105.828
+    ],
+    "layer": "In2.Cu",
+    "trial_width_mm": 0.6,
+    "accepted": false,
+    "findings": [
+      {
+        "type": "clearance",
+        "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0020 mm)"
+      },
+      {
+        "type": "clearance",
+        "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0754 mm)"
+      }
+    ]
+  },
+  {
+    "uuid": "060da957-5bed-452d-b66b-8ee326c8651e",
+    "net": "24V_BENCH_PROTECTED",
+    "kind": "track",
+    "width_mm": 0.2,
+    "length_mm": 2.48,
+    "start_mm": [
+      195.412,
+      105.828
+    ],
+    "end_mm": [
+      192.932,
+      105.828
+    ],
+    "layer": "In2.Cu",
+    "trial_width_mm": 0.6,
+    "accepted": false,
+    "findings": [
+      {
+        "type": "clearance",
+        "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0020 mm)"
+      }
+    ]
+  },
+  {
+    "uuid": "80049751-3370-469e-a09d-af30adfec276",
+    "net": "24V_BENCH_PROTECTED",
+    "kind": "track",
+    "width_mm": 0.2,
+    "length_mm": 0.5678,
+    "start_mm": [
+      192.932,
+      105.828
+    ],
+    "end_mm": [
+      192.531,
+      106.23
+    ],
+    "layer": "In2.Cu",
+    "trial_width_mm": 0.6,
+    "accepted": true,
+    "findings": []
+  },
+  {
+    "uuid": "acc9d389-638c-40f3-aa0f-94b5fbe48b2d",
+    "net": "24V_BENCH_PROTECTED",
+    "kind": "track",
+    "width_mm": 0.2,
+    "length_mm": 0.565,
+    "start_mm": [
+      193.286,
+      106.42
+    ],
+    "end_mm": [
+      192.721,
+      106.42
+    ],
+    "layer": "F.Cu",
+    "trial_width_mm": 0.6,
+    "accepted": true,
+    "findings": []
+  },
+  {
+    "uuid": "f28f03ed-3f95-4cd8-8dbc-7535d3cf855b",
+    "net": "24V_BENCH_PROTECTED",
+    "kind": "track",
+    "width_mm": 0.2,
+    "length_mm": 1.602,
+    "start_mm": [
+      193.286,
+      108.022
+    ],
+    "end_mm": [
+      193.286,
+      106.42
+    ],
+    "layer": "F.Cu",
+    "trial_width_mm": 0.6,
+    "accepted": true,
+    "findings": []
+  }
+]

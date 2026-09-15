@@ -1,0 +1,21 @@
+{
+  "revision": "C integrated protection draft",
+  "components": 194,
+  "board_mm": [
+    210,
+    100
+  ],
+  "track_segments": 1956,
+  "vias": 237,
+  "ground_zones": 1,
+  "unconnected_items": 0,
+  "drc": {
+    "clearance": 6,
+    "drill_out_of_range": 12,
+    "track_width": 57,
+    "silk_overlap": 7,
+    "silk_over_copper": 6
+  },
+  "poe_isolation_findings": 0,
+  "fabrication_ready": false
+}

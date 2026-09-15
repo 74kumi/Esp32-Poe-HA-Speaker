@@ -1,0 +1,405 @@
+{
+  "method": "Presence of courtyard graphics only; no body dimensions or overlap inference for absent courtyards. Existing DRC missing_courtyard check is disabled.",
+  "missing_courtyards": [
+    {
+      "reference": "J2",
+      "value": "MX2EDGR-5.08-02P-GN01-Cu-A",
+      "footprint": "J2_RevB",
+      "position_mm": [
+        218.0,
+        135.0
+      ],
+      "board_feature": false
+    },
+    {
+      "reference": "FB1",
+      "value": "600ohm@100MHz",
+      "footprint": "FB1_RevB",
+      "position_mm": [
+        177.0,
+        75.0
+      ],
+      "board_feature": false
+    },
+    {
+      "reference": "TP17",
+      "value": "Generic Testpoint",
+      "footprint": "TP17_RevB",
+      "position_mm": [
+        161.0,
+        59.5
+      ],
+      "board_feature": true
+    },
+    {
+      "reference": "TP8",
+      "value": "Generic Testpoint",
+      "footprint": "TP8_RevB",
+      "position_mm": [
+        173.0,
+        67.0
+      ],
+      "board_feature": true
+    },
+    {
+      "reference": "U14",
+      "value": "PC817X2NSZ9F",
+      "footprint": "U14_RevB",
+      "position_mm": [
+        116.0,
+        107.0
+      ],
+      "board_feature": false
+    },
+    {
+      "reference": "TP6",
+      "value": "Generic Testpoint",
+      "footprint": "TP6_RevB",
+      "position_mm": [
+        207.5,
+        89.5
+      ],
+      "board_feature": true
+    },
+    {
+      "reference": "TP14",
+      "value": "Generic Testpoint",
+      "footprint": "TP14_RevB",
+      "position_mm": [
+        211.0,
+        104.0
+      ],
+      "board_feature": true
+    },
+    {
+      "reference": "TP22",
+      "value": "Generic Testpoint",
+      "footprint": "TP22_RevB",
+      "position_mm": [
+        201.0,
+        141.5
+      ],
+      "board_feature": true
+    },
+    {
+      "reference": "TP2",
+      "value": "Generic Testpoint",
+      "footprint": "TP2_RevB",
+      "position_mm": [
+        104.0,
+        108.0
+      ],
+      "board_feature": true
+    },
+    {
+      "reference": "SW2",
+      "value": "TS-1088-AR02016",
+      "footprint": "SW2_RevB",
+      "position_mm": [
+        183.0,
+        58.0
+      ],
+      "board_feature": false
+    },
+    {
+      "reference": "TP16",
+      "value": "Generic Testpoint",
+      "footprint": "TP16_RevB",
+      "position_mm": [
+        156.0,
+        59.0
+      ],
+      "board_feature": true
+    },
+    {
+      "reference": "TP21",
+      "value": "Generic Testpoint",
+      "footprint": "TP21_RevB",
+      "position_mm": [
+        218.0,
+        145.5
+      ],
+      "board_feature": true
+    },
+    {
+      "reference": "U13",
+      "value": "PC817X2NSZ9F",
+      "footprint": "U13_RevB",
+      "position_mm": [
+        116.0,
+        99.0
+      ],
+      "board_feature": false
+    },
+    {
+      "reference": "J3",
+      "value": "MX2EDGR-5.08-02P-GN01-Cu-A",
+      "footprint": "J3_RevB",
+      "position_mm": [
+        218.0,
+        111.0
+      ],
+      "board_feature": false
+    },
+    {
+      "reference": "H4",
+      "value": "MountingHole",
+      "footprint": "H4_RevB",
+      "position_mm": [
+        275.0,
+        145.0
+      ],
+      "board_feature": true
+    },
+    {
+      "reference": "TP12",
+      "value": "Generic Testpoint",
+      "footprint": "TP12_RevB",
+      "position_mm": [
+        129.0,
+        62.5
+      ],
+      "board_feature": true
+    },
+    {
+      "reference": "U12",
+      "value": "PC817X2NSZ9F",
+      "footprint": "U12_RevB",
+      "position_mm": [
+        116.0,
+        91.0
+      ],
+      "board_feature": false
+    },
+    {
+      "reference": "H1",
+      "value": "MountingHole",
+      "footprint": "H1_RevB",
+      "position_mm": [
+        75.0,
+        145.0
+      ],
+      "board_feature": true
+    },
+    {
+      "reference": "D11",
+      "value": "SMBJ26CA",
+      "footprint": "D11_RevB",
+      "position_mm": [
+        173.0,
+        109.5
+      ],
+      "board_feature": false
+    },
+    {
+      "reference": "TP13",
+      "value": "Generic Testpoint",
+      "footprint": "TP13_RevB",
+      "position_mm": [
+        196.5,
+        107.0
+      ],
+      "board_feature": true
+    },
+    {
+      "reference": "H3",
+      "value": "MountingHole",
+      "footprint": "H3_RevB",
+      "position_mm": [
+        275.0,
+        55.0
+      ],
+      "board_feature": true
+    },
+    {
+      "reference": "TP3",
+      "value": "Generic Testpoint",
+      "footprint": "TP3_RevB",
+      "position_mm": [
+        201.0,
+        123.0
+      ],
+      "board_feature": true
+    },
+    {
+      "reference": "D2",
+      "value": "SMAJ58A-TR",
+      "footprint": "D2_RevB",
+      "position_mm": [
+        89.0,
+        106.5
+      ],
+      "board_feature": false
+    },
+    {
+      "reference": "TP5",
+      "value": "Generic Testpoint",
+      "footprint": "TP5_RevB",
+      "position_mm": [
+        202.0,
+        87.5
+      ],
+      "board_feature": true
+    },
+    {
+      "reference": "TP11",
+      "value": "Generic Testpoint",
+      "footprint": "TP11_RevB",
+      "position_mm": [
+        127.0,
+        60.0
+      ],
+      "board_feature": true
+    },
+    {
+      "reference": "U4",
+      "value": "PCM5122PWR",
+      "footprint": "U4_RevB",
+      "position_mm": [
+        165.5,
+        73.0
+      ],
+      "board_feature": false
+    },
+    {
+      "reference": "TP15",
+      "value": "Generic Testpoint",
+      "footprint": "TP15_RevB",
+      "position_mm": [
+        149.0,
+        59.0
+      ],
+      "board_feature": true
+    },
+    {
+      "reference": "TP19",
+      "value": "Generic Testpoint",
+      "footprint": "TP19_RevB",
+      "position_mm": [
+        168.0,
+        61.0
+      ],
+      "board_feature": true
+    },
+    {
+      "reference": "H2",
+      "value": "MountingHole",
+      "footprint": "H2_RevB",
+      "position_mm": [
+        75.0,
+        55.0
+      ],
+      "board_feature": true
+    },
+    {
+      "reference": "F1",
+      "value": "24T 3.15A250V",
+      "footprint": "F1_RevB",
+      "position_mm": [
+        182.0,
+        110.0
+      ],
+      "board_feature": false
+    },
+    {
+      "reference": "TP7",
+      "value": "Generic Testpoint",
+      "footprint": "TP7_RevB",
+      "position_mm": [
+        170.0,
+        67.0
+      ],
+      "board_feature": true
+    },
+    {
+      "reference": "TP9",
+      "value": "Generic Testpoint",
+      "footprint": "TP9_RevB",
+      "position_mm": [
+        176.0,
+        67.0
+      ],
+      "board_feature": true
+    },
+    {
+      "reference": "TP20",
+      "value": "Generic Testpoint",
+      "footprint": "TP20_RevB",
+      "position_mm": [
+        156.5,
+        81.5
+      ],
+      "board_feature": true
+    },
+    {
+      "reference": "TP23",
+      "value": "Generic Testpoint",
+      "footprint": "TP23_RevB",
+      "position_mm": [
+        185.5,
+        123.5
+      ],
+      "board_feature": true
+    },
+    {
+      "reference": "TP4",
+      "value": "Generic Testpoint",
+      "footprint": "TP4_RevB",
+      "position_mm": [
+        174.0,
+        91.5
+      ],
+      "board_feature": true
+    },
+    {
+      "reference": "U6",
+      "value": "LMR33630AQRNXRQ1",
+      "footprint": "U6_RevB",
+      "position_mm": [
+        168.0,
+        98.0
+      ],
+      "board_feature": false
+    },
+    {
+      "reference": "SW1",
+      "value": "TS-1088-AR02016",
+      "footprint": "SW1_RevB",
+      "position_mm": [
+        173.0,
+        60.0
+      ],
+      "board_feature": false
+    },
+    {
+      "reference": "TP1",
+      "value": "Generic Testpoint",
+      "footprint": "TP1_RevB",
+      "position_mm": [
+        92.0,
+        104.0
+      ],
+      "board_feature": true
+    },
+    {
+      "reference": "TP10",
+      "value": "Generic Testpoint",
+      "footprint": "TP10_RevB",
+      "position_mm": [
+        125.0,
+        60.5
+      ],
+      "board_feature": true
+    },
+    {
+      "reference": "TP18",
+      "value": "Generic Testpoint",
+      "footprint": "TP18_RevB",
+      "position_mm": [
+        165.0,
+        61.0
+      ],
+      "board_feature": true
+    }
+  ]
+}

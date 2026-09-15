@@ -1,0 +1,40 @@
+{
+  "main_before_sha256": "da7ab22425e6b734d396dd1c3b07ec58c2ef04a667ed1b393ff8082aab9d0852",
+  "removed": [
+    "31e7f51d-b35f-4433-ae72-56079566dbdb",
+    "e44ea4ee-caec-4518-b79f-957d0853a189",
+    "fd3a6089-a6b6-4e13-9bf9-0a6a626d0356"
+  ],
+  "points_mm": [
+    [
+      107.99,
+      67.984
+    ],
+    [
+      108.617606,
+      68.611606
+    ],
+    [
+      118.6,
+      68.611606
+    ],
+    [
+      118.787894,
+      68.7995
+    ],
+    [
+      119.348,
+      68.7995
+    ]
+  ],
+  "parallel_overlap_x_mm": [
+    110.221,
+    118.6
+  ],
+  "parallel_center_spacing_mm": 0.429006,
+  "parallel_edge_gap_mm": 0.2032,
+  "width_mm": 0.225806,
+  "status": "accepted; full Ethernet impedance qualification remains open",
+  "drc_findings": 0,
+  "unconnected_items": 0
+}

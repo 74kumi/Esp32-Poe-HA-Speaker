@@ -1,0 +1,5 @@
+from pathlib import Path
+import shutil
+D=Path('KiCad-RevE')
+for ext in ['kicad_pro','kicad_dru']:shutil.copy2(D/('PoE-Speaker-RevE.'+ext),D/('ethernet-trial.'+ext))
+f=Path('engineering/trial_rx_termination_cluster.py');s=f.read_text();s=s.replace("('R104',115.8,71.6622,180),('R105',115.8,68.3,180),('C102',115.8,75,0)","('R104',119.5,71.6622,0),('R105',120.5,69.2,270),('C102',120.5,73.5,270)");s=s.replace('f.Reference().SetPosition(p.VECTOR2I(p.FromMM(x),p.FromMM(y+1)))','f.Reference().SetTextAngle(p.EDA_ANGLE(0,p.DEGREES_T));f.Reference().SetPosition(p.VECTOR2I(p.FromMM(123.5),p.FromMM(y)))');s=s.replace('[(117.5,71.6622),(116.625,71.6622)]','[(117.5,71.6622),(118.675,71.6622)]');s=s.replace('[(119.593,68.1826),(119.4756,68.3),(116.625,68.3)]','[(119.593,68.1826),(120.3076,68.1826),(120.5,68.375)]');s=s.replace('[(114.975,68.3),(114.975,71.6622),(114.975,75),(115.025,75)]','[(120.5,70.025),(120.325,70.2),(120.325,71.6622),(120.325,72.55),(120.5,72.725)]');s=s.replace('[(116.575,75),(117.675,75)]','[(120.5,74.275),(121.5,74.275)]');s=s.replace('p.FromMM(117.675),p.FromMM(75)','p.FromMM(121.5),p.FromMM(74.275)');f.write_text(s)

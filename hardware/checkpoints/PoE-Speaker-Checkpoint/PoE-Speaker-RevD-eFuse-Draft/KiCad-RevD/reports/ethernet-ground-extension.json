@@ -1,0 +1,32 @@
+{
+  "layer": "In1.Cu",
+  "net": "GND",
+  "outline_mm": [
+    [
+      103,
+      51
+    ],
+    [
+      279,
+      51
+    ],
+    [
+      279,
+      149
+    ],
+    [
+      140,
+      149
+    ],
+    [
+      140,
+      86
+    ],
+    [
+      103,
+      86
+    ]
+  ],
+  "purpose": "Add reference copper under Ethernet and local decoupling while excluding the primary/module region below y=86 mm on the left.",
+  "limits": "Preliminary 3 mm clearance rule remains active. This does not establish controlled impedance, uninterrupted return paths for all layers, creepage, or thermal approval."
+}

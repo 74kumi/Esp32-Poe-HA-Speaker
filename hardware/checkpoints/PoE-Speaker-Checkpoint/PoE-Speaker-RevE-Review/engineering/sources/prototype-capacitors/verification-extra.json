@@ -1,0 +1,50 @@
+[
+  {
+    "mpn": "C0805C106K4RACTU",
+    "status": "unverified",
+    "error": "HTTP Error 404: Not Found",
+    "url": "https://search.kemet.com/component-documentation/download/specsheet/C0805C106K4RACTU"
+  },
+  {
+    "mpn": "C0805C226M8RACTU",
+    "status": "unverified",
+    "error": "HTTP Error 404: Not Found",
+    "url": "https://search.kemet.com/component-documentation/download/specsheet/C0805C226M8RACTU"
+  },
+  {
+    "mpn": "C1210C476M4RACTU",
+    "status": "unverified",
+    "error": "HTTP Error 404: Not Found",
+    "url": "https://search.kemet.com/component-documentation/download/specsheet/C1210C476M4RACTU"
+  },
+  {
+    "mpn": "C1210C104J1GACTU",
+    "status": "manufacturer sheet retrieved",
+    "url": "https://search.kemet.com/component-documentation/download/specsheet/C1210C104J1GACTU",
+    "excerpt": "C1210C104J1GACTU\nAliases (C1210C104J1GAC7800)\nSMD Comm C0G, Ceramic, 0.1 uF , 5%, 100 VDC, C0G, SMD, MLCC, Ultra-\nStable, Low Loss, Class I, 1210 / 3225\nClick here for the 3D model.\nGeneral Information\nSeries SMD Comm C0G\nSty\u200ble SMD Chip\nDescription SMD, MLCC, Ultra-Stable, Low \nLoss, Class I\nFeatures Ultra-Stable, Low Loss, Class I\nR\u200boH\u200bS Y\u200bes\nT\u200bermination T\u200bin\nMarking N\u200bo\nT\u200by\u200bpical Component Wei"
+  },
+  {
+    "mpn": "C1206C104J5GACTU",
+    "status": "unverified",
+    "error": "HTTP Error 404: Not Found",
+    "url": "https://search.kemet.com/component-documentation/download/specsheet/C1206C104J5GACTU"
+  },
+  {
+    "mpn": "C1210C104J5GACTU",
+    "status": "manufacturer sheet retrieved",
+    "url": "https://search.kemet.com/component-documentation/download/specsheet/C1210C104J5GACTU",
+    "excerpt": "C1210C104J5GACTU\nAliases (C1210C104J5GAC7800)\nSMD Comm C0G, Ceramic, 0.1 uF , 5%, 50 VDC, C0G, SMD, MLCC, Ultra-\nStable, Low Loss, Class I, 1210 / 3225\nClick here for the 3D model.\nGeneral Information\nSeries SMD Comm C0G\nSty\u200ble SMD Chip\nDescription SMD, MLCC, Ultra-Stable, Low \nLoss, Class I\nFeatures Ultra-Stable, Low Loss, Class I\nR\u200boH\u200bS Y\u200bes\nT\u200bermination T\u200bin\nMarking N\u200bo\nT\u200by\u200bpical Component Weig"
+  },
+  {
+    "mpn": "C0805C105K1RAC7800",
+    "status": "unverified",
+    "error": "HTTP Error 404: Not Found",
+    "url": "https://search.kemet.com/component-documentation/download/specsheet/C0805C105K1RAC7800"
+  },
+  {
+    "mpn": "C0805C104K1RACTU",
+    "status": "manufacturer sheet retrieved",
+    "url": "https://search.kemet.com/component-documentation/download/specsheet/C0805C104K1RACTU",
+    "excerpt": "C0805C104K1RACTU\nAliases (C0805C104K1RAC7800)\nSMD Comm X7R, Ceramic, 0.1 uF , 10%, 100 VDC, X7R, SMD, MLCC, \nT emperature Stable, Class II, 0805 / 2012\nClick here for the 3D model.\nGeneral Information\nSeries SMD Comm X7R\nSty\u200ble SMD Chip\nDescription SMD, MLCC, T emperature \nStable, Class II\nFeatures T emperature Stable, Class II\nRoH\u200bS Y\u200bes\nTermination Tin\nMarking N\u200bo\nTy\u200bpical Component Weight 16 mg"
+  }
+]

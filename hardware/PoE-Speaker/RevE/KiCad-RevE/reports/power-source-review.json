@@ -1,0 +1,11 @@
+{
+  "source_annotations": {
+    "BENCH_FUSED": "J2 external DC input through F1; source presence annotation only, not fuse qualification",
+    "GND": "Secondary common return from J2 and isolated module output; never primary POE_RECT_NEG",
+    "3V3": "U7 switch output through L4; VOS is a sense input, not an output pin",
+    "ETH_3V3A": "3V3 through FB2; ferrite does not propagate ERC power drive",
+    "24V_OR": "Q1/Q2 drains fed by protected bench and isolated PoE paths; U9/U10 OUT pins are sense inputs",
+    "5V": "U6 switch output through L3; inductor does not propagate ERC power drive"
+  },
+  "limitations": "Flags declare verified topology across passive elements. They do not prove startup, regulation, protection or PCB current capacity. Imported pin types outside reviewed regulators remain incomplete."
+}

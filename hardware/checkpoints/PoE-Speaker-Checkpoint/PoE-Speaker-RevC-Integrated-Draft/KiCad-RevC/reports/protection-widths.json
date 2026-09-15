@@ -1,0 +1,5 @@
+{
+  "widened_to_mm": 0.8,
+  "accepted_segments": 14,
+  "scope": "Longer new bench-power segments only. Pin escapes, vias, thermal/current capacity still unqualified."
+}

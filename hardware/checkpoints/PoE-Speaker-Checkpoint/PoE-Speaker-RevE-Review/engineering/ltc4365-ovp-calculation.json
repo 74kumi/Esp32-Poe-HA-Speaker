@@ -1,0 +1,34 @@
+{
+  "candidate": "LTC4365",
+  "status": "Preferred candidate for next schematic prototype; not implemented or surge qualified",
+  "top_ohm": 198000,
+  "bottom_ohm": 4020,
+  "initial_tolerance": 0.001,
+  "nominal_trip_v": 25.12686567164179,
+  "resistor_temperature_c": [
+    -40,
+    125
+  ],
+  "results": [
+    {
+      "tcr_ppm_per_c": 10,
+      "min_trip_v": 24.651150562840474,
+      "max_trip_v": 25.605937963828193,
+      "margin_below_26v": 0.3940620361718068,
+      "margin_above_24_48v": 0.1711505628404737
+    },
+    {
+      "tcr_ppm_per_c": 25,
+      "min_trip_v": 24.57878002937301,
+      "max_trip_v": 25.681343591292116,
+      "margin_below_26v": 0.31865640870788425,
+      "margin_above_24_48v": 0.09878002937301034
+    }
+  ],
+  "source": "https://www.analog.com/media/en/technical-documentation/data-sheets/ltc4365.pdf",
+  "limits": [
+    "External MOSFET switching, inrush, SOA and inductive energy not modeled.",
+    "2 us datasheet fault delay is specified at 50 mV comparator overdrive and 12 V; it is not a universal 24 V cutoff guarantee.",
+    "No current limiter is provided by this candidate; fuse alone does not establish semiconductor SOA protection."
+  ]
+}

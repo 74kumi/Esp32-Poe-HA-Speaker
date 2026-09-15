@@ -1,0 +1,4 @@
+from pathlib import Path
+s=Path('engineering/finish_draft.py').read_text().replace("D=BASE/'KiCad-RevB'","D=BASE/'KiCad-RevC'").replace('PoE-Speaker-RevB.kicad_pcb','PoE-Speaker-RevC.kicad_pcb')
+s=s[:s.index("report={'status'")]
+exec(compile(s,'import-protection','exec'))
