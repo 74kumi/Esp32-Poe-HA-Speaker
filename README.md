@@ -82,6 +82,7 @@ Project documents:
 - [Engineering review guide](ENGINEERING-REVIEW.md)
 - [Order / release review](ORDER-RELEASE-REVIEW.md)
 - [Prototype validation plan](PROTOTYPE-VALIDATION.md)
+- [Contribution guidance](CONTRIBUTING.md)
 - [GitHub issues](https://github.com/74kumi/Esp32-Poe-HA-Speaker/issues)
 
 ## Repository layout
@@ -107,6 +108,8 @@ Project documents:
 Engineering review is welcome, especially around Ethernet signal integrity, protection / fault behavior, power conversion, amplifier implementation, thermal design, footprints, and manufacturability.
 
 When reporting a hardware finding, please include the affected revision, component / pin / net, location where practical, expected behavior, observed concern, and supporting datasheet section or calculation. Clearly distinguish confirmed defects from questions or suggested improvements.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the current review priorities and main-board change policy.
 
 This project has used AI-assisted CAD scripting and review workflows. AI output is not treated as engineering validation; independent review and physical prototype measurements are still required.
 
