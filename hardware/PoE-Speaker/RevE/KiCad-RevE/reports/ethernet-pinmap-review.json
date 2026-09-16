@@ -1,0 +1,155 @@
+{
+  "method": "Expected pin nets from manufacturer pinouts; fresh schematic netlist compared with PCB and design model. No physical validation.",
+  "references": [
+    "https://docs.wiznet.io/img/products/w5500/W5500_ds_v110e.pdf#page=8",
+    "https://www.belfuse.com/media/drawings/products/magjack%20ICMs/dr-mag-2250506.pdf#page=2"
+  ],
+  "source_sha256": {
+    "KiCad-RevE/PoE-Speaker-RevE.kicad_pcb": "bcb0499ee4ba1d5d870418216ff0339394077323a099d4156130cad624ae6c3a",
+    "engineering/revision-e-design.json": "2ea4ccbeae204562c5bd74bcea6f6f61cb897791f6b9c59e0a6b18047e112b78",
+    "KiCad-RevE/02_Bench_protection.kicad_sch": "fdcb3a6fede78c08e6d721b47c55e6f274e95accf9ffff5c8fbab9e814a2510e",
+    "KiCad-RevE/03_Controller_and_programming.kicad_sch": "6be2260519cbea19718da000f8a6b655584addc39d5a1bbb8a017b441c5b1fd2",
+    "KiCad-RevE/04_Ethernet_interface_1.kicad_sch": "3a0ca331f5f2f23e350eb2ccaf7b875ba0267ee770cb7f37bb14905e2bfba599",
+    "KiCad-RevE/05_Ethernet_interface_2.kicad_sch": "1381a02c08f4be21318f4f3403aaf9098f5e4bd96853977d776e32b145a2a2ff",
+    "KiCad-RevE/06_Microphone_and_control.kicad_sch": "0045e35dcdc6c8a760438352f06ca3846279861d1de16feb7114c36dbe61f3b7",
+    "KiCad-RevE/07_Playback_DAC.kicad_sch": "8b04c4ec6f5e6791bbe6a1ac057bd40c348c38623159a03d212bbc722d08012a",
+    "KiCad-RevE/08_PoE_input_and_isolation.kicad_sch": "40eb5652a52bf3d00470a39a01beb7a6e5e414a7726a1fa55ad138b06e8a0714",
+    "KiCad-RevE/09_Power_conversion_1.kicad_sch": "6d0449d115d30a48dc4eda4715d23aafeb142bc89fb3f8c8035a141407bb90be",
+    "KiCad-RevE/10_Power_conversion_2.kicad_sch": "200af7dec15b4f37982112a1ee9140d69e0c3dadb3d983fa04db1b928682dc3d",
+    "KiCad-RevE/11_Shared_current_protection.kicad_sch": "dcebaba8f91360a2fb4ca56caf3e15577a94429af8822867605ebf6e5318f5c4",
+    "KiCad-RevE/12_Speaker_amplifier_1.kicad_sch": "c5544e203f9f856bbd2aa0aeea82a086e924d2f7000402bd0df2fcf3c554c785",
+    "KiCad-RevE/13_Speaker_amplifier_2.kicad_sch": "90277855e01e8c10f8994e02762420b84bef8c0c24379f00eb920f0f6caca482",
+    "KiCad-RevE/14_Test_points_and_mounting_1.kicad_sch": "c7bf5d5dbef177635c6d89dc5fd76dfd69f070505cfc3d5643461e7fd43aee4e",
+    "KiCad-RevE/15_Test_points_and_mounting_2.kicad_sch": "3ca3e92f0f6f763b4445fe75c7dbf0aee6b675a125ba6e8ad339525c310f1c74",
+    "KiCad-RevE/PoE-Speaker-RevE.kicad_sch": "0a266d32b44c4c7cc741769e7d6452ea2f752c68e2e80a9e9276e10d550fd121"
+  },
+  "pass": true,
+  "pins": [
+    {
+      "reference": "U3",
+      "pin": "1",
+      "expected": "ETH_TX_N",
+      "pcb": "ETH_TX_N",
+      "schematic": "ETH_TX_N",
+      "model": "ETH_TX_N",
+      "pass": true
+    },
+    {
+      "reference": "U3",
+      "pin": "2",
+      "expected": "ETH_TX_P",
+      "pcb": "ETH_TX_P",
+      "schematic": "ETH_TX_P",
+      "model": "ETH_TX_P",
+      "pass": true
+    },
+    {
+      "reference": "U3",
+      "pin": "5",
+      "expected": "ETH_RX_N",
+      "pcb": "ETH_RX_N",
+      "schematic": "ETH_RX_N",
+      "model": "ETH_RX_N",
+      "pass": true
+    },
+    {
+      "reference": "U3",
+      "pin": "6",
+      "expected": "ETH_RX_P",
+      "pcb": "ETH_RX_P",
+      "schematic": "ETH_RX_P",
+      "model": "ETH_RX_P",
+      "pass": true
+    },
+    {
+      "reference": "J1",
+      "pin": "10",
+      "expected": "ETH_TX_N",
+      "pcb": "ETH_TX_N",
+      "schematic": "ETH_TX_N",
+      "model": "ETH_TX_N",
+      "pass": true
+    },
+    {
+      "reference": "J1",
+      "pin": "11",
+      "expected": "ETH_TX_P",
+      "pcb": "ETH_TX_P",
+      "schematic": "ETH_TX_P",
+      "model": "ETH_TX_P",
+      "pass": true
+    },
+    {
+      "reference": "J1",
+      "pin": "5",
+      "expected": "ETH_RX_N",
+      "pcb": "ETH_RX_N",
+      "schematic": "ETH_RX_N",
+      "model": "ETH_RX_N",
+      "pass": true
+    },
+    {
+      "reference": "J1",
+      "pin": "4",
+      "expected": "ETH_RX_P",
+      "pcb": "ETH_RX_P",
+      "schematic": "ETH_RX_P",
+      "model": "ETH_RX_P",
+      "pass": true
+    },
+    {
+      "reference": "J1",
+      "pin": "12",
+      "expected": "ETH_TX_CT",
+      "pcb": "ETH_TX_CT",
+      "schematic": "ETH_TX_CT",
+      "model": "ETH_TX_CT",
+      "pass": true
+    },
+    {
+      "reference": "J1",
+      "pin": "6",
+      "expected": "ETH_RX_CT",
+      "pcb": "ETH_RX_CT",
+      "schematic": "ETH_RX_CT",
+      "model": "ETH_RX_CT",
+      "pass": true
+    },
+    {
+      "reference": "J1",
+      "pin": "13",
+      "expected": "POE_MODE_A_AC1",
+      "pcb": "POE_MODE_A_AC1",
+      "schematic": "POE_MODE_A_AC1",
+      "model": "POE_MODE_A_AC1",
+      "pass": true
+    },
+    {
+      "reference": "J1",
+      "pin": "14",
+      "expected": "POE_MODE_A_AC2",
+      "pcb": "POE_MODE_A_AC2",
+      "schematic": "POE_MODE_A_AC2",
+      "model": "POE_MODE_A_AC2",
+      "pass": true
+    },
+    {
+      "reference": "J1",
+      "pin": "15",
+      "expected": "POE_MODE_B_AC1",
+      "pcb": "POE_MODE_B_AC1",
+      "schematic": "POE_MODE_B_AC1",
+      "model": "POE_MODE_B_AC1",
+      "pass": true
+    },
+    {
+      "reference": "J1",
+      "pin": "16",
+      "expected": "POE_MODE_B_AC2",
+      "pcb": "POE_MODE_B_AC2",
+      "schematic": "POE_MODE_B_AC2",
+      "model": "POE_MODE_B_AC2",
+      "pass": true
+    }
+  ]
+}

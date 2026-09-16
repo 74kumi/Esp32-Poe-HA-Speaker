@@ -1,5 +1,22 @@
 # Ethernet physical design baseline
 
+## 2026-09-16: issue #1 pin mapping review
+
+Checked W5500 datasheet v1.1.0, pp. 7–8, and Bel drawing C-2250506 rev. 2, sheet 2:
+
+| Signal | W5500 U3 pin | MagJack J1 PCB pin | Cable contact |
+|---|---:|---:|---:|
+| TX positive | 2 | 11 (TRD1+) | RJ-1 |
+| TX negative | 1 | 10 (TRD1-) | RJ-2 |
+| RX positive | 6 | 4 (TRD2+) | RJ-3 |
+| RX negative | 5 | 5 (TRD2-) | RJ-6 |
+
+The jack drawing's transformer dots preserve the polarity shown above. J1 12/6 are PHY-side TX/RX center taps; J1 13/14 are cable-side center taps for contacts 1–2/3–6, and 15/16 for 4–5/7–8. The four cable-side taps retain their separate PoE AC-input nets. No polarity or pin-assignment change is justified by this review.
+
+`audit_ethernet_pinmap.py` checks these 14 PCB/model pin assignments against a freshly exported schematic netlist and records source hashes in `KiCad-RevE/reports/ethernet-pinmap-review.json`. Run with KiCad's Python from any directory, adding `--kicad-cli <executable>` when needed. It exits nonzero on a mismatch. This checks logical net membership, not physical trace continuity, protection effectiveness, isolation, or electrical performance. No PCB or schematic source changed; baseline ERC/DRC was not rerun for this documentation/check-only change.
+
+Sources: [W5500 datasheet](https://docs.wiznet.io/img/products/w5500/W5500_ds_v110e.pdf), [Bel jack drawing](https://www.belfuse.com/media/drawings/products/magjack%20ICMs/dr-mag-2250506.pdf). Issue #1 remains open: TX coupling/layer transitions, RX/ESD/termination branches, reference continuity and isolation keepouts still require layout review and relevant DRC. This pin review does not approve fabrication.
+
 2026-09-14: The PCB now contains an explicit JLC04161H-7628 stackup as the design baseline. This is a reversible engineering selection, not a fabrication order or an impedance qualification. The accepted change affects stackup metadata only; tracks, zones, pads and placements are unchanged. Backup: before-explicit-stackup.kicad_pcb.
 
 | Layer | Thickness mm | Dielectric constant |
