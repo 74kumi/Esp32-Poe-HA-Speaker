@@ -5,7 +5,7 @@
     "https://www.belfuse.com/media/drawings/products/magjack%20ICMs/dr-mag-2250506.pdf#page=2"
   ],
   "source_sha256": {
-    "KiCad-RevE/PoE-Speaker-RevE.kicad_pcb": "bcb0499ee4ba1d5d870418216ff0339394077323a099d4156130cad624ae6c3a",
+    "KiCad-RevE/PoE-Speaker-RevE.kicad_pcb": "e1272f55861ee35c028f178ddc4ed685dba0530eae4f681357f59997e186cf71",
     "engineering/revision-e-design.json": "2ea4ccbeae204562c5bd74bcea6f6f61cb897791f6b9c59e0a6b18047e112b78",
     "KiCad-RevE/02_Bench_protection.kicad_sch": "fdcb3a6fede78c08e6d721b47c55e6f274e95accf9ffff5c8fbab9e814a2510e",
     "KiCad-RevE/03_Controller_and_programming.kicad_sch": "6be2260519cbea19718da000f8a6b655584addc39d5a1bbb8a017b441c5b1fd2",

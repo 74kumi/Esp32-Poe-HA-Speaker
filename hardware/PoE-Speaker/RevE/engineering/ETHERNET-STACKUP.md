@@ -1,5 +1,13 @@
 # Ethernet physical design baseline
 
+## 2026-09-16: issue #1 shortened RX_P branch
+
+Moved the existing RX_P branch via from (117.5, 71.6622) to (118.422, 69.6), shortening its F.Cu tap from 3.6440 to 1.2576 mm. Reconnected the B.Cu ESD route and R104 without moving components. Total RX_P copper falls from 29.493 to 25.654 mm; its two vias and all four main PHY-to-jack path reports are unchanged. Retained the existing 0.2 mm branch width and 0.6/0.3 mm via. These lengths describe geometry, not electrical delay or qualification.
+
+Refilled zones; DRC reports zero findings and zero unconnected items. Fresh schematic/PCB/model pin-map check passes 14/14. Inspected KiCad-generated front, bottom and In1 copper plots at the new tap: the via antipad remains below the main receive corridor. The centerline reference screen still cannot qualify return-current corridors or bottom-layer impedance. Schematic unchanged; ERC not rerun. Exact source hash and change details: `KiCad-RevE/reports/rxp-branch-review.json`.
+
+Rejected a TX_P front-layer main-route trial because the R103 supply pad and RX_N corridor violate clearance; a separate TX_P ESD layer conversion crossed the TX center-tap route. Both were reverted. TX requires coordinated routing with these obstacles, not another layer-only conversion. Issue #1 and fabrication HOLD remain: TX pairing, ESD/termination topology, reference continuity and jack isolation need further work. No physical electrical validation has occurred.
+
 ## 2026-09-16: issue #1 pin mapping review
 
 Checked W5500 datasheet v1.1.0, pp. 7–8, and Bel drawing C-2250506 rev. 2, sheet 2:

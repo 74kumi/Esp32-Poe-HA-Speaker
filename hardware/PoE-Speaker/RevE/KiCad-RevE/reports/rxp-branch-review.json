@@ -1,0 +1,38 @@
+{
+  "issue": 1,
+  "pcb_sha256_before": "bcb0499ee4ba1d5d870418216ff0339394077323a099d4156130cad624ae6c3a",
+  "pcb_sha256": "e1272f55861ee35c028f178ddc4ed685dba0530eae4f681357f59997e186cf71",
+  "change": "Move existing RX_P branch via from (117.5,71.6622) to (118.422,69.6); shorten front tap and reconnect bottom ESD/termination tracks.",
+  "removed_track_uuids": [
+    "11b06a32-ab92-4395-b3d6-42361e73afdd",
+    "5d702115-6d78-4d31-ba2e-5e2af604220e",
+    "7a734458-7a3f-45e1-8372-7f632f18631e",
+    "8848a942-1060-40e0-a16d-2bbcd72137d8",
+    "ab22074c-bd81-4940-9879-c68729e71e18",
+    "bd7af029-b8db-4206-ab7b-929b8aeaa1cd"
+  ],
+  "added_track_uuids": [
+    "26d998b0-5335-434c-a34e-ea05121a1f1e",
+    "43bb8cdd-c0c5-4067-ae97-86eb7547f8e8",
+    "74723e9b-4c22-4584-9bec-e4f99c6a6b16",
+    "855e17bf-45ac-4c90-9ec9-b605e9bfe364",
+    "f7872945-85ea-4628-b6a3-a3b8dc97df1f"
+  ],
+  "moved_via_uuid": "eaff20cb-60e8-4873-8421-957695599b51",
+  "front_branch_mm_before": 3.644,
+  "front_branch_mm_after": 1.2576,
+  "total_rxp_copper_mm_before": 29.493,
+  "total_rxp_copper_mm_after": 25.654,
+  "rxp_vias_before": 2,
+  "rxp_vias_after": 2,
+  "checks": {
+    "drc_findings": 0,
+    "unconnected_items": 0,
+    "pinmap_passed": 14,
+    "main_ethernet_path_report_unchanged": true,
+    "unchanged_board_blocks": "All top-level blocks except six removed/five added RX_P segments, one moved RX_P via, and one refilled zone are identical.",
+    "manual_review": "KiCad-exported F.Cu, B.Cu, In1.Cu plots inspected around the moved tap. New via antipad stays below the main RX corridor; branch ground gaps terminate at its antipad.",
+    "erc": "Not rerun; schematic unchanged."
+  },
+  "limitations": "Copper lengths are geometry only. Branch impedance, pair discontinuities, bottom reference and ESD effectiveness remain unqualified. No physical measurements. Fabrication HOLD."
+}
