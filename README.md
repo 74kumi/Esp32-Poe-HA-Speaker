@@ -12,7 +12,7 @@ I would genuinely welcome review or collaboration from experienced hardware engi
 
 This hardware is currently untested. It has not yet been fabricated, assembled, or electrically validated, and I cannot claim that the current design will work as intended. Please treat it as an engineering prototype, not a finished or proven product.
 
-![Earlier development board render](docs/images/early-board-render.jpg)
+![Earlier development board render](docs/images/early-board-render.png)
 
 > **Earlier development render — the current Rev E hardware differs.**
 >
