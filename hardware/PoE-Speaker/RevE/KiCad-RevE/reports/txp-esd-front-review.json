@@ -1,0 +1,47 @@
+{
+  "issue": 1,
+  "pcb_sha256_before": "e1272f55861ee35c028f178ddc4ed685dba0530eae4f681357f59997e186cf71",
+  "pcb_sha256": "a954fe785fb106cb8e064a95ca75d3b2cef12b9d53a8b3acb3feaf3cc363c71d",
+  "change": "Replace TX_P In2 ESD detour with front routing between jack pads; remove ESD branch via.",
+  "removed_track_uuids": [
+    "191d98b8-b27a-40b2-9d44-ccd28f408816",
+    "1d86d5e6-542f-4019-8801-739ec5844800",
+    "53b4f395-478b-4499-ac00-9f0c818dbd22",
+    "70f1904a-cfdb-49c8-8bbf-b786a42f6ba5"
+  ],
+  "added_track_uuids": [
+    "02c8afbf-7ae2-4c87-b3a3-59f63aef02bf",
+    "4cc9134d-d0d4-4c4a-b362-73abe058ec3b",
+    "6164cc26-cea3-4f7d-8c1c-6334f46fc748",
+    "dd54b395-3b21-4008-8627-f16607af8019"
+  ],
+  "removed_via_uuid": "2995a353-577c-4cb3-b18f-a5d344886614",
+  "replaced_branch_mm_before": 9.7638,
+  "replaced_branch_mm_after": 7.9388,
+  "new_width_mm": 0.225806,
+  "total_txp_copper_mm_before": 23.76,
+  "total_txp_copper_mm_after": 21.935,
+  "txp_vias_before": 2,
+  "txp_vias_after": 1,
+  "checks": {
+    "drc_findings": 0,
+    "unconnected_items": 0,
+    "pinmap_passed": 14,
+    "main_ethernet_path_report_unchanged": true,
+    "structural_diff": {
+      "removed": {
+        "via": 1,
+        "segment": 4,
+        "zone": 1
+      },
+      "added": {
+        "segment": 4,
+        "zone": 1
+      }
+    },
+    "manual_review": "KiCad F.Cu and In1.Cu plots inspected: front branch clears jack pads and TX center-tap route; no change to jack keepouts.",
+    "reference_screen": "Three new segments have zero missing In1 GND centerline samples. First pad escape has 11/12 missing samples inside the J1 pin 11 antipad; no corridor/impedance qualification.",
+    "erc": "Not rerun; schematic unchanged."
+  },
+  "limitations": "An unpaired ESD branch remains. TX main routing remains on In2; PHY-to-jack length/via count unchanged. ESD efficacy, differential geometry and isolation review remain open; no physical validation. Fabrication HOLD."
+}

@@ -1,5 +1,13 @@
 # Ethernet physical design baseline
 
+## 2026-09-16: issue #1 front-layer TX_P ESD branch
+
+Replaced the 9.7638 mm In2 TX_P ESD detour with 7.9388 mm of F.Cu routing at 0.225806 mm width, passing between J1 pads 19/20 and avoiding the TX center-tap track. Removed the branch via at (115.598, 60.7999). Total TX_P copper drops from 23.760 to 21.935 mm and its signal vias from two to one. No component, schematic, or main PHY-to-jack route changed. The remaining TX_P main route is still on In2 and is not a qualified differential pair.
+
+DRC: zero findings and zero unconnected items after refill; fresh pin map: 14/14. KiCad F.Cu/In1 plots inspected. All centerline samples under the three new segments beyond the initial jack escape touch In1 GND; the initial escape crosses the pin-11 antipad. This does not establish a sufficient return corridor or branch impedance. ERC not rerun because schematic unchanged. Structural comparison limits the change to four replaced TX_P segments, one removed via, and one refilled zone. Source hash and metrics: `KiCad-RevE/reports/txp-esd-front-review.json`.
+
+This resolves the earlier layer-only ESD conversion's center-tap crossing by changing the route geometry. The long unpaired ESD branch still needs topology review; TX main pairing, other branches, and full reference/isolation review remain open under issue #1. Fabrication remains HOLD, with no physical electrical validation.
+
 ## 2026-09-16: issue #1 shortened RX_P branch
 
 Moved the existing RX_P branch via from (117.5, 71.6622) to (118.422, 69.6), shortening its F.Cu tap from 3.6440 to 1.2576 mm. Reconnected the B.Cu ESD route and R104 without moving components. Total RX_P copper falls from 29.493 to 25.654 mm; its two vias and all four main PHY-to-jack path reports are unchanged. Retained the existing 0.2 mm branch width and 0.6/0.3 mm via. These lengths describe geometry, not electrical delay or qualification.
