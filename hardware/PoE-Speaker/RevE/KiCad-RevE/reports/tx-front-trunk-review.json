@@ -1,0 +1,72 @@
+{
+  "issue": 1,
+  "pcb_sha256_before": "a954fe785fb106cb8e064a95ca75d3b2cef12b9d53a8b3acb3feaf3cc363c71d",
+  "pcb_sha256": "78b7da4452e323322fd6d3b2f175d23f4d0f4024378dd4c1b33d231f59039804",
+  "model_sha256": "98bc9a895c4a9a6f7e0d5cd7a0a94daf466c9a5734ef0da167af8c55d6b72481",
+  "change": "Coordinated front TX trunk with shortened In2 crossover, relocated R102 termination tap and R103 clearance move.",
+  "placement": {
+    "R102": {
+      "position_mm": [
+        114.8,
+        64.9
+      ],
+      "side": "B.Cu",
+      "angle": 90
+    },
+    "R103": {
+      "position_mm": [
+        117.35,
+        66.5
+      ],
+      "side": "F.Cu",
+      "angle": 0
+    }
+  },
+  "txp_inner_length_mm": {
+    "before": 9.7896,
+    "after": 4.4072
+  },
+  "coupled_section": {
+    "x_mm": [
+      114.91,
+      118.9
+    ],
+    "length_mm": 3.99,
+    "width_mm": 0.225806,
+    "edge_gap_mm": 0.203194,
+    "in1_centerline_samples": 802,
+    "missing_samples": 0,
+    "nearby_rxn_edge_gap_mm": 0.217794
+  },
+  "via_tradeoff": "TX_P gains one jack crossover via (two total); moved PHY-side via remains a termination tap. One TX_N tap via relocated, count unchanged. Path audit counts physical vias, including same-layer tap junctions, not just layer transitions.",
+  "checks": {
+    "drc_findings": 0,
+    "unconnected_items": 0,
+    "pinmap_passed": 14,
+    "R102_R103_model_placement_and_pad_nets": "pass",
+    "rx_paths_unchanged": true,
+    "structural_diff_removed": {
+      "footprint": 2,
+      "segment": 15,
+      "via": 2,
+      "zone": 1
+    },
+    "structural_diff_added": {
+      "footprint": 2,
+      "segment": 28,
+      "via": 3,
+      "zone": 1
+    },
+    "manual_review": "KiCad F/B/In1/In2 copper plots inspected; tap/crossover positions adjusted to improve plane clearance.",
+    "erc": "Not rerun; schematic unchanged."
+  },
+  "limitations": [
+    "Draft routing, not impedance qualification or physical validation.",
+    "Close parallel TX/RX spacing (0.217794 mm edge gap) needs crosstalk review or separation; isolated-pair calculator result is not qualification for this geometry.",
+    "Inner crossover lacks the intended nearby reference.",
+    "PHY fanout, plane necks/antipads, right-angle bend and termination/ESD stubs remain unqualified.",
+    "R102 tap copper is about 1.875 mm versus about 0.917 mm before; relocation avoids a much longer branch from the new main path.",
+    "Total TX copper increases; main-path reports are geometry screens, not exact skew.",
+    "Fabrication HOLD."
+  ]
+}

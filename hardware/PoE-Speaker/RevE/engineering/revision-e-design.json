@@ -8424,10 +8424,10 @@
       "footprint": "Resistor_SMD:R_0603_1608Metric",
       "group": "Ethernet",
       "position": [
-        116.3,
-        64.7
+        114.8,
+        64.9
       ],
-      "angle": 270,
+      "angle": 90.0,
       "side": "Bottom",
       "source": "RevB",
       "sheet": "Ethernet interface"
@@ -8462,8 +8462,8 @@
       "footprint": "Resistor_SMD:R_0603_1608Metric",
       "group": "Ethernet",
       "position": [
-        117.5,
-        67.0
+        117.35,
+        66.5
       ],
       "angle": 0.0,
       "side": "Top",

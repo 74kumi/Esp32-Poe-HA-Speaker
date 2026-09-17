@@ -1,5 +1,13 @@
 # Ethernet physical design baseline
 
+## 2026-09-17: issue #1 coordinated TX front trunk
+
+Routed a 3.99 mm common F.Cu section (x=114.91–118.9) at 0.225806 mm width / 0.203194 mm edge gap. TX_P In2 copper drops from 9.7896 to 4.4072 mm; its jack crossover adds one via. The existing PHY-side via was moved for the R101 tap. TX_N stays on F.Cu, with its termination via relocated. R103 moved to (117.35,66.5) to clear the corridor; R102 moved on B.Cu to (114.8,64.9), 90 degrees, to keep its tap near the new main route. R102 tap copper is about 1.875 mm, versus 0.917 mm before; retaining its old location would create a substantially longer branch. Component model synchronized; schematic and RX main paths unchanged.
+
+Refilled DRC: zero findings/unconnected; fresh MDI pin map: 14/14. R102/R103 model positions, angles and pad nets checked. KiCad front/bottom/inner copper plots inspected. All 802 centerline samples along the coupled section touch In1 GND; that does not establish a sufficient lateral return corridor. Whole-segment main-path screen: TX_N 10.870 mm, TX_P 11.830 mm; via counts 0/2 include the TX_P same-layer termination junction, not only layer transitions. Exact hashes and structural diff are in `KiCad-RevE/reports/tx-front-trunk-review.json`. ERC not rerun because schematic unchanged.
+
+This remains draft routing. TX_P runs only 0.217794 mm from parallel RX_N copper: crosstalk/separation requires further work, and the isolated differential-pair calculator does not qualify this geometry. The inner crossover, PHY fanout, plane necks/antipads, right-angle bend, ESD and termination branches also remain unqualified. Total TX copper increases despite shortening the inner run. Issue #1 stays open; fabrication HOLD and no physical electrical validation.
+
 ## 2026-09-16: issue #1 front-layer TX_P ESD branch
 
 Replaced the 9.7638 mm In2 TX_P ESD detour with 7.9388 mm of F.Cu routing at 0.225806 mm width, passing between J1 pads 19/20 and avoiding the TX center-tap track. Removed the branch via at (115.598, 60.7999). Total TX_P copper drops from 23.760 to 21.935 mm and its signal vias from two to one. No component, schematic, or main PHY-to-jack route changed. The remaining TX_P main route is still on In2 and is not a qualified differential pair.

@@ -1,5 +1,5 @@
 {
-  "pcb_sha256": "a954fe785fb106cb8e064a95ca75d3b2cef12b9d53a8b3acb3feaf3cc363c71d",
+  "pcb_sha256": "78b7da4452e323322fd6d3b2f175d23f4d0f4024378dd4c1b33d231f59039804",
   "method": "Track centerline samples at <=0.1 mm spacing projected onto saved filled In1.Cu GND. Pad antipads can legitimately produce missing samples. This does not check lateral return-current corridors, pair coupling, impedance, or the appropriateness of referencing In1 from B/In2.",
   "segments": [
     {
@@ -8,14 +8,6 @@
       "layer": "F.Cu",
       "length_mm": 1.9771,
       "sample_count": 21,
-      "missing_ground_samples": []
-    },
-    {
-      "uuid": "1eb3e74d-bd68-443a-9b0d-d2db9c944475",
-      "net": "ETH_TX_P",
-      "layer": "F.Cu",
-      "length_mm": 0.0704,
-      "sample_count": 2,
       "missing_ground_samples": []
     },
     {
@@ -35,12 +27,107 @@
       "missing_ground_samples": []
     },
     {
+      "uuid": "602e5c90-6e03-4ae1-8ad6-ad7ece2dd6d6",
+      "net": "ETH_TX_P",
+      "layer": "F.Cu",
+      "length_mm": 0.4,
+      "sample_count": 5,
+      "missing_ground_samples": [
+        [
+          119.75,
+          67.15
+        ],
+        [
+          119.75,
+          67.05
+        ],
+        [
+          119.75,
+          66.95
+        ],
+        [
+          119.75,
+          66.85
+        ]
+      ]
+    },
+    {
+      "uuid": "61206d6e-0856-4e2a-b8a8-ead0d36806d4",
+      "net": "ETH_TX_P",
+      "layer": "F.Cu",
+      "length_mm": 0.5501,
+      "sample_count": 7,
+      "missing_ground_samples": [
+        [
+          119.161,
+          67.739
+        ],
+        [
+          119.2258,
+          67.6742
+        ],
+        [
+          119.2907,
+          67.6093
+        ],
+        [
+          119.3555,
+          67.5445
+        ],
+        [
+          119.4203,
+          67.4797
+        ],
+        [
+          119.4852,
+          67.4148
+        ],
+        [
+          119.55,
+          67.35
+        ]
+      ]
+    },
+    {
       "uuid": "6164cc26-cea3-4f7d-8c1c-6334f46fc748",
       "net": "ETH_TX_P",
       "layer": "F.Cu",
       "length_mm": 1.9761,
       "sample_count": 21,
       "missing_ground_samples": []
+    },
+    {
+      "uuid": "723e5438-fb7f-4dc6-ab37-5e2961897144",
+      "net": "ETH_TX_P",
+      "layer": "F.Cu",
+      "length_mm": 1.0875,
+      "sample_count": 12,
+      "missing_ground_samples": []
+    },
+    {
+      "uuid": "8d60b531-2e98-4048-950a-0df3611420c1",
+      "net": "ETH_TX_P",
+      "layer": "F.Cu",
+      "length_mm": 0.2828,
+      "sample_count": 4,
+      "missing_ground_samples": [
+        [
+          119.55,
+          67.35
+        ],
+        [
+          119.6167,
+          67.2833
+        ],
+        [
+          119.6833,
+          67.2167
+        ],
+        [
+          119.75,
+          67.15
+        ]
+      ]
     },
     {
       "uuid": "dd54b395-3b21-4008-8627-f16607af8019",
@@ -104,249 +191,220 @@
       "missing_ground_samples": []
     },
     {
-      "uuid": "f3262b65-6f5c-48d4-af1f-6fcdf24cee18",
+      "uuid": "e716e75b-c0fa-4f55-a6fb-2a375b7e2730",
       "net": "ETH_TX_P",
       "layer": "F.Cu",
-      "length_mm": 1.291,
-      "sample_count": 14,
+      "length_mm": 0.4228,
+      "sample_count": 6,
       "missing_ground_samples": [
         [
-          119.497,
-          66.7995
+          113.9,
+          67.44
         ],
         [
-          119.5963,
-          66.7995
+          113.9598,
+          67.4998
         ],
         [
-          119.6956,
-          66.7995
+          114.0196,
+          67.5596
         ],
         [
-          119.7949,
-          66.7995
+          114.0794,
+          67.6194
         ],
         [
-          119.8942,
-          66.7995
+          114.1392,
+          67.6792
         ],
         [
-          119.9935,
-          66.7995
-        ],
-        [
-          120.0928,
-          66.7995
+          114.199,
+          67.739
         ]
       ]
     },
     {
-      "uuid": "b36dd4de-b80a-47c0-8ba5-68c351cbd2ca",
+      "uuid": "eded91c5-7f0f-4332-b3af-ef301ecb61cd",
+      "net": "ETH_TX_P",
+      "layer": "F.Cu",
+      "length_mm": 4.962,
+      "sample_count": 51,
+      "missing_ground_samples": [
+        [
+          114.199,
+          67.739
+        ],
+        [
+          114.2982,
+          67.739
+        ],
+        [
+          114.3975,
+          67.739
+        ],
+        [
+          119.161,
+          67.739
+        ]
+      ]
+    },
+    {
+      "uuid": "cb078d41-b9ea-41d2-af75-51da81c3bc54",
       "net": "ETH_TX_P",
       "layer": "B.Cu",
-      "length_mm": 0.1715,
-      "sample_count": 3,
+      "length_mm": 0.775,
+      "sample_count": 9,
       "missing_ground_samples": []
     },
     {
-      "uuid": "f281e655-0563-499e-add3-5337e40d9e83",
+      "uuid": "d2991f1c-b664-4800-af03-60c4fb3228de",
       "net": "ETH_TX_P",
       "layer": "B.Cu",
-      "length_mm": 1.4185,
-      "sample_count": 16,
+      "length_mm": 1.3435,
+      "sample_count": 15,
       "missing_ground_samples": [
         [
-          119.497,
-          66.7995
+          119.55,
+          67.35
         ],
         [
-          119.5639,
-          66.7326
+          119.6179,
+          67.2821
         ],
         [
-          119.6307,
-          66.6658
+          119.6857,
+          67.2143
         ],
         [
-          119.6976,
-          66.5989
+          119.7536,
+          67.1464
         ],
         [
-          119.7645,
-          66.532
+          119.8214,
+          67.0786
         ],
         [
-          119.8313,
-          66.4652
+          119.8893,
+          67.0107
         ],
         [
-          119.8982,
-          66.3983
+          119.9571,
+          66.9429
         ]
       ]
     },
     {
-      "uuid": "032a642d-0118-4d24-b44b-ec2daaad3d1e",
+      "uuid": "3421a9df-d286-4ff1-8e79-5f14d232049d",
       "net": "ETH_TX_P",
       "layer": "In2.Cu",
-      "length_mm": 2.7213,
-      "sample_count": 29,
+      "length_mm": 3.5412,
+      "sample_count": 37,
       "missing_ground_samples": [
-        [
-          111.2171,
-          65.6233
-        ],
-        [
-          111.1484,
-          65.5546
-        ],
-        [
-          111.0797,
-          65.4859
-        ],
-        [
-          111.011,
-          65.4171
-        ],
-        [
-          110.9423,
-          65.3484
-        ],
-        [
-          110.8736,
-          65.2797
-        ],
-        [
-          110.8049,
-          65.2109
-        ],
-        [
-          110.7361,
-          65.1422
-        ],
-        [
-          110.6674,
-          65.0735
-        ],
-        [
-          110.5987,
-          65.0047
-        ],
         [
           110.53,
           64.936
+        ],
+        [
+          110.5996,
+          65.0056
+        ],
+        [
+          110.6691,
+          65.0751
+        ],
+        [
+          110.7387,
+          65.1447
+        ],
+        [
+          110.8082,
+          65.2142
+        ],
+        [
+          110.8778,
+          65.2838
+        ],
+        [
+          110.9473,
+          65.3533
+        ],
+        [
+          111.0169,
+          65.4229
+        ],
+        [
+          111.0864,
+          65.4924
+        ],
+        [
+          111.156,
+          65.562
+        ],
+        [
+          111.2256,
+          65.6316
         ]
       ]
     },
     {
-      "uuid": "19c2c6c5-3a38-4005-a9c7-1899acfbd2c6",
+      "uuid": "9ea7762d-3274-4afc-a0c2-10e836db994a",
       "net": "ETH_TX_P",
       "layer": "In2.Cu",
-      "length_mm": 6.982,
-      "sample_count": 71,
+      "length_mm": 0.866,
+      "sample_count": 10,
       "missing_ground_samples": [
         [
-          119.436,
-          66.8605
+          113.3227,
+          67.44
         ],
         [
-          119.3363,
-          66.8605
+          113.4189,
+          67.44
         ],
         [
-          119.2365,
-          66.8605
+          113.5151,
+          67.44
         ],
         [
-          119.1368,
-          66.8605
+          113.6113,
+          67.44
         ],
         [
-          119.037,
-          66.8605
+          113.7076,
+          67.44
         ],
         [
-          118.9373,
-          66.8605
+          113.8038,
+          67.44
+        ],
+        [
+          113.9,
+          67.44
         ]
       ]
     },
     {
-      "uuid": "a677fa51-0261-4db6-ab7d-12590af470b2",
-      "net": "ETH_TX_P",
-      "layer": "In2.Cu",
-      "length_mm": 0.0863,
+      "uuid": "16707459-fa64-4af5-9a62-1a7df5f51406",
+      "net": "ETH_TX_N",
+      "layer": "F.Cu",
+      "length_mm": 1.06,
+      "sample_count": 12,
+      "missing_ground_samples": []
+    },
+    {
+      "uuid": "321973bb-33bb-4c94-9e82-70f223defa12",
+      "net": "ETH_TX_N",
+      "layer": "F.Cu",
+      "length_mm": 1.9375,
+      "sample_count": 21,
+      "missing_ground_samples": []
+    },
+    {
+      "uuid": "36da075a-77de-4243-b27a-138c9fabfa58",
+      "net": "ETH_TX_N",
+      "layer": "F.Cu",
+      "length_mm": 0.012,
       "sample_count": 2,
-      "missing_ground_samples": [
-        [
-          119.497,
-          66.7995
-        ],
-        [
-          119.436,
-          66.8605
-        ]
-      ]
-    },
-    {
-      "uuid": "1a9a64ef-6830-47d6-a818-631f95a46851",
-      "net": "ETH_TX_N",
-      "layer": "F.Cu",
-      "length_mm": 3.758,
-      "sample_count": 39,
-      "missing_ground_samples": [
-        [
-          110.53,
-          66.968
-        ],
-        [
-          110.6289,
-          66.968
-        ],
-        [
-          110.7278,
-          66.968
-        ],
-        [
-          110.8267,
-          66.968
-        ],
-        [
-          110.9256,
-          66.968
-        ],
-        [
-          111.0245,
-          66.968
-        ],
-        [
-          111.1234,
-          66.968
-        ],
-        [
-          111.2223,
-          66.968
-        ],
-        [
-          111.3212,
-          66.968
-        ],
-        [
-          111.4201,
-          66.968
-        ],
-        [
-          111.5189,
-          66.968
-        ]
-      ]
-    },
-    {
-      "uuid": "33d7a210-f109-45e7-ac76-bdee1626f505",
-      "net": "ETH_TX_N",
-      "layer": "F.Cu",
-      "length_mm": 0.49,
-      "sample_count": 6,
       "missing_ground_samples": []
     },
     {
@@ -358,49 +416,115 @@
       "missing_ground_samples": []
     },
     {
-      "uuid": "4fe2fc21-234f-4040-b221-aa7cf958c5ee",
+      "uuid": "6d6702bd-cff3-4320-a054-9d41f2659a0e",
       "net": "ETH_TX_N",
       "layer": "F.Cu",
-      "length_mm": 3.7772,
+      "length_mm": 3.02,
+      "sample_count": 32,
+      "missing_ground_samples": [
+        [
+          111.268,
+          66.7
+        ],
+        [
+          111.3654,
+          66.7
+        ],
+        [
+          111.4628,
+          66.7
+        ],
+        [
+          111.5603,
+          66.7
+        ]
+      ]
+    },
+    {
+      "uuid": "7d17e31d-5ec8-4768-a6ff-6a54e8085cbf",
+      "net": "ETH_TX_N",
+      "layer": "F.Cu",
+      "length_mm": 0.47,
+      "sample_count": 6,
+      "missing_ground_samples": [
+        [
+          110.53,
+          66.968
+        ],
+        [
+          110.624,
+          66.968
+        ],
+        [
+          110.718,
+          66.968
+        ],
+        [
+          110.812,
+          66.968
+        ],
+        [
+          110.906,
+          66.968
+        ],
+        [
+          111.0,
+          66.968
+        ]
+      ]
+    },
+    {
+      "uuid": "97a0135f-868b-46e2-99f0-5955c50904c1",
+      "net": "ETH_TX_N",
+      "layer": "F.Cu",
+      "length_mm": 0.71,
+      "sample_count": 9,
+      "missing_ground_samples": [
+        [
+          115.5,
+          66.6
+        ],
+        [
+          115.5,
+          66.6887
+        ],
+        [
+          115.5,
+          66.7775
+        ],
+        [
+          115.5,
+          66.8662
+        ],
+        [
+          115.5,
+          66.955
+        ],
+        [
+          115.5,
+          67.0438
+        ],
+        [
+          115.5,
+          67.1325
+        ]
+      ]
+    },
+    {
+      "uuid": "ab9e3baf-65eb-4899-ad8a-76b060148bd6",
+      "net": "ETH_TX_N",
+      "layer": "F.Cu",
+      "length_mm": 3.7918,
       "sample_count": 39,
       "missing_ground_samples": []
     },
     {
-      "uuid": "a181d5e8-252e-42ee-92a4-ab39f3210283",
+      "uuid": "b68240ef-59b1-43f3-9720-dc98d5b87790",
       "net": "ETH_TX_N",
       "layer": "F.Cu",
-      "length_mm": 3.9766,
-      "sample_count": 41,
-      "missing_ground_samples": [
-        [
-          116.6782,
-          64.5781
-        ],
-        [
-          116.7485,
-          64.5078
-        ],
-        [
-          116.8188,
-          64.4375
-        ],
-        [
-          116.8891,
-          64.3672
-        ],
-        [
-          116.9594,
-          64.2969
-        ],
-        [
-          117.0297,
-          64.2266
-        ],
-        [
-          117.1,
-          64.1563
-        ]
-      ]
+      "length_mm": 0.8627,
+      "sample_count": 10,
+      "missing_ground_samples": []
     },
     {
       "uuid": "cd38f2b8-5606-4aa2-943a-e8ad96093f87",
@@ -411,89 +535,92 @@
       "missing_ground_samples": []
     },
     {
+      "uuid": "ce1395a0-e813-4e56-8fec-125ac2e94ddf",
+      "net": "ETH_TX_N",
+      "layer": "F.Cu",
+      "length_mm": 3.99,
+      "sample_count": 41,
+      "missing_ground_samples": []
+    },
+    {
       "uuid": "d258a70a-5ccd-4076-bebd-ccbc21d4f62a",
       "net": "ETH_TX_N",
       "layer": "F.Cu",
       "length_mm": 0.816,
       "sample_count": 10,
-      "missing_ground_samples": [
-        [
-          117.1,
-          64.1563
-        ],
-        [
-          117.1641,
-          64.0922
-        ],
-        [
-          117.2282,
-          64.0281
-        ],
-        [
-          117.2923,
-          63.964
-        ],
-        [
-          117.3564,
-          63.8999
-        ],
-        [
-          117.4206,
-          63.8357
-        ],
-        [
-          117.4847,
-          63.7716
-        ]
-      ]
+      "missing_ground_samples": []
     },
     {
-      "uuid": "a2c12891-5f22-47cb-8121-59af5352e477",
+      "uuid": "e3293de3-28ee-4357-b6dd-218f2251e1c6",
       "net": "ETH_TX_N",
-      "layer": "B.Cu",
-      "length_mm": 0.5187,
-      "sample_count": 7,
-      "missing_ground_samples": [
-        [
-          116.8187,
-          63.875
-        ],
-        [
-          116.7322,
-          63.875
-        ],
-        [
-          116.6458,
-          63.875
-        ]
-      ]
-    },
-    {
-      "uuid": "a6a74ddb-ec19-4710-bf95-a4d6392f37b8",
-      "net": "ETH_TX_N",
-      "layer": "B.Cu",
-      "length_mm": 0.3978,
+      "layer": "F.Cu",
+      "length_mm": 0.379,
       "sample_count": 5,
       "missing_ground_samples": [
         [
-          117.1,
-          64.1563
+          111.0,
+          66.968
         ],
         [
-          117.0297,
-          64.086
+          111.067,
+          66.901
         ],
         [
-          116.9594,
-          64.0156
+          111.134,
+          66.834
         ],
         [
-          116.889,
-          63.9453
+          111.201,
+          66.767
         ],
         [
-          116.8187,
-          63.875
+          111.268,
+          66.7
+        ]
+      ]
+    },
+    {
+      "uuid": "4a18af67-c1a1-42ac-a49d-38024e5b4fd8",
+      "net": "ETH_TX_N",
+      "layer": "B.Cu",
+      "length_mm": 0.175,
+      "sample_count": 3,
+      "missing_ground_samples": []
+    },
+    {
+      "uuid": "c30789af-6723-4e22-bc9d-e384b37c148e",
+      "net": "ETH_TX_N",
+      "layer": "B.Cu",
+      "length_mm": 0.9899,
+      "sample_count": 11,
+      "missing_ground_samples": [
+        [
+          115.5,
+          66.6
+        ],
+        [
+          115.43,
+          66.53
+        ],
+        [
+          115.36,
+          66.46
+        ],
+        [
+          115.29,
+          66.39
+        ],
+        [
+          115.22,
+          66.32
+        ],
+        [
+          115.15,
+          66.25
+        ],
+        [
+          115.08,
+          66.18
         ]
       ]
     },
@@ -1168,5 +1295,5 @@
       ]
     }
   ],
-  "segments_with_missing_samples": 29
+  "segments_with_missing_samples": 32
 }
