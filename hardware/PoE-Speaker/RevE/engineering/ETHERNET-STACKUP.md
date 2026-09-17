@@ -1,5 +1,13 @@
 # Ethernet physical design baseline
 
+## 2026-09-17: issue #1 RX PHY approach
+
+Extended the separated RX straight section from 5.4 to 6.35 mm. The remaining close parallel TX_P/RX_N overlap falls from 0.961 to 0.011 mm (x=119.15–119.161), though the close diagonal/PHY approaches remain unqualified. Width and RX pair gap are unchanged. Moved the existing RX_P branch via from (118.422,69.6) to (117.8,70.15), keeping its antipad outside the screened central return corridor. No added vias or component moves. The front tap shortens from 1.2576 to 0.9384 mm; the R104 path is shorter, while the path to the ESD via is approximately 0.489 mm longer. Total RX_P copper increases about 0.196 mm.
+
+DRC after refill: zero findings/unconnected; fresh pin map: 14/14. KiCad front/bottom/In1 plots inspected. All 2,944 samples across the extended central RX pair envelope and 0.2104 mm lateral margins touch In1 GND; this is not a field or crosstalk validation. TX path reports unchanged; schematic unchanged, so ERC not rerun. RX_P whole-segment path screen drops to 13.269 mm because overlapping track ends let the graph omit a short segment; main-route centerline segment sum is unchanged. Do not interpret that screen as exact skew. Exact hash and structural checks: `KiCad-RevE/reports/rx-phy-approach-review.json`.
+
+Issue #1 remains open for PHY transitions/antipads, TX crossover reference and ESD/termination topology. Fabrication HOLD; no physical electrical validation.
+
 ## 2026-09-17: issue #1 TX/RX separation
 
 Offset the middle of both RX routes downward 0.6 mm with coupled 45-degree bends. The central parallel TX_P/RX_N edge gap increases from 0.217794 to 0.817794 mm; the RX straight section is 5.4 mm long at 0.225806 mm width / 0.2032 mm edge gap. Bend spacing is approximately 0.203196 mm. The close 0.217794 mm parallel approach remains over x=118.2–119.161 (0.961 mm) near the PHY; this and the transitions still require review.

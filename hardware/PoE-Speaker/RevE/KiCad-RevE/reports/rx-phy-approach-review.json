@@ -1,0 +1,73 @@
+{
+  "issue": 1,
+  "pcb_sha256_before": "94033c547574259ea78d1ccecbdb9c2246fd007eedf99f33af6df3f478ce40dd",
+  "pcb_sha256": "2354629ee7cff15151cfc26d20ca63f79ba64bcb62a2634c8109051abf52f0a5",
+  "change": "Extend separated RX trunk toward PHY and move existing RX_P branch via away from trunk/reference corridor.",
+  "geometry": {
+    "rx_straight_x_mm": [
+      112.2,
+      118.55
+    ],
+    "rx_straight_length_mm_before": 5.4,
+    "rx_straight_length_mm_after": 6.35,
+    "remaining_close_parallel_length_mm_before": 0.961,
+    "remaining_close_parallel_length_mm_after": 0.011,
+    "remaining_close_parallel_x_mm": [
+      119.15,
+      119.161
+    ],
+    "remaining_close_parallel_edge_gap_mm": 0.217794,
+    "width_mm": 0.225806,
+    "rx_edge_gap_mm": 0.2032,
+    "rxp_branch_via_mm_before": [
+      118.422,
+      69.6
+    ],
+    "rxp_branch_via_mm_after": [
+      117.8,
+      70.15
+    ],
+    "rxp_front_tap_mm_before": 1.2576,
+    "rxp_front_tap_mm_after": 0.938394
+  },
+  "checks": {
+    "drc_findings": 0,
+    "unconnected_items": 0,
+    "pinmap_passed": 14,
+    "tx_paths_unchanged": true,
+    "structural_diff_removed": {
+      "segment": 10,
+      "via": 1,
+      "zone": 1
+    },
+    "structural_diff_added": {
+      "segment": 11,
+      "via": 1,
+      "zone": 1
+    },
+    "manual_review": "KiCad F.Cu/B.Cu/In1 plots inspected at PHY, branch via and termination routes.",
+    "reference_grid": {
+      "x_mm": [
+        112.2,
+        118.55
+      ],
+      "y_mm": [
+        68.459297,
+        69.534909
+      ],
+      "scope": "Central pair envelope plus 0.2104 mm lateral margin each side; sampled saved In1 ground, not field/return-current qualification.",
+      "samples": 2944,
+      "missing_samples": 0
+    },
+    "erc": "Not rerun; schematic unchanged."
+  },
+  "tradeoffs": [
+    "Front tap shorter; route from tap to R104 is also shorter, but route to ESD via is approximately 0.489 mm longer. Total RX_P copper increases approximately 0.196 mm.",
+    "RX_P whole-segment path screen changes from 13.477 to 13.269 mm because overlapping track ends allow the graph to omit a short segment; main-route centerline segment sum is unchanged. This is not an electrical skew measurement."
+  ],
+  "limitations": [
+    "Close diagonal/PHY approaches and pad/antipad discontinuities still need review; reduced parallel overlap is not crosstalk qualification.",
+    "TX crossover reference and ESD/termination topology remain open under issue #1.",
+    "No physical electrical validation. Fabrication HOLD."
+  ]
+}

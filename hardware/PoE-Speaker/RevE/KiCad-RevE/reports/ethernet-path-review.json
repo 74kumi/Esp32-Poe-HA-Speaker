@@ -503,9 +503,9 @@
           "net": "ETH_RX_N",
           "kind": "track",
           "width_mm": 0.225806,
-          "length_mm": 1.393,
+          "length_mm": 0.443,
           "start_mm": [
-            118.2,
+            119.15,
             68.1826
           ],
           "end_mm": [
@@ -521,11 +521,11 @@
           "width_mm": 0.225806,
           "length_mm": 0.8485,
           "start_mm": [
-            117.6,
+            118.55,
             68.7826
           ],
           "end_mm": [
-            118.2,
+            119.15,
             68.1826
           ],
           "layer": "F.Cu"
@@ -535,13 +535,13 @@
           "net": "ETH_RX_N",
           "kind": "track",
           "width_mm": 0.225806,
-          "length_mm": 5.4,
+          "length_mm": 6.35,
           "start_mm": [
             112.2,
             68.7826
           ],
           "end_mm": [
-            117.6,
+            118.55,
             68.7826
           ],
           "layer": "F.Cu"
@@ -628,9 +628,9 @@
           "net": "ETH_RX_N",
           "kind": "track",
           "width_mm": 0.225806,
-          "length_mm": 1.393,
+          "length_mm": 0.443,
           "start_mm": [
-            118.2,
+            119.15,
             68.1826
           ],
           "end_mm": [
@@ -646,11 +646,11 @@
           "width_mm": 0.225806,
           "length_mm": 0.8485,
           "start_mm": [
-            117.6,
+            118.55,
             68.7826
           ],
           "end_mm": [
-            118.2,
+            119.15,
             68.1826
           ],
           "layer": "F.Cu"
@@ -660,13 +660,13 @@
           "net": "ETH_RX_N",
           "kind": "track",
           "width_mm": 0.225806,
-          "length_mm": 5.4,
+          "length_mm": 6.35,
           "start_mm": [
             112.2,
             68.7826
           ],
           "end_mm": [
-            117.6,
+            118.55,
             68.7826
           ],
           "layer": "F.Cu"
@@ -739,7 +739,7 @@
       "load": "J1.4",
       "net": "ETH_RX_P",
       "widest_path_min_track_mm": 0.2,
-      "narrow_track_length_mm": 13.477,
+      "narrow_track_length_mm": 13.269,
       "narrow_tracks": [
         {
           "uuid": "c2190ae2-bcb7-4746-a131-13536411730c",
@@ -758,33 +758,17 @@
           "layer": "F.Cu"
         },
         {
-          "uuid": "094c8606-31be-42c2-bc7a-ff4ecdfef432",
-          "net": "ETH_RX_P",
-          "kind": "track",
-          "width_mm": 0.225806,
-          "length_mm": 1.1582,
-          "start_mm": [
-            118.189806,
-            68.7995
-          ],
-          "end_mm": [
-            119.348,
-            68.7995
-          ],
-          "layer": "F.Cu"
-        },
-        {
           "uuid": "7268aa23-9c83-4d41-b231-28e50ad9b01d",
           "net": "ETH_RX_P",
           "kind": "track",
           "width_mm": 0.225806,
           "length_mm": 0.5828,
           "start_mm": [
-            117.7777,
+            118.7277,
             69.211606
           ],
           "end_mm": [
-            118.189806,
+            119.139806,
             68.7995
           ],
           "layer": "F.Cu"
@@ -794,13 +778,13 @@
           "net": "ETH_RX_P",
           "kind": "track",
           "width_mm": 0.225806,
-          "length_mm": 5.7554,
+          "length_mm": 6.7054,
           "start_mm": [
             112.0223,
             69.211606
           ],
           "end_mm": [
-            117.7777,
+            118.7277,
             69.211606
           ],
           "layer": "F.Cu"
@@ -883,33 +867,17 @@
           "layer": "F.Cu"
         },
         {
-          "uuid": "094c8606-31be-42c2-bc7a-ff4ecdfef432",
-          "net": "ETH_RX_P",
-          "kind": "track",
-          "width_mm": 0.225806,
-          "length_mm": 1.1582,
-          "start_mm": [
-            118.189806,
-            68.7995
-          ],
-          "end_mm": [
-            119.348,
-            68.7995
-          ],
-          "layer": "F.Cu"
-        },
-        {
           "uuid": "7268aa23-9c83-4d41-b231-28e50ad9b01d",
           "net": "ETH_RX_P",
           "kind": "track",
           "width_mm": 0.225806,
           "length_mm": 0.5828,
           "start_mm": [
-            117.7777,
+            118.7277,
             69.211606
           ],
           "end_mm": [
-            118.189806,
+            119.139806,
             68.7995
           ],
           "layer": "F.Cu"
@@ -919,13 +887,13 @@
           "net": "ETH_RX_P",
           "kind": "track",
           "width_mm": 0.225806,
-          "length_mm": 5.7554,
+          "length_mm": 6.7054,
           "start_mm": [
             112.0223,
             69.211606
           ],
           "end_mm": [
-            117.7777,
+            118.7277,
             69.211606
           ],
           "layer": "F.Cu"
@@ -990,7 +958,7 @@
           ]
         }
       ],
-      "whole_segment_length_mm": 13.477,
+      "whole_segment_length_mm": 13.269,
       "via_count": 0
     }
   ]
