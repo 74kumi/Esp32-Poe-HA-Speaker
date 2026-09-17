@@ -1,5 +1,11 @@
 # Ethernet physical design baseline
 
+## 2026-09-17: issue #1 rejected shorter jack crossover
+
+Tested moving the TX_P crossover via from (113.9,67.44) to (111.8,67.44), shortening In2 copper from 4.4072 to 3.0301 mm. Trial DRC was zero findings/unconnected and pin mapping passed 14/14. KiCad copper plots showed the relocated via antipad merging with the TX_N jack-pad antipad; the whole-segment TX_P path grew from 11.830 to 12.553 mm, increasing the screened TX path difference from 0.960 to 1.683 mm. A net signal-integrity improvement was not established, so the trial was rejected and the original PCB/reports restored exactly. No trial board copy retained.
+
+Reproduction coordinates, baseline/trial hashes and rationale: `KiCad-RevE/reports/tx-crossover-trial-review.json`. Next review must address the complete crossover/return topology together with termination and ESD branches; do not repeat this isolated via move without return-path and pair-length justification. Issue #1 and fabrication HOLD remain; no physical electrical validation.
+
 ## 2026-09-17: issue #1 RX PHY approach
 
 Extended the separated RX straight section from 5.4 to 6.35 mm. The remaining close parallel TX_P/RX_N overlap falls from 0.961 to 0.011 mm (x=119.15–119.161), though the close diagonal/PHY approaches remain unqualified. Width and RX pair gap are unchanged. Moved the existing RX_P branch via from (118.422,69.6) to (117.8,70.15), keeping its antipad outside the screened central return corridor. No added vias or component moves. The front tap shortens from 1.2576 to 0.9384 mm; the R104 path is shorter, while the path to the ESD via is approximately 0.489 mm longer. Total RX_P copper increases about 0.196 mm.

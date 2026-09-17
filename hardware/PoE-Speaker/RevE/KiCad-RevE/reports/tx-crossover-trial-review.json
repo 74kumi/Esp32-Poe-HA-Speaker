@@ -1,0 +1,56 @@
+{
+  "issue": 1,
+  "decision": "rejected; original PCB retained",
+  "baseline_pcb_sha256": "2354629ee7cff15151cfc26d20ca63f79ba64bcb62a2634c8109051abf52f0a5",
+  "trial_pcb_sha256": "d3e253c16520e2c5cd17bad709c25d9f693a1f69751e676f7848a0008747cee5",
+  "trial_change": "Move TX_P jack crossover via from (113.9,67.44) to (111.8,67.44); reshape two In2 and two F.Cu tracks, then refill.",
+  "endpoint_replacements_mm": [
+    {
+      "before": [
+        113.9,
+        67.44
+      ],
+      "after": [
+        111.8,
+        67.44
+      ]
+    },
+    {
+      "before": [
+        113.034,
+        67.44
+      ],
+      "after": [
+        111.8,
+        66.206
+      ]
+    },
+    {
+      "before": [
+        114.199,
+        67.739
+      ],
+      "after": [
+        112.099,
+        67.739
+      ]
+    }
+  ],
+  "inner_txp_length_mm_before": 4.4072,
+  "inner_txp_length_mm_trial": 3.0301,
+  "whole_segment_txp_path_mm_before": 11.83,
+  "whole_segment_txp_path_mm_trial": 12.553,
+  "whole_segment_txn_path_mm": 10.87,
+  "checks": {
+    "trial_drc_findings": 0,
+    "trial_unconnected_items": 0,
+    "trial_pinmap_passed": 14,
+    "manual_review": "KiCad F.Cu/In1/In2 copper plots inspected. The trial TX_P via antipad merges with the existing TX_N jack-pad antipad, unlike the isolated baseline via opening."
+  },
+  "rejection_rationale": [
+    "Shorter unsupported In2 run is offset by longer total TX_P route and increased whole-segment TX_P/TX_N path difference (0.960 to 1.683 mm). This is a screening metric, not exact electrical skew.",
+    "Merged antipads change the local return path; a net signal-integrity improvement has not been established. Clean DRC does not resolve that concern."
+  ],
+  "next_step": "Review the complete jack crossover/return topology together with termination and ESD branches against manufacturer guidance. Do not repeat this isolated via move as an accepted improvement without return-path and pair-length justification.",
+  "limitations": "No physical electrical validation, field simulation or fabrication approval. Issue #1 remains open."
+}
