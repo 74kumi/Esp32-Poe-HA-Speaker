@@ -1,5 +1,13 @@
 # Ethernet physical design baseline
 
+## 2026-09-17: issue #1 TX/RX separation
+
+Offset the middle of both RX routes downward 0.6 mm with coupled 45-degree bends. The central parallel TX_P/RX_N edge gap increases from 0.217794 to 0.817794 mm; the RX straight section is 5.4 mm long at 0.225806 mm width / 0.2032 mm edge gap. Bend spacing is approximately 0.203196 mm. The close 0.217794 mm parallel approach remains over x=118.2–119.161 (0.961 mm) near the PHY; this and the transitions still require review.
+
+DRC after refill: zero findings/unconnected. Fresh pin map: 14/14. KiCad front/In1 plots inspected. All 2,507 grid samples covering the central RX pair envelope plus 0.2104 mm on either side touch In1 GND; this is a geometric screen, not return-current or impedance qualification. Structural comparison confirms only four removed/ten added tracks; components, vias, filled zones and TX path reports are unchanged. RX whole-segment path lengths become N 14.202 / P 13.477 mm, slightly longer than before. Schematic unchanged; ERC not rerun. Exact source hash and checks: `KiCad-RevE/reports/rx-pair-separation-review.json`.
+
+Issue #1 remains open for the PHY approach, TX crossover reference, ESD/termination branches and remaining discontinuities. No physical electrical validation or crosstalk measurement; fabrication HOLD.
+
 ## 2026-09-17: issue #1 coordinated TX front trunk
 
 Routed a 3.99 mm common F.Cu section (x=114.91–118.9) at 0.225806 mm width / 0.203194 mm edge gap. TX_P In2 copper drops from 9.7896 to 4.4072 mm; its jack crossover adds one via. The existing PHY-side via was moved for the R101 tap. TX_N stays on F.Cu, with its termination via relocated. R103 moved to (117.35,66.5) to clear the corridor; R102 moved on B.Cu to (114.8,64.9), 90 degrees, to keep its tap near the new main route. R102 tap copper is about 1.875 mm, versus 0.917 mm before; retaining its old location would create a substantially longer branch. Component model synchronized; schematic and RX main paths unchanged.

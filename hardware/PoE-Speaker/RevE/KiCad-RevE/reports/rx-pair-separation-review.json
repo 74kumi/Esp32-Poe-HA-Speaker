@@ -1,0 +1,56 @@
+{
+  "issue": 1,
+  "pcb_sha256_before": "78b7da4452e323322fd6d3b2f175d23f4d0f4024378dd4c1b33d231f59039804",
+  "pcb_sha256": "94033c547574259ea78d1ccecbdb9c2246fd007eedf99f33af6df3f478ce40dd",
+  "change": "Offset central RX pair downward 0.6 mm using coupled 45-degree bends; preserve jack/PHY connections, components and vias.",
+  "geometry": {
+    "rx_straight_x_mm": [
+      112.2,
+      117.6
+    ],
+    "rx_straight_length_mm": 5.4,
+    "width_mm": 0.225806,
+    "rx_edge_gap_mm": 0.2032,
+    "diagonal_rx_edge_gap_mm": 0.203199927,
+    "central_txp_rxn_edge_gap_mm_before": 0.217794,
+    "central_txp_rxn_edge_gap_mm_after": 0.817794,
+    "remaining_close_parallel_x_mm": [
+      118.2,
+      119.161
+    ],
+    "remaining_close_parallel_length_mm": 0.961,
+    "remaining_close_parallel_edge_gap_mm": 0.217794
+  },
+  "checks": {
+    "drc_findings": 0,
+    "unconnected_items": 0,
+    "pinmap_passed": 14,
+    "tx_paths_unchanged": true,
+    "structural_diff": "Only four removed and ten added tracks; all non-track board text is unchanged, including filled zones.",
+    "manual_review": "KiCad F.Cu/In1 plots inspected at jack, offset bends and PHY approach.",
+    "reference_grid": {
+      "x_mm": [
+        112.2,
+        117.6
+      ],
+      "y_mm": [
+        68.459297,
+        69.534909
+      ],
+      "scope": "Central pair envelope plus 0.2104 mm lateral margin each side; samples of saved In1 GND, not field/return-current qualification.",
+      "samples": 2507,
+      "missing_samples": 0
+    },
+    "erc": "Not rerun; schematic unchanged."
+  },
+  "rx_whole_segment_path_mm": {
+    "ETH_RX_N": 14.202,
+    "ETH_RX_P": 13.477
+  },
+  "limitations": [
+    "RX paths are slightly longer; geometric path difference is not exact electrical skew.",
+    "Close TX/RX approach remains for 0.961 mm near PHY; transitions also need qualification.",
+    "ESD/termination branches, crossover reference and fanout discontinuities remain open under issue #1.",
+    "No crosstalk/impedance measurement or physical electrical validation. Fabrication HOLD."
+  ]
+}

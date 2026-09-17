@@ -480,7 +480,7 @@
       "load": "J1.5",
       "net": "ETH_RX_N",
       "widest_path_min_track_mm": 0.2,
-      "narrow_track_length_mm": 13.705,
+      "narrow_track_length_mm": 14.202,
       "narrow_tracks": [
         {
           "uuid": "24ca7084-2c02-499b-884e-fefda3c6e62d",
@@ -499,17 +499,81 @@
           "layer": "F.Cu"
         },
         {
-          "uuid": "7dbcba05-5a2a-47c0-8aff-7329b67a8b1d",
+          "uuid": "772e1711-ae2a-4d45-93c2-83af1e0f172e",
           "net": "ETH_RX_N",
           "kind": "track",
           "width_mm": 0.225806,
-          "length_mm": 9.372,
+          "length_mm": 1.393,
+          "start_mm": [
+            118.2,
+            68.1826
+          ],
+          "end_mm": [
+            119.593,
+            68.1826
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "ffa562bf-2550-4fe6-a52e-df5ff51115bd",
+          "net": "ETH_RX_N",
+          "kind": "track",
+          "width_mm": 0.225806,
+          "length_mm": 0.8485,
+          "start_mm": [
+            117.6,
+            68.7826
+          ],
+          "end_mm": [
+            118.2,
+            68.1826
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "9eff8cd3-41f5-4659-927e-c1568a62433e",
+          "net": "ETH_RX_N",
+          "kind": "track",
+          "width_mm": 0.225806,
+          "length_mm": 5.4,
+          "start_mm": [
+            112.2,
+            68.7826
+          ],
+          "end_mm": [
+            117.6,
+            68.7826
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "21637d57-0e2c-4078-97fa-06bc2ec67567",
+          "net": "ETH_RX_N",
+          "kind": "track",
+          "width_mm": 0.225806,
+          "length_mm": 0.8485,
+          "start_mm": [
+            111.6,
+            68.1826
+          ],
+          "end_mm": [
+            112.2,
+            68.7826
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "c9dcabc2-0f7c-4831-aebd-24cfe8106f70",
+          "net": "ETH_RX_N",
+          "kind": "track",
+          "width_mm": 0.225806,
+          "length_mm": 1.379,
           "start_mm": [
             110.221,
             68.1826
           ],
           "end_mm": [
-            119.593,
+            111.6,
             68.1826
           ],
           "layer": "F.Cu"
@@ -560,17 +624,81 @@
           "layer": "F.Cu"
         },
         {
-          "uuid": "7dbcba05-5a2a-47c0-8aff-7329b67a8b1d",
+          "uuid": "772e1711-ae2a-4d45-93c2-83af1e0f172e",
           "net": "ETH_RX_N",
           "kind": "track",
           "width_mm": 0.225806,
-          "length_mm": 9.372,
+          "length_mm": 1.393,
+          "start_mm": [
+            118.2,
+            68.1826
+          ],
+          "end_mm": [
+            119.593,
+            68.1826
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "ffa562bf-2550-4fe6-a52e-df5ff51115bd",
+          "net": "ETH_RX_N",
+          "kind": "track",
+          "width_mm": 0.225806,
+          "length_mm": 0.8485,
+          "start_mm": [
+            117.6,
+            68.7826
+          ],
+          "end_mm": [
+            118.2,
+            68.1826
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "9eff8cd3-41f5-4659-927e-c1568a62433e",
+          "net": "ETH_RX_N",
+          "kind": "track",
+          "width_mm": 0.225806,
+          "length_mm": 5.4,
+          "start_mm": [
+            112.2,
+            68.7826
+          ],
+          "end_mm": [
+            117.6,
+            68.7826
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "21637d57-0e2c-4078-97fa-06bc2ec67567",
+          "net": "ETH_RX_N",
+          "kind": "track",
+          "width_mm": 0.225806,
+          "length_mm": 0.8485,
+          "start_mm": [
+            111.6,
+            68.1826
+          ],
+          "end_mm": [
+            112.2,
+            68.7826
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "c9dcabc2-0f7c-4831-aebd-24cfe8106f70",
+          "net": "ETH_RX_N",
+          "kind": "track",
+          "width_mm": 0.225806,
+          "length_mm": 1.379,
           "start_mm": [
             110.221,
             68.1826
           ],
           "end_mm": [
-            119.593,
+            111.6,
             68.1826
           ],
           "layer": "F.Cu"
@@ -603,7 +731,7 @@
           ]
         }
       ],
-      "whole_segment_length_mm": 13.705,
+      "whole_segment_length_mm": 14.202,
       "via_count": 0
     },
     {
@@ -611,7 +739,7 @@
       "load": "J1.4",
       "net": "ETH_RX_P",
       "widest_path_min_track_mm": 0.2,
-      "narrow_track_length_mm": 13.136,
+      "narrow_track_length_mm": 13.477,
       "narrow_tracks": [
         {
           "uuid": "c2190ae2-bcb7-4746-a131-13536411730c",
@@ -630,13 +758,13 @@
           "layer": "F.Cu"
         },
         {
-          "uuid": "3471dc1d-1010-400c-8319-8bf7fc7683bd",
+          "uuid": "094c8606-31be-42c2-bc7a-ff4ecdfef432",
           "net": "ETH_RX_P",
           "kind": "track",
           "width_mm": 0.225806,
-          "length_mm": 0.5601,
+          "length_mm": 1.1582,
           "start_mm": [
-            118.787894,
+            118.189806,
             68.7995
           ],
           "end_mm": [
@@ -646,33 +774,65 @@
           "layer": "F.Cu"
         },
         {
-          "uuid": "b555e80c-2345-41e6-8584-ba8dfe81fbd1",
+          "uuid": "7268aa23-9c83-4d41-b231-28e50ad9b01d",
           "net": "ETH_RX_P",
           "kind": "track",
           "width_mm": 0.225806,
-          "length_mm": 0.2657,
+          "length_mm": 0.5828,
           "start_mm": [
-            118.6,
-            68.611606
+            117.7777,
+            69.211606
           ],
           "end_mm": [
-            118.787894,
+            118.189806,
             68.7995
           ],
           "layer": "F.Cu"
         },
         {
-          "uuid": "dd8775c8-72f6-45f5-b580-12db8341b540",
+          "uuid": "fc0308ea-698c-4cb9-9156-03ba5080684c",
           "net": "ETH_RX_P",
           "kind": "track",
           "width_mm": 0.225806,
-          "length_mm": 9.9824,
+          "length_mm": 5.7554,
+          "start_mm": [
+            112.0223,
+            69.211606
+          ],
+          "end_mm": [
+            117.7777,
+            69.211606
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "6a53c4d3-d734-4681-88c4-419ee4cb98d8",
+          "net": "ETH_RX_P",
+          "kind": "track",
+          "width_mm": 0.225806,
+          "length_mm": 0.8485,
+          "start_mm": [
+            111.4223,
+            68.611606
+          ],
+          "end_mm": [
+            112.0223,
+            69.211606
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "7e2c77c0-14ee-4401-94e0-ea6dbdbbe61c",
+          "net": "ETH_RX_P",
+          "kind": "track",
+          "width_mm": 0.225806,
+          "length_mm": 2.8047,
           "start_mm": [
             108.617606,
             68.611606
           ],
           "end_mm": [
-            118.6,
+            111.4223,
             68.611606
           ],
           "layer": "F.Cu"
@@ -723,13 +883,13 @@
           "layer": "F.Cu"
         },
         {
-          "uuid": "3471dc1d-1010-400c-8319-8bf7fc7683bd",
+          "uuid": "094c8606-31be-42c2-bc7a-ff4ecdfef432",
           "net": "ETH_RX_P",
           "kind": "track",
           "width_mm": 0.225806,
-          "length_mm": 0.5601,
+          "length_mm": 1.1582,
           "start_mm": [
-            118.787894,
+            118.189806,
             68.7995
           ],
           "end_mm": [
@@ -739,33 +899,65 @@
           "layer": "F.Cu"
         },
         {
-          "uuid": "b555e80c-2345-41e6-8584-ba8dfe81fbd1",
+          "uuid": "7268aa23-9c83-4d41-b231-28e50ad9b01d",
           "net": "ETH_RX_P",
           "kind": "track",
           "width_mm": 0.225806,
-          "length_mm": 0.2657,
+          "length_mm": 0.5828,
           "start_mm": [
-            118.6,
-            68.611606
+            117.7777,
+            69.211606
           ],
           "end_mm": [
-            118.787894,
+            118.189806,
             68.7995
           ],
           "layer": "F.Cu"
         },
         {
-          "uuid": "dd8775c8-72f6-45f5-b580-12db8341b540",
+          "uuid": "fc0308ea-698c-4cb9-9156-03ba5080684c",
           "net": "ETH_RX_P",
           "kind": "track",
           "width_mm": 0.225806,
-          "length_mm": 9.9824,
+          "length_mm": 5.7554,
+          "start_mm": [
+            112.0223,
+            69.211606
+          ],
+          "end_mm": [
+            117.7777,
+            69.211606
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "6a53c4d3-d734-4681-88c4-419ee4cb98d8",
+          "net": "ETH_RX_P",
+          "kind": "track",
+          "width_mm": 0.225806,
+          "length_mm": 0.8485,
+          "start_mm": [
+            111.4223,
+            68.611606
+          ],
+          "end_mm": [
+            112.0223,
+            69.211606
+          ],
+          "layer": "F.Cu"
+        },
+        {
+          "uuid": "7e2c77c0-14ee-4401-94e0-ea6dbdbbe61c",
+          "net": "ETH_RX_P",
+          "kind": "track",
+          "width_mm": 0.225806,
+          "length_mm": 2.8047,
           "start_mm": [
             108.617606,
             68.611606
           ],
           "end_mm": [
-            118.6,
+            111.4223,
             68.611606
           ],
           "layer": "F.Cu"
@@ -798,7 +990,7 @@
           ]
         }
       ],
-      "whole_segment_length_mm": 13.136,
+      "whole_segment_length_mm": 13.477,
       "via_count": 0
     }
   ]

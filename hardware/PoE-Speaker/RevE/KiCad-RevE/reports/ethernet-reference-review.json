@@ -1,5 +1,5 @@
 {
-  "pcb_sha256": "78b7da4452e323322fd6d3b2f175d23f4d0f4024378dd4c1b33d231f59039804",
+  "pcb_sha256": "94033c547574259ea78d1ccecbdb9c2246fd007eedf99f33af6df3f478ce40dd",
   "method": "Track centerline samples at <=0.1 mm spacing projected onto saved filled In1.Cu GND. Pad antipads can legitimately produce missing samples. This does not check lateral return-current corridors, pair coupling, impedance, or the appropriateness of referencing In1 from B/In2.",
   "segments": [
     {
@@ -625,6 +625,14 @@
       ]
     },
     {
+      "uuid": "094c8606-31be-42c2-bc7a-ff4ecdfef432",
+      "net": "ETH_RX_P",
+      "layer": "F.Cu",
+      "length_mm": 1.1582,
+      "sample_count": 13,
+      "missing_ground_samples": []
+    },
+    {
       "uuid": "0b42b83f-64ee-4726-a00d-57a8a33898be",
       "net": "ETH_RX_P",
       "layer": "F.Cu",
@@ -703,14 +711,6 @@
       "missing_ground_samples": []
     },
     {
-      "uuid": "3471dc1d-1010-400c-8319-8bf7fc7683bd",
-      "net": "ETH_RX_P",
-      "layer": "F.Cu",
-      "length_mm": 0.5601,
-      "sample_count": 7,
-      "missing_ground_samples": []
-    },
-    {
       "uuid": "41f5f781-f625-4826-a463-a3f738118764",
       "net": "ETH_RX_P",
       "layer": "F.Cu",
@@ -760,6 +760,22 @@
       ]
     },
     {
+      "uuid": "6a53c4d3-d734-4681-88c4-419ee4cb98d8",
+      "net": "ETH_RX_P",
+      "layer": "F.Cu",
+      "length_mm": 0.8485,
+      "sample_count": 10,
+      "missing_ground_samples": []
+    },
+    {
+      "uuid": "7268aa23-9c83-4d41-b231-28e50ad9b01d",
+      "net": "ETH_RX_P",
+      "layer": "F.Cu",
+      "length_mm": 0.5828,
+      "sample_count": 7,
+      "missing_ground_samples": []
+    },
+    {
       "uuid": "74723e9b-4c22-4584-9bec-e4f99c6a6b16",
       "net": "ETH_RX_P",
       "layer": "F.Cu",
@@ -781,19 +797,32 @@
       ]
     },
     {
+      "uuid": "7e2c77c0-14ee-4401-94e0-ea6dbdbbe61c",
+      "net": "ETH_RX_P",
+      "layer": "F.Cu",
+      "length_mm": 2.8047,
+      "sample_count": 30,
+      "missing_ground_samples": [
+        [
+          108.6176,
+          68.6116
+        ],
+        [
+          108.7143,
+          68.6116
+        ],
+        [
+          108.811,
+          68.6116
+        ]
+      ]
+    },
+    {
       "uuid": "9d258dc6-6fe7-4607-8a81-aea40adf7d1e",
       "net": "ETH_RX_P",
       "layer": "F.Cu",
       "length_mm": 0.3982,
       "sample_count": 5,
-      "missing_ground_samples": []
-    },
-    {
-      "uuid": "b555e80c-2345-41e6-8584-ba8dfe81fbd1",
-      "net": "ETH_RX_P",
-      "layer": "F.Cu",
-      "length_mm": 0.2657,
-      "sample_count": 4,
       "missing_ground_samples": []
     },
     {
@@ -830,25 +859,12 @@
       ]
     },
     {
-      "uuid": "dd8775c8-72f6-45f5-b580-12db8341b540",
+      "uuid": "fc0308ea-698c-4cb9-9156-03ba5080684c",
       "net": "ETH_RX_P",
       "layer": "F.Cu",
-      "length_mm": 9.9824,
-      "sample_count": 101,
-      "missing_ground_samples": [
-        [
-          108.6176,
-          68.6116
-        ],
-        [
-          108.7174,
-          68.6116
-        ],
-        [
-          108.8173,
-          68.6116
-        ]
-      ]
+      "length_mm": 5.7554,
+      "sample_count": 59,
+      "missing_ground_samples": []
     },
     {
       "uuid": "2cf92c09-18e0-45f6-93eb-06d2802cdfa8",
@@ -1007,6 +1023,14 @@
       ]
     },
     {
+      "uuid": "21637d57-0e2c-4078-97fa-06bc2ec67567",
+      "net": "ETH_RX_N",
+      "layer": "F.Cu",
+      "length_mm": 0.8485,
+      "sample_count": 10,
+      "missing_ground_samples": []
+    },
+    {
       "uuid": "24ca7084-2c02-499b-884e-fefda3c6e62d",
       "net": "ETH_RX_N",
       "layer": "F.Cu",
@@ -1106,34 +1130,34 @@
       ]
     },
     {
-      "uuid": "7dbcba05-5a2a-47c0-8aff-7329b67a8b1d",
+      "uuid": "772e1711-ae2a-4d45-93c2-83af1e0f172e",
       "net": "ETH_RX_N",
       "layer": "F.Cu",
-      "length_mm": 9.372,
-      "sample_count": 95,
+      "length_mm": 1.393,
+      "sample_count": 15,
       "missing_ground_samples": [
         [
-          118.9948,
+          118.996,
           68.1826
         ],
         [
-          119.0945,
+          119.0955,
           68.1826
         ],
         [
-          119.1942,
+          119.195,
           68.1826
         ],
         [
-          119.2939,
+          119.2945,
           68.1826
         ],
         [
-          119.3936,
+          119.394,
           68.1826
         ],
         [
-          119.4933,
+          119.4935,
           68.1826
         ],
         [
@@ -1143,11 +1167,27 @@
       ]
     },
     {
+      "uuid": "9eff8cd3-41f5-4659-927e-c1568a62433e",
+      "net": "ETH_RX_N",
+      "layer": "F.Cu",
+      "length_mm": 5.4,
+      "sample_count": 55,
+      "missing_ground_samples": []
+    },
+    {
       "uuid": "c7806809-4fd0-42f9-b449-de7493a44a3a",
       "net": "ETH_RX_N",
       "layer": "F.Cu",
       "length_mm": 0.927,
       "sample_count": 11,
+      "missing_ground_samples": []
+    },
+    {
+      "uuid": "c9dcabc2-0f7c-4831-aebd-24cfe8106f70",
+      "net": "ETH_RX_N",
+      "layer": "F.Cu",
+      "length_mm": 1.379,
+      "sample_count": 15,
       "missing_ground_samples": []
     },
     {
@@ -1166,6 +1206,14 @@
           68.25
         ]
       ]
+    },
+    {
+      "uuid": "ffa562bf-2550-4fe6-a52e-df5ff51115bd",
+      "net": "ETH_RX_N",
+      "layer": "F.Cu",
+      "length_mm": 0.8485,
+      "sample_count": 10,
+      "missing_ground_samples": []
     },
     {
       "uuid": "2c928631-39ea-4d60-b2ad-fa2323d6a974",
