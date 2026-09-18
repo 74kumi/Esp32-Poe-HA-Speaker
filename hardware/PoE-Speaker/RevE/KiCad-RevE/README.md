@@ -14,7 +14,7 @@ From the repository root, run:
 KICAD_CLI=kicad-cli ./scripts/run-kicad-checks.sh artifacts/kicad
 ```
 
-The wrapper writes `erc.rpt` and `drc.rpt`. GitHub Actions runs the same command for pull requests and pushes to `main`, retaining reports for 14 days. It requires zero KiCad ERC/DRC violations and does not run DRC after an ERC failure.
+The wrapper writes `erc.rpt` and `drc.rpt`. GitHub Actions runs the same command for pull requests and pushes to `main`, retaining reports for 14 days. It requires zero KiCad ERC/DRC violations and does not run DRC after an ERC failure. Project-specific engineering/checkpoint scripts are intentionally excluded from CI because many are board-mutating, depend on checkpoint-local tools/data, or have not yet been proven read-only and reproducible in a clean CI environment.
 
 Clean checks do not prove electrical correctness, PoE isolation, Ethernet signal integrity, thermal safety, manufacturability, or fabrication readiness.
 
