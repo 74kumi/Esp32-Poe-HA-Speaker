@@ -34,6 +34,11 @@ class RunKiCadChecksTests(unittest.TestCase):
                     if exit_code:
                         raise SystemExit(exit_code)
 
+                if args[:2] == ["pcb", "drc"]:
+                    exit_code = int(os.environ.get("FAKE_DRC_EXIT", "0"))
+                    if exit_code:
+                        raise SystemExit(exit_code)
+
                 output = Path(args[args.index("-o") + 1])
                 output.write_text("fake report\\n", encoding="utf-8")
                 """
@@ -97,6 +102,26 @@ class RunKiCadChecksTests(unittest.TestCase):
             calls = [json.loads(line) for line in log.read_text(encoding="utf-8").splitlines()]
             self.assertEqual(len(calls), 1)
             self.assertEqual(calls[0][:2], ["sch", "erc"])
+            self.assertFalse((output / "drc.rpt").exists())
+
+    def test_drc_failure_is_propagated_after_successful_erc(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            temp = Path(temporary)
+            output = temp / "reports"
+            log = temp / "calls.jsonl"
+            fake = self.make_fake_cli(temp)
+            env = os.environ | {
+                "KICAD_CLI": str(fake),
+                "FAKE_KICAD_LOG": str(log),
+                "FAKE_DRC_EXIT": "9",
+            }
+
+            result = self.run_wrapper(str(output), env=env)
+
+            self.assertEqual(result.returncode, 9)
+            calls = [json.loads(line) for line in log.read_text(encoding="utf-8").splitlines()]
+            self.assertEqual([call[:2] for call in calls], [["sch", "erc"], ["pcb", "drc"]])
+            self.assertTrue((output / "erc.rpt").is_file())
             self.assertFalse((output / "drc.rpt").exists())
 
 
