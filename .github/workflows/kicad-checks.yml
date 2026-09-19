@@ -14,6 +14,9 @@ jobs:
     runs-on: ubuntu-24.04
     container:
       image: kicad/kicad:10.0.5@sha256:182c8005cb775a2c448a4c18681d489f1ff472a761885eba3e08b07e3c0564de
+      # GitHub mounts runner command files as root-owned paths. The image's
+      # non-root default user cannot write checkout state into those mounts.
+      options: --user root
     steps:
       - name: Checkout repository
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
