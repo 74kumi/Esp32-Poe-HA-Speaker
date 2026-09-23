@@ -13,7 +13,7 @@ I would genuinely welcome review or collaboration from experienced hardware engi
 This hardware is currently untested. It has not yet been fabricated, assembled, or electrically validated, and I cannot claim that the current design will work as intended. Please treat it as an engineering prototype, not a finished or proven product.
 
 ![Earlier development board render](docs/images/early-board-render.png)
-
+![Ai generated concept art](docs/images/ESPCeilingSpeakerConcept.png)
 > **Earlier development render — the current Rev E hardware differs.**
 >
 > This image is included because it communicates the physical concept well; it is not the current placement, routing, or fabrication reference. See [project history](docs/HISTORY.md) and the active Rev E source below.
