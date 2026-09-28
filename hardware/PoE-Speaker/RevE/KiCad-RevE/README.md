@@ -6,6 +6,18 @@ Saved changes: C11 GVDD bypass is now local on B.Cu at (204.9,111.5), preserving
 
 Validation: zero DRC findings, zero unconnected items, zero ERC findings under the saved rule profile. All 616 connected model pins match schematic and PCB. U6/U7 electrical pin types are reviewed; the root sheet declares power sources after passive elements. These annotations do not prove circuit performance, and other imported pin types remain incomplete. See reports/power-source-review.json. Missing courtyard and some metadata checks remain disabled in the inherited profile; clean DRC does not substitute for physical review.
 
+## Automated ERC/DRC checks
+
+From the repository root, run:
+
+```sh
+KICAD_CLI=kicad-cli ./scripts/run-kicad-checks.sh artifacts/kicad
+```
+
+The wrapper writes `erc.rpt` and `drc.rpt`. GitHub Actions runs the same command for pull requests and pushes to `main`, retaining reports for 14 days. CI uses KiCad 10.0.5 from the immutable image `kicad/kicad:10.0.5@sha256:182c8005cb775a2c448a4c18681d489f1ff472a761885eba3e08b07e3c0564de`; use KiCad 10.0.5 for local runs when exact CI parity is required. The checks require zero KiCad ERC/DRC violations and do not run DRC after an ERC failure. Project-specific engineering/checkpoint scripts are intentionally excluded from CI because many are board-mutating, depend on checkpoint-local tools/data, or have not yet been proven read-only and reproducible in a clean CI environment.
+
+Clean checks do not prove electrical correctness, PoE isolation, Ethernet signal integrity, thermal safety, manufacturability, or fabrication readiness.
+
 Remaining work before a prototype order:
 
 1. Reroute the remaining narrow loaded power paths, review via current capacity and local switching loops. reports/power-routing-audit.json contains exact positions and UUIDs; separate low-current sense branches from load trunks before modifying them. The two longest 24V_AMP sections (49.385mm and 39.837mm) have now been rerouted at 1.0mm width. A new continuous 1.0mm feed from C5 to the amplifier supply bypasses the congested narrow branch using two 0.5mm drilled vias. The original branch remains in parallel. See engineering/REVE-TRUNK-ROUTING.md; the whole path is not yet current-qualified.
