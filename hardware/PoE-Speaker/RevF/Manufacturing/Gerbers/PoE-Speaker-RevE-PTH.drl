@@ -1,0 +1,593 @@
+M48
+; DRILL file KiCad 10.0.2 date 2026-09-28T15:33:11
+; FORMAT={-:-/ absolute / metric / decimal}
+; #@! TF.CreationDate,2026-09-28T15:33:11+00:00
+; #@! TF.GenerationSoftware,Kicad,Pcbnew,10.0.2
+; #@! TF.FileFunction,Plated,1,4,PTH
+FMAT,2
+METRIC
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
+T1C0.200
+; #@! TA.AperFunction,Plated,PTH,ViaDrill
+T2C0.300
+; Post-machining
+; #@! TA.AperFunction,Plated,PTH,ViaDrill
+T3C0.400
+; Post-machining
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
+T4C0.800
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
+T5C0.890
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
+T6C1.000
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
+T7C1.000
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
+T8C1.020
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
+T9C1.100
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
+T10C1.200
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
+T11C1.650
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
+T12C1.700
+%
+G90
+G05
+T1
+X153.065Y-91.85
+X153.065Y-93.25
+X153.765Y-91.15
+X153.765Y-92.55
+X153.765Y-93.95
+X154.465Y-91.85
+X154.465Y-93.25
+X155.165Y-91.15
+X155.165Y-92.55
+X155.165Y-93.95
+X155.865Y-91.85
+X155.865Y-93.25
+X241.267Y-79.94
+X241.267Y-81.04
+X241.267Y-82.14
+X242.367Y-79.94
+X242.367Y-81.04
+X242.367Y-82.14
+X243.468Y-79.94
+X243.468Y-81.04
+X243.468Y-82.14
+T2
+; Post-machining front counterbore depth 82.000mm
+X98.39Y-100.25
+; Post-machining front counterbore depth 82.000mm
+X101.12Y-96.07
+; Post-machining front counterbore depth 82.000mm
+X104.61Y-76.72
+; Post-machining front counterbore depth 82.000mm
+X115.89Y-92.93
+; Post-machining front counterbore depth 82.000mm
+X116.04Y-81.81
+; Post-machining front counterbore depth 82.000mm
+X116.11Y-89.71
+; Post-machining front counterbore depth 82.000mm
+X117.28Y-86.6
+; Post-machining front counterbore depth 82.000mm
+X117.64Y-84.83
+; Post-machining front counterbore depth 82.000mm
+X119.97Y-81.59
+; Post-machining front counterbore depth 82.000mm
+X120.609Y-82.097
+; Post-machining front counterbore depth 82.000mm
+X121.83Y-88.62
+X121.98Y-85.66
+X122.42Y-86.59
+; Post-machining front counterbore depth 82.000mm
+X122.91Y-94.78
+X123.039Y-82.476
+X123.79Y-82.161
+; Post-machining front counterbore depth 82.000mm
+X124.36Y-84.54
+; Post-machining front counterbore depth 82.000mm
+X124.37Y-86.89
+; Post-machining front counterbore depth 82.000mm
+X126.34Y-76.13
+; Post-machining front counterbore depth 82.000mm
+X126.65Y-81.85
+; Post-machining front counterbore depth 82.000mm
+X126.86Y-93.87
+; Post-machining front counterbore depth 82.000mm
+X126.978Y-86.83
+; Post-machining front counterbore depth 82.000mm
+X126.978Y-88.33
+; Post-machining front counterbore depth 82.000mm
+X126.981Y-84.834
+; Post-machining front counterbore depth 82.000mm
+X127.4Y-79.83
+; Post-machining front counterbore depth 82.000mm
+X128.11Y-91.5
+; Post-machining front counterbore depth 82.000mm
+X128.46Y-80.02
+; Post-machining front counterbore depth 82.000mm
+X128.64Y-95.48
+; Post-machining front counterbore depth 82.000mm
+X128.724Y-88.831
+; Post-machining front counterbore depth 82.000mm
+X128.75Y-76.61
+; Post-machining front counterbore depth 82.000mm
+X129.172Y-91.407
+; Post-machining front counterbore depth 82.000mm
+X130.095Y-94.439
+; Post-machining front counterbore depth 82.000mm
+X130.17Y-88.94
+; Post-machining front counterbore depth 82.000mm
+X130.44Y-87.91
+; Post-machining front counterbore depth 82.000mm
+X130.56Y-86.32
+; Post-machining front counterbore depth 82.000mm
+X130.8Y-84.17
+; Post-machining front counterbore depth 82.000mm
+X130.922Y-92.192
+; Post-machining front counterbore depth 82.000mm
+X131.75Y-95.2
+; Post-machining front counterbore depth 82.000mm
+X132.18Y-89.01
+; Post-machining front counterbore depth 82.000mm
+X132.88Y-86.78
+; Post-machining front counterbore depth 82.000mm
+X133.07Y-94.81
+; Post-machining front counterbore depth 82.000mm
+X134.01Y-79.91
+; Post-machining front counterbore depth 82.000mm
+X134.86Y-76.71
+; Post-machining front counterbore depth 82.000mm
+X135.23Y-82.85
+; Post-machining front counterbore depth 82.000mm
+X135.62Y-85.76
+; Post-machining front counterbore depth 82.000mm
+X135.91Y-84.9
+; Post-machining front counterbore depth 82.000mm
+X136.06Y-88.28
+; Post-machining front counterbore depth 82.000mm
+X136.49Y-84.12
+; Post-machining front counterbore depth 82.000mm
+X136.53Y-83.27
+; Post-machining front counterbore depth 82.000mm
+X139.16Y-92.86
+X140.315Y-85.156
+; Post-machining front counterbore depth 82.000mm
+X142.44Y-81.94
+; Post-machining front counterbore depth 82.000mm
+X142.7Y-86.2
+; Post-machining front counterbore depth 82.000mm
+X142.94Y-80.64
+; Post-machining front counterbore depth 82.000mm
+X143.606Y-93.434
+; Post-machining front counterbore depth 82.000mm
+X143.79Y-83.85
+; Post-machining front counterbore depth 82.000mm
+X148.31Y-86.33
+; Post-machining front counterbore depth 82.000mm
+X148.465Y-94.03
+; Post-machining front counterbore depth 82.000mm
+X148.5Y-84.72
+; Post-machining front counterbore depth 82.000mm
+X150.05Y-82.36
+; Post-machining front counterbore depth 82.000mm
+X153.51Y-99.53
+; Post-machining front counterbore depth 82.000mm
+X153.87Y-105.38
+; Post-machining front counterbore depth 82.000mm
+X154.36Y-99.78
+; Post-machining front counterbore depth 82.000mm
+X155.52Y-100.41
+; Post-machining front counterbore depth 82.000mm
+X155.9Y-103.99
+; Post-machining front counterbore depth 82.000mm
+X157.52Y-103.86
+; Post-machining front counterbore depth 82.000mm
+X164.46Y-84.2
+; Post-machining front counterbore depth 82.000mm
+X165.9Y-96.27
+; Post-machining front counterbore depth 82.000mm
+X166.44Y-93.76
+; Post-machining front counterbore depth 82.000mm
+X166.88Y-81.51
+; Post-machining front counterbore depth 82.000mm
+X166.9Y-91.61
+; Post-machining front counterbore depth 82.000mm
+X166.97Y-97.38
+; Post-machining front counterbore depth 82.000mm
+X167.26Y-77.62
+; Post-machining front counterbore depth 82.000mm
+X167.275Y-100.185
+; Post-machining front counterbore depth 82.000mm
+X167.62Y-86.09
+; Post-machining front counterbore depth 82.000mm
+X168.63Y-80.71
+; Post-machining front counterbore depth 82.000mm
+X170.95Y-101.57
+; Post-machining front counterbore depth 82.000mm
+X171.28Y-82.54
+; Post-machining front counterbore depth 82.000mm
+X171.377Y-86.017
+; Post-machining front counterbore depth 82.000mm
+X171.57Y-78.24
+; Post-machining front counterbore depth 82.000mm
+X171.81Y-89.58
+; Post-machining front counterbore depth 82.000mm
+X172.692Y-85.8
+; Post-machining front counterbore depth 82.000mm
+X172.91Y-88.3
+; Post-machining front counterbore depth 82.000mm
+X173.915Y-88.263
+; Post-machining front counterbore depth 82.000mm
+X174.104Y-91.23
+; Post-machining front counterbore depth 82.000mm
+X174.2Y-103.48
+; Post-machining front counterbore depth 82.000mm
+X174.55Y-88.75
+; Post-machining front counterbore depth 82.000mm
+X175.22Y-97.1
+; Post-machining front counterbore depth 82.000mm
+X175.95Y-85.91
+; Post-machining front counterbore depth 82.000mm
+X176.01Y-90.55
+; Post-machining front counterbore depth 82.000mm
+X176.89Y-90.57
+; Post-machining front counterbore depth 82.000mm
+X177.23Y-85.92
+; Post-machining front counterbore depth 82.000mm
+X177.78Y-88.09
+; Post-machining front counterbore depth 82.000mm
+X178.26Y-82.54
+; Post-machining front counterbore depth 82.000mm
+X178.498Y-88.078
+; Post-machining front counterbore depth 82.000mm
+X178.89Y-98.65
+; Post-machining front counterbore depth 82.000mm
+X179.5Y-112.09
+; Post-machining front counterbore depth 82.000mm
+X181.2Y-98.09
+; Post-machining front counterbore depth 82.000mm
+X184.29Y-77.96
+; Post-machining front counterbore depth 82.000mm
+X186.23Y-92.68
+; Post-machining front counterbore depth 82.000mm
+X187.31Y-99.35
+; Post-machining front counterbore depth 82.000mm
+X188.0Y-84.415
+; Post-machining front counterbore depth 82.000mm
+X188.11Y-104.68
+; Post-machining front counterbore depth 82.000mm
+X188.62Y-108.8
+; Post-machining front counterbore depth 82.000mm
+X188.64Y-112.47
+; Post-machining front counterbore depth 82.000mm
+X188.69Y-80.55
+; Post-machining front counterbore depth 82.000mm
+X188.7Y-110.66
+; Post-machining front counterbore depth 82.000mm
+X189.26Y-80.62
+; Post-machining front counterbore depth 82.000mm
+X189.74Y-78.24
+; Post-machining front counterbore depth 82.000mm
+X190.06Y-76.87
+; Post-machining front counterbore depth 82.000mm
+X190.495Y-75.135
+; Post-machining front counterbore depth 82.000mm
+X190.82Y-83.165
+; Post-machining front counterbore depth 82.000mm
+X190.87Y-78.49
+; Post-machining front counterbore depth 82.000mm
+X191.22Y-86.33
+; Post-machining front counterbore depth 82.000mm
+X191.83Y-83.79
+; Post-machining front counterbore depth 82.000mm
+X191.84Y-80.32
+; Post-machining front counterbore depth 82.000mm
+X191.94Y-87.92
+; Post-machining front counterbore depth 82.000mm
+X191.975Y-85.695
+; Post-machining front counterbore depth 82.000mm
+X192.005Y-87.068
+; Post-machining front counterbore depth 82.000mm
+X192.67Y-75.32
+; Post-machining front counterbore depth 82.000mm
+X193.21Y-106.44
+; Post-machining front counterbore depth 82.000mm
+X193.4Y-112.29
+; Post-machining front counterbore depth 82.000mm
+X193.58Y-114.78
+; Post-machining front counterbore depth 82.000mm
+X193.66Y-113.42
+; Post-machining front counterbore depth 82.000mm
+X193.66Y-114.06
+; Post-machining front counterbore depth 82.000mm
+X194.07Y-83.11
+; Post-machining front counterbore depth 82.000mm
+X194.26Y-85.06
+; Post-machining front counterbore depth 82.000mm
+X194.4Y-82.36
+; Post-machining front counterbore depth 82.000mm
+X194.64Y-122.97
+; Post-machining front counterbore depth 82.000mm
+X195.375Y-105.194
+; Post-machining front counterbore depth 82.000mm
+X196.0Y-112.79
+; Post-machining front counterbore depth 82.000mm
+X196.625Y-110.74
+; Post-machining front counterbore depth 82.000mm
+X196.86Y-77.15
+; Post-machining front counterbore depth 82.000mm
+X197.37Y-78.15
+; Post-machining front counterbore depth 82.000mm
+X199.85Y-82.47
+; Post-machining front counterbore depth 82.000mm
+X199.982Y-86.904
+; Post-machining front counterbore depth 82.000mm
+X200.13Y-88.0
+; Post-machining front counterbore depth 82.000mm
+X201.3Y-108.28
+; Post-machining front counterbore depth 82.000mm
+X201.32Y-112.18
+; Post-machining front counterbore depth 82.000mm
+X201.39Y-110.19
+; Post-machining front counterbore depth 82.000mm
+X207.96Y-105.45
+; Post-machining front counterbore depth 82.000mm
+X208.48Y-115.64
+; Post-machining front counterbore depth 82.000mm
+X208.88Y-87.77
+; Post-machining front counterbore depth 82.000mm
+X209.45Y-103.07
+; Post-machining front counterbore depth 82.000mm
+X210.79Y-87.77
+; Post-machining front counterbore depth 82.000mm
+X211.0Y-74.86
+; Post-machining front counterbore depth 82.000mm
+X211.27Y-92.85
+; Post-machining front counterbore depth 82.000mm
+X211.32Y-84.04
+; Post-machining front counterbore depth 82.000mm
+X211.9Y-88.0
+; Post-machining front counterbore depth 82.000mm
+X212.42Y-83.185
+; Post-machining front counterbore depth 82.000mm
+X214.04Y-87.337
+; Post-machining front counterbore depth 82.000mm
+X214.33Y-94.14
+; Post-machining front counterbore depth 82.000mm
+X214.93Y-75.99
+; Post-machining front counterbore depth 82.000mm
+X216.875Y-90.325
+; Post-machining front counterbore depth 82.000mm
+X217.84Y-74.7
+; Post-machining front counterbore depth 82.000mm
+X218.85Y-88.725
+; Post-machining front counterbore depth 82.000mm
+X221.2Y-85.33
+; Post-machining front counterbore depth 82.000mm
+X221.21Y-80.96
+; Post-machining front counterbore depth 82.000mm
+X223.27Y-87.65
+; Post-machining front counterbore depth 82.000mm
+X229.01Y-88.725
+; Post-machining front counterbore depth 82.000mm
+X230.56Y-95.09
+; Post-machining front counterbore depth 82.000mm
+X230.63Y-92.257
+; Post-machining front counterbore depth 82.000mm
+X232.07Y-88.91
+; Post-machining front counterbore depth 82.000mm
+X232.43Y-90.785
+; Post-machining front counterbore depth 82.000mm
+X234.207Y-78.16
+; Post-machining front counterbore depth 82.000mm
+X234.39Y-93.7
+; Post-machining front counterbore depth 82.000mm
+X234.43Y-84.58
+; Post-machining front counterbore depth 82.000mm
+X234.54Y-82.95
+; Post-machining front counterbore depth 82.000mm
+X234.57Y-80.83
+; Post-machining front counterbore depth 82.000mm
+X235.63Y-88.5
+; Post-machining front counterbore depth 82.000mm
+X240.4Y-87.15
+; Post-machining front counterbore depth 82.000mm
+X241.04Y-114.54
+; Post-machining front counterbore depth 82.000mm
+X241.21Y-72.79
+; Post-machining front counterbore depth 82.000mm
+X242.32Y-96.99
+; Post-machining front counterbore depth 82.000mm
+X242.48Y-92.38
+; Post-machining front counterbore depth 82.000mm
+X242.951Y-79.921
+; Post-machining front counterbore depth 82.000mm
+X243.313Y-88.397
+; Post-machining front counterbore depth 82.000mm
+X244.07Y-71.81
+; Post-machining front counterbore depth 82.000mm
+X246.24Y-99.39
+; Post-machining front counterbore depth 82.000mm
+X250.23Y-76.81
+; Post-machining front counterbore depth 82.000mm
+X250.63Y-81.48
+; Post-machining front counterbore depth 82.000mm
+X251.29Y-97.58
+; Post-machining front counterbore depth 82.000mm
+X256.43Y-123.63
+; Post-machining front counterbore depth 82.000mm
+X256.61Y-72.23
+; Post-machining front counterbore depth 82.000mm
+X259.67Y-113.06
+; Post-machining front counterbore depth 82.000mm
+X260.84Y-94.27
+; Post-machining front counterbore depth 82.000mm
+X261.56Y-99.76
+; Post-machining front counterbore depth 82.000mm
+X268.68Y-74.44
+; Post-machining front counterbore depth 82.000mm
+X268.71Y-73.45
+T3
+; Post-machining front counterbore depth 82.000mm
+X169.707Y-102.087
+; Post-machining front counterbore depth 82.000mm
+X170.19Y-86.89
+; Post-machining front counterbore depth 82.000mm
+X189.19Y-99.28
+; Post-machining front counterbore depth 82.000mm
+X189.25Y-100.27
+; Post-machining front counterbore depth 82.000mm
+X192.07Y-103.8
+; Post-machining front counterbore depth 82.000mm
+X198.73Y-79.52
+; Post-machining front counterbore depth 82.000mm
+X199.79Y-79.57
+; Post-machining front counterbore depth 82.000mm
+X203.06Y-103.1
+; Post-machining front counterbore depth 82.000mm
+X203.65Y-101.62
+; Post-machining front counterbore depth 82.000mm
+X204.32Y-103.31
+; Post-machining front counterbore depth 82.000mm
+X204.35Y-82.95
+; Post-machining front counterbore depth 82.000mm
+X206.17Y-82.77
+; Post-machining front counterbore depth 82.000mm
+X216.16Y-86.49
+X226.29Y-88.62
+X226.73Y-85.71
+; Post-machining front counterbore depth 82.000mm
+X228.8Y-87.24
+X230.34Y-87.67
+; Post-machining front counterbore depth 82.000mm
+X231.01Y-86.81
+X232.35Y-87.6
+; Post-machining front counterbore depth 82.000mm
+X232.38Y-86.06
+X238.63Y-84.21
+; Post-machining front counterbore depth 82.000mm
+X238.718Y-85.847
+X240.14Y-85.49
+; Post-machining front counterbore depth 82.000mm
+X255.78Y-103.5
+; Post-machining front counterbore depth 82.000mm
+X272.314Y-86.012
+; Post-machining front counterbore depth 82.000mm
+X273.464Y-84.602
+; Post-machining front counterbore depth 82.000mm
+X274.344Y-88.052
+; Post-machining front counterbore depth 82.000mm
+X275.854Y-86.572
+; Post-machining front counterbore depth 82.000mm
+X276.479Y-87.197
+; Post-machining front counterbore depth 82.000mm
+X277.074Y-87.792
+; Post-machining front counterbore depth 82.000mm
+X277.214Y-84.422
+T4
+X230.06Y-120.093
+X231.22Y-129.11
+X231.22Y-132.61
+X233.56Y-120.093
+T5
+X98.21Y-81.46
+X98.21Y-92.64
+X99.75Y-81.46
+X99.75Y-92.64
+T6
+X108.05Y-104.1
+X108.05Y-106.64
+X115.67Y-104.08
+X115.67Y-106.62
+X121.22Y-102.98
+X121.22Y-105.52
+X128.84Y-102.96
+X128.84Y-105.5
+X136.79Y-107.23
+X136.79Y-109.77
+X144.41Y-107.21
+X144.41Y-109.75
+T7
+X146.93Y-72.49
+X146.93Y-75.03
+X149.47Y-72.49
+X149.47Y-75.03
+X152.01Y-72.49
+X152.01Y-75.03
+X154.55Y-72.49
+X154.55Y-75.03
+X157.09Y-72.49
+X157.09Y-75.03
+X159.63Y-72.49
+X159.63Y-75.03
+X162.17Y-72.49
+X162.17Y-75.03
+X168.65Y-72.83
+X171.19Y-72.83
+X173.73Y-72.83
+X176.27Y-72.83
+X178.81Y-72.83
+X181.35Y-72.83
+X187.34Y-72.52
+X187.972Y-129.2
+X189.88Y-72.52
+X190.19Y-138.68
+X190.19Y-143.68
+X192.42Y-72.52
+X192.972Y-129.2
+X194.96Y-72.52
+X197.5Y-72.52
+X200.04Y-72.52
+T8
+X106.86Y-81.97
+X106.86Y-84.002
+X106.86Y-86.034
+X106.86Y-88.066
+X106.86Y-90.098
+X106.86Y-92.13
+X109.4Y-80.954
+X109.4Y-82.986
+X109.4Y-85.018
+X109.4Y-89.082
+X109.4Y-91.114
+X109.4Y-93.146
+X111.94Y-80.954
+X111.94Y-83.494
+X111.94Y-90.606
+X111.94Y-93.146
+T9
+X114.5Y-120.89
+X114.5Y-123.43
+X114.5Y-125.97
+X114.5Y-128.51
+X114.5Y-131.05
+X114.5Y-133.59
+X114.5Y-136.13
+X114.5Y-138.67
+X180.54Y-120.89
+X180.54Y-123.43
+X180.54Y-125.97
+X180.54Y-128.51
+X180.54Y-131.05
+X180.54Y-133.59
+X180.54Y-136.13
+X180.54Y-138.67
+X180.54Y-141.21
+T10
+X241.93Y-124.87
+X242.576Y-138.77
+X246.93Y-124.87
+X247.576Y-138.77
+T11
+X88.44Y-78.985
+X88.44Y-95.115
+T12
+X207.98Y-147.64
+X213.06Y-147.64
+X257.44Y-147.96
+X262.52Y-147.96
+M30

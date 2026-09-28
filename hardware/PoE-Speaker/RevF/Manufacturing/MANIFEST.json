@@ -1,0 +1,132 @@
+{
+  "design": "PoE-Speaker-RevE",
+  "source_archive": "FinalizeESP32 PoESpeakerPCB(3).zip",
+  "package_type": "PCBWay manufacturing and PCBA assembly package",
+  "validation": {
+    "pcb_drc_violations": 0,
+    "pcb_unconnected_pads": 0,
+    "pcb_footprint_errors": 0,
+    "erc_errors": 0,
+    "erc_warnings": 0
+  },
+  "board": {
+    "layers": 4,
+    "outline_mm": [
+      200.4,
+      80.07
+    ],
+    "thickness_mm": 1.58468,
+    "stackup": "JLC04161H-7628A",
+    "ethernet_width_mm": 0.2764,
+    "ethernet_gap_mm": 0.2
+  },
+  "notes": [
+    "Use the Gerbers and drill files as the fabrication source of truth.",
+    "Use the BOM and CPL for PCBA assembly.",
+    "TP25, TP26, TP27 are bare SMD test-point pads on the PCB and are intentionally absent from the CPL; do not place components there.",
+    "U5 (TPA3116D2DADR) requires an external top-side heatsink; see build notes.",
+    "The supplied STEP assembly model is for mechanical reference."
+  ],
+  "files": [
+    {
+      "path": "Assembly/PoE-Speaker-RevE-all.pos",
+      "bytes": 20920,
+      "sha256": "940856d47d84f29df59159a9f8b97c457d826199ec1b487bb240895040ee1463"
+    },
+    {
+      "path": "Assembly/PoE-Speaker-RevE.csv",
+      "bytes": 25322,
+      "sha256": "826096c48be7134824774dca9545a69c9d347194d23c62a16e99db2efbbc4073"
+    },
+    {
+      "path": "Gerbers/PoE-Speaker-RevE-B_Cu.gbr",
+      "bytes": 37730,
+      "sha256": "d4f6d26063fedcbebe0efc5bf16b9db40fa40f00d54b346126076c5687faa1ce"
+    },
+    {
+      "path": "Gerbers/PoE-Speaker-RevE-B_Mask.gbr",
+      "bytes": 7201,
+      "sha256": "0f41b8d59ceb6e6fd48e3a9f09801a0326a00ac6dd2d4845709c7c8e70503a70"
+    },
+    {
+      "path": "Gerbers/PoE-Speaker-RevE-B_Paste.gbr",
+      "bytes": 2868,
+      "sha256": "7407a1fadcfdda8c94249d9e75ad8b321c9a1b6119ef7ddad79585ec83db3a50"
+    },
+    {
+      "path": "Gerbers/PoE-Speaker-RevE-B_Silkscreen.gbr",
+      "bytes": 36923,
+      "sha256": "2677061ea4e979dfb732ad6e683355af7f6b7a05bba3931f8c4b7b3b6e546d43"
+    },
+    {
+      "path": "Gerbers/PoE-Speaker-RevE-Edge_Cuts.gbr",
+      "bytes": 717,
+      "sha256": "ac62ba5b7adff0f36735941da60bccdf7da860a64d8e96e6c74e74bf887bfbe2"
+    },
+    {
+      "path": "Gerbers/PoE-Speaker-RevE-F_Cu.gbr",
+      "bytes": 197776,
+      "sha256": "03d5ab72696c630d45467039b0d838ee2a356c53e92e15a306c74cac13c67cda"
+    },
+    {
+      "path": "Gerbers/PoE-Speaker-RevE-F_Mask.gbr",
+      "bytes": 29554,
+      "sha256": "4a7b3ff3ac089b15974ab65c160e36753106453ffe3b3ca5cb7d3026ca54715a"
+    },
+    {
+      "path": "Gerbers/PoE-Speaker-RevE-F_Paste.gbr",
+      "bytes": 25947,
+      "sha256": "2d2358ab18216b826b95e414d6760f98a1e0a58a0aa235c1787ab7b3fde58591"
+    },
+    {
+      "path": "Gerbers/PoE-Speaker-RevE-F_Silkscreen.gbr",
+      "bytes": 435897,
+      "sha256": "54a2a0cf6b76cadb72cf3cebad2b58ac7d3596abc5ad491371cdd48e8c862efd"
+    },
+    {
+      "path": "Gerbers/PoE-Speaker-RevE-In1_Cu.gbr",
+      "bytes": 264867,
+      "sha256": "e86a231d1cda96677bc75a4377c75ed8938b3fe980adbe75aad5b2f5103780fd"
+    },
+    {
+      "path": "Gerbers/PoE-Speaker-RevE-In2_Cu.gbr",
+      "bytes": 26021,
+      "sha256": "8e63a9c700a54dc37a2eb578b8d06ee31764791ddff80708493055262f3240ee"
+    },
+    {
+      "path": "Gerbers/PoE-Speaker-RevE-NPTH.drl",
+      "bytes": 635,
+      "sha256": "607df35db52cc3377dd8ab9877ed7d66ed19ae481a8dbed4a3fb5a942c9d94fe"
+    },
+    {
+      "path": "Gerbers/PoE-Speaker-RevE-PTH.drl",
+      "bytes": 17197,
+      "sha256": "bebc2f3e831b080cf20b382cd17b68997cf186c031a5b3bc6cf0cb7c18125e5f"
+    },
+    {
+      "path": "Gerbers/PoE-Speaker-RevE-job.gbrjob",
+      "bytes": 4804,
+      "sha256": "43130cc12b325dd04c0bc77bc3961551f53d9fa7349a13b7302c27987eb1dc74"
+    },
+    {
+      "path": "Mechanical/2250506-1.stp",
+      "bytes": 1600432,
+      "sha256": "07eb988387c7289bda97c3918afe8dda865894a25052c1c3b99f37ef5723008e"
+    },
+    {
+      "path": "Mechanical/ESP32-S3-WROOM-1U-N16R8--3DModel-STEP-56544.STEP",
+      "bytes": 2490053,
+      "sha256": "f913932e97594461a5971a40dff8d53c90be6c1a7bb2da2fd58d6540b52c06bc"
+    },
+    {
+      "path": "Mechanical/PoE-Speaker-RevE-assembly.step",
+      "bytes": 5954227,
+      "sha256": "a1eaf403108f4a2a8eb90cb1bc6ef9e4093e9b059d427f6223279fc74c980239"
+    },
+    {
+      "path": "Notes/Build_Notes_PoE-Speaker-RevE.pdf",
+      "bytes": 110659,
+      "sha256": "66a8a2f1d7e72f54a66836f3d533ab924066eb3a2a4ed9257667eeb62e290f3d"
+    }
+  ]
+}
