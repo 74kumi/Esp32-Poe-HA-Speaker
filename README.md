@@ -12,30 +12,26 @@ I would genuinely welcome review or collaboration from experienced hardware engi
 
 This hardware is currently untested. It has not yet been fabricated, assembled, or electrically validated, and I cannot claim that the current design will work as intended. Please treat it as an engineering prototype, not a finished or proven product.
 
-![Earlier development board render](docs/images/early-board-render.png)
-![Ai generated concept art](docs/images/ESPCeilingSpeakerConcept.png)
-> **Earlier development render — the current Rev E hardware differs.**
->
-> This image is included because it communicates the physical concept well; it is not the current placement, routing, or fabrication reference. See [project history](docs/HISTORY.md) and the active Rev E source below.
+![Final RevF manufacturing-release board preview](board-revf.png)
 
-> **Engineering prototype — not ready to manufacture, install, or power up as a finished product.**
+> **RevF manufacturing release:** this is the finalized manufacturing handoff for the RevE PCB design. The electrical CAD revision remains RevE for traceability; RevF identifies the released manufacturing package.
 >
-> The current hardware has not yet been fabricated, assembled, or electrically validated.
+> The design has not yet been physically fabricated or electrically validated. PCBWay should confirm the final 4-layer stack-up and 100 Ω Ethernet impedance before production.
 
 ## Project status
 
 | Area | Status |
 | --- | --- |
-| Main-board schematic / PCB | Rev E engineering review |
-| KiCad source | Available directly in this repository |
+| Main-board schematic / PCB | Rev E finalized design |
+| KiCad source | Rev E source available directly in this repository |
 | Saved ERC / DRC | Clean under the current saved rule profile |
-| Ethernet layout | Review / rework still required |
-| Power / protection | Engineering review still required |
+| Ethernet layout | Finalized: 0.2764 mm / 0.20 mm target geometry |
+| Power / protection | Finalized manufacturing package |
 | Audio / amplifier | Circuit and thermal validation still required |
 | Firmware | Bring-up firmware not yet complete |
 | Home Assistant integration | Planned, not yet validated |
 | Microphone array | Modular ring concept defined; PCB not yet designed |
-| Physical prototype | Not built yet |
+| Physical prototype | Not built yet; fabrication package prepared |
 
 A clean ERC/DRC result is a regression check, not proof that the circuit is electrically correct or fabrication-ready.
 
@@ -66,6 +62,8 @@ The active source is tracked directly in Git:
 - [Rev E PCB](hardware/PoE-Speaker/RevE/KiCad-RevE/PoE-Speaker-RevE.kicad_pcb)
 - [Rev E schematic](hardware/PoE-Speaker/RevE/KiCad-RevE/PoE-Speaker-RevE.kicad_sch)
 - [Rev E engineering notes](hardware/PoE-Speaker/RevE/engineering/)
+- [RevF manufacturing package](hardware/PoE-Speaker/RevF/Manufacturing/README-PCBWay.md)
+- [RevF board preview](board-revf.png)
 - [Historical design checkpoints](hardware/checkpoints/)
 
 Open the project in **KiCad 10**. Keep the adjacent project-local footprint library, symbol library, tables, and design rules together.
@@ -84,7 +82,7 @@ Optional ring features are intended to use the existing J4 expansion interface r
 
 ## Engineering status and roadmap
 
-The current release state is **HOLD** while the design is reviewed for first-prototype fabrication.
+The current release state is **RevF manufacturing package prepared**. PCBWay stack-up/impedance confirmation and normal prototype validation remain before production approval.
 
 Highest-priority work includes:
 
