@@ -16,7 +16,7 @@
         "copper_text_thickness": 0.3,
         "copper_text_upright": false,
         "courtyard_line_width": 0.05,
-        "dimension_precision": 4,
+        "dimension_precision": 5,
         "dimension_units": 3,
         "dimensions": {
           "arrow_length": 1270000,
@@ -60,16 +60,27 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.8,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.0,
+          "width": 0.2764
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -140,8 +151,8 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
+        "min_clearance": 0.2,
+        "min_connection": 0.1,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
@@ -154,7 +165,7 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2,
-        "min_via_annular_width": 0.1,
+        "min_via_annular_width": 0.15,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -203,7 +214,22 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.0,
+        0.2,
+        0.25,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9,
+        1.0,
+        1.2,
+        2.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +256,28 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.25
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -240,7 +287,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "REV E - DEVELOPMENT"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -258,6 +305,230 @@
   },
   "cvpcb": {
     "equivalence_files": []
+  },
+  "erc": {
+    "erc_exclusions": [],
+    "meta": {
+      "version": 0
+    },
+    "pin_map": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "rule_severities": {
+      "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
+      "bus_to_bus_conflict": "error",
+      "bus_to_net_conflict": "error",
+      "different_unit_footprint": "error",
+      "different_unit_net": "error",
+      "duplicate_reference": "error",
+      "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
+      "extra_units": "error",
+      "field_name_whitespace": "warning",
+      "footprint_filter": "ignore",
+      "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
+      "ground_pin_not_ground": "warning",
+      "hier_label_mismatch": "error",
+      "isolated_pin_label": "warning",
+      "label_dangling": "error",
+      "label_multiple_wires": "warning",
+      "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
+      "multiple_net_names": "warning",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "warning",
+      "no_connect_dangling": "warning",
+      "pin_not_connected": "error",
+      "pin_not_driven": "error",
+      "pin_to_pin": "warning",
+      "power_pin_not_driven": "error",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
+      "similar_labels": "warning",
+      "similar_power": "warning",
+      "simulation_model_issue": "ignore",
+      "single_global_label": "ignore",
+      "stacked_pin_name": "warning",
+      "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
+      "unit_value_mismatch": "error",
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
+    }
   },
   "libraries": {
     "pinned_footprint_libs": [],
@@ -291,9 +562,8 @@
       {
         "bus_width": 12,
         "clearance": 0.2,
-        "diff_pair_gap": 0.2032,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.225806,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.2764,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -336,7 +606,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../../../../Gerbers/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -344,18 +614,422 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
+    "annotate_start_num": 0,
+    "annotation": {
+      "method": 0,
+      "sort_order": 0
+    },
+    "bom_export_filename": "..\\..\\..\\..\\..\\Gerbers\\PoE-Speaker-RevE.csv",
+    "bom_fmt_presets": [],
+    "bom_fmt_settings": {
+      "field_delimiter": ",",
+      "keep_line_breaks": false,
+      "keep_tabs": false,
+      "name": "CSV",
+      "ref_delimiter": ",",
+      "ref_range_delimiter": "",
+      "string_delimiter": "\""
+    },
+    "bom_presets": [],
+    "bom_settings": {
+      "exclude_dnp": false,
+      "fields_ordered": [
+        {
+          "group_by": false,
+          "label": "Reference",
+          "name": "Reference",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Capacitor Type",
+          "name": "Capacitor Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Current Rating",
+          "name": "Current Rating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet URL",
+          "name": "Datasheet URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DCR maximum",
+          "name": "DCR maximum",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Design note",
+          "name": "Design note",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Designator Prefix",
+          "name": "Designator Prefix",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dielectric",
+          "name": "Dielectric",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Diode Type",
+          "name": "Diode Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from BOM",
+          "name": "Exclude from BOM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Forward Voltage",
+          "name": "Forward Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Functional Group",
+          "name": "Functional Group",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Inductance",
+          "name": "Inductance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Part Class",
+          "name": "JLCPCB Part Class",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part Number",
+          "name": "LCSC Part Number",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "License",
+          "name": "License",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Name",
+          "name": "Manufacturer Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part Number",
+          "name": "Manufacturer Part Number",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Order code review",
+          "name": "Order code review",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package or Case Code",
+          "name": "Package or Case Code",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Part Type",
+          "name": "Part Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Pin type review",
+          "name": "Pin type review",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Polarity",
+          "name": "Polarity",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Power rating",
+          "name": "Power rating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Resistance",
+          "name": "Resistance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Reverse Voltage",
+          "name": "Reverse Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Review status",
+          "name": "Review status",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Role",
+          "name": "Role",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Role Details",
+          "name": "Role Details",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Saturation Current",
+          "name": "Saturation Current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Selection status",
+          "name": "Selection status",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Symbol Style",
+          "name": "Symbol Style",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Temperature coefficient",
+          "name": "Temperature coefficient",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Testpoint Size",
+          "name": "Testpoint Size",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage Rating",
+          "name": "Voltage Rating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Capacitance",
+          "name": "Capacitance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        }
+      ],
+      "filter_string": "",
+      "group_symbols": true,
+      "include_excluded_from_bom": true,
+      "name": "",
+      "sort_asc": true,
+      "sort_field": "Reference"
+    },
     "bus_aliases": {},
+    "connection_grid_size": 50.0,
+    "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
+      "field_names": [],
+      "hop_over_size_choice": 0,
+      "intersheets_ref_own_page": false,
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
+      "label_size_ratio": 0.375,
+      "operating_point_overlay_i_precision": 3,
+      "operating_point_overlay_i_range": "~A",
+      "operating_point_overlay_v_precision": 3,
+      "operating_point_overlay_v_range": "~V",
+      "overbar_offset_ratio": 1.23,
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
+    },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
+    "meta": {
+      "version": 1
+    },
+    "page_layout_descr_file": "",
+    "plot_directory": "",
+    "reuse_designators": true,
+    "subpart_first_id": 65,
+    "subpart_id_separator": 0,
     "top_level_sheets": [
       {
         "filename": "PoE-Speaker-RevE.kicad_sch",
         "name": "PoE-Speaker-RevE",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "bdc52394-ae89-5ba7-b103-1ddc480b2139"
       }
-    ]
+    ],
+    "used_designators": "",
+    "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "bdc52394-ae89-5ba7-b103-1ddc480b2139",
+      "PoE-Speaker-RevE"
+    ],
+    [
+      "7aaf5206-3369-518f-a5f4-54d3463bd23d",
+      "Bench protection"
+    ],
+    [
+      "75e35854-d766-5a43-ab36-8b7d2ef9d1f0",
+      "Controller and programming"
+    ],
+    [
+      "1474847f-4417-57d4-8f00-5f6c2e8df3ef",
+      "Ethernet interface 1"
+    ],
+    [
+      "c35aafe0-abce-5ee2-a670-d740be85795d",
+      "Ethernet interface 2"
+    ],
+    [
+      "aa662969-9285-527d-9f0f-179d2f9039a3",
+      "Microphone and control"
+    ],
+    [
+      "1a771dbd-0d3d-5abb-8b73-53b6ad829b99",
+      "Playback DAC"
+    ],
+    [
+      "d0cecca5-4724-55b3-9f81-06900912b8ba",
+      "PoE input and isolation"
+    ],
+    [
+      "87fe6e2f-e1c0-5bf8-b246-d1dc57e56832",
+      "Power conversion 1"
+    ],
+    [
+      "8e676da4-8c92-5d60-83a0-136b940df095",
+      "Power conversion 2"
+    ],
+    [
+      "33f346c2-df8e-5c8a-98e9-d5c28469b87b",
+      "Shared current protection"
+    ],
+    [
+      "c241ce07-46a8-54a1-9bc2-3086007fb23b",
+      "Speaker amplifier 1"
+    ],
+    [
+      "4c73788d-a83d-51b5-b12b-7048b4789988",
+      "Speaker amplifier 2"
+    ],
+    [
+      "c2b540ef-c288-542f-a983-c43be58c957b",
+      "Test points and mounting 1"
+    ],
+    [
+      "430c5f6e-cd64-5388-b650-172492a7e057",
+      "Test points and mounting 2"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {

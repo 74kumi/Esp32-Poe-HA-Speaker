@@ -30,7 +30,7 @@ This hardware is currently untested. It has not yet been fabricated, assembled, 
 | Audio / amplifier | Circuit and thermal validation still required |
 | Firmware | Bring-up firmware not yet complete |
 | Home Assistant integration | Planned, not yet validated |
-| Microphone array | Modular ring concept defined; PCB not yet designed |
+| Microphone array | Engineer-reviewed six-microphone RGB ring handoff archived |
 | Physical prototype | Not built yet; fabrication package prepared |
 
 A clean ERC/DRC result is a regression check, not proof that the circuit is electrically correct or fabrication-ready.

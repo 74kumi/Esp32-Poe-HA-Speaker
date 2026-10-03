@@ -1,0 +1,1319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\pc\Desktop\Frelanmcer\ESP32-S3 Microphone &amp; RGB LED Ring PCB\microphone-rinG-KIcad\microphone-rinG-KIcad.kicad_sch</source>
+    <date>2026-10-02T16:24:18</date>
+    <tool>Eeschema 10.0.2</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>ESP32-S3 Microphone &amp; RGB LED Ring PCB</title>
+        <company>Hamza El Amraoui – @hamzaePC</company>
+        <rev>Rev 1.0</rev>
+        <date>2026-09-30</date>
+        <source>microphone-rinG-KIcad.kicad_sch</source>
+        <comment number="1" value="Six-Microphone PDM Array and RGB Status Ring"/>
+        <comment number="2" value="Platform: ESP32-S3 PoE Speaker Main Board"/>
+        <comment number="3" value="Client: tim"/>
+        <comment number="4" value="Schematic Design"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="microphone-rinG-KIcad"/>
+      <property name="Sheetfile" value="microphone-rinG-KIcad.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7f17a42-53cb-47a4-9fbd-b3b531ca5c4a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="microphone-rinG-KIcad"/>
+      <property name="Sheetfile" value="microphone-rinG-KIcad.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>617816ea-6b0f-4c21-b56e-9cebf973f016</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="microphone-rinG-KIcad"/>
+      <property name="Sheetfile" value="microphone-rinG-KIcad.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d4711d3-37b0-40f9-ba13-a574de46727f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="microphone-rinG-KIcad"/>
+      <property name="Sheetfile" value="microphone-rinG-KIcad.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71dd778e-0901-4c66-8966-1599a8f35f7e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="microphone-rinG-KIcad"/>
+      <property name="Sheetfile" value="microphone-rinG-KIcad.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5cd59da-8c3a-41e6-957d-f376d6684dbb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="microphone-rinG-KIcad"/>
+      <property name="Sheetfile" value="microphone-rinG-KIcad.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71287678-6b7b-45a9-9268-67964e8fcceb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="microphone-rinG-KIcad"/>
+      <property name="Sheetfile" value="microphone-rinG-KIcad.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4aaa1685-5068-43a1-b949-cf409e804aab</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="microphone-rinG-KIcad"/>
+      <property name="Sheetfile" value="microphone-rinG-KIcad.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>888a050c-9a10-4648-900f-17d151510dea</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>APHF1608LSEEQBDZGKC</value>
+      <footprint>footprint:LED_APHF1608LSEEQBDZGKC</footprint>
+      <description>Red, Green, Blue (RGB) 621nm Red, 525nm Green, 465nm Blue LED Indication - Discrete 1.8V Red, 2.65V Green, 2.65V Blue 4-SMD, No Lead</description>
+      <fields>
+        <field name="MF">Kingbright</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.5mm</field>
+        <field name="Package">SMD-4 Kingbright</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/APHF1608LSEEQBDZGKC/Kingbright/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">V.6B</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/APHF1608LSEEQBDZGKC/Kingbright/view-part/?ref=snap</field>
+        <field name="MP">APHF1608LSEEQBDZGKC</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">Kingbright</field>
+        <field name="Footprint">footprint:LED_APHF1608LSEEQBDZGKC</field>
+        <field name="Datasheet"/>
+        <field name="Description">Red, Green, Blue (RGB) 621nm Red, 525nm Green, 465nm Blue LED Indication - Discrete 1.8V Red, 2.65V Green, 2.65V Blue 4-SMD, No Lead</field>
+      </fields>
+      <libsource lib="APHF1608LSEEQBDZGKC" part="APHF1608LSEEQBDZGKC" description="Red, Green, Blue (RGB) 621nm Red, 525nm Green, 465nm Blue LED Indication - Discrete 1.8V Red, 2.65V Green, 2.65V Blue 4-SMD, No Lead"/>
+      <property name="MF" value="Kingbright"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.5mm"/>
+      <property name="Package" value="SMD-4 Kingbright"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/APHF1608LSEEQBDZGKC/Kingbright/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="V.6B"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/APHF1608LSEEQBDZGKC/Kingbright/view-part/?ref=snap"/>
+      <property name="MP" value="APHF1608LSEEQBDZGKC"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="Kingbright"/>
+      <property name="Sheetname" value="microphone-rinG-KIcad"/>
+      <property name="Sheetfile" value="microphone-rinG-KIcad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79891f7b-fb24-473a-ac39-3a2320d9cdd2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D2">
+      <value>APHF1608LSEEQBDZGKC</value>
+      <footprint>footprint:LED_APHF1608LSEEQBDZGKC</footprint>
+      <description>Red, Green, Blue (RGB) 621nm Red, 525nm Green, 465nm Blue LED Indication - Discrete 1.8V Red, 2.65V Green, 2.65V Blue 4-SMD, No Lead</description>
+      <fields>
+        <field name="MF">Kingbright</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.5mm</field>
+        <field name="Package">SMD-4 Kingbright</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/APHF1608LSEEQBDZGKC/Kingbright/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">V.6B</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/APHF1608LSEEQBDZGKC/Kingbright/view-part/?ref=snap</field>
+        <field name="MP">APHF1608LSEEQBDZGKC</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">Kingbright</field>
+        <field name="Footprint">footprint:LED_APHF1608LSEEQBDZGKC</field>
+        <field name="Datasheet"/>
+        <field name="Description">Red, Green, Blue (RGB) 621nm Red, 525nm Green, 465nm Blue LED Indication - Discrete 1.8V Red, 2.65V Green, 2.65V Blue 4-SMD, No Lead</field>
+      </fields>
+      <libsource lib="APHF1608LSEEQBDZGKC" part="APHF1608LSEEQBDZGKC" description="Red, Green, Blue (RGB) 621nm Red, 525nm Green, 465nm Blue LED Indication - Discrete 1.8V Red, 2.65V Green, 2.65V Blue 4-SMD, No Lead"/>
+      <property name="MF" value="Kingbright"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.5mm"/>
+      <property name="Package" value="SMD-4 Kingbright"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/APHF1608LSEEQBDZGKC/Kingbright/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="V.6B"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/APHF1608LSEEQBDZGKC/Kingbright/view-part/?ref=snap"/>
+      <property name="MP" value="APHF1608LSEEQBDZGKC"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="Kingbright"/>
+      <property name="Sheetname" value="microphone-rinG-KIcad"/>
+      <property name="Sheetfile" value="microphone-rinG-KIcad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a1403c8-a6cb-4bc3-ae4d-07c2af2c9720</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D3">
+      <value>APHF1608LSEEQBDZGKC</value>
+      <footprint>footprint:LED_APHF1608LSEEQBDZGKC</footprint>
+      <description>Red, Green, Blue (RGB) 621nm Red, 525nm Green, 465nm Blue LED Indication - Discrete 1.8V Red, 2.65V Green, 2.65V Blue 4-SMD, No Lead</description>
+      <fields>
+        <field name="MF">Kingbright</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.5mm</field>
+        <field name="Package">SMD-4 Kingbright</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/APHF1608LSEEQBDZGKC/Kingbright/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">V.6B</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/APHF1608LSEEQBDZGKC/Kingbright/view-part/?ref=snap</field>
+        <field name="MP">APHF1608LSEEQBDZGKC</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">Kingbright</field>
+        <field name="Footprint">footprint:LED_APHF1608LSEEQBDZGKC</field>
+        <field name="Datasheet"/>
+        <field name="Description">Red, Green, Blue (RGB) 621nm Red, 525nm Green, 465nm Blue LED Indication - Discrete 1.8V Red, 2.65V Green, 2.65V Blue 4-SMD, No Lead</field>
+      </fields>
+      <libsource lib="APHF1608LSEEQBDZGKC" part="APHF1608LSEEQBDZGKC" description="Red, Green, Blue (RGB) 621nm Red, 525nm Green, 465nm Blue LED Indication - Discrete 1.8V Red, 2.65V Green, 2.65V Blue 4-SMD, No Lead"/>
+      <property name="MF" value="Kingbright"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.5mm"/>
+      <property name="Package" value="SMD-4 Kingbright"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/APHF1608LSEEQBDZGKC/Kingbright/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="V.6B"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/APHF1608LSEEQBDZGKC/Kingbright/view-part/?ref=snap"/>
+      <property name="MP" value="APHF1608LSEEQBDZGKC"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="Kingbright"/>
+      <property name="Sheetname" value="microphone-rinG-KIcad"/>
+      <property name="Sheetfile" value="microphone-rinG-KIcad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>943ced7e-d542-4006-8a4f-7cadcf48cba5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D4">
+      <value>APHF1608LSEEQBDZGKC</value>
+      <footprint>footprint:LED_APHF1608LSEEQBDZGKC</footprint>
+      <description>Red, Green, Blue (RGB) 621nm Red, 525nm Green, 465nm Blue LED Indication - Discrete 1.8V Red, 2.65V Green, 2.65V Blue 4-SMD, No Lead</description>
+      <fields>
+        <field name="MF">Kingbright</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.5mm</field>
+        <field name="Package">SMD-4 Kingbright</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/APHF1608LSEEQBDZGKC/Kingbright/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">V.6B</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/APHF1608LSEEQBDZGKC/Kingbright/view-part/?ref=snap</field>
+        <field name="MP">APHF1608LSEEQBDZGKC</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">Kingbright</field>
+        <field name="Footprint">footprint:LED_APHF1608LSEEQBDZGKC</field>
+        <field name="Datasheet"/>
+        <field name="Description">Red, Green, Blue (RGB) 621nm Red, 525nm Green, 465nm Blue LED Indication - Discrete 1.8V Red, 2.65V Green, 2.65V Blue 4-SMD, No Lead</field>
+      </fields>
+      <libsource lib="APHF1608LSEEQBDZGKC" part="APHF1608LSEEQBDZGKC" description="Red, Green, Blue (RGB) 621nm Red, 525nm Green, 465nm Blue LED Indication - Discrete 1.8V Red, 2.65V Green, 2.65V Blue 4-SMD, No Lead"/>
+      <property name="MF" value="Kingbright"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.5mm"/>
+      <property name="Package" value="SMD-4 Kingbright"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/APHF1608LSEEQBDZGKC/Kingbright/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="V.6B"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/APHF1608LSEEQBDZGKC/Kingbright/view-part/?ref=snap"/>
+      <property name="MP" value="APHF1608LSEEQBDZGKC"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="Kingbright"/>
+      <property name="Sheetname" value="microphone-rinG-KIcad"/>
+      <property name="Sheetfile" value="microphone-rinG-KIcad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3a37200-fb76-45f9-a19e-d1b63c50b673</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D5">
+      <value>APHF1608LSEEQBDZGKC</value>
+      <footprint>footprint:LED_APHF1608LSEEQBDZGKC</footprint>
+      <description>Red, Green, Blue (RGB) 621nm Red, 525nm Green, 465nm Blue LED Indication - Discrete 1.8V Red, 2.65V Green, 2.65V Blue 4-SMD, No Lead</description>
+      <fields>
+        <field name="MF">Kingbright</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.5mm</field>
+        <field name="Package">SMD-4 Kingbright</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/APHF1608LSEEQBDZGKC/Kingbright/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">V.6B</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/APHF1608LSEEQBDZGKC/Kingbright/view-part/?ref=snap</field>
+        <field name="MP">APHF1608LSEEQBDZGKC</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">Kingbright</field>
+        <field name="Footprint">footprint:LED_APHF1608LSEEQBDZGKC</field>
+        <field name="Datasheet"/>
+        <field name="Description">Red, Green, Blue (RGB) 621nm Red, 525nm Green, 465nm Blue LED Indication - Discrete 1.8V Red, 2.65V Green, 2.65V Blue 4-SMD, No Lead</field>
+      </fields>
+      <libsource lib="APHF1608LSEEQBDZGKC" part="APHF1608LSEEQBDZGKC" description="Red, Green, Blue (RGB) 621nm Red, 525nm Green, 465nm Blue LED Indication - Discrete 1.8V Red, 2.65V Green, 2.65V Blue 4-SMD, No Lead"/>
+      <property name="MF" value="Kingbright"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.5mm"/>
+      <property name="Package" value="SMD-4 Kingbright"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/APHF1608LSEEQBDZGKC/Kingbright/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="V.6B"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/APHF1608LSEEQBDZGKC/Kingbright/view-part/?ref=snap"/>
+      <property name="MP" value="APHF1608LSEEQBDZGKC"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="Kingbright"/>
+      <property name="Sheetname" value="microphone-rinG-KIcad"/>
+      <property name="Sheetfile" value="microphone-rinG-KIcad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da1202cf-4ca2-4aac-b4dc-749f787773d1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D6">
+      <value>APHF1608LSEEQBDZGKC</value>
+      <footprint>footprint:LED_APHF1608LSEEQBDZGKC</footprint>
+      <description>Red, Green, Blue (RGB) 621nm Red, 525nm Green, 465nm Blue LED Indication - Discrete 1.8V Red, 2.65V Green, 2.65V Blue 4-SMD, No Lead</description>
+      <fields>
+        <field name="MF">Kingbright</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.5mm</field>
+        <field name="Package">SMD-4 Kingbright</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/APHF1608LSEEQBDZGKC/Kingbright/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">V.6B</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/APHF1608LSEEQBDZGKC/Kingbright/view-part/?ref=snap</field>
+        <field name="MP">APHF1608LSEEQBDZGKC</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">Kingbright</field>
+        <field name="Footprint">footprint:LED_APHF1608LSEEQBDZGKC</field>
+        <field name="Datasheet"/>
+        <field name="Description">Red, Green, Blue (RGB) 621nm Red, 525nm Green, 465nm Blue LED Indication - Discrete 1.8V Red, 2.65V Green, 2.65V Blue 4-SMD, No Lead</field>
+      </fields>
+      <libsource lib="APHF1608LSEEQBDZGKC" part="APHF1608LSEEQBDZGKC" description="Red, Green, Blue (RGB) 621nm Red, 525nm Green, 465nm Blue LED Indication - Discrete 1.8V Red, 2.65V Green, 2.65V Blue 4-SMD, No Lead"/>
+      <property name="MF" value="Kingbright"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="0.5mm"/>
+      <property name="Package" value="SMD-4 Kingbright"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/APHF1608LSEEQBDZGKC/Kingbright/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="V.6B"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/APHF1608LSEEQBDZGKC/Kingbright/view-part/?ref=snap"/>
+      <property name="MP" value="APHF1608LSEEQBDZGKC"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="Kingbright"/>
+      <property name="Sheetname" value="microphone-rinG-KIcad"/>
+      <property name="Sheetfile" value="microphone-rinG-KIcad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4004f720-48a8-4a21-a87f-b581574751c0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_02x07_Counter_Clockwise</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x07_P2.54mm_Vertical</footprint>
+      <description>Generic connector, double row, 02x07, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <fields>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_2x07_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, double row, 02x07, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x07_Counter_Clockwise" description="Generic connector, double row, 02x07, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="microphone-rinG-KIcad"/>
+      <property name="Sheetfile" value="microphone-rinG-KIcad.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2653d1b3-df37-4f46-9699-540d49b75f49</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="14"/>
+            <pin num="13"/>
+            <pin num="12"/>
+            <pin num="11"/>
+            <pin num="10"/>
+            <pin num="9"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>36.7kΩ</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="microphone-rinG-KIcad"/>
+      <property name="Sheetfile" value="microphone-rinG-KIcad.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06da58f3-0fe7-452c-a0ea-498d1b079002</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="microphone-rinG-KIcad"/>
+      <property name="Sheetfile" value="microphone-rinG-KIcad.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f9358ed-0841-40f2-b301-e129faae4d7a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP1">
+      <value>VCC</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="microphone-rinG-KIcad"/>
+      <property name="Sheetfile" value="microphone-rinG-KIcad.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>794f5d57-6cd4-4baa-b7f8-1d0878c432e7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP2">
+      <value>GND</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="microphone-rinG-KIcad"/>
+      <property name="Sheetfile" value="microphone-rinG-KIcad.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d65ea937-b875-4a73-92f5-f5d33c78aba4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>IM69D128SV01XTMA1</value>
+      <footprint>footprint:MIC-SMD_IM69D128SV01XTMA1</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-IM69D128S-DataSheet-v01_00-EN.pdf?fileId=8ac78c8c85c5e5aa0185dfa527036dad</datasheet>
+      <fields>
+        <field name="Footprint">footprint:MIC-SMD_IM69D128SV01XTMA1</field>
+        <field name="Datasheet">https://www.infineon.com/dgdl/Infineon-IM69D128S-DataSheet-v01_00-EN.pdf?fileId=8ac78c8c85c5e5aa0185dfa527036dad</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="IM69D128SV01XTMA1_1" description=""/>
+      <property name="Sheetname" value="microphone-rinG-KIcad"/>
+      <property name="Sheetfile" value="microphone-rinG-KIcad.kicad_sch"/>
+      <property name="ki_keywords" value="IM69D128SV01XTMA1"/>
+      <property name="ki_fp_filters" value="PG-TLGA-5-2_INF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>237d9273-76d8-4710-b813-1ea7ff888030</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="5"/>
+            <pin num="4"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>IM69D128SV01XTMA1</value>
+      <footprint>footprint:MIC-SMD_IM69D128SV01XTMA1</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-IM69D128S-DataSheet-v01_00-EN.pdf?fileId=8ac78c8c85c5e5aa0185dfa527036dad</datasheet>
+      <fields>
+        <field name="Footprint">footprint:MIC-SMD_IM69D128SV01XTMA1</field>
+        <field name="Datasheet">https://www.infineon.com/dgdl/Infineon-IM69D128S-DataSheet-v01_00-EN.pdf?fileId=8ac78c8c85c5e5aa0185dfa527036dad</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="IM69D128SV01XTMA1_1" description=""/>
+      <property name="Sheetname" value="microphone-rinG-KIcad"/>
+      <property name="Sheetfile" value="microphone-rinG-KIcad.kicad_sch"/>
+      <property name="ki_keywords" value="IM69D128SV01XTMA1"/>
+      <property name="ki_fp_filters" value="PG-TLGA-5-2_INF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c083a3c2-2a3f-429d-9d06-531a666f4ec2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="5"/>
+            <pin num="4"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>IM69D128SV01XTMA1</value>
+      <footprint>footprint:MIC-SMD_IM69D128SV01XTMA1</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-IM69D128S-DataSheet-v01_00-EN.pdf?fileId=8ac78c8c85c5e5aa0185dfa527036dad</datasheet>
+      <fields>
+        <field name="Footprint">footprint:MIC-SMD_IM69D128SV01XTMA1</field>
+        <field name="Datasheet">https://www.infineon.com/dgdl/Infineon-IM69D128S-DataSheet-v01_00-EN.pdf?fileId=8ac78c8c85c5e5aa0185dfa527036dad</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="IM69D128SV01XTMA1_1" description=""/>
+      <property name="Sheetname" value="microphone-rinG-KIcad"/>
+      <property name="Sheetfile" value="microphone-rinG-KIcad.kicad_sch"/>
+      <property name="ki_keywords" value="IM69D128SV01XTMA1"/>
+      <property name="ki_fp_filters" value="PG-TLGA-5-2_INF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0060f766-d426-4218-ae0e-54d244d5ee62</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="5"/>
+            <pin num="4"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>IM69D128SV01XTMA1</value>
+      <footprint>footprint:MIC-SMD_IM69D128SV01XTMA1</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-IM69D128S-DataSheet-v01_00-EN.pdf?fileId=8ac78c8c85c5e5aa0185dfa527036dad</datasheet>
+      <fields>
+        <field name="Footprint">footprint:MIC-SMD_IM69D128SV01XTMA1</field>
+        <field name="Datasheet">https://www.infineon.com/dgdl/Infineon-IM69D128S-DataSheet-v01_00-EN.pdf?fileId=8ac78c8c85c5e5aa0185dfa527036dad</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="IM69D128SV01XTMA1_1" description=""/>
+      <property name="Sheetname" value="microphone-rinG-KIcad"/>
+      <property name="Sheetfile" value="microphone-rinG-KIcad.kicad_sch"/>
+      <property name="ki_keywords" value="IM69D128SV01XTMA1"/>
+      <property name="ki_fp_filters" value="PG-TLGA-5-2_INF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f190a22f-692d-4182-ae05-97868b1e445f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="5"/>
+            <pin num="4"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U5">
+      <value>IM69D128SV01XTMA1</value>
+      <footprint>footprint:MIC-SMD_IM69D128SV01XTMA1</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-IM69D128S-DataSheet-v01_00-EN.pdf?fileId=8ac78c8c85c5e5aa0185dfa527036dad</datasheet>
+      <fields>
+        <field name="Footprint">footprint:MIC-SMD_IM69D128SV01XTMA1</field>
+        <field name="Datasheet">https://www.infineon.com/dgdl/Infineon-IM69D128S-DataSheet-v01_00-EN.pdf?fileId=8ac78c8c85c5e5aa0185dfa527036dad</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="IM69D128SV01XTMA1_1" description=""/>
+      <property name="Sheetname" value="microphone-rinG-KIcad"/>
+      <property name="Sheetfile" value="microphone-rinG-KIcad.kicad_sch"/>
+      <property name="ki_keywords" value="IM69D128SV01XTMA1"/>
+      <property name="ki_fp_filters" value="PG-TLGA-5-2_INF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>54696ec3-c158-4f70-aa90-09ac35d703ff</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="5"/>
+            <pin num="4"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U6">
+      <value>IM69D128SV01XTMA1</value>
+      <footprint>footprint:MIC-SMD_IM69D128SV01XTMA1</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-IM69D128S-DataSheet-v01_00-EN.pdf?fileId=8ac78c8c85c5e5aa0185dfa527036dad</datasheet>
+      <fields>
+        <field name="Footprint">footprint:MIC-SMD_IM69D128SV01XTMA1</field>
+        <field name="Datasheet">https://www.infineon.com/dgdl/Infineon-IM69D128S-DataSheet-v01_00-EN.pdf?fileId=8ac78c8c85c5e5aa0185dfa527036dad</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="IM69D128SV01XTMA1_1" description=""/>
+      <property name="Sheetname" value="microphone-rinG-KIcad"/>
+      <property name="Sheetfile" value="microphone-rinG-KIcad.kicad_sch"/>
+      <property name="ki_keywords" value="IM69D128SV01XTMA1"/>
+      <property name="ki_fp_filters" value="PG-TLGA-5-2_INF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42405a27-a009-432a-b3c5-ced4869f82b2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="5"/>
+            <pin num="4"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U7">
+      <value>LP5018RSMR</value>
+      <footprint>footprint:QFN40P400X400X100-33N</footprint>
+      <description>18-channel I2C constant-current RGB LED driver</description>
+      <fields>
+        <field name="MF">Texas Instruments</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.0mm</field>
+        <field name="Package">VQFN-32 Texas Instruments</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/LP5018RSMR/Texas+Instruments/view-part/?ref=eda</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="PARTREV">4219108/B 08/2019</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/LP5018RSMR/Texas+Instruments/view-part/?ref=snap</field>
+        <field name="MP">LP5018RSMR</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">Texas Instruments</field>
+        <field name="Footprint">footprint:QFN40P400X400X100-33N</field>
+        <field name="Datasheet"/>
+        <field name="Description">18-channel I2C constant-current RGB LED driver</field>
+      </fields>
+      <libsource lib="LP5018RSMR" part="LP5018RSMR" description="18-channel I2C constant-current RGB LED driver"/>
+      <property name="MF" value="Texas Instruments"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.0mm"/>
+      <property name="Package" value="VQFN-32 Texas Instruments"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/LP5018RSMR/Texas+Instruments/view-part/?ref=eda"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="4219108/B 08/2019"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/LP5018RSMR/Texas+Instruments/view-part/?ref=snap"/>
+      <property name="MP" value="LP5018RSMR"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="Texas Instruments"/>
+      <property name="Sheetname" value="microphone-rinG-KIcad"/>
+      <property name="Sheetfile" value="microphone-rinG-KIcad.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e9128195-53a5-4cdc-a2ed-9483851ec466</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="27"/>
+            <pin num="30"/>
+            <pin num="25"/>
+            <pin num="26"/>
+            <pin num="29"/>
+            <pin num="28"/>
+            <pin num="32"/>
+            <pin num="31"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+            <pin num="33"/>
+            <pin num="34"/>
+            <pin num="35"/>
+            <pin num="36"/>
+            <pin num="37"/>
+            <pin num="38"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="IM69D128SV01XTMA1_1">
+      <docs>https://www.infineon.com/dgdl/Infineon-IM69D128S-DataSheet-v01_00-EN.pdf?fileId=8ac78c8c85c5e5aa0185dfa527036dad</docs>
+      <footprints>
+        <fp>PG-TLGA-5-2_INF</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">IM69D128SV01XTMA1</field>
+        <field name="Footprint">footprint:PG-TLGA-5-2_INF</field>
+        <field name="Datasheet">https://www.infineon.com/dgdl/Infineon-IM69D128S-DataSheet-v01_00-EN.pdf?fileId=8ac78c8c85c5e5aa0185dfa527036dad</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="CLOCK" type="input"/>
+        <pin num="3" name="DATA" type="tri_state"/>
+        <pin num="4" name="LR_SELECT" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="APHF1608LSEEQBDZGKC" part="APHF1608LSEEQBDZGKC">
+      <description>Red, Green, Blue (RGB) 621nm Red, 525nm Green, 465nm Blue LED Indication - Discrete 1.8V Red, 2.65V Green, 2.65V Blue 4-SMD, No Lead</description>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">APHF1608LSEEQBDZGKC</field>
+        <field name="Footprint">APHF1608LSEEQBDZGKC:LED_APHF1608LSEEQBDZGKC</field>
+        <field name="Datasheet"/>
+        <field name="Description">Red, Green, Blue (RGB) 621nm Red, 525nm Green, 465nm Blue LED Indication - Discrete 1.8V Red, 2.65V Green, 2.65V Blue 4-SMD, No Lead</field>
+        <field name="MF">Kingbright</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">0.5mm</field>
+        <field name="Package">SMD-4 Kingbright</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/APHF1608LSEEQBDZGKC/Kingbright/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">V.6B</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/APHF1608LSEEQBDZGKC/Kingbright/view-part/?ref=snap</field>
+        <field name="MP">APHF1608LSEEQBDZGKC</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">Kingbright</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x07_Counter_Clockwise">
+      <description>Generic connector, double row, 02x07, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x07_Counter_Clockwise</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, double row, 02x07, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LP5018RSMR" part="LP5018RSMR">
+      <description>18-channel I2C constant-current RGB LED driver</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LP5018RSMR</field>
+        <field name="Footprint">LP5018RSMR:QFN40P400X400X100-33N</field>
+        <field name="Datasheet"/>
+        <field name="Description">18-channel I2C constant-current RGB LED driver</field>
+        <field name="MF">Texas Instruments</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.0mm</field>
+        <field name="Package">VQFN-32 Texas Instruments</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/LP5018RSMR/Texas+Instruments/view-part/?ref=eda</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="PARTREV">4219108/B 08/2019</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/LP5018RSMR/Texas+Instruments/view-part/?ref=snap</field>
+        <field name="MP">LP5018RSMR</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">Texas Instruments</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT0" type="output"/>
+        <pin num="2" name="OUT1" type="output"/>
+        <pin num="3" name="OUT2" type="output"/>
+        <pin num="4" name="OUT3" type="output"/>
+        <pin num="5" name="OUT4" type="output"/>
+        <pin num="6" name="OUT5" type="output"/>
+        <pin num="7" name="OUT6" type="output"/>
+        <pin num="8" name="OUT7" type="output"/>
+        <pin num="9" name="OUT8" type="output"/>
+        <pin num="10" name="OUT9" type="output"/>
+        <pin num="11" name="OUT10" type="output"/>
+        <pin num="12" name="OUT11" type="output"/>
+        <pin num="13" name="OUT12" type="output"/>
+        <pin num="14" name="OUT13" type="output"/>
+        <pin num="15" name="OUT14" type="output"/>
+        <pin num="16" name="OUT15" type="output"/>
+        <pin num="17" name="OUT16" type="output"/>
+        <pin num="18" name="OUT17" type="output"/>
+        <pin num="19" name="NC_19" type="no_connect"/>
+        <pin num="20" name="NC_20" type="no_connect"/>
+        <pin num="21" name="NC_21" type="no_connect"/>
+        <pin num="22" name="NC_22" type="no_connect"/>
+        <pin num="23" name="NC_23" type="no_connect"/>
+        <pin num="24" name="NC_24" type="no_connect"/>
+        <pin num="25" name="ADDR0" type="input"/>
+        <pin num="26" name="ADDR1" type="input"/>
+        <pin num="27" name="VCC" type="power_in"/>
+        <pin num="28" name="SDA" type="bidirectional"/>
+        <pin num="29" name="SCL" type="input"/>
+        <pin num="30" name="EN" type="input"/>
+        <pin num="31" name="IRF" type="output"/>
+        <pin num="32" name="VCAP" type="passive"/>
+        <pin num="33" name="GND" type="power_in"/>
+        <pin num="34" name="GND" type="power_in"/>
+        <pin num="35" name="GND" type="power_in"/>
+        <pin num="36" name="GND" type="power_in"/>
+        <pin num="37" name="GND" type="power_in"/>
+        <pin num="38" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="APHF1608LSEEQBDZGKC">
+      <uri>C:/Users/pc/Desktop/Frelanmcer/ESP32-S3 Microphone &amp; RGB LED Ring PCB/lib/chema/APHF1608LSEEQBDZGKC.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>${KICAD10_SYMBOL_DIR}/Device.kicad_sym</uri>
+    </library>
+    <library logical="LP5018RSMR">
+      <uri>C:/Users/pc/Desktop/Frelanmcer/ESP32-S3 Microphone &amp; RGB LED Ring PCB/lib/chema/LP5018RSMR.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>${KICAD10_SYMBOL_DIR}/Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pintype="passive"/>
+      <node ref="D3" pin="1" pintype="passive"/>
+      <node ref="D4" pin="1" pintype="passive"/>
+      <node ref="D5" pin="1" pintype="passive"/>
+      <node ref="D6" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VDD_1" pintype="power_in"/>
+      <node ref="U1" pin="4" pinfunction="LR_SELECT_4" pintype="input"/>
+      <node ref="U2" pin="1" pinfunction="VDD_1" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="VDD_1" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="LR_SELECT_4" pintype="input"/>
+      <node ref="U4" pin="1" pinfunction="VDD_1" pintype="power_in"/>
+      <node ref="U5" pin="1" pinfunction="VDD_1" pintype="power_in"/>
+      <node ref="U5" pin="4" pinfunction="LR_SELECT_4" pintype="input"/>
+      <node ref="U6" pin="1" pinfunction="VDD_1" pintype="power_in"/>
+      <node ref="U7" pin="27" pinfunction="VCC_27" pintype="power_in"/>
+    </net>
+    <net code="2" name="/I2C_SCL" class="Default">
+      <node ref="J1" pin="9" pinfunction="Pin_9_9" pintype="passive"/>
+      <node ref="U7" pin="29" pinfunction="SCL_29" pintype="input"/>
+    </net>
+    <net code="3" name="/I2C_SDA" class="Default">
+      <node ref="J1" pin="10" pinfunction="Pin_10_10" pintype="passive"/>
+      <node ref="U7" pin="28" pinfunction="SDA_28" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/OUT0_COLOR" class="Default">
+      <node ref="D1" pin="2" pintype="passive"/>
+      <node ref="U7" pin="1" pinfunction="OUT0_1" pintype="output"/>
+    </net>
+    <net code="5" name="/OUT1_COLOR" class="Default">
+      <node ref="D1" pin="3" pintype="passive"/>
+      <node ref="U7" pin="2" pinfunction="OUT1_2" pintype="output"/>
+    </net>
+    <net code="6" name="/OUT2_COLOR" class="Default">
+      <node ref="D1" pin="4" pintype="passive"/>
+      <node ref="U7" pin="3" pinfunction="OUT2_3" pintype="output"/>
+    </net>
+    <net code="7" name="/OUT3_COLOR" class="Default">
+      <node ref="D2" pin="2" pintype="passive"/>
+      <node ref="U7" pin="4" pinfunction="OUT3_4" pintype="output"/>
+    </net>
+    <net code="8" name="/OUT4_COLOR" class="Default">
+      <node ref="D2" pin="3" pintype="passive"/>
+      <node ref="U7" pin="5" pinfunction="OUT4_5" pintype="output"/>
+    </net>
+    <net code="9" name="/OUT5_COLOR" class="Default">
+      <node ref="D2" pin="4" pintype="passive"/>
+      <node ref="U7" pin="6" pinfunction="OUT5_6" pintype="output"/>
+    </net>
+    <net code="10" name="/OUT6_COLOR" class="Default">
+      <node ref="D3" pin="2" pintype="passive"/>
+      <node ref="U7" pin="7" pinfunction="OUT6_7" pintype="output"/>
+    </net>
+    <net code="11" name="/OUT7_COLOR" class="Default">
+      <node ref="D3" pin="3" pintype="passive"/>
+      <node ref="U7" pin="8" pinfunction="OUT7_8" pintype="output"/>
+    </net>
+    <net code="12" name="/OUT8_COLOR" class="Default">
+      <node ref="D3" pin="4" pintype="passive"/>
+      <node ref="U7" pin="9" pinfunction="OUT8_9" pintype="output"/>
+    </net>
+    <net code="13" name="/OUT9_COLOR" class="Default">
+      <node ref="D4" pin="2" pintype="passive"/>
+      <node ref="U7" pin="10" pinfunction="OUT9_10" pintype="output"/>
+    </net>
+    <net code="14" name="/OUT10_COLOR" class="Default">
+      <node ref="D4" pin="3" pintype="passive"/>
+      <node ref="U7" pin="11" pinfunction="OUT10_11" pintype="output"/>
+    </net>
+    <net code="15" name="/OUT11_COLOR" class="Default">
+      <node ref="D4" pin="4" pintype="passive"/>
+      <node ref="U7" pin="12" pinfunction="OUT11_12" pintype="output"/>
+    </net>
+    <net code="16" name="/OUT12_COLOR" class="Default">
+      <node ref="D5" pin="2" pintype="passive"/>
+      <node ref="U7" pin="13" pinfunction="OUT12_13" pintype="output"/>
+    </net>
+    <net code="17" name="/OUT13_COLOR" class="Default">
+      <node ref="D5" pin="3" pintype="passive"/>
+      <node ref="U7" pin="14" pinfunction="OUT13_14" pintype="output"/>
+    </net>
+    <net code="18" name="/OUT14_COLOR" class="Default">
+      <node ref="D5" pin="4" pintype="passive"/>
+      <node ref="U7" pin="15" pinfunction="OUT14_15" pintype="output"/>
+    </net>
+    <net code="19" name="/OUT15_COLOR" class="Default">
+      <node ref="D6" pin="2" pintype="passive"/>
+      <node ref="U7" pin="16" pinfunction="OUT15_16" pintype="output"/>
+    </net>
+    <net code="20" name="/OUT16_COLOR" class="Default">
+      <node ref="D6" pin="3" pintype="passive"/>
+      <node ref="U7" pin="17" pinfunction="OUT16_17" pintype="output"/>
+    </net>
+    <net code="21" name="/OUT17_COLOR" class="Default">
+      <node ref="D6" pin="4" pintype="passive"/>
+      <node ref="U7" pin="18" pinfunction="OUT17_18" pintype="output"/>
+    </net>
+    <net code="22" name="/PDM_CLK" class="Default">
+      <node ref="J1" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="CLOCK_2" pintype="input"/>
+      <node ref="U2" pin="2" pinfunction="CLOCK_2" pintype="input"/>
+      <node ref="U3" pin="2" pinfunction="CLOCK_2" pintype="input"/>
+      <node ref="U4" pin="2" pinfunction="CLOCK_2" pintype="input"/>
+      <node ref="U5" pin="2" pinfunction="CLOCK_2" pintype="input"/>
+      <node ref="U6" pin="2" pinfunction="CLOCK_2" pintype="input"/>
+    </net>
+    <net code="23" name="/PDM_DATA0" class="Default">
+      <node ref="J1" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="DATA_3" pintype="tri_state"/>
+      <node ref="U2" pin="3" pinfunction="DATA_3" pintype="tri_state"/>
+    </net>
+    <net code="24" name="/PDM_DATA1" class="Default">
+      <node ref="J1" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="DATA_3" pintype="tri_state"/>
+      <node ref="U4" pin="3" pinfunction="DATA_3" pintype="tri_state"/>
+    </net>
+    <net code="25" name="/PDM_DATA2" class="Default">
+      <node ref="J1" pin="13" pinfunction="Pin_13_13" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="DATA_3" pintype="tri_state"/>
+      <node ref="U6" pin="3" pinfunction="DATA_3" pintype="tri_state"/>
+    </net>
+    <net code="26" name="/RING_GPIO_SPARE" class="Default">
+      <node ref="J1" pin="8" pinfunction="Pin_8_8" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U7" pin="30" pinfunction="EN_30" pintype="input"/>
+    </net>
+    <net code="27" name="GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="J1" pin="12" pinfunction="Pin_12_12" pintype="passive"/>
+      <node ref="J1" pin="14" pinfunction="Pin_14_14" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="GND_5" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="LR_SELECT_4" pintype="input"/>
+      <node ref="U2" pin="5" pinfunction="GND_5" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="GND_5" pintype="power_in"/>
+      <node ref="U4" pin="4" pinfunction="LR_SELECT_4" pintype="input"/>
+      <node ref="U4" pin="5" pinfunction="GND_5" pintype="power_in"/>
+      <node ref="U5" pin="5" pinfunction="GND_5" pintype="power_in"/>
+      <node ref="U6" pin="4" pinfunction="LR_SELECT_4" pintype="input"/>
+      <node ref="U6" pin="5" pinfunction="GND_5" pintype="power_in"/>
+      <node ref="U7" pin="25" pinfunction="ADDR0_25" pintype="input"/>
+      <node ref="U7" pin="26" pinfunction="ADDR1_26" pintype="input"/>
+      <node ref="U7" pin="33" pinfunction="GND_33" pintype="power_in"/>
+      <node ref="U7" pin="34" pinfunction="GND_34" pintype="power_in"/>
+      <node ref="U7" pin="35" pinfunction="GND_35" pintype="power_in"/>
+      <node ref="U7" pin="36" pinfunction="GND_36" pintype="power_in"/>
+      <node ref="U7" pin="37" pinfunction="GND_37" pintype="power_in"/>
+      <node ref="U7" pin="38" pinfunction="GND_38" pintype="power_in"/>
+    </net>
+    <net code="28" name="Net-(U7-IRF)" class="Default">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U7" pin="31" pinfunction="IRF_31" pintype="output"/>
+    </net>
+    <net code="29" name="Net-(U7-VCAP)" class="Default">
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="U7" pin="32" pinfunction="VCAP_32" pintype="passive"/>
+    </net>
+    <net code="30" name="unconnected-(J1-Pin_11-Pad11)" class="Default">
+      <node ref="J1" pin="11" pinfunction="Pin_11_11" pintype="passive+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U7-NC_19-Pad19)" class="Default">
+      <node ref="U7" pin="19" pinfunction="NC_19_19" pintype="no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U7-NC_20-Pad20)" class="Default">
+      <node ref="U7" pin="20" pinfunction="NC_20_20" pintype="no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U7-NC_21-Pad21)" class="Default">
+      <node ref="U7" pin="21" pinfunction="NC_21_21" pintype="no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U7-NC_22-Pad22)" class="Default">
+      <node ref="U7" pin="22" pinfunction="NC_22_22" pintype="no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U7-NC_23-Pad23)" class="Default">
+      <node ref="U7" pin="23" pinfunction="NC_23_23" pintype="no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U7-NC_24-Pad24)" class="Default">
+      <node ref="U7" pin="24" pinfunction="NC_24_24" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

@@ -22,3 +22,13 @@ Use this package for PCB fabrication and PCBA assembly. It intentionally exclude
 - Ethernet final geometry: 0.2764 mm width / 0.20 mm pair gap.
 
 See `MANIFEST.json` for file sizes and SHA-256 hashes.
+
+## Final engineered handoff provenance
+
+The RevE source and RevF manufacturing outputs in this directory were imported from the supplied `Final Engineered Files` package. The user reports that the PCB package was reviewed and verified by an engineer. The included report, DRC image, and impedance-reference images are preserved in `Notes/` as supplied evidence; they are not a substitute for independent source-file review or physical prototype validation.
+
+Traceability:
+
+- Editable CAD remains RevE: `../../RevE/KiCad-RevE/`.
+- RevF identifies this manufacturing release package.
+- The final package was imported without embedded `.history`, `.git`, lock, or KiCad session artifacts.
