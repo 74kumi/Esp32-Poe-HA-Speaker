@@ -1,0 +1,39 @@
+** Drc report for microphone-rinG-KIcad.kicad_pcb **
+** Created on 2026-10-02T16:28:08 **
+** Report includes: Errors, Warnings **
+
+** Found 7 DRC violations **
+[lib_footprint_mismatch]: L’empreinte 'QFN40P400X400X100-33N' ne correspond pas à la copie en librairie 'footprint'
+    Local override; warning
+    @(235.6950 mm, 202.3900 mm): Footprint U7
+[lib_footprint_mismatch]: L’empreinte 'MIC-SMD_IM69D128SV01XTMA1' ne correspond pas à la copie en librairie 'footprint'
+    Local override; warning
+    @(191.7200 mm, 239.5400 mm): Footprint U6
+[lib_footprint_mismatch]: L’empreinte 'MIC-SMD_IM69D128SV01XTMA1' ne correspond pas à la copie en librairie 'footprint'
+    Local override; warning
+    @(91.5200 mm, 239.0400 mm): Footprint U5
+[lib_footprint_mismatch]: L’empreinte 'MIC-SMD_IM69D128SV01XTMA1' ne correspond pas à la copie en librairie 'footprint'
+    Local override; warning
+    @(41.1300 mm, 152.0500 mm): Footprint U4
+[lib_footprint_mismatch]: L’empreinte 'MIC-SMD_IM69D128SV01XTMA1' ne correspond pas à la copie en librairie 'footprint'
+    Local override; warning
+    @(91.0700 mm, 63.9700 mm): Footprint U3
+[lib_footprint_mismatch]: L’empreinte 'MIC-SMD_IM69D128SV01XTMA1' ne correspond pas à la copie en librairie 'footprint'
+    Local override; warning
+    @(192.2400 mm, 64.2200 mm): Footprint U2
+[lib_footprint_mismatch]: L’empreinte 'MIC-SMD_IM69D128SV01XTMA1' ne correspond pas à la copie en librairie 'footprint'
+    Local override; warning
+    @(244.4700 mm, 151.6100 mm): Footprint U1
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

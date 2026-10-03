@@ -146,3 +146,7 @@ The microphone ring and main electronics also need an installation method that c
 The microphone ring is a separate future PCB from the Rev E PoE speaker main board. Development of the ring should not block first-prototype validation of Ethernet, power, DAC, and amplifier functions on the main board.
 
 The current J4 interface is a design provision, not proof that an eight-microphone capture system is complete or validated.
+
+## Archived six-microphone RGB ring handoff
+
+The supplied ESP32-S3 six-microphone / RGB ring PCB package is archived at [`ESP32-S3-Microphone-RGB-Ring/`](ESP32-S3-Microphone-RGB-Ring/). The user reports that this design was reviewed and verified by an engineer. The archive includes KiCad sources, manufacturing outputs, BOM, placement data, STEP, reports, design notes, and component datasheets. The package is preserved as supplied; final production work should use the verified engineer handoff and the numbered J4 connector guide rather than assumptions based on connector orientation.

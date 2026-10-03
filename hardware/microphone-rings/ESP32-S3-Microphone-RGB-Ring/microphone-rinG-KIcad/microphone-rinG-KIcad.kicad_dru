@@ -1,0 +1,5 @@
+(version 1)
+(rule "U7 LP5018 Fine Pitch Clearance"
+    (condition "A.Reference == 'U7' && B.Reference == 'U7'")
+    (constraint clearance (min 0.15mm))
+)

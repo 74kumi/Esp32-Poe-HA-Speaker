@@ -1,0 +1,30 @@
+ERC report (2026-10-02T16:27:52, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[lib_symbol_mismatch]: Le symbole 'IM69D128SV01XTMA1' ne correspond pas à la copie en librairie '2026-09-30_18-38-05'
+    ; warning
+    @(1950 mils, 5200 mils): Symbol U3 [IM69D128SV01XTMA1]
+[lib_symbol_mismatch]: Le symbole 'IM69D128SV01XTMA1' ne correspond pas à la copie en librairie '2026-09-30_18-38-05'
+    ; warning
+    @(2050 mils, 8550 mils): Symbol U5 [IM69D128SV01XTMA1]
+[lib_symbol_mismatch]: Le symbole 'IM69D128SV01XTMA1' ne correspond pas à la copie en librairie '2026-09-30_18-38-05'
+    ; warning
+    @(2100 mils, 1650 mils): Symbol U1 [IM69D128SV01XTMA1]
+[lib_symbol_mismatch]: Le symbole 'IM69D128SV01XTMA1' ne correspond pas à la copie en librairie '2026-09-30_18-38-05'
+    ; warning
+    @(6300 mils, 5150 mils): Symbol U4 [IM69D128SV01XTMA1]
+[lib_symbol_mismatch]: Le symbole 'IM69D128SV01XTMA1' ne correspond pas à la copie en librairie '2026-09-30_18-38-05'
+    ; warning
+    @(6300 mils, 8500 mils): Symbol U6 [IM69D128SV01XTMA1]
+[lib_symbol_mismatch]: Le symbole 'IM69D128SV01XTMA1' ne correspond pas à la copie en librairie '2026-09-30_18-38-05'
+    ; warning
+    @(6550 mils, 1650 mils): Symbol U2 [IM69D128SV01XTMA1]
+
+ ** ERC messages: 6  Errors 0  Warnings 6
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

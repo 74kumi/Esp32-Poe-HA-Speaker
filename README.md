@@ -10,30 +10,31 @@ I'm not a hardware engineer — I'm an IT administrator who enjoys electronics, 
 
 I would genuinely welcome review or collaboration from experienced hardware engineers, especially as the project moves toward its first physical prototype.
 
-This hardware is currently untested. It has not yet been fabricated, assembled, or electrically validated, and I cannot claim that the current design will work as intended. Please treat it as an engineering prototype, not a finished or proven product.
+The finalized engineering handoff is now archived in this repository, but the hardware has not yet been fabricated, assembled, or electrically validated. I cannot claim that the current design will work as intended. Please treat it as an engineering prototype and manufacturing handoff, not a proven product.
 
 ![Final RevF manufacturing-release board preview](board-revf.png)
 
 > **RevF manufacturing release:** this is the finalized manufacturing handoff for the RevE PCB design. The electrical CAD revision remains RevE for traceability; RevF identifies the released manufacturing package.
 >
-> The design has not yet been physically fabricated or electrically validated. PCBWay should confirm the final 4-layer stack-up and 100 Ω Ethernet impedance before production.
+> The supplied package was reviewed and verified by an engineer according to the project owner. That review evidence is preserved with the handoff, but it does not replace independent source-file review, fabrication, assembly, or prototype validation. PCBWay should confirm the final 4-layer stack-up and 100 Ω Ethernet impedance before production.
 
 ## Project status
 
 | Area | Status |
 | --- | --- |
-| Main-board schematic / PCB | Rev E finalized design |
+| Main-board schematic / PCB | Rev E finalized engineered source archived |
+| Main-board manufacturing release | RevF handoff archived with Gerbers, drills, BOM, CPL, STEP, and notes |
 | KiCad source | Rev E source available directly in this repository |
-| Saved ERC / DRC | Clean under the current saved rule profile |
-| Ethernet layout | Finalized: 0.2764 mm / 0.20 mm target geometry |
-| Power / protection | Finalized manufacturing package |
-| Audio / amplifier | Circuit and thermal validation still required |
-| Firmware | Bring-up firmware not yet complete |
-| Home Assistant integration | Planned, not yet validated |
-| Microphone array | Modular ring concept defined; PCB not yet designed |
+| Main-board saved ERC / DRC | Supplied release reports included; profile-dependent and not a substitute for independent validation |
+| Ethernet layout | Finalized: 0.2764 mm / 0.20 mm target geometry; fabricator stack-up confirmation remains |
+| Power / protection | Finalized engineering handoff; bench startup, fault, current, and thermal validation remain |
+| Audio / amplifier | Circuit, thermal, and acoustic validation still required |
+| Firmware | ESP32 Voice Home Assistant firmware target; bring-up not yet complete |
+| Home Assistant integration | ESP32 Voice Home Assistant integration planned after hardware bring-up |
+| Microphone array | Six-microphone RGB ring engineered handoff archived; prototype and acoustic validation remain |
 | Physical prototype | Not built yet; fabrication package prepared |
 
-A clean ERC/DRC result is a regression check, not proof that the circuit is electrically correct or fabrication-ready.
+A clean ERC/DRC result is a regression check, not proof that the circuit is electrically correct, safe, acoustically suitable, or production-ready.
 
 ## Current hardware
 
@@ -66,31 +67,35 @@ The active source is tracked directly in Git:
 - [RevF board preview](board-revf.png)
 - [Historical design checkpoints](hardware/checkpoints/)
 
-Open the project in **KiCad 10**. Keep the adjacent project-local footprint library, symbol library, tables, and design rules together.
+Open the project in **KiCad 10**. Keep the adjacent project-local footprint library, symbol library, tables, design rules, BOM, and generated netlist together.
 
 ## Modular microphone rings
 
-A separate family of microphone-array rings is planned for retrofit installations. The idea is to select a ring diameter that fits behind an existing ceiling-speaker grille rather than designing a unique microphone system for every speaker model.
+The project now includes a supplied, engineer-reviewed six-microphone RGB ring handoff. It is separate from the main PoE board and is intended to connect through the main-board J4 expansion interface. The ring package includes KiCad source, custom libraries, BOM, placement data, Gerbers, drills, STEP models, datasheets, design notes, and engineering reports.
 
-The first reference target is a nominal **8-inch ceiling speaker with an approximately 9-inch / 229 mm grille**. Ring Rev A is intended to target eight microphones and reserve space for visible listening / privacy status lighting behind the grille.
-
-- [Microphone-ring concept](hardware/microphone-rings/README.md)
+- [Microphone-ring concept and status](hardware/microphone-rings/README.md)
+- [Final six-microphone RGB ring handoff](hardware/microphone-rings/ESP32-S3-Microphone-RGB-Ring/)
 - [Listening / status-light plan](hardware/microphone-rings/LED-STATUS-LIGHT-PLAN.md)
 - [Main-board J4 connector definition](hardware/PoE-Speaker/RevE/engineering/CONNECTOR-GUIDE.md)
 
-Optional ring features are intended to use the existing J4 expansion interface rather than forcing repeated main-board redesigns.
+The archived ring is a six-microphone engineered design; it should not be described as an already validated eight-microphone production system. Electrical bring-up, cable/interface validation, mechanical fit, microphone performance, vibration behavior, and acoustic/echo testing remain outstanding.
 
 ## Engineering status and roadmap
 
-The current release state is **RevF manufacturing package prepared**. PCBWay stack-up/impedance confirmation and normal prototype validation remain before production approval.
+The current release state is **final engineered PCB handoffs archived**:
 
-Highest-priority work includes:
+- Main board: RevE editable CAD with a RevF manufacturing release package.
+- Microphone ring: six-microphone RGB engineered handoff with manufacturing outputs.
+- Provenance: supplied final files, reports, and supporting evidence are preserved; embedded history repositories, lock files, and editor session artifacts were excluded.
 
-1. Ethernet MDI differential-pair routing, reference continuity, termination / ESD geometry, and stackup assumptions.
-2. PoE / bench input protection, startup, inrush, fault behavior, fuse coordination, and current-carrying paths.
-3. PCM5122 / TPA3116D2 implementation, regulator behavior, grounding, output filtering, and thermal assumptions.
-4. Footprint, courtyard, connector, heatsink, clearance, and assembly-process review.
-5. Reproducible manufacturing outputs and a controlled prototype bring-up plan.
+Remaining work before production approval includes:
+
+1. Confirm the PCBWay 4-layer stack-up, finished thickness, copper assumptions, and 100 Ω Ethernet impedance.
+2. Fabricate and assemble a prototype from the RevF handoff.
+3. Execute controlled PoE, bench-power, startup, protection, Ethernet, regulator, DAC, amplifier, thermal, and fault testing.
+4. Bring up the six-microphone ring through J4 and validate its power, clock/data, I2C/RGB control, cable behavior, and connector pinout.
+5. Measure microphone response, vibration coupling, grille fit, acoustic shadowing, simultaneous playback behavior, and echo-cancellation requirements.
+6. Complete the ESP32 Voice Home Assistant firmware bring-up and Home Assistant integration after the hardware interfaces are validated.
 
 Project documents:
 
@@ -111,10 +116,13 @@ Project documents:
 │       └── early-board-render.png
 ├── hardware/
 │   ├── PoE-Speaker/
-│   │   └── RevE/
-│   │       ├── KiCad-RevE/        # current editable board source
-│   │       └── engineering/       # design reviews, calculations and scripts
-│   ├── microphone-rings/          # future mic-array / status-light work
+│   │   ├── RevE/
+│   │   │   ├── KiCad-RevE/        # current editable board source
+│   │   │   └── engineering/       # design reviews, calculations and scripts
+│   │   └── RevF/Manufacturing/    # fabrication and assembly release outputs
+│   ├── microphone-rings/
+│   │   ├── ESP32-S3-Microphone-RGB-Ring/ # engineered ring handoff
+│   │   └── README.md              # concept, interface, and validation status
 │   └── checkpoints/               # historical board revisions
 ├── ENGINEERING-REVIEW.md
 ├── ORDER-RELEASE-REVIEW.md
@@ -125,7 +133,7 @@ Project documents:
 
 ## Contributing / reviewing
 
-Engineering review is welcome, especially around Ethernet signal integrity, protection / fault behavior, power conversion, amplifier implementation, thermal design, footprints, and manufacturability.
+Engineering review is welcome, especially around Ethernet signal integrity, protection / fault behavior, power conversion, amplifier implementation, thermal design, footprints, acoustic performance, and manufacturability.
 
 When reporting a hardware finding, please include the affected revision, component / pin / net, location where practical, expected behavior, observed concern, and supporting datasheet section or calculation. Clearly distinguish confirmed defects from questions or suggested improvements.
 
