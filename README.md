@@ -29,8 +29,8 @@ The finalized engineering handoff is now archived in this repository, but the ha
 | Ethernet layout | Finalized: 0.2764 mm / 0.20 mm target geometry; fabricator stack-up confirmation remains |
 | Power / protection | Finalized engineering handoff; bench startup, fault, current, and thermal validation remain |
 | Audio / amplifier | Circuit, thermal, and acoustic validation still required |
-| Firmware | Bring-up firmware not yet complete |
-| Home Assistant integration | Planned, not yet validated |
+| Firmware | ESP32 Voice Home Assistant firmware target; bring-up not yet complete |
+| Home Assistant integration | ESP32 Voice Home Assistant integration planned after hardware bring-up |
 | Microphone array | Six-microphone RGB ring engineered handoff archived; prototype and acoustic validation remain |
 | Physical prototype | Not built yet; fabrication package prepared |
 
@@ -95,7 +95,7 @@ Remaining work before production approval includes:
 3. Execute controlled PoE, bench-power, startup, protection, Ethernet, regulator, DAC, amplifier, thermal, and fault testing.
 4. Bring up the six-microphone ring through J4 and validate its power, clock/data, I2C/RGB control, cable behavior, and connector pinout.
 5. Measure microphone response, vibration coupling, grille fit, acoustic shadowing, simultaneous playback behavior, and echo-cancellation requirements.
-6. Complete firmware bring-up and Home Assistant integration after the hardware interfaces are validated.
+6. Complete the ESP32 Voice Home Assistant firmware bring-up and Home Assistant integration after the hardware interfaces are validated.
 
 Project documents:
 
